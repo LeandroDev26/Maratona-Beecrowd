@@ -1,24 +1,39 @@
 #include <iostream>
 #include <iomanip>
+#include <cmath>
 
 using namespace std;
-
-void ordenar (double a , double b , double c) {
-       if (b>a){
-        int temp = a;
-        a = b;
-        b = temp;
-       }
-
-}
 
 int main()
 {
     double a, b, c;
 
-
-
     cin>> a >> b >> c;
+
+        if (b>a)
+    {
+        double temp = a;
+        a = b;
+        b = temp;
+
+    }
+    if (c>a)
+    {
+        double temp = a;
+        a = c;
+        c = temp;
+    }
+
+    if(c>b)
+    {
+        double temp = c;
+        c = b;
+        b = temp;
+    }
+
+        cout<< a << b << c <<endl;
+
+
 
 
 
