@@ -68,10 +68,14 @@ int main()
 
     }
 
+    if(a == b && c != b || a == c && b != c || c == b && a != b)
+    {
+
+        cout<< "TRIANGULO ISOSCELES " << endl;
 
 
-    //teste
-    cout<< a << b << c <<endl;
+    }
+
 
 
 
