@@ -1,6 +1,4 @@
 #include <iostream>
-#include <iomanip>
-#include <cmath>
 
 using namespace std;
 
@@ -8,80 +6,50 @@ int main()
 {
     double a, b, c;
 
-    cin>> a >> b >> c;
+    cin >> a >> b >> c;
 
-    //ordenar
-    if (b>a)
-    {
+
+    if (b > a) {
         double temp = a;
         a = b;
         b = temp;
-
     }
-    if (c>a)
-    {
+    if (c > a) {
         double temp = a;
         a = c;
         c = temp;
     }
-
-    if(c>b)
-    {
+    if (c > b) {
         double temp = c;
         c = b;
         b = temp;
     }
 
-    if(a>=(b+c))
-    {
-        cout<< "NAO FORMA TRIANGULO" <<endl;
 
-    }
-
-    if(pow(a,2) == pow(b,2) + pow(c,2))
-    {
-
-        cout<< "TRIANGULO RETANGULO" << endl;
-
-    }
-
-    if(pow(a,2) > pow(b,2) + pow(c,2))
-    {
-
-        cout<< "TRIANGULO OBTUSANGULO " << endl;
-
+    if (a >= (b + c)) {
+        cout << "NAO FORMA TRIANGULO" << endl;
+        return 0;
     }
 
 
-    if(pow(a,2) < pow(b,2) + pow(c,2))
-    {
-
-        cout<< "TRIANGULO ACUTANGULO " << endl;
-
+    if ((a * a) == (b * b) + (c * c)) {
+        cout << "TRIANGULO RETANGULO" << endl;
+    }
+    else if ((a * a) > (b * b) + (c * c)) {
+        cout << "TRIANGULO OBTUSANGULO" << endl;
+    }
+    else if ((a * a) < (b * b) + (c * c)) {
+        cout << "TRIANGULO ACUTANGULO" << endl;
     }
 
 
-    if(a == b && b == c)
-    {
-
-        cout<< " TRIANGULO EQUILATERO " << endl;
-
+    if (a == b && b == c) {
+        cout << "TRIANGULO EQUILATERO" << endl;
     }
+    else if (a == b || b == c || a == c) {
 
-    if(a == b && c != b || a == c && b != c || c == b && a != b)
-    {
-
-        cout<< "TRIANGULO ISOSCELES " << endl;
-
-
+        cout << "TRIANGULO ISOSCELES" << endl;
     }
-
-
-
-
-
-
-
 
     return 0;
 }
