@@ -10,7 +10,8 @@ int main()
 
     cin>> a >> b >> c;
 
-        if (b>a)
+    //ordenar
+    if (b>a)
     {
         double temp = a;
         a = b;
@@ -31,7 +32,13 @@ int main()
         b = temp;
     }
 
-        cout<< a << b << c <<endl;
+    if(a>=(b+c))
+    {
+        cout<< "NAO FORMA TRIANGULO" <<endl;
+    }
+
+    //teste
+    cout<< a << b << c <<endl;
 
 
 
