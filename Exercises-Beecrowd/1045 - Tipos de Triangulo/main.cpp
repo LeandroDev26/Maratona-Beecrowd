@@ -37,6 +37,12 @@ int main()
         cout<< "NAO FORMA TRIANGULO" <<endl;
     }
 
+    if(pow(a,2) == pow(b,2) + pow(c,2))
+    {
+
+        cout<< "TRIANGULO RETANGULO" << endl;
+    }
+
     //teste
     cout<< a << b << c <<endl;
 
