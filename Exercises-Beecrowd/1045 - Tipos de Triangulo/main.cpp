@@ -35,16 +35,44 @@ int main()
     if(a>=(b+c))
     {
         cout<< "NAO FORMA TRIANGULO" <<endl;
+
     }
 
     if(pow(a,2) == pow(b,2) + pow(c,2))
     {
 
         cout<< "TRIANGULO RETANGULO" << endl;
+
     }
+
+    if(pow(a,2) > pow(b,2) + pow(c,2))
+    {
+
+        cout<< "TRIANGULO OBTUSANGULO " << endl;
+
+    }
+
+
+    if(pow(a,2) < pow(b,2) + pow(c,2))
+    {
+
+        cout<< "TRIANGULO ACUTANGULO " << endl;
+
+    }
+
+
+    if(a == b && b == c)
+    {
+
+        cout<< " TRIANGULO EQUILATERO " << endl;
+
+    }
+
+
 
     //teste
     cout<< a << b << c <<endl;
+
 
 
 
