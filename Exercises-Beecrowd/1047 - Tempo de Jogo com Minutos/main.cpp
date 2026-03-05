@@ -4,20 +4,23 @@ using namespace std;
 
 int main()
 {
-    int hi, hf, mi, mf, hr, mt;
+    int hi, hf, mi, mf, tm;
 
     cin>> hi >> mi >> hf >> mf;
 
-    hi = (hi * 60) + mi;
-    hf = (hf * 60) + mf;
+    tm = (hi * 60) + mi;
+    tm = (hf * 60) + mf;
 
-    hr = hf - hi;
+    tm = hf - hi;
 
-    if(hr <= 0)
+    if(tm <= 0)
     {
 
-        hr += 1440;
+        tm += 1440;
     }
+
+
+
     /*
         if( hi == hf && mi == mf)
         {
