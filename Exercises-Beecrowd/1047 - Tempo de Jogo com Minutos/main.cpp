@@ -18,13 +18,13 @@ int main()
     {
         hr = hf - hi ;
         mt = mi - mf;
-        cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt<<" MINUTO(S)"<< endl;
+        cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
 
     }
     else
     {
         hr = (24 - hi) + hf;
-        cout<< "O JOGO DUROU 2 HORA(S) E 2 MINUTO(S)" << endl;
+        cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
 
     }
 
