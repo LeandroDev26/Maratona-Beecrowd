@@ -6,17 +6,24 @@ int main()
 {
     int hi, hf, hr;
 
-    hr = (24 - hi) - (24 - hf);
-
     cin>> hi >> hf;
 
-    if(hi == 0 && hf == 0)
+
+
+    if(hi == hf)
     {
         cout<< "O JOGO DUROU " << 24 <<" HORA(S)" << endl;
     }
-    else
+    else if(hf > hi)
     {
+        hr = hf - hi;
+        cout<< "O JOGO DUROU " << hr <<" HORA(S)" << endl;
 
+    }
+    if(hi > hf)
+    {
+        hr = (24 - hi);
+        hr += hf;
         cout<< "O JOGO DUROU " << hr <<" HORA(S)" << endl;
 
     }
