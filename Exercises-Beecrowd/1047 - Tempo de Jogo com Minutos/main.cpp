@@ -12,18 +12,18 @@ int main()
 
    /* if()
     {
-        cout<< "O JOGO DUROU " << 24 <<" HORA(S)" << endl;
+        cout<< "O JOGO DUROU 2 HORA(S) E 2 MINUTO(S)" << endl;
     }
     else if()
     {
         hr = hf - hi;
-        cout<< "O JOGO DUROU " << hr <<" HORA(S)" << endl;
+        cout<< "O JOGO DUROU 2 HORA(S) E 2 MINUTO(S) << endl;
 
     }
     else
     {
         hr = (24 - hi) + hf;
-        cout<< "O JOGO DUROU " << hr <<" HORA(S)" << endl;
+        cout<< "O JOGO DUROU 2 HORA(S) E 2 MINUTO(S)" << endl;
 
     }
 
