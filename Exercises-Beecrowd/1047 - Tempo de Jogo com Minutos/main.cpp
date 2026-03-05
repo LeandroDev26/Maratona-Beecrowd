@@ -10,11 +10,11 @@ int main()
 
 
 
-    if(hi == hf)
+   /* if()
     {
         cout<< "O JOGO DUROU " << 24 <<" HORA(S)" << endl;
     }
-    else if(hf > hi)
+    else if()
     {
         hr = hf - hi;
         cout<< "O JOGO DUROU " << hr <<" HORA(S)" << endl;
@@ -27,7 +27,7 @@ int main()
 
     }
 
-
+*/
 
     return 0;
 }
