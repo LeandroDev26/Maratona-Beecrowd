@@ -8,27 +8,36 @@ int main()
 
     cin>> hi >> mi >> hf >> mf;
 
+    hi = (hi * 60) + mi;
+    hf = (hf * 60) + mf;
 
+    hr = hf - hi;
 
-    if( hi == hf && mi == mf)
+    if(hr <= 0)
     {
-        cout<< "O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)" << endl;
+
+        hr += 1440;
     }
-    else if(hf > hi && mf > mi)
-    {
-        hr = hf - hi ;
-        mt = mf - mi;
-        cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
+    /*
+        if( hi == hf && mi == mf)
+        {
+            cout<< "O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)" << endl;
+        }
+        else if(hf > hi && mf > mi)
+        {
+            hr = hf - hi ;
+            mt = mf - mi;
+            cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
 
-    }
-    else
-    {
-        hr = (24 - hi) + hf;
-        mt = (60 - mi) + mf;
-        cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
+        }
+        else
+        {
+            hr = (24 - hi) + hf;
+            mt = (60 - mi) + mf;
+            cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
 
-    }
+        }
 
-
+    */
     return 0;
 }
