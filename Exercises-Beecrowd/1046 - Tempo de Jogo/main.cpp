@@ -20,10 +20,9 @@ int main()
         cout<< "O JOGO DUROU " << hr <<" HORA(S)" << endl;
 
     }
-    if(hi > hf)
+    else
     {
-        hr = (24 - hi);
-        hr += hf;
+        hr = (24 - hi) + hf;
         cout<< "O JOGO DUROU " << hr <<" HORA(S)" << endl;
 
     }
