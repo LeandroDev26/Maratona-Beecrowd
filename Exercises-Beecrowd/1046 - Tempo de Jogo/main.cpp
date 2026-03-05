@@ -8,6 +8,9 @@ int main()
 
    cin>> hi >> hf;
 
+   if(hi== 0 && hf == 0){
+
+   }
 
 
 
