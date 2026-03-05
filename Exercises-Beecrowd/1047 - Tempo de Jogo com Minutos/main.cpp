@@ -16,7 +16,7 @@ int main()
     }
     else if(hi > hf && mi > mf)
     {
-        hr = hf - hi ;
+        hr = hi - hf ;
         mt = mi - mf;
         cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
 
@@ -24,6 +24,7 @@ int main()
     else
     {
         hr = (24 - hi) + hf;
+        mt = (60 - mi) + mf;
         cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
 
     }
