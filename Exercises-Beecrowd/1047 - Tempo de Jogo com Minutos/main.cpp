@@ -10,7 +10,7 @@ int main()
 
 
 
-   /* if()
+   if( hi == hf && mi == mf)
     {
         cout<< "O JOGO DUROU 2 HORA(S) E 2 MINUTO(S)" << endl;
     }
@@ -27,7 +27,6 @@ int main()
 
     }
 
-*/
 
     return 0;
 }
