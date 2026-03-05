@@ -4,13 +4,13 @@ using namespace std;
 
 int main()
 {
-    int hi, hf, mi, mf, hr , mt;
+    int hi, hf, mi, mf, hr, mt;
 
     cin>> hi >> mi >> hf >> mf;
 
 
 
-   if( hi == hf && mi == mf)
+    if( hi == hf && mi == mf)
     {
         cout<< "O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)" << endl;
     }
