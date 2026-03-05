@@ -14,10 +14,10 @@ int main()
     {
         cout<< "O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)" << endl;
     }
-    else if(hi > hf && mi > mf)
+    else if(hf > hi && mf > mi)
     {
-        hr = hi - hf ;
-        mt = mi - mf;
+        hr = hf - hi ;
+        mt = mf - mi;
         cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
 
     }
