@@ -11,7 +11,7 @@ int main()
     tm = (hi * 60) + mi;
     tm = (hf * 60) + mf;
 
-    tm = hf - hi;
+    tm = (hf - hi);
 
     if(tm <= 0)
     {
