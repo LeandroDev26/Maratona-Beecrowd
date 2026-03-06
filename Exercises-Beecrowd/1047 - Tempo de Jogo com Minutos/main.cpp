@@ -11,7 +11,7 @@ int main()
     inicio_min = (hi * 60) + mi;
     fim_min= (hf * 60) + mf;
 
-    tm = (hf - hi);
+    tm = (fim_min - inicio_min);
 
     if(tm <= 0)
     {
