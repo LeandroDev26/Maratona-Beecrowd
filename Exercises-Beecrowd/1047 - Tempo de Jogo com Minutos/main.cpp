@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-    int hi, hf, mi, mf, tm , hr , mt;
+    int hi, hf, mi, mf, tm, hr, inicio_min, fim_min;
 
     cin>> hi >> mi >> hf >> mf;
 
-    tm = (hi * 60) + mi;
-    tm = (hf * 60) + mf;
+    inicio_min = (hi * 60) + mi;
+    fim_min= (hf * 60) + mf;
 
     tm = (hf - hi);
 
@@ -19,10 +19,10 @@ int main()
         tm += 1440;
     }
 
-    hr = (tm / 60);
-    mt = (tm % 60);
+    hr  = (tm / 60);
+    tm = (tm % 60);
 
-    cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
+    cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << tm <<" MINUTO(S)"<< endl;
 
     return 0;
 }
