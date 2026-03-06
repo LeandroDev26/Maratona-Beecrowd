@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int hi, hf, mi, mf, tm;
+    int hi, hf, mi, mf, tm , hr , mt;
 
     cin>> hi >> mi >> hf >> mf;
 
@@ -19,28 +19,10 @@ int main()
         tm += 1440;
     }
 
+    hr = (tm / 60);
+    mt = (tm % 60);
 
+    cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
 
-    /*
-        if( hi == hf && mi == mf)
-        {
-            cout<< "O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)" << endl;
-        }
-        else if(hf > hi && mf > mi)
-        {
-            hr = hf - hi ;
-            mt = mf - mi;
-            cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
-
-        }
-        else
-        {
-            hr = (24 - hi) + hf;
-            mt = (60 - mi) + mf;
-            cout<< "O JOGO DUROU "<< hr << " HORA(S) E " << mt <<" MINUTO(S)"<< endl;
-
-        }
-
-    */
     return 0;
 }
