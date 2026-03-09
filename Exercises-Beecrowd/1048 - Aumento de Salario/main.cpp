@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-   double v;
-   cin>> v ;
+   double s;
+   cin>> s;
 
 }
