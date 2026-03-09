@@ -7,4 +7,8 @@ int main()
    double s;
    cin>> s;
 
+   if(s > 0 && s <= 400.00){
+
+   }
+
 }
