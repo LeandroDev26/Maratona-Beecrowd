@@ -7,7 +7,7 @@ int main()
     double s, p;
     cin>> s;
     cout<< fixed << setprecision(2);
-    if(s > 0 && s <= 400.00)
+    if(s > 0.00 && s <= 400.00)
     {
 
         p = s*0.15;
