@@ -1,55 +1,60 @@
 #include <iostream>
-
+#include <iomanip>
 using namespace std;
 
 int main()
 {
-   double s , p;
-   cin>> s;
+    double s, p;
+    cin>> s;
+    cout<< fixed << setprecision(2);
+    if(s > 0 && s <= 400.00)
+    {
 
-   if(s > 0 && s <= 400.00){
+        p = s*0.15;
+        s += p;
+        cout<< "Novo salario: "<< s <<endl;
+        cout<< "Reajuste ganho: "<< p <<endl;
+        cout<< "Em percentual: 15 %" <<endl;
+    }
 
-      p = s*0.15;
-      s += p;
-     cout<< "Novo salario: "<< s <<endl;
-     cout<< "Reajuste ganho: "<< p <<endl;
-     cout<< "Em percentual: 15 %" <<endl;
-   }
+    if(s > 400.00 && s <= 800.00)
+    {
 
-    if(s > 400.00 && s <= 800.00){
+        p = s*0.12;
+        s += p;
+        cout<< "Novo salario: "<< s <<endl;
+        cout<< "Reajuste ganho: "<< p <<endl;
+        cout<< "Em percentual: 12%" <<endl;
+    }
 
-      p = s*0.12;
-      s += p;
-     cout<< "Novo salario: "<< s <<endl;
-     cout<< "Reajuste ganho: "<< p <<endl;
-     cout<< "Em percentual: 12%" <<endl;
-   }
+    if(s > 800.00 && s <= 1200.00)
+    {
 
-    if(s > 800.00 && s <= 1200.00){
+        p = s*0.10;
+        s += p;
+        cout<< "Novo salario: "<< s <<endl;
+        cout<< "Reajuste ganho: "<< p <<endl;
+        cout<< "Em percentual: 10 %" <<endl;
+    }
 
-      p = s*0.10;
-      s += p;
-     cout<< "Novo salario: "<< s <<endl;
-     cout<< "Reajuste ganho: "<< p <<endl;
-     cout<< "Em percentual: 10 %" <<endl;
-   }
+    if(s > 1200.00 && s <= 2000.00)
+    {
 
-    if(s > 1200.00 && s <= 2000.00){
+        p = s*0.07;
+        s += p;
+        cout<< "Novo salario: "<< s <<endl;
+        cout<< "Reajuste ganho: "<< p <<endl;
+        cout<< "Em percentual: 7 %" <<endl;
+    }
 
-      p = s*0.07;
-      s += p;
-     cout<< "Novo salario: "<< s <<endl;
-     cout<< "Reajuste ganho: "<< p <<endl;
-     cout<< "Em percentual: 7 %" <<endl;
-   }
+    if(s > 2000.00 )
+    {
 
-    if(s > 2000.00 ){
-
-      p = s*0.04;
-      s += p;
-     cout<< "Novo salario: "<< s <<endl;
-     cout<< "Reajuste ganho: "<< p <<endl;
-     cout<< "Em percentual: 4 %" <<endl;
-   }
+        p = s*0.04;
+        s += p;
+        cout<< "Novo salario: "<< s <<endl;
+        cout<< "Reajuste ganho: "<< p <<endl;
+        cout<< "Em percentual: 4 %" <<endl;
+    }
 
 }
