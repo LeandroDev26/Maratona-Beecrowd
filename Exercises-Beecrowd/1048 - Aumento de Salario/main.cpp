@@ -16,8 +16,7 @@ int main()
         cout<< "Reajuste ganho: "<< p <<endl;
         cout<< "Em percentual: 15 %" <<endl;
     }
-
-    if(s > 400.00 && s <= 800.00)
+    else if(s > 400.00 && s <= 800.00)
     {
 
         p = s*0.12;
@@ -27,7 +26,7 @@ int main()
         cout<< "Em percentual: 12%" <<endl;
     }
 
-    if(s > 800.00 && s <= 1200.00)
+    else if(s > 800.00 && s <= 1200.00)
     {
 
         p = s*0.10;
@@ -37,7 +36,7 @@ int main()
         cout<< "Em percentual: 10 %" <<endl;
     }
 
-    if(s > 1200.00 && s <= 2000.00)
+    else if(s > 1200.00 && s <= 2000.00)
     {
 
         p = s*0.07;
@@ -47,7 +46,7 @@ int main()
         cout<< "Em percentual: 7 %" <<endl;
     }
 
-    if(s > 2000.00 )
+    else
     {
 
         p = s*0.04;
