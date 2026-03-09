@@ -16,4 +16,13 @@ int main()
      cout<< "Em percentual: 15 %" <<endl;
    }
 
+    if(s > 400.00 && s <= 800.00){
+
+      p = s*0.12;
+      s += p;
+     cout<< "Novo salario: "<< s <<endl;
+     cout<< "Reajuste ganho: "<< p <<endl;
+     cout<< "Em percentual: 12%" <<endl;
+   }
+
 }
