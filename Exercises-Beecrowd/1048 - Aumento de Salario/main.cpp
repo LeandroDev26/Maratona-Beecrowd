@@ -12,6 +12,8 @@ int main()
       p = s*0.15;
       s += p;
      cout<< "Novo salario: "<< s <<endl;
+     cout<< "Reajuste ganho: "<< p <<endl;
+     cout<< "Em percentual: 15 %" <<endl;
    }
 
 }
