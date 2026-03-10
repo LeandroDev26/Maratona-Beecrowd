@@ -16,6 +16,21 @@ int main()
     {
         cout<<"pomba"<<endl;
     }
+    else if(a == "vertebrado" && b == "mamifero" && c == "onivoro")
+    {
+        cout<<"homem"<<endl;
+    }
+    else if(a == "vertebrado" && b == "mamifero" && c == "herbivoro")
+    {
+        cout<<"vaca"<<endl;
+    }
+    else if(a == "invertebrado" && b == "inseto" && c == "hematofago")
+    {
+        cout<<"homem"<<endl;
+    }
+
+
+
 
 
     return 0;
