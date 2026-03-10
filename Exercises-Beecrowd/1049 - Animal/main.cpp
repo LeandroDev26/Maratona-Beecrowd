@@ -32,6 +32,10 @@ int main()
     {
         cout<<"lagarta"<<endl;
     }
+     else if(a == "invertebrado" && b == "anelideo" && c == "hematofago")
+    {
+        cout<<"sanguesuga"<<endl;
+    }
 
 
 
