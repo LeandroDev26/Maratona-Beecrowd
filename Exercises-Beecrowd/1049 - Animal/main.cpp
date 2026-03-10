@@ -12,5 +12,11 @@ int main()
         cout<<"aguia"<<endl;
     }
 
+    else if(a == "vertebrado" && b == "ave" && c == "onivoro")
+    {
+        cout<<"pomba"<<endl;
+    }
+
+
     return 0;
 }
