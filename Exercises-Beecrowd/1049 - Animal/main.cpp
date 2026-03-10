@@ -26,7 +26,11 @@ int main()
     }
     else if(a == "invertebrado" && b == "inseto" && c == "hematofago")
     {
-        cout<<"homem"<<endl;
+        cout<<"pulga"<<endl;
+    }
+     else if(a == "invertebrado" && b == "inseto" && c == "herbivoro")
+    {
+        cout<<"lagarta"<<endl;
     }
 
 
