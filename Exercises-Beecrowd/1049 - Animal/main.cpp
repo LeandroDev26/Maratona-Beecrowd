@@ -36,6 +36,10 @@ int main()
     {
         cout<<"sanguesuga"<<endl;
     }
+     else if(a == "invertebrado" && b == "inseto" && c == "onivoro")
+    {
+        cout<<"minhoca"<<endl;
+    }
 
 
 
