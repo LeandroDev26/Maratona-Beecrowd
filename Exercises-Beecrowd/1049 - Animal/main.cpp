@@ -4,10 +4,11 @@ using namespace std;
 
 int main()
 {
-    string a , b ,c;
+    string a, b,c;
     cin>> a >> b >> c;
 
-    if(a == "vertebrado" && b == "ave" && c == "carnivoro"){
+    if(a == "vertebrado" && b == "ave" && c == "carnivoro")
+    {
         cout<<"aguia"<<endl;
     }
 
