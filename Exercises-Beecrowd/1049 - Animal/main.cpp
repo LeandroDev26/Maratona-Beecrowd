@@ -28,22 +28,18 @@ int main()
     {
         cout<<"pulga"<<endl;
     }
-     else if(a == "invertebrado" && b == "inseto" && c == "herbivoro")
+    else if(a == "invertebrado" && b == "inseto" && c == "herbivoro")
     {
         cout<<"lagarta"<<endl;
     }
-     else if(a == "invertebrado" && b == "anelideo" && c == "hematofago")
+    else if(a == "invertebrado" && b == "anelideo" && c == "hematofago")
     {
         cout<<"sanguesuga"<<endl;
     }
-     else if(a == "invertebrado" && b == "inseto" && c == "onivoro")
+    else if(a == "invertebrado" && b == "inseto" && c == "onivoro")
     {
         cout<<"minhoca"<<endl;
     }
-
-
-
-
 
     return 0;
 }
