@@ -29,7 +29,7 @@ int main()
         }
         else     // anelideo
         {
-            if (c == "hematofago") cout << "sanguesuga" << endl;
+            if (c == "hematofago") cout << "sanguessuga" << endl;
             else cout << "minhoca" << endl;
         }
     }
