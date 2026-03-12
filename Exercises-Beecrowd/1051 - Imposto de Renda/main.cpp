@@ -19,11 +19,24 @@ int main()
         if( s > 1000.00)
         {
             s -= 1000.00;
-            double fatia2 = (s*0.18);
+            double fatia = (s*0.18);
+            imposto += fatia;
         }
         else
         {
             cout<< "R$ "<< imposto <<endl;
+        }
+
+        if( s > 1500.00)
+        {
+            s -= 1500.00;
+            double fatia = (s*0.28);
+            imposto += fatia;
+        }
+        else
+        {
+            cout<< "R$ "<< imposto <<endl;
+
         }
 
 
