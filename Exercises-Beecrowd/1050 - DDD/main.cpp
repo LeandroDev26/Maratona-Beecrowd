@@ -18,6 +18,10 @@ int main()
     {
         cout<< "Sao Paulo"<<endl;
     }
+     else if(dd == 21)
+    {
+        cout<< "Rio de Janeiro"<<endl;
+    }
 
     return 0;
 }
