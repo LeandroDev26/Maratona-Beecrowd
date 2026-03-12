@@ -10,6 +10,10 @@ int main()
     {
         cout<< "Brasilia"<<endl;
     }
+    else if(dd == 71)
+    {
+        cout<< "Salvador"<<endl;
+    }
 
     return 0;
 }
