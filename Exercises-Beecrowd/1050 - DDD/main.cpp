@@ -38,6 +38,9 @@ int main()
     {
         cout<< "Belo Horizonte"<<endl;
     }
+    else{
+      cout<< "DDD nao cadastrado"<<endl;
+    }
 
     return 0;
 }
