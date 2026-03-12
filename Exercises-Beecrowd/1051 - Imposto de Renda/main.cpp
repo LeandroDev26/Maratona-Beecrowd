@@ -9,7 +9,7 @@ int main()
     cout<< fixed << setprecision(2);
     if( s > 0.00 && s <= 2000.00)
     {
-
+        cout<< "Isento" <<endl;
     }
 
 
