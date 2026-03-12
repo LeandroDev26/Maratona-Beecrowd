@@ -34,6 +34,10 @@ int main()
     {
         cout<< "Vitoria"<<endl;
     }
+    else if(dd == 31)
+    {
+        cout<< "Belo Horizonte"<<endl;
+    }
 
     return 0;
 }
