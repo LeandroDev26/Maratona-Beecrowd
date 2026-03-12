@@ -22,6 +22,10 @@ int main()
     {
         cout<< "Rio de Janeiro"<<endl;
     }
+     else if(dd == 32)
+    {
+        cout<< "Juiz de Fora"<<endl;
+    }
 
     return 0;
 }
