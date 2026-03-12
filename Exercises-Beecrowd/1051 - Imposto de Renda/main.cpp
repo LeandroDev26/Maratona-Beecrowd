@@ -32,6 +32,8 @@ int main()
             s -= 1500.00;
             double fatia = (s*0.28);
             imposto += fatia;
+
+            cout<< "R$ "<< imposto <<endl;
         }
         else
         {
