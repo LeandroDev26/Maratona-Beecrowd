@@ -4,10 +4,13 @@ using namespace std;
 
 int main()
 {
-  double a;
+    double s;
+    cin>> s;
+    cout<< fixed << setprecision(2);
+    if( s > 0.00 && s <= 2000.00)
+    {
 
- cout<< fixed << setprecision(2);
-
+    }
 
 
     return 0;
