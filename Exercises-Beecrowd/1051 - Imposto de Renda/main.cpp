@@ -11,6 +11,12 @@ int main()
     {
         cout<< "Isento" <<endl;
     }
+    else{
+      s -= 2000.00;
+      double fatia = (s*0.08);
+
+
+    }
 
 
     return 0;
