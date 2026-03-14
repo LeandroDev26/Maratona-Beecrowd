@@ -26,10 +26,18 @@ int main()
     int total =(totini - totfin);
 
 
+    int dia = (total / 86400);
+    total = (total % 86400);
+
+    int minu = (total / 3600);
+    total = (total % 3600);
 
 
 
 
 
-        return 0;
+
+
+
+    return 0;
 }
