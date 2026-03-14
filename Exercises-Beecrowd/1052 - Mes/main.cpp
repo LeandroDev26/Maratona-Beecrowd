@@ -7,5 +7,17 @@ int main()
     int opc;
     cin >> opc ;
 
+    switch(opc)
+    {
+
+    case 1 :
+        // mes
+        break;
+
+
+
+
+
+    }
     return 0;
 }
