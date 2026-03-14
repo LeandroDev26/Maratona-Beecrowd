@@ -23,7 +23,7 @@ int main()
     totfin += (diaFin * 3600);
     totfin += (diaFin* 60);
 
-    //int total =
+    int total =(totini - totfin);
 
 
 
