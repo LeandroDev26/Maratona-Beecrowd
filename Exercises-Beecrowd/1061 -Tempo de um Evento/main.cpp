@@ -18,6 +18,11 @@ int main()
     totini = diaIni * 3600;
     totini = diaIni * 60;
 
+    // total de segundos finais
+    totfin =  diaFin * 86400;
+    totfin = diaFin * 3600;
+    totfin = diaFin* 60;
+
 
 
 
