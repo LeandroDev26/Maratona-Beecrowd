@@ -35,7 +35,7 @@ int main()
         break;
 
     case 7 :
-        // mes
+        cout<<"July"<<endl;
         break;
 
     case 8 :
