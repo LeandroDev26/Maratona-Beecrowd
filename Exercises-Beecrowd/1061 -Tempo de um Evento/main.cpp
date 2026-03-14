@@ -15,13 +15,13 @@ int main()
 
     // total de segundos iniciais
     totini +=  (diaIni * 86400);
-    totini += (diaIni * 3600);
-    totini += (diaIni * 60);
+    totini += (horaIni * 3600);
+    totini += (minIni * 60);
 
     // total de segundos finais
     totfin +=  (diaFin * 86400);
-    totfin += (diaFin * 3600);
-    totfin += (diaFin* 60);
+    totfin += (horaFin * 3600);
+    totfin += (minFin* 60);
 
     int total =(totini - totfin);
 
