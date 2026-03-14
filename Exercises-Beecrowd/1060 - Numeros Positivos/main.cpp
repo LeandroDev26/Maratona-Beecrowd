@@ -4,13 +4,9 @@ using namespace std;
 
 int main()
 {
-    /* int a , b , c , d , e , f;
-     cin>>  a >> b >> c >> d >> e >> f;
-
-     */
 
     int a, cont =  0;
-    for(int i = 0; i < 5; i++)
+    for(int i = 0; i < 6; i++)
     {
         cin>> a;
         if(a > 0)
@@ -18,7 +14,7 @@ int main()
             cont++;
         }
     }
-    cout<< cont << "valores positivos"<<endl;
+    cout<< cont << " valores positivos"<<endl;
 
     return 0;
 }
