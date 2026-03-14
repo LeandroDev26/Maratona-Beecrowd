@@ -5,7 +5,10 @@ using namespace std;
 
 int main()
 {
+    string lixo;
+    int diaIni;
 
-    string di , df;
+
+
     return 0;
 }
