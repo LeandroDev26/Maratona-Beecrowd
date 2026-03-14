@@ -29,8 +29,13 @@ int main()
     int dia = (total / 86400);
     total = (total % 86400);
 
-    int minu = (total / 3600);
+    int hora = (total / 3600);
     total = (total % 3600);
+
+    int minu = (total / 60);
+    total  = (total % 60);
+
+    int seg = total;
 
 
 
