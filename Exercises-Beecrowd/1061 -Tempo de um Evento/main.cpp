@@ -14,14 +14,16 @@ int main()
     cin>>horaFin >> lixo >> minFin>> lixo >> segFin;
 
     // total de segundos iniciais
-    totini =  diaIni * 86400;
-    totini = diaIni * 3600;
-    totini = diaIni * 60;
+    totini +=  (diaIni * 86400);
+    totini += (diaIni * 3600);
+    totini += (diaIni * 60);
 
     // total de segundos finais
-    totfin =  diaFin * 86400;
-    totfin = diaFin * 3600;
-    totfin = diaFin* 60;
+    totfin +=  (diaFin * 86400);
+    totfin += (diaFin * 3600);
+    totfin += (diaFin* 60);
+
+    //int total =
 
 
 
@@ -29,5 +31,5 @@ int main()
 
 
 
-    return 0;
+        return 0;
 }
