@@ -40,7 +40,7 @@ int main()
     cout<< dia << " dia (s)"<< endl;
     cout << hora << " hora (s)"<<endl;
     cout<< minu << " minuto (s)"<<endl;
-    cout<< seg << " segundo (s)"
+    cout<< seg << " segundo (s)"<<endl;
 
 
 
