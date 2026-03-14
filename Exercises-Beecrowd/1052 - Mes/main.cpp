@@ -34,6 +34,10 @@ int main()
         // mes
         break;
 
+        case 7 :
+        // mes
+        break;
+
 
 
     }
