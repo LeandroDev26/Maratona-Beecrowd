@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-
-    int a, cont =  0;
+    double a;
+    int cont =  0;
     for(int i = 0; i < 6; i++)
     {
         cin>> a;
