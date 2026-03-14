@@ -58,6 +58,11 @@ int main()
         cout<<"December"<<endl;
         break;
 
+    default:
+
+    cout<<"Opcao invalida!!"<<endl;
+        break;
+
 
 
     }
