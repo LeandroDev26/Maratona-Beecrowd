@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     string lixo;
-    int diaIni, horaIni, minIni, segIni, diaFin, horaFin, minFin, segFin, totini, totfin;
+    int diaIni, horaIni, minIni, segIni, diaFin, horaFin, minFin, segFin, totini = 0, totfin = 0;
 
     cin>> lixo >> diaIni;
     cin>>horaIni >> lixo >> minIni >> lixo >> segIni;
