@@ -23,7 +23,7 @@ int main()
     totfin += (horaFin * 3600);
     totfin += (minFin* 60);
 
-    int total =(totini - totfin);
+    int total =(totfin - totini);
 
 
     int dia = (total / 86400);
