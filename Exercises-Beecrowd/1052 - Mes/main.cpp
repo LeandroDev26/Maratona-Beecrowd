@@ -11,50 +11,50 @@ int main()
     {
 
     case 1 :
-         cout<< "January"<<endl;
+        cout<< "January"<<endl;
         break;
 
-        case 2 :
-         cout<<"February"<<endl;
+    case 2 :
+        cout<<"February"<<endl;
         break;
 
-        case 3 :
-    cout<<"March"<<endl;
+    case 3 :
+        cout<<"March"<<endl;
         break;
 
-        case 4 :
+    case 4 :
         cout<<"April"<<endl;
         break;
 
-         case 5  :
+    case 5  :
         // mes
         break;
 
-         case 6 :
+    case 6 :
         // mes
         break;
 
-        case 7 :
+    case 7 :
         // mes
         break;
 
-        case 8 :
+    case 8 :
         // mes
         break;
 
-        case 9 :
+    case 9 :
         // mes
         break;
 
-        case 10 :
+    case 10 :
         // mes
         break;
 
-        case 11:
+    case 11:
         // mes
         break;
 
-        case 12 :
+    case 12 :
         // mes
         break;
 
