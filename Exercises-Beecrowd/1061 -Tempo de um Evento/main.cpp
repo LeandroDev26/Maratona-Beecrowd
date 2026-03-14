@@ -37,6 +37,9 @@ int main()
 
     int seg = total;
 
+    cout<< dia << "dia (s)"<< endl;
+    cout << hora << "hora (s)"<<endl;
+
 
 
 
