@@ -13,7 +13,7 @@ int main()
     cin>> lixo >> diaFin;
     cin>>horaFin >> lixo >> minFin>> lixo >> segFin;
 
-   // total de segundos iniciais
+    // total de segundos iniciais
     totini += (diaIni * 86400);
     totini += (horaIni * 3600);
     totini += (minIni * 60);
@@ -43,13 +43,6 @@ int main()
     cout << hora << " hora(s)"<<endl;
     cout<< minu << " minuto(s)"<<endl;
     cout<< seg << " segundo(s)"<<endl;
-
-
-
-
-
-
-
 
     return 0;
 }
