@@ -26,7 +26,13 @@ int main()
         // mes
         break;
 
+         case 5  :
+        // mes
+        break;
 
+         case 6 :
+        // mes
+        break;
 
 
 
