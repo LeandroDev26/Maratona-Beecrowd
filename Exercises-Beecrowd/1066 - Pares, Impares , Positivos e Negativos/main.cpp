@@ -15,7 +15,7 @@ int main()
 
         }
 
-         if ( e < 0)
+        if ( e < 0)
         {
             negativo++;
 
@@ -25,8 +25,8 @@ int main()
         {
             pares++;
         }
+        else
 
-        if ( e % 2 == 1)
         {
             impares++;
         }
@@ -35,9 +35,9 @@ int main()
     }
 
     cout<< pares << " valor(es) par(es)"<<endl;
-        cout<< impares << " valor(es) impar(es)"<<endl;
-          cout<< positivo << "valor(es) positivo(s)"<<endl;
-           cout<< negativo << "valor(es) negativo(s)"<<endl;
+    cout<< impares << " valor(es) impar(es)"<<endl;
+    cout<< positivo << "valor(es) positivo(s)"<<endl;
+    cout<< negativo << "valor(es) negativo(s)"<<endl;
 
 
 
