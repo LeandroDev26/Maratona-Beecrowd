@@ -11,7 +11,7 @@ int main()
         cin>> a;
         if(a > 0)
         {
-
+         positivo++;
         }
 
 
