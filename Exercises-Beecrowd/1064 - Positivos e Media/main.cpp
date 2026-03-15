@@ -19,7 +19,7 @@ int main()
 
     }
     total = (media/positivo);
-
+    cout<< fixed << setprecision(1);
     cout<< positivo << " valores positivos"<<endl;
     cout<< total <<endl;
 
