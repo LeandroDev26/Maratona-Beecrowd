@@ -19,6 +19,7 @@ int main()
     }
 
     cout<< positivo << " valores positivos"<<endl;
+    cout<<  <<endl;
 
     return 0;
 }
