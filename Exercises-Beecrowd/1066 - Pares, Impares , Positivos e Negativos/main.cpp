@@ -15,7 +15,7 @@ int main()
 
         }
 
-        if ( e < 0)
+        else
         {
             negativo++;
 
@@ -25,8 +25,8 @@ int main()
         {
             pares++;
         }
-        else
 
+        else
         {
             impares++;
         }
