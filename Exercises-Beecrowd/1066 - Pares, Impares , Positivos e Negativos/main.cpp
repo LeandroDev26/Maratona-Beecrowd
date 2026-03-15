@@ -26,6 +26,12 @@ int main()
             pares++;
         }
 
+        if ( e % 2 == 1)
+        {
+            pares++;
+        }
+
+
     }
 
     cout<< pares << " valor(es) par(es)"<<endl;
