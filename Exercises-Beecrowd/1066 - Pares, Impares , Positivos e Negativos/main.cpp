@@ -35,6 +35,8 @@ int main()
     }
 
     cout<< pares << " valor(es) par(es)"<<endl;
+        cout<< impares << " valor(es) impar(es)"<<endl;
+
 
 
     return 0;
