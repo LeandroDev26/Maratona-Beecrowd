@@ -37,6 +37,7 @@ int main()
     cout<< pares << " valor(es) par(es)"<<endl;
         cout<< impares << " valor(es) impar(es)"<<endl;
           cout<< positivo << "valor(es) positivo(s)"<<endl;
+           cout<< negativo << "valor(es) negativo(s)"<<endl;
 
 
 
