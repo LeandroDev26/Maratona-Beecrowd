@@ -4,16 +4,18 @@ using namespace std;
 
 int main()
 {
-    int e, pares = 0, impares = 0 , positivo = 0 , negativo = 0;
+    int e, pares = 0, impares = 0, positivo = 0, negativo = 0;
     for(int i = 0; i < 5; i++)
     {
         cin>> e ;
 
-        if ( e > 0){
-        if ( e % 2 == 0)
+        if ( e > 0)
         {
-            pares++;
-        }
+            positivos++;
+            if ( e % 2 == 0)
+            {
+                pares++;
+            }
         }
     }
 
