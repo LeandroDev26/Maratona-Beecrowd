@@ -15,6 +15,12 @@ int main()
 
         }
 
+         if ( e < 0)
+        {
+            negativo++;
+
+        }
+
         if ( e % 2 == 0)
         {
             pares++;
