@@ -28,7 +28,7 @@ int main()
 
         if ( e % 2 == 1)
         {
-            pares++;
+            impares++;
         }
 
 
