@@ -4,14 +4,15 @@ using namespace std;
 
 int main()
 {
-    int e, cont = 0;
+    int e, pares = 0 , impares = 0;
     for(int i = 0; i < 5; i++)
     {
         cin>> e ;
 
+
         if ( e % 2 == 0)
         {
-            cont++;
+            pares++;
         }
     }
 
