@@ -9,10 +9,11 @@ int main()
     {
         cin>> e ;
 
-
+        if ( e > 0){
         if ( e % 2 == 0)
         {
             pares++;
+        }
         }
     }
 
