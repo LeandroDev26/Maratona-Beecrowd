@@ -11,6 +11,7 @@ int main()
         cin>> a;
         if(a > 0)
         {
+         media += a;
          positivo++;
         }
 
