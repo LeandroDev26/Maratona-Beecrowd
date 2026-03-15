@@ -4,16 +4,18 @@ using namespace std;
 
 int main()
 {
-   int e , cont;
-   for(int i = 0; i < 5; i++){
-    cin>> e ;
+    int e, cont;
+    for(int i = 0; i < 5; i++)
+    {
+        cin>> e ;
 
-    if ( e % 2 == 0){
-        cont++;
+        if ( e % 2 == 0)
+        {
+            cont++;
+        }
     }
-   }
 
-   cout<< cont << " valores pares"<<endl;
+    cout<< cont << " valores pares"<<endl;
 
 
     return 0;
