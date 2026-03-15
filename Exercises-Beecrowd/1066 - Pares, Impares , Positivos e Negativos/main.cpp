@@ -11,12 +11,15 @@ int main()
 
         if ( e > 0)
         {
-            positivos++;
-            if ( e % 2 == 0)
-            {
-                pares++;
-            }
+            positivo++;
+
         }
+
+        if ( e % 2 == 0)
+        {
+            pares++;
+        }
+
     }
 
     cout<< pares << " valor(es) par(es)"<<endl;
