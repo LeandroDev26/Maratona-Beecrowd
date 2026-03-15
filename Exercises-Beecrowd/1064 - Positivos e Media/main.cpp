@@ -4,6 +4,11 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+   double a = 0.0;
+   for(int i = 0 ; i < 6; i++){
+
+
+   }
+
     return 0;
 }
