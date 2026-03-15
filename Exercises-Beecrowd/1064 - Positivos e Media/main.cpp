@@ -4,12 +4,18 @@ using namespace std;
 
 int main()
 {
-   double a = 0.0;
-   for(int i = 0 ; i < 6; i++){
-   cin>> a;
+    int positivo = 0;
+    double a = 0.0;
+    for(int i = 0 ; i < 6; i++)
+    {
+        cin>> a;
+        if(a > 0)
+        {
+
+        }
 
 
-   }
+    }
 
     return 0;
 }
