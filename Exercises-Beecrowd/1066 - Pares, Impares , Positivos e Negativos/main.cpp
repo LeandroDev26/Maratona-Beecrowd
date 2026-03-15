@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int e, pares = 0, impares = 0;
+    int e, pares = 0, impares = 0 , positivo = 0 , negativo = 0;
     for(int i = 0; i < 5; i++)
     {
         cin>> e ;
@@ -16,7 +16,7 @@ int main()
         }
     }
 
-    cout<< pares << " valores pares"<<endl;
+    cout<< pares << " valor(es) par(es)"<<endl;
 
 
     return 0;
