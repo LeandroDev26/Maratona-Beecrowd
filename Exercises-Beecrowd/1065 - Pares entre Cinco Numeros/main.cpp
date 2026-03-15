@@ -13,6 +13,8 @@ int main()
     }
    }
 
+   cout<< cont << " valores pares"<<endl;
+
 
     return 0;
 }
