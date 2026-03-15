@@ -6,7 +6,11 @@ int main()
 {
    int e , cont;
    for(int i = 0; i < 5; i++){
+    cin>> e ;
 
+    if ( e % 2 == 0){
+        cont++;
+    }
    }
 
 
