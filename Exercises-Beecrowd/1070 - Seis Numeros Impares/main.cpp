@@ -13,6 +13,8 @@ int main()
         if( i % 2 == 1)
         {
 
+            cout<< i <<endl;
+            cont++;
         }
     }
 
