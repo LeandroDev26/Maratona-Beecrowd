@@ -5,10 +5,16 @@ using namespace std;
 int main()
 {
 
-  int x , cont = 0;
-  cin>> x ;
+    int x, cont = 0;
+    cin>> x ;
 
-  for( int i = 0; i )
+    for(  )
+    {
+        if( i % 2 == 1)
+        {
+
+        }
+    }
 
 
 
