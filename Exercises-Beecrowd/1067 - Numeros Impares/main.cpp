@@ -11,9 +11,9 @@ int main()
     for(int i = 1; i <= x ; i++)
     {
 
-        if( x % 2 == 1)
+        if( i % 2 == 1)
         {
-            cout<< x <<endl;
+            cout<< i <<endl;
         }
     }
 
