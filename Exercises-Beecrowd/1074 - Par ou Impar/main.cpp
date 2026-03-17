@@ -19,7 +19,7 @@ int main()
         {
             cout<<"EVEN POSITIVE"<<endl;
         }
-        else
+        else if(x % 2 != 0 && x < 0)
         {
             cout<<"ODD NEGATIVE"<<endl;
         }
@@ -27,7 +27,7 @@ int main()
          if( x % 2 == 0 && x < 0)
         {
             cout<<"EVEN NEGATIVE"<<endl;
-        }else
+        }else if(x )
         {
             cout<<"ODD POSITIVE"<<endl;
         }
