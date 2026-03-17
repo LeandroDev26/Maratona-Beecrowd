@@ -8,6 +8,12 @@ int main()
 
   cin>> x >> y ;
 
+  if( x < y){
+
+
+  }
+
+
 
 
 
