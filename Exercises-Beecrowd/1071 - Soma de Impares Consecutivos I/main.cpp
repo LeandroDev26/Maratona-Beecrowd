@@ -21,7 +21,9 @@ int main()
     ini + 1;
     for( ini; ini < fim; ini++)
     {
+       if(ini% != 0){
 
+       }
     }
 
 
