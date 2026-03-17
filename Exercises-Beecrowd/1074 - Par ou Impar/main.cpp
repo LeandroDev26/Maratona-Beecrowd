@@ -24,6 +24,10 @@ int main()
             cout<<"ODD NEGATIVE"<<endl;
         }
 
+         if( x % 2 == 0 && x < 0)
+        {
+            cout<<"EVEN NEGATIVE"<<endl;
+        }
     }
 
 
