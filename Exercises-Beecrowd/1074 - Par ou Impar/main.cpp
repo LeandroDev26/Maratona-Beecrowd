@@ -4,13 +4,16 @@ using namespace std;
 
 int main()
 {
-    int n , x;
+    int n, x;
     cin>> n;
-    for (int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++)
+    {
 
-            if (x == 0){
-                cout<<"NULL"<<endl;
-            }
+        cin>> x;
+        if (x == 0)
+        {
+            cout<<"NULL"<<endl;
+        }
 
     }
 
