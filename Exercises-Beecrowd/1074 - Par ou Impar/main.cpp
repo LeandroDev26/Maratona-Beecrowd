@@ -15,8 +15,13 @@ int main()
             cout<<"NULL"<<endl;
         }
 
-        if( x % 2 == 0 && x > 0){
+        if( x % 2 == 0 && x > 0)
+        {
             cout<<"EVEN POSITIVE"<<endl;
+        }
+        else
+        {
+            cout<<"ODD NEGATIVE"<<endl;
         }
 
     }
