@@ -13,10 +13,12 @@ int main()
 
         ini = y;
         fim = x;
-    }
+    }else
+     {
 
     ini = x;
     fim = y;
+     }
 
     ini + 1;
     for( ini; ini < fim; ini++)
