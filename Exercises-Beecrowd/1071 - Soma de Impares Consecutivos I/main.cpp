@@ -22,7 +22,7 @@ int main()
 
     for( int i = ini + 1; i < fim; i++)
     {
-        if(ini % 2 != 0)
+        if(i % 2 != 0)
         {
             impares += i;
         }
