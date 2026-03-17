@@ -31,19 +31,21 @@ int main()
         {
             cout << "EVEN POSITIVE" << endl;
         }
-        else if(x % 2 != 0 && x < 0)
+        else if(valor_atual % 2 != 0 && x < 0)
         {
             cout<<"ODD NEGATIVE"<<endl;
         }
 
-        else if( x % 2 == 0 && x < 0)
+        else if( valor_atual% 2 == 0 && x < 0)
         {
             cout<<"EVEN NEGATIVE"<<endl;
         }
-        else if(x % 2 != 0 && x > 0 )
+        else if(valor_atual % 2 != 0 && x > 0 )
         {
             cout<<"ODD POSITIVE"<<endl;
         }
+
+    }
 
         return 0;
 
