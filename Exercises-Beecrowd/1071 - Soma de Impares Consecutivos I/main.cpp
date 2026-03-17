@@ -14,6 +14,8 @@ int main()
     fim = x;
   }
 
+  ini = x;
+  fim = y;
 
 
 
