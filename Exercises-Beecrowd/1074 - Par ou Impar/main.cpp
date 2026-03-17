@@ -6,35 +6,32 @@ using namespace std;
 int main()
 {
     int n, x;
-    cin>> n;
+    cin >> n;
+
+    vector<int> numeros;
+
     for (int i = 0; i < n; i++)
     {
-
-        cin>> x;
-        if (x == 0)
-        {
-            cout<<"NULL"<<endl;
-        }
-
-        if( x % 2 == 0 && x > 0)
-        {
-            cout<<"EVEN POSITIVE"<<endl;
-        }
-        else if(x % 2 != 0 && x < 0)
-        {
-            cout<<"ODD NEGATIVE"<<endl;
-        }
-
-        else if( x % 2 == 0 && x < 0)
-        {
-            cout<<"EVEN NEGATIVE"<<endl;
-        }
-        else if(x % 2 != 0 && x > 0 )
-        {
-            cout<<"ODD POSITIVE"<<endl;
-        }
+        cin >> x;
+        numeros.push_back(x);
     }
 
 
-    return 0;
-}
+    for (int i = 0; i < n; i++)
+    {
+
+        int valor_atual = numeros[i];
+
+
+        if (valor_atual == 0)
+        {
+            cout << "NULL" << endl;
+        }
+        else if(valor_atual % 2 == 0 && valor_atual > 0)
+            cout << "EVEN POSITIVE" << endl;
+        }
+     return 0;
+
+    }
+
+
