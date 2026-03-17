@@ -31,24 +31,25 @@ int main()
         {
             cout << "EVEN POSITIVE" << endl;
         }
-        else if(valor_atual % 2 != 0 && x < 0)
+        else if(valor_atual % 2 != 0 && valor_atual < 0)
         {
-            cout<<"ODD NEGATIVE"<<endl;
+            cout << "ODD NEGATIVE" << endl;
         }
-
-        else if( valor_atual% 2 == 0 && x < 0)
+        else if(valor_atual % 2 == 0 && valor_atual < 0)
         {
-            cout<<"EVEN NEGATIVE"<<endl;
+            cout << "EVEN NEGATIVE" << endl;
         }
-        else if(valor_atual % 2 != 0 && x > 0 )
+        else if(valor_atual % 2 != 0 && valor_atual > 0)
         {
-            cout<<"ODD POSITIVE"<<endl;
+            cout << "ODD POSITIVE" << endl;
         }
 
     }
+    return 0;
 
-        return 0;
+}
 
-    }
+
+
 
 
