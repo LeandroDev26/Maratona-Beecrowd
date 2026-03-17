@@ -5,10 +5,11 @@ using namespace std;
 int main()
 {
 
-    int x, cont = 0;
+    int x, cont = 0 ;
     cin>> x ;
+    int pare = x + 11;
 
-    for(  )
+    for(int i = x; i <= )
     {
         if( i % 2 == 1)
         {
