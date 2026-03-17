@@ -14,6 +14,9 @@ int main()
         if(x >= 10 && x <=20)
         {
             in++;
+        }else
+        {
+           out++;
         }
     }
 
