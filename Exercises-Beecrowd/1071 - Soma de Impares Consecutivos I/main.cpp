@@ -8,9 +8,10 @@ int main()
 
   cin>> x >> y ;
 
-  if( x < y){
+  if( x > y){
 
-
+    ini = y;
+    fim = x;
   }
 
 
