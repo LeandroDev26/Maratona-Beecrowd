@@ -9,7 +9,7 @@ int main()
     cin>> x ;
     int pare = x + 11;
 
-    for(int i = x; i <= )
+    for(int i = x; i <= pare; i++ )
     {
         if( i % 2 == 1)
         {
