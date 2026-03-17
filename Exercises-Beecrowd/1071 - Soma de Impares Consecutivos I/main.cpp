@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int x, y, ini, fim , impares =  0;
+    int x, y, ini, fim, impares =  0;
 
     cin>> x >> y ;
 
@@ -21,12 +21,13 @@ int main()
     ini + 1;
     for( ini; ini < fim; ini++)
     {
-       if(ini % fim!= 0){
-         impares += ini;
-       }
+        if(ini % fim!= 0)
+        {
+            impares += ini;
+        }
     }
 
-
+    cout<<impares<<endl;
 
 
 
