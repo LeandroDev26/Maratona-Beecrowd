@@ -4,18 +4,25 @@ using namespace std;
 
 int main()
 {
-  int x , y , ini , fim;
+    int x, y, ini, fim;
 
-  cin>> x >> y ;
+    cin>> x >> y ;
 
-  if( x > y){
+    if( x > y)
+    {
 
-    ini = y;
-    fim = x;
-  }
+        ini = y;
+        fim = x;
+    }
 
-  ini = x;
-  fim = y;
+    ini = x;
+    fim = y;
+
+    ini + 1;
+    for( ini; ini < fim; ini++)
+    {
+
+    }
 
 
 
