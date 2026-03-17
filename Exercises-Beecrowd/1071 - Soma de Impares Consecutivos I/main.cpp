@@ -20,8 +20,7 @@ int main()
     fim = y;
      }
 
-    ini ++;
-    for( ini; ini < fim; ini++)
+    for( int i = ini + 1; ini < fim; ini++)
     {
         if(ini % 2 != 0)
         {
