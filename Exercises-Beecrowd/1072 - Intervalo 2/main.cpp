@@ -14,13 +14,15 @@ int main()
         if(x >= 10 && x <=20)
         {
             in++;
-        }else
+        }
+        else
         {
-           out++;
+            out++;
         }
     }
 
     cout<< in <<" in"<<endl;
+    cout<< out <<" out"<<endl;
 
     return 0;
 }
