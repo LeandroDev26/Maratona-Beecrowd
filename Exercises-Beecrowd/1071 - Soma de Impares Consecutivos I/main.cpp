@@ -24,7 +24,7 @@ int main()
     {
         if(ini % 2 != 0)
         {
-            impares += ini;
+            impares += i;
         }
     }
 
