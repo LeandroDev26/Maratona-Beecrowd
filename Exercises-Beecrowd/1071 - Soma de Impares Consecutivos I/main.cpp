@@ -23,7 +23,7 @@ int main()
     ini ++;
     for( ini; ini < fim; ini++)
     {
-        if(ini % fim!= 0)
+        if(ini % 2 != 0)
         {
             impares += ini;
         }
