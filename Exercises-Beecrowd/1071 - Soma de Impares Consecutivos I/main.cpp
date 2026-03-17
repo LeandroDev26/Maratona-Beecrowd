@@ -21,8 +21,8 @@ int main()
     ini + 1;
     for( ini; ini < fim; ini++)
     {
-       if(ini% != 0){
-
+       if(ini % fim!= 0){
+         impares += ini;
        }
     }
 
