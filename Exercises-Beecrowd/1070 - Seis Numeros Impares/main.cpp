@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int x, cont = 0 ;
+    int x ;
     cin>> x ;
     int pare = x + 11;
 
