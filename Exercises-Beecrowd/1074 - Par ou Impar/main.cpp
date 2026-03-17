@@ -15,6 +15,10 @@ int main()
             cout<<"NULL"<<endl;
         }
 
+        if( x % 2 == 0 && x > 0){
+            cout<<"EVEN POSITIVE"<<endl;
+        }
+
     }
 
 
