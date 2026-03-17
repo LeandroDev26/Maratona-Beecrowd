@@ -27,6 +27,9 @@ int main()
          if( x % 2 == 0 && x < 0)
         {
             cout<<"EVEN NEGATIVE"<<endl;
+        }else
+        {
+            cout<<"ODD POSITIVE"<<endl;
         }
     }
 
