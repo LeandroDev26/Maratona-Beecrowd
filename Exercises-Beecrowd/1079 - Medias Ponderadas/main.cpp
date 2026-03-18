@@ -5,9 +5,12 @@ using namespace std;
 int main()
 {
   int n ;
+  double a , b , c;
   cin>> n;
 
-  for( int n = 0; i < n; i++){
+  for( int i = 0; i < n; i++){
+
+        cin>> a >> b >> c;
 
   }
     return 0;
