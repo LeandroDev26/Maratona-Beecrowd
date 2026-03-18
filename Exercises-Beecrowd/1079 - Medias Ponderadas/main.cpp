@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
   int n ;
-  double a , b , c;
+  double a , b , c , media;
   cin>> n;
 
   for( int i = 0; i < n; i++){
@@ -14,5 +14,6 @@ int main()
         cin>> a >> b >> c;
 
   }
+
     return 0;
 }
