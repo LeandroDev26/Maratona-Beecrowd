@@ -11,11 +11,12 @@ int main()
   cin>> n;
   vector<int> results;
 
-  cout<< fixed << set
+  cout<< fixed << setprecision(1);
+
   for( int i = 0; i < n; i++){
 
         cin>> a >> b >> c;
-        media = ((a*2)+(b*3)+(c*5))/ (2+3+5); // or 10
+        media = ((a*2)+(b*3)+(c*5)) / (2+3+5); // or 10
         results.push_back(media);
 
   }
