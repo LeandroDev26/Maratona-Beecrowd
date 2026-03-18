@@ -6,10 +6,11 @@ int main()
 {
     int n ;
     cin>> n ;
-     for(int i = 1; i <=10; i++){
+    for(int i = 1; i <=10; i++)
+    {
 
-           cout << i << " x " << n << " = " << i*n <<endl;
-     }
+        cout << i << " x " << n << " = " << i*n <<endl;
+    }
 
 
     return 0;
