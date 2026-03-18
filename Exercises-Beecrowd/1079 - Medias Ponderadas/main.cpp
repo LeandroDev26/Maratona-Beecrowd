@@ -8,6 +8,7 @@ int main()
   int n ;
   double a , b , c , media;
   cin>> n;
+  vector<int> results;
 
   for( int i = 0; i < n; i++){
 
