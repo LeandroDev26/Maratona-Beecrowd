@@ -25,7 +25,7 @@ int main()
 
         if(simbolos[i] == "C")
         {
-           totc += numeros[i];
+            totc += numeros[i];
         }
 
         else if(simbolos[i] == "S")
@@ -35,10 +35,11 @@ int main()
 
         else if(simbolos[i] == "R")
         {
-               totr += numeros[i];
+            totr += numeros[i];
         }
     }
 
     cout<<"Total: "<< totcob << " cobaias"<<endl;
+
     return 0;
 }
