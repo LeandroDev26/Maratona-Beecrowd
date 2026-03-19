@@ -4,10 +4,11 @@ using namespace std;
 
 int main()
 {
-  int i , j = 7;
+  int i = 1 , j = 7;
 
   while( j >= 5){
-    cout<< j <<endl;
+    cout<< j <<  i <<endl;
+    j --;
   }
 
 
