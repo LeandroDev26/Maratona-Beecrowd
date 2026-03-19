@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     string tipo;
-    int n, cobaias, totcob = 0 ,totc = 0 , totr = 0 , tots = 0;
+    int n, cobaias, totcob = 0,totc = 0, totr = 0, tots = 0;
     vector<int> numeros;
     vector<string> simbolos;
     cin>> n;
@@ -23,7 +23,13 @@ int main()
     {
         totcob += numeros[i];
 
-        if(simbolos[i] == "C"){
+        if(simbolos[i] == "C")
+        {
+
+        }
+
+        if(simbolos[i] == "S")
+        {
 
         }
     }
