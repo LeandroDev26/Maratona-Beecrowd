@@ -50,6 +50,7 @@ int main()
     cout<< fixed << setprecision(2);
     porcentC = (totc * 100.0)/totcob;
     porcentR = (totr * 100.0)/totcob;
+    porcentS = (tots * 100.0)/totcob;
 
 
 
