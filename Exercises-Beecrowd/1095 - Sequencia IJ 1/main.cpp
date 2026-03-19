@@ -9,7 +9,7 @@ int main()
 
         for(int j = 60; j > 0; j-=5)
         {
-            cout<< "I="<< i << "J=" << j <<endl;
+            cout<< "I="<< i << " J=" << j <<endl;
 
         }
 
