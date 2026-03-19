@@ -22,6 +22,6 @@ int main()
         totco += numeros[i];
     }
 
-    cout<<"Total: "<< totco << "cobaias"<<endl;
+    cout<<"Total: "<< totco << " cobaias"<<endl;
     return 0;
 }
