@@ -15,6 +15,7 @@ int main()
     {
         cin>> cobaias >> tipo ;
         numeros.push_back(cobaias);
+        simbolos.push_back(tipo);
 
     }
 
