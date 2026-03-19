@@ -54,6 +54,8 @@ int main()
 
     cout<<"Percentual de coelhos: "<< porcentC << " %" << endl;
     cout<<"Percentual de ratos: "<< porcentR << " %" << endl;
+    cout<<"Percentual de sapos: "<< porcentS << " %" << endl;
+
 
 
 
