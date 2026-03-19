@@ -19,6 +19,7 @@ int main()
     {
         if(numeros[i] > numeros[i+1]){
 
+            maior = numeros[i];
         }
 
     }
