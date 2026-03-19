@@ -52,6 +52,8 @@ int main()
     porcentR = (totr * 100.0)/totcob;
     porcentS = (tots * 100.0)/totcob;
 
+    cout<<"Percentual de coelhos: "<< porcentC << " %" << endl;
+
 
 
     return 0;
