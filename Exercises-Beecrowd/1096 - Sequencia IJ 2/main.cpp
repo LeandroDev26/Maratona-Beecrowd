@@ -6,7 +6,9 @@ int main()
 {
   int i , j = 7;
 
-  while( j >= 5)
+  while( j >= 5){
+    cout<< j <<endl;
+  }
 
 
     return 0;
