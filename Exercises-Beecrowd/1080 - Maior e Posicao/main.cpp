@@ -14,7 +14,9 @@ int main()
         numeros.push_back(e);
 
   }
+  for (int i = 0; i < numeros.size(); i++){
 
+  }
 
 
     return 0;
