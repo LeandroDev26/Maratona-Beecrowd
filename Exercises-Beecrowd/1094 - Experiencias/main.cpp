@@ -28,7 +28,7 @@ int main()
            totc += numeros[i];
         }
 
-        if(simbolos[i] == "S")
+        else if(simbolos[i] == "S")
         {
 
         }
