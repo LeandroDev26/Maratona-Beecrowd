@@ -8,6 +8,7 @@ int main()
     string tipo;
     int n, cobaias, totco = 0;
     vector<int> numeros;
+    vector<string> simbolos;
     cin>> n;
 
     for( int i = 0; i < n ; i++)
