@@ -30,7 +30,7 @@ int main()
 
         else if(simbolos[i] == "S")
         {
-
+            tots = numeros[i];
         }
 
         else if(simbolos[i] == "R")
