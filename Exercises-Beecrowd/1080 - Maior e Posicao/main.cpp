@@ -17,9 +17,15 @@ int main()
     }
     for (int i = 0; i < numeros.size(); i++)
     {
-        if(numeros[i] > numeros[i+1]){
+        if(numeros[i] > numeros[i+1])
+        {
 
             maior = numeros[i];
+        }
+        else
+        {
+            maior = numeros[i+1];
+
         }
 
     }
