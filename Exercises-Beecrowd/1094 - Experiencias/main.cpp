@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     string tipo;
-    int n, cobaias , soma = 0;
+    int n, cobaias, soma = 0;
     vector<int> numeros;
     cin>> n;
 
@@ -17,10 +17,11 @@ int main()
 
     }
 
-    for(int i = 0; i < numeros.size(); i++){
-         soma += numeros[i];
+    for(int i = 0; i < numeros.size(); i++)
+    {
+        soma += numeros[i];
     }
 
-
+    cout<< soma <<endl;
     return 0;
 }
