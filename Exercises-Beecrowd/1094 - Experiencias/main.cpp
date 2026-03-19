@@ -17,5 +17,10 @@ int main()
 
     }
 
+    for(int i = 0; i < numeros.size(); i++){
+         soma += numeros[i];
+    }
+
+
     return 0;
 }
