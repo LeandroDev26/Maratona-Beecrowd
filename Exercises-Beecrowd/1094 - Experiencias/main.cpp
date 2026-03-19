@@ -32,6 +32,11 @@ int main()
         {
 
         }
+
+        if(simbolos[i] == "R")
+        {
+
+        }
     }
 
     cout<<"Total: "<< totcob << " cobaias"<<endl;
