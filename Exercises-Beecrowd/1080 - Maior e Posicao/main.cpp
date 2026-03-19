@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int e, maior;
+    int e, maior , indice;
     vector<int> numeros;
     for (int i = 0; i < 100; i++)
     {
@@ -29,6 +29,9 @@ int main()
         }
 
     }
+
+    cout<< maior <<endl;
+    cout<< indice <<endl;
 
 
     return 0;
