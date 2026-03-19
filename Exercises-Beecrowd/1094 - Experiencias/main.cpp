@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <iomanip>
+
 using namespace std;
 
 int main()
@@ -44,6 +45,8 @@ int main()
     cout<<"Total de coelhos: "<< totc <<endl;
     cout<<"Total de ratos: "<< totr <<endl;
     cout<<"Total de sapos: "<< tots <<endl;
+
+    cout<< fixed << setprecision(2);
 
     return 0;
 }
