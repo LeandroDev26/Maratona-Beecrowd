@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     string tipo;
-    int n, cobaias, totco = 0;
+    int n, cobaias, totcob = 0 ,totc = 0 , totr = 0 , tots = 0;
     vector<int> numeros;
     vector<string> simbolos;
     cin>> n;
@@ -21,9 +21,9 @@ int main()
 
     for(int i = 0; i < numeros.size(); i++)
     {
-        totco += numeros[i];
+        totcob += numeros[i];
     }
 
-    cout<<"Total: "<< totco << " cobaias"<<endl;
+    cout<<"Total: "<< totcob << " cobaias"<<endl;
     return 0;
 }
