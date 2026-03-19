@@ -33,7 +33,7 @@ int main()
 
         }
 
-        if(simbolos[i] == "R")
+        else if(simbolos[i] == "R")
         {
 
         }
