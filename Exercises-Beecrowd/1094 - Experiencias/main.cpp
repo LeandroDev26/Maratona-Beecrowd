@@ -11,6 +11,7 @@ int main()
     int n, cobaias, totcob = 0,totc = 0, totr = 0, tots = 0;
     vector<int> numeros;
     vector<string> simbolos;
+    double porcentC, porcentR , porcentS;
     cin>> n;
 
     for( int i = 0; i < n ; i++)
@@ -47,6 +48,8 @@ int main()
     cout<<"Total de sapos: "<< tots <<endl;
 
     cout<< fixed << setprecision(2);
+    porcentC = (totc * 100.0)/totcob;
+
 
     return 0;
 }
