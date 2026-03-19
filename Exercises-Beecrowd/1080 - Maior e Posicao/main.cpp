@@ -21,10 +21,12 @@ int main()
         {
 
             maior = numeros[i];
+            indice = i;
         }
         else
         {
             maior = numeros[i+1];
+            indice = (i+1)
 
         }
 
