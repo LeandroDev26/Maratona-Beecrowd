@@ -22,6 +22,10 @@ int main()
     for(int i = 0; i < numeros.size(); i++)
     {
         totcob += numeros[i];
+
+        if(simbolos[i] == "C"){
+
+        }
     }
 
     cout<<"Total: "<< totcob << " cobaias"<<endl;
