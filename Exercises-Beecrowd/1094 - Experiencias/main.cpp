@@ -40,6 +40,7 @@ int main()
     }
 
     cout<<"Total: "<< totcob << " cobaias"<<endl;
+    cout<<"Total de coelhos: "<< totc <<endl;
 
     return 0;
 }
