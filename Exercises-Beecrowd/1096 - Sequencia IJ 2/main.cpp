@@ -6,11 +6,17 @@ int main()
 {
     int i = 1, j = 7, aux = 0;
 
-    while( j >= 5 && i <=9)
+    for(int i = 1 ; i <=9 ; i++)
     {
-        cout<< "I=" << i <<  " J=" <<j <<endl;
-        j --;
 
+
+        while( j >= 5 )
+        {
+            cout<< "I=" << i <<  " J=" <<j <<endl;
+            j --;
+
+
+        }
 
     }
 
