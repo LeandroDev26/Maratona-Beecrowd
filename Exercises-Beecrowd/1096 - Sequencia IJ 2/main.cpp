@@ -6,7 +6,7 @@ int main()
 {
     int i = 1, j = 7, aux = 0,soma = 0;
 
-    while()
+    while( i <= 9)
     {
 
 
