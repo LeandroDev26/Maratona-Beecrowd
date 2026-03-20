@@ -12,7 +12,7 @@ int main()
         while( j >= aux )
         {
 
-            cout<< "I=" << i <<  " J=" <<j <<endl;
+            cout<< "I=" << i <<  " J=" << j <<endl;
             j --;
 
 
@@ -20,6 +20,7 @@ int main()
 
         i+= 2;
         aux += 2;
+        j =+ 5;
 
 
     }
