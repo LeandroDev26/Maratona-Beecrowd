@@ -10,7 +10,7 @@ int main()
     {
         j = 7;
 
-        while( j >= 5 )
+        while( j >= aux )
         {
 
             cout<< "I=" << i <<  " J=" <<j <<endl;
