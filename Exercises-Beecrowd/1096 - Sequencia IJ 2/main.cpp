@@ -12,14 +12,13 @@ int main()
 
         while( j >= 5 )
         {
-           soma++;
+
             cout<< "I=" << i <<  " J=" <<j <<endl;
             j --;
 
 
         }
 
-        i = soma;
 
     }
 
