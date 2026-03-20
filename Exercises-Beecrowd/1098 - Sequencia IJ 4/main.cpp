@@ -6,7 +6,7 @@ int main()
 {
 
 
-  double i , j;
+  double i = 0 , j = 1;
 
 
 
