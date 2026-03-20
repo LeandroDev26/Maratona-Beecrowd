@@ -12,7 +12,7 @@ int main()
         while( j >= 5 && i <= 9)
         {
             int soma = i;
-            cout<< "I=" << i <<  " J=" <<j <<endl;
+            cout<< "I=" << soma <<  " J=" <<j <<endl;
             j --;
 
         }
