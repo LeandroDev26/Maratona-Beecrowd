@@ -9,16 +9,15 @@ int main()
     for(int i = 1 ; i <=9 ; i++)
     {
 
-
-        while( j >= 5 )
+        while( j >= 5 && i <= 9)
         {
             cout<< "I=" << i <<  " J=" <<j <<endl;
             j --;
 
-
         }
-
     }
+
+
 
 
     return 0;
