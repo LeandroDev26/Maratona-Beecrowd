@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int i = 1, j = 7;
+    int i = 1, j = 7, aux = 5;
 
     while( i <= 9)
     {
