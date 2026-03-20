@@ -8,7 +8,6 @@ int main()
 
     while( i <= 9)
     {
-        j = 7;
 
         while( j >= aux )
         {
