@@ -6,12 +6,18 @@ int main()
 {
 
 
-  double i = 0.0, j = 1.0 , aux = 3.0;
+    double i = 0.0, j = 1.0, aux = 3.0;
 
-  while(i < 2.0){
+    while(i <=2.0)
+    {
 
 
-  }
+
+        while(j <= aux)
+        {
+
+        }
+    }
 
 
 
