@@ -9,12 +9,12 @@ int main()
     while( i <=2.2)
     {
 
-       j = i + 1;
+        j = i + 1;
 
         for(int n = 0; n < 3; n++)
         {
-          cout<<"I="<< i << " J=" << j <<endl;
-          j++;
+            cout<<"I="<< i << " J=" << j <<endl;
+            j++;
         }
 
         i += 0.2;
