@@ -15,9 +15,8 @@ int main()
 
         while(j <= aux)
         {
-
-
           cout<<"I="<< i << " J=" << j <<endl;
+          j++;
         }
     }
 
