@@ -5,20 +5,20 @@ int main()
 {
 
 
-    double i = 0.0, j = 1.0;
+    double i = 0.0, j;
     while( i <=2.2)
     {
 
        j = i + 1;
 
-        for(int i = 0; i < 3; i++)
+        for(int n = 0; n < 3; n++)
         {
           cout<<"I="<< i << " J=" << j <<endl;
           j++;
         }
 
         i += 0.2;
-        i += 0.2;
+
 
 
     }
