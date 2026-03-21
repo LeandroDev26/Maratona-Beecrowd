@@ -11,7 +11,7 @@ int main()
     while( i <=2.0)
     {
 
-
+       j = i + 1;
 
         while(j <= aux)
         {
