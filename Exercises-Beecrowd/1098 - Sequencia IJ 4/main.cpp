@@ -6,20 +6,21 @@ int main()
 {
 
 
-    double i = 0.0, j = 1.0, aux = 3.0;
+    double i = 0.0, j = 1.0;
     cout<< fixed << setprecision(1);
     while( i <=2.0)
     {
 
        j = i + 1;
 
-        while(j <= aux)
+        for(int i = 0; i < 3; i++)
         {
           cout<<"I="<< i << " J=" << j <<endl;
           j++;
         }
 
-        i += 0.2;  // ok
+        i += 0.2;
+        i += 0.2;
 
 
     }
