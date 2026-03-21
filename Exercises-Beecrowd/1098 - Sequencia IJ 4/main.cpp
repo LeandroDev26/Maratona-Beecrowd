@@ -6,7 +6,7 @@ int main()
 
 
     double i = 0.0, j;
-    while( i <=2.2)
+    while( i < 2.1)
     {
 
         j = i + 1;
