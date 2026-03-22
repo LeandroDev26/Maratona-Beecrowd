@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-  int n , x , y , ini , fim , soma;
+  int n , x , y , ini , fim , impares;
 
   cin>> n;
 
@@ -25,6 +25,14 @@ int main()
     fim = y;
 
      }
+
+     for( int i = ini + 1; i < fim; i++)
+    {
+        if(i % 2 != 0)
+        {
+            impares += i;
+        }
+    }
 
 
    }
