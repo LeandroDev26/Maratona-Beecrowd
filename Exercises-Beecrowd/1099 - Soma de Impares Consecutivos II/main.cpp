@@ -32,19 +32,20 @@ int main()
         if(k % 2 != 0)
         {
             soma += k;
-            results.push_back(soma);
+           // results.push_back(soma);
         }
     }
 
 
    }
+   cout<<soma<<endl;
 
-   for(int i = 0; i < results.size(); i++){
+  /* for(int i = 0; i < results.size(); i++){
 
         cout<< results[i]<<endl;
    }
 
-
+*/
 
     return 0;
 }
