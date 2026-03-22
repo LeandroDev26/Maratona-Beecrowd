@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-    int m, n, x = 7 , sum = 0;
+    int m, n, x = 7, sum = 0;
 
 
     while(x > 0)
     {
 
-        m = 0 , n = 0;
+        m = 0, n = 0;
         cin>> m >> n;
 
         if(m <= 0 || n <=0)
         {
-            x = 0;
+            break;
         }
 
         if(n < m)
@@ -26,6 +26,11 @@ int main()
 
         }
 
+        sum = 0;
+        for(int i = m; i <= n; i++){
+
+        }
+
 
 
     }
@@ -33,16 +38,16 @@ int main()
 
 
 
-                  cout<< k << "Sum=" << sum <<endl;
+
+ return 0;
 
 
-    }
-
-
-
-
-
-
-
-    return 0;
 }
+
+
+
+
+
+
+
+
