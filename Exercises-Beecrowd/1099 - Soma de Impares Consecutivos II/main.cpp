@@ -11,6 +11,7 @@ int main()
     for(int i = 0; i < n; i++)
     {
 
+        soma = 0;
         cin>> x >> y ;
 
         if( x > y)
