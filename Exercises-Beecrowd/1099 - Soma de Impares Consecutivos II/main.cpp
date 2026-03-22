@@ -37,6 +37,8 @@ int main()
 
    }
 
+   cout<<impares<<endl;
+
 
     return 0;
 }
