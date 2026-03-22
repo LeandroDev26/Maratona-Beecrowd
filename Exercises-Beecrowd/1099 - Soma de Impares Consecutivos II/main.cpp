@@ -11,6 +11,7 @@ int main()
     {
 
         soma = 0;
+
         cin>> x >> y ;
 
         if( x > y)
