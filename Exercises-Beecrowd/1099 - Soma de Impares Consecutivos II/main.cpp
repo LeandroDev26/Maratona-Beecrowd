@@ -37,9 +37,10 @@ int main()
             }
         }
 
+        cout<<soma<<endl;
+
 
     }
-    cout<<soma<<endl;
 
 
     return 0;
