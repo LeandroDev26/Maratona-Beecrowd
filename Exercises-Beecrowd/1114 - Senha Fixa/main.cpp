@@ -14,6 +14,9 @@ int main()
         if(e == senha){
             cout<<"Acesso Permitido"<<endl;
             break;
+        }else
+        {
+            cout<<"Senha Invalida"<<endl;
         }
 
     }
