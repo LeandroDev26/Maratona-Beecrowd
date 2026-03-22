@@ -39,7 +39,11 @@ int main()
 
    }
 
-   cout<< <<endl;
+   for(int i = 0; i <results.size(); i++){
+
+
+   }
+
 
 
     return 0;
