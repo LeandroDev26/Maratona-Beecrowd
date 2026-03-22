@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int m, n, x = 7;
+    int m, n, x = 7 , ini, fim;
 
 
     while(x <= 0)
@@ -16,6 +16,10 @@ int main()
         {
             x = 0;
         }
+
+
+
+
     }
 
 
