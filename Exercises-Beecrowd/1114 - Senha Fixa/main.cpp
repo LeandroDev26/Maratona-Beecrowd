@@ -7,7 +7,9 @@ int main()
 
     int senha = 2002 , e;
 
+    while(1){
 
+    }
 
     return 0;
 }
