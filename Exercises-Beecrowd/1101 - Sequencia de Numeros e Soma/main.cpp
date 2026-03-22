@@ -26,9 +26,10 @@ int main()
         }
 
         sum = 0;
-        for(int i = m; i <= n; i++){
-                cout<< i << " ";
-                sum += i;
+        for(int i = m; i <= n; i++)
+        {
+            cout<< i << " ";
+            sum += i;
         }
 
         cout<<"Sum="<<sum<<endl;
@@ -41,7 +42,7 @@ int main()
 
 
 
- return 0;
+    return 0;
 
 
 }
