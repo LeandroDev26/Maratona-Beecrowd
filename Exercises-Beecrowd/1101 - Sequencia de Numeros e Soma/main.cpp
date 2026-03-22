@@ -1,20 +1,21 @@
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
 int main()
 {
     int m, n, x = 7;
+    vector <int> entrada;
 
-
-    while(x <= 0)
+    while(x > 0)
     {
 
+        m = 0 , n = 0;
         cin>> m >> n;
 
         if(m <= 0 || n <=0)
         {
-            x = 0;
+            return 0;
         }
 
         if(n < m)
@@ -26,7 +27,8 @@ int main()
         }
 
       for(int i = m ; i <= n; i++){
-           cout<< i ;
+
+
       }
 
 
