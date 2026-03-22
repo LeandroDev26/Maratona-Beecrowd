@@ -7,7 +7,7 @@ int main()
 {
 
   int n , x , y , ini , fim , soma = 0;
-
+  vector<int> results;
   cin>> n;
 
    for(int i = 0; i < n; i++){
@@ -38,7 +38,7 @@ int main()
 
    }
 
-   cout<<<<endl;
+   cout<< <<endl;
 
 
     return 0;
