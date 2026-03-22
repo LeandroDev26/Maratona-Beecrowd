@@ -32,6 +32,7 @@ int main()
         if(k % 2 != 0)
         {
             soma += k;
+            results.push_back(soma);
         }
     }
 
