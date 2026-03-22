@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-  int n , x , y , ini , fim , impares = 0;
+  int n , x , y , ini , fim , soma = 0;
 
   cin>> n;
 
@@ -31,14 +31,14 @@ int main()
     {
         if(k % 2 != 0)
         {
-            impares += k;
+            soma += k;
         }
     }
 
 
    }
 
-   cout<<impares<<endl;
+   cout<<<<endl;
 
 
     return 0;
