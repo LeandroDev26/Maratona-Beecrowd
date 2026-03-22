@@ -28,6 +28,8 @@ int main()
 
         }
 
+      menor.push_back(m);
+      maior.push_back(n);
 
 
    /*   for(int i = m ; i <= n; i++){
