@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-
     int n, x, y, ini, fim, soma = 0;
     cin>> n;
 
