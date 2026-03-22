@@ -4,9 +4,8 @@ using namespace std;
 
 int main()
 {
-    int m, n, x = 7;
-    vector <int> menor;
-        vector <int> maior;
+    int m, n, x = 7 , sum = 0;
+    vector <int> entrada;
 
 
     while(x > 0)
@@ -27,18 +26,24 @@ int main()
             n = aux;
 
         }
+        entrada.push_back(m);
+        entrada.push_back(n);
 
-      menor.push_back(m);
-      maior.push_back(n);
 
 
     }
 
+    for(int i = 0; i <= entrada.size();i++){
 
-   for(int i = menor[0] ; i <= maior.size(); i++){
+         for(int k = entrada[i]; k <= entrada[i+1]; i++ ){
 
-             cout<< i <<endl;
-      }
+               sum += k;
+                  cout<< k << "Sum " << sum <<endl;
+
+         }
+    }
+
+
 
 
 
