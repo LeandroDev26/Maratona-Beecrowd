@@ -38,7 +38,7 @@ int main()
          for(int k = entrada[i]; k <= entrada[i+1]; i++ ){
 
                sum += k;
-                  cout<< k << "Sum " << sum <<endl;
+                  cout<< k << "Sum=" << sum <<endl;
 
          }
     }
