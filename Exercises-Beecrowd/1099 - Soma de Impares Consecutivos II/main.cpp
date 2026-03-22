@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -26,11 +27,11 @@ int main()
 
      }
 
-     for( int i = ini + 1; i < fim; i++)
+     for( int k = ini + 1; k < fim; k++)
     {
-        if(i % 2 != 0)
+        if(k % 2 != 0)
         {
-            impares += i;
+            impares += k;
         }
     }
 
