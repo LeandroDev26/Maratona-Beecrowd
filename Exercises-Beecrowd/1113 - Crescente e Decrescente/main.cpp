@@ -20,9 +20,11 @@ int main()
             break;
         }
 
-        if (x < y){
+        if (x < y)
+        {
             cout<<"Crescente"<<endl;
-        }else
+        }
+        else
         {
 
             cout<<"Decrescente"<<endl;
