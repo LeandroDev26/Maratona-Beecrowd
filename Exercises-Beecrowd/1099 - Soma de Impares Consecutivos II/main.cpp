@@ -38,8 +38,6 @@ int main()
         }
 
         cout<<soma<<endl;
-
-
     }
 
 
