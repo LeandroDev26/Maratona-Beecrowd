@@ -20,6 +20,10 @@ int main()
             break;
         }
 
+        if (x < y){
+            cout<<"Decrescente"<<endl;
+        }
+
 
     }
 
