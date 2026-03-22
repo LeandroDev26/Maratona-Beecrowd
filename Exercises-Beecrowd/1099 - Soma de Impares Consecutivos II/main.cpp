@@ -7,7 +7,7 @@ int main()
     int n, x, y, ini, fim, soma = 0;
     cin>> n;
 
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < n; i++)//laço externo
     {
 
         soma = 0;
