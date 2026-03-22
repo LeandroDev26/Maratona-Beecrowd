@@ -26,7 +26,7 @@ int main()
         }
 
       for(int i = m ; i <= n; i++){
-
+           cout<< i <<endl;
       }
 
 
