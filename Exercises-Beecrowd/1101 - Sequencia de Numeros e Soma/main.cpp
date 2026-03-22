@@ -35,6 +35,14 @@ int main()
     }
 
 
+   for(int i = menor[0] ; i <= maior.size(); i++){
+
+             cout<< i <<endl;
+      }
+
+
+
+
 
     return 0;
 }
