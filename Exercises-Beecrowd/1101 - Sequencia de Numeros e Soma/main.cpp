@@ -32,13 +32,6 @@ int main()
       maior.push_back(n);
 
 
-   /*   for(int i = m ; i <= n; i++){
-
-
-      }
-
-*/
-
     }
 
 
