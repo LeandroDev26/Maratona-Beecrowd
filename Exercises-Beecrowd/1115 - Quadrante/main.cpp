@@ -13,6 +13,9 @@ int main()
     if(x == 0 || y == 0){
         break;
     }
+    else if( x > 0 && y > 0){
+        cout<<"primeiro"<<endl;
+    }
  }
 
 
