@@ -33,11 +33,11 @@ int main()
 
     }
 
-    for(int i = 0; i <= entrada.size();i++){
+    for(int i = 0; i <= entrada.size();i+=2){
 
-         for(int k = entrada[i]; k <= entrada[i+1]; i++ ){
+         for(int k = entrada[i]; k <= entrada[i+1]; k++ ){
 
-               sum += k;
+
                   cout<< k << "Sum=" << sum <<endl;
 
          }
