@@ -26,6 +26,5 @@ int main()
        cout<<"quarto"<<endl;
     }
  }
-
     return 0;
 }
