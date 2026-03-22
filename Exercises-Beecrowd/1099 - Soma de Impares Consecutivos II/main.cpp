@@ -28,7 +28,7 @@ int main()
 
         }
 
-        for( int k = ini + 1; k < fim; k++)
+        for( int k = ini + 1; k < fim; k++)//laço interno
         {
             if(k % 2 != 0)
             {
