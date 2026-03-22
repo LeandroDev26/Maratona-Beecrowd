@@ -9,7 +9,11 @@ int main()
 
     while(1){
 
-        cin<< e;
+        cin>> e;
+
+        if(e == senha){
+            cout<<"Acesso Permitido"<<endl;
+        }
 
     }
 
