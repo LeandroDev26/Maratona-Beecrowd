@@ -7,5 +7,12 @@ int main()
   int m , n , x;
 
 
+  while(){
+
+
+  }
+
+
+
     return 0;
 }
