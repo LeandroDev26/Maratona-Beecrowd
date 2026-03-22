@@ -5,7 +5,9 @@ using namespace std;
 int main()
 {
     int m, n, x = 7;
-    vector <int> entrada;
+    vector <int> menor;
+        vector <int> maior;
+
 
     while(x > 0)
     {
@@ -26,12 +28,14 @@ int main()
 
         }
 
-      for(int i = m ; i <= n; i++){
+
+
+   /*   for(int i = m ; i <= n; i++){
 
 
       }
 
-
+*/
 
     }
 
