@@ -9,6 +9,8 @@ int main()
 
     while(1){
 
+        cin<< e;
+
     }
 
     return 0;
