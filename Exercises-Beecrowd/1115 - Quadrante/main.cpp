@@ -18,10 +18,12 @@ int main()
         cout<<"primeiro"<<endl;
     }
     else if(x < 0 && y > 0){
-        cout"segundo"<<endl;
+        cout<<"segundo"<<endl;
     }
     else if(x < 0 && y < 0){
         cout<<"terceiro"<<endl;
+    }else{
+       cout<<"quarto"<<endl;
     }
  }
 
