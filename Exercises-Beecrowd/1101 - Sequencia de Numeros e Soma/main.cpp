@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int m, n, x = 7 , ini, fim;
+    int m, n, x = 7;
 
 
     while(x <= 0)
@@ -17,6 +17,17 @@ int main()
             x = 0;
         }
 
+        if(n < m)
+        {
+            int aux = m;
+            m = n;
+            n = aux;
+
+        }
+
+      for(int i = m ; i <= n; i++){
+
+      }
 
 
 
