@@ -1,51 +1,45 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
 int main()
 {
 
-  int n , x , y , ini , fim , soma = 0;
-  vector<int> results;
-  cin>> n;
+    int n, x, y, ini, fim, soma = 0;
+    cin>> n;
 
-   for(int i = 0; i < n; i++){
-
-    cin>> x >> y ;
-
-    if( x > y)
+    for(int i = 0; i < n; i++)
     {
 
-        ini = y;
-        fim = x;
-    }else
-     {
+        cin>> x >> y ;
 
-    ini = x;
-    fim = y;
-
-     }
-
-     for( int k = ini + 1; k < fim; k++)
-    {
-        if(k % 2 != 0)
+        if( x > y)
         {
-            soma += k;
-           // results.push_back(soma);
+
+            ini = y;
+            fim = x;
         }
+        else
+        {
+
+            ini = x;
+            fim = y;
+
+        }
+
+        for( int k = ini + 1; k < fim; k++)
+        {
+            if(k % 2 != 0)
+            {
+                soma += k;
+
+            }
+        }
+
+
     }
+    cout<<soma<<endl;
 
-
-   }
-   cout<<soma<<endl;
-
-  /* for(int i = 0; i < results.size(); i++){
-
-        cout<< results[i]<<endl;
-   }
-
-*/
 
     return 0;
 }
