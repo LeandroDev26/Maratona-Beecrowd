@@ -9,6 +9,8 @@ int main()
 
   while(x <= 0){
 
+   cin>> m >> n;
+
 
   }
 
