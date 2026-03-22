@@ -28,6 +28,7 @@ int main()
 
         sum = 0;
         for(int i = m; i <= n; i++){
+                cout<< i << " " <<endl;
 
         }
 
