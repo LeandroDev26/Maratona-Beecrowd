@@ -5,7 +5,6 @@ using namespace std;
 int main()
 {
     int m, n, x = 7 , sum = 0;
-    vector <int> entrada;
 
 
     while(x > 0)
@@ -26,8 +25,6 @@ int main()
             n = aux;
 
         }
-        entrada.push_back(m);
-        entrada.push_back(n);
 
 
 
