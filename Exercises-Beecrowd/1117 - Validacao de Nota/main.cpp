@@ -7,6 +7,10 @@ int main()
 
 double a , b , media;
 
+while (1){
+
+}
+
 
 
 
