@@ -16,7 +16,7 @@ int main()
 
          if( x != 0 && y == 0){
 
-             cout<<"divisão impossivel"<<endl;
+             cout<<"divisao impossivel"<<endl;
          }
          else{
                 divi = (x /y);
