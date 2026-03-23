@@ -18,6 +18,8 @@ int main()
 
              cout<<"divisão impossivel"<<endl;
          }
+         else if(){
+         }
 
     }
 
