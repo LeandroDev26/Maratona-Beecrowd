@@ -14,9 +14,9 @@ int main()
     for(int i = 0; i < n ; i++){
          cin>> x >> y;
 
-         if( x > 0 && y == 0){
+         if( x != 0 && y == 0){
 
-
+             cout<<"divisão impossivel"<<endl;
          }
 
     }
