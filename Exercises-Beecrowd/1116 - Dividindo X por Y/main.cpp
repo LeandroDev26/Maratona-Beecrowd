@@ -18,7 +18,9 @@ int main()
 
              cout<<"divisão impossivel"<<endl;
          }
-         else if(){
+         else{
+                divi = (x /y);
+                cout<< divi <<endl;
          }
 
     }
