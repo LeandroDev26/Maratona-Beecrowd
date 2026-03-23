@@ -9,6 +9,9 @@ double a , b , media;
 
 while (1){
     cin>> a ;
+    if(a < 0 && a > 10){
+
+    }
 
 }
 
