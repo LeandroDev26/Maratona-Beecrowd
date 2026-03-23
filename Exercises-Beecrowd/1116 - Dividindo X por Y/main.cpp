@@ -4,6 +4,10 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+int x , y , n;
+
+
+
+
     return 0;
 }
