@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 
+double a , b , media;
 
 
 
