@@ -30,37 +30,44 @@ int main()
     cout<<"media = "<<media<<endl;
 
 
-    while(opc != 0){
-    cout<< "novo calculo (1-sim 2-nao)"<<endl;
-    cin>> opc;
-
-    cont = 0;
-    while (cont < 2)
+    while(opc != 2)
     {
-        if(opc == 2)
-        {
-            break;
-        }
-        else if(opc == 1)
-        {
-            cin>> nota;
+        cout<< "novo calculo (1-sim 2-nao)"<<endl;
+        cin>> opc;
 
-            if( nota >= 0 && nota<= 10)
+        cont = 0;
+        media = 0;
+        while (cont < 2)
+        {
+            if(opc == 2)
             {
-                media+= nota;
-                cont++;
+                break;
+            }
+            else if(opc == 1)
+            {
+                cin>> nota;
+
+                if( nota >= 0 && nota<= 10)
+                {
+                    media+= nota;
+                    cont++;
+
+                }
+                else
+                {
+                    cout<<"nota invalida"<<endl;
+                }
 
             }
-            else
-            {
-                cout<<"nota invalida"<<endl;
-            }
 
+            if( cont < 2)
+            {
+                media /= 2;
+                cout<<"media = "<<media<<endl;
+            }
         }
+
     }
-    media /= 2;
-    cout<<"media = "<<media<<endl;
-}
 
 
 
