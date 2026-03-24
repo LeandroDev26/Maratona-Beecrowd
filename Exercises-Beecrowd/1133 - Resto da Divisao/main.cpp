@@ -15,7 +15,9 @@ int main()
     }
 
     for(int i = x; i <= y; i++ ){
+        if( i % 5 == 2 || i % 5 == 3){
 
+        }
     }
 
 
