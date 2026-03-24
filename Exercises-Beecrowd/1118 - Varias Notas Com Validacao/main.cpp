@@ -22,11 +22,21 @@ int main()
             cout<<"nota invalida"<<endl;
         }
 
+
     }
 
     media /= 2;
     cout<<"media = "<<media<<endl;
 
+     cout<< "novo calculo (1-sim 2-nao)"
+
+        switch(){
+
+
+
+
+
+        }
 
 
     return 0;
