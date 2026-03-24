@@ -11,7 +11,7 @@ int main()
 
     while( opc == 1)
     {
-
+       media = 0 , cont = 0;
 
         while (cont < 2)
         {
