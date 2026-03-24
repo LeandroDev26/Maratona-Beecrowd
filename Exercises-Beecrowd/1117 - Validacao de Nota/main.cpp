@@ -5,12 +5,12 @@ using namespace std;
 int main()
 {
 
-    double a, b, media, cont = 0;
+    double nota, media, cont = 0;
     cout<< fixed << setprecision(2);
 
     while (cont <= 2)
     {
-        cin>> a;
+        cin>> nota;
 
         if( a >= 0 && a<= 10)
         {
