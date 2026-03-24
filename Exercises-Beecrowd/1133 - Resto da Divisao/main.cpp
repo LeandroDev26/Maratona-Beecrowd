@@ -7,11 +7,18 @@ int main()
 
     int x, y ;
     cin>> x >> y;
+    if ( x > y)
+    {
+        int aux = x;
+        x = y ;
+        y = aux;
+    }
+
+    for(int i = x )
 
 
 
 
 
-
-    return 0;
+        return 0;
 }
