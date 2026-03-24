@@ -8,7 +8,7 @@ int main()
     double nota = 0, media = 0, cont = 0;
     cout<< fixed << setprecision(2);
 
-    while (cont <= 2)
+    while (cont < 2)
     {
         cin>> nota;
 
