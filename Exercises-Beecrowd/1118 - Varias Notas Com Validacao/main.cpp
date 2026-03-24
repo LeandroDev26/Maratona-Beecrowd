@@ -57,7 +57,7 @@ int main()
 
             }
 
-            if( cont == 1)
+            if( cont == 2)
             {
                 media /= 2;
                 cout<<"media = "<<media<<endl;
