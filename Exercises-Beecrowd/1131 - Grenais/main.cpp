@@ -42,7 +42,7 @@ int main()
     if(vitinter > vitgremi){
         cout<< "Inter venceu mais"<<endl;
     }
-    else
+    else if(vitinter < vitgremi)
     {
       cout<<"Gremio venceu mais"<<endl;
     }
