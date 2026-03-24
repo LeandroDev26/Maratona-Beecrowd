@@ -7,6 +7,7 @@ int main()
 
     int x = 0, y = 0, soma = 0;
     cin>> x >> y;
+
     if(x > y)
     {
         int aux = x;
