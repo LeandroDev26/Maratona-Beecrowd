@@ -11,7 +11,7 @@ int main()
 
     while( opc == 1)
     {
-       media = 0 , cont = 0;
+        media = 0, cont = 0;
 
         while (cont < 2)
         {
@@ -33,11 +33,12 @@ int main()
         media /= 2;
         cout<<"media = "<<media<<endl;
 
-       opc = 0;
-       while( opc != 1  && opc != 2){
+        opc = 0;
+        while( opc != 1  && opc != 2)
+        {
             cout<<"novo calculo (1-sim 2-nao)"<<endl;
-              cin>> opc;
-       }
+            cin>> opc;
+        }
     }
     return 0;
 
