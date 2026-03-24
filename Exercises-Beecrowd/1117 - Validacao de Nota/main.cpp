@@ -9,10 +9,12 @@ int main()
 
     while (1)
     {
-        cin>> a >> b;
+        cin>> a;
 
         if( a >= 0 && a<= 10)
         {
+            cin>> b;
+
             if( b >= 0 && b <= 10)
             {
                 media = (a+b)/2;
