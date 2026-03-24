@@ -17,6 +17,7 @@ int main()
             {
                 media = (a+b)/2;
                 cout<<"media = "<< media <<endl;
+                break;
 
 
             }
