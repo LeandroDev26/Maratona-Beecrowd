@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
 
-    double a, b, media;
+    double a, b, media , cont = 0;
     cout<< fixed << setprecision(2);
 
-    while (1)
+    while (cont == 2)
     {
         cin>> a;
 
