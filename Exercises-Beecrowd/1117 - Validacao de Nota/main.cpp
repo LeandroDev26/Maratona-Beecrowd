@@ -15,6 +15,7 @@ int main()
         {
             if( b >= 0 && b <= 10)
             {
+                media = (a+b)/2;
 
 
             }
