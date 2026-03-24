@@ -9,7 +9,7 @@ int main()
 
     while (1)
     {
-        cin>> a ;
+        cin>> a >> b;
 
         if( a >= 0 && a<= 10)
         {
