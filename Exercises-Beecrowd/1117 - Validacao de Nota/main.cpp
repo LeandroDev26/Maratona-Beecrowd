@@ -18,6 +18,10 @@ int main()
 
 
             }
+            else
+            {
+                cout<<"nota invalida"<<endl;
+            }
 
         }
 
