@@ -24,7 +24,6 @@ int main()
             cout<<"nota invalida"<<endl;
         }
 
-        break;
     }
 
     media /= 2;
