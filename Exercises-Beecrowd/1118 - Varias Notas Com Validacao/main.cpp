@@ -29,9 +29,29 @@ int main()
     media /= 2;
     cout<<"media = "<<media<<endl;
 
-     cout<< "novo calculo (1-sim 2-nao)"
-          cin>>
-        switch(){
+     cout<< "novo calculo (1-sim 2-nao)"<<endl;
+          cin>> opc;
+        switch(opc){
+
+     case  1:
+          cin>> nota;
+
+        if( nota >= 0 && nota<= 10)
+        {
+            media+= nota;
+
+        }
+        else
+        {
+            cout<<"nota invalida"<<endl;
+        }
+
+
+    }
+
+    media /= 2;
+    cout<<"media = "<<media<<endl;
+    break;
 
 
 
