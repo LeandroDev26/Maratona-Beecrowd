@@ -33,6 +33,7 @@ int main()
         media /= 2;
         cout<<"media = "<<media<<endl;
 
+       opc = 0;
 
     }
     return 0;
