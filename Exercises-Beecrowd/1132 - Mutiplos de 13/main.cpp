@@ -16,7 +16,7 @@ int main()
 
     for( int i = x ; i <= y; i++)
     {
-        if(i % 2 !=0 )
+        if(i % 13 !=0 )
         {
             soma+= i;
         }
