@@ -14,8 +14,10 @@ int main()
         y = aux;
     }
 
-    for(int i = x; i < y; i++ ){
-        if( i % 5 == 2 || i % 5 == 3){
+    for(int i = x; i < y; i++ )
+    {
+        if( i % 5 == 2 || i % 5 == 3)
+        {
             cout<< i <<endl;
         }
     }
@@ -24,5 +26,5 @@ int main()
 
 
 
-        return 0;
+    return 0;
 }
