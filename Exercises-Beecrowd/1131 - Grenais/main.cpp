@@ -20,7 +20,7 @@ int main()
 
     }
 
-    cout<< grenais <<" Grenais"<<endl;
+    cout<< grenais <<" grenais"<<endl;
 
 
 
