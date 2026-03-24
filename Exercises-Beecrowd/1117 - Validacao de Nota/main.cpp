@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    double nota, media, cont = 0;
+    double nota = 0, media = 0, cont = 0;
     cout<< fixed << setprecision(2);
 
     while (cont <= 2)
