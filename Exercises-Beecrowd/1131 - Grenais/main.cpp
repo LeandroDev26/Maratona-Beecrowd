@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int opc = 1 ;
+    int opc = 1 , ga = 0 , gb = 0;
 
     while(opc == 1)
     {
