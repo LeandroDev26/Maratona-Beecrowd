@@ -40,7 +40,7 @@ int main()
         while (cont < 2)
         {
 
-         if(opc == 2)
+         if(opc == 1)
             {
                 cin>> nota;
 
