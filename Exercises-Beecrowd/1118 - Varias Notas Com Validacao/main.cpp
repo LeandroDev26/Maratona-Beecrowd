@@ -33,6 +33,7 @@ int main()
     cout<< "novo calculo (1-sim 2-nao)"<<endl;
     cin>> opc;
 
+    cont = 0;
     while (cont < 2)
     {
         if(opc == 2)
