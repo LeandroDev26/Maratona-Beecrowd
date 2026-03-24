@@ -35,7 +35,7 @@ int main()
 
        opc = 0;
        while( opc != 1  && opc != 2){
-
+              cin>> opc;
        }
     }
     return 0;
