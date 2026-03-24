@@ -13,28 +13,29 @@ int main()
         grenais++;
 
         opc = 0;
+
+        if(inter > gremio)
+        {
+            vitinter++;
+        }
+        else if(gremio > inter)
+        {
+            vitgremi++;
+        }
+        else
+        {
+            empates++;
+        }
         while(opc != 1 && opc != 2)
         {
             cout<<"Novo grenal (1-sim 2-nao)"<< endl;
             cin>> opc;
 
-            if(inter > gremio)
-            {
-                vitinter++;
-            }
-            else if(gremio > inter)
-            {
-                vitgremi++;
-            }
-            else
-            {
-                empates++;
-            }
         }
 
     }
 
-    cout<< grenais <<" grenais"<<endl;
+    cout<<grenais<<" grenais"<<endl;
     cout<< "Inter:"<<vitinter<<endl;
     cout<<"Gremio:"<<vitgremi<<endl;
     cout<<"Empates:"<<empates<<endl;
