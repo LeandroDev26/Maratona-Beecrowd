@@ -5,17 +5,18 @@ using namespace std;
 int main()
 {
 
-    double nota = 0, media = 0;
+    double nota = 0, media = 0, cont = 0;
     int opc = 0;
     cout<< fixed << setprecision(2);
 
-    while (1)
+    while (cont < 2)
     {
         cin>> nota;
 
         if( nota >= 0 && nota<= 10)
         {
             media+= nota;
+            cont++;
 
         }
         else
@@ -23,23 +24,36 @@ int main()
             cout<<"nota invalida"<<endl;
         }
 
-
+        break;
     }
 
     media /= 2;
     cout<<"media = "<<media<<endl;
 
-    cout<< "novo calculo (1-sim 2-nao)"<<endl;
-    cin>> opc;
+    while(1)
+    {
 
-    if(opc == 2){
-        return 0;
+        cout<< "novo calculo (1-sim 2-nao)"<<endl;
+        cin>> opc;
+
+        if(opc == 2)
+        {
+            return 0;
+         }
+         else
+         {
+
+
+        }
+
     }
 
 
 
 
-return 0;
+
+
+    return 0;
 
 
 }
