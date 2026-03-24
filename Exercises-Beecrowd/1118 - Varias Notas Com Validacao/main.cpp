@@ -6,6 +6,7 @@ int main()
 {
 
     double nota = 0, media = 0;
+    int opc = 0;
     cout<< fixed << setprecision(2);
 
     while (1)
@@ -29,7 +30,7 @@ int main()
     cout<<"media = "<<media<<endl;
 
      cout<< "novo calculo (1-sim 2-nao)"
-
+          cin>>
         switch(){
 
 
