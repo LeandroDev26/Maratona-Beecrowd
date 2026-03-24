@@ -11,6 +11,7 @@ while (1){
     cin>> a ;
     if(a < 0 && a > 10){
         cout<<"nota invalida"<<endl;
+        cin>> a ;
     }
 
 }
