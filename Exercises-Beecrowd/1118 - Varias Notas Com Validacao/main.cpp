@@ -34,7 +34,9 @@ int main()
         cout<<"media = "<<media<<endl;
 
        opc = 0;
+       while( opc != 1  && opc != 2){
 
+       }
     }
     return 0;
 
