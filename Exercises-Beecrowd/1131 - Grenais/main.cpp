@@ -9,6 +9,7 @@ int main()
     while(opc == 1)
     {
 
+      cin>> ga >> gb;
 
 
      opc = 0;
