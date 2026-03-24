@@ -19,7 +19,6 @@ int main()
         else
         {
             cout<<"nota invalida"<<endl;
-            cin>> a;
         }
 
           cin>> b;
@@ -35,7 +34,6 @@ int main()
             else
             {
                 cout<<"nota invalida"<<endl;
-                cin>> b;
             }
 
     }
