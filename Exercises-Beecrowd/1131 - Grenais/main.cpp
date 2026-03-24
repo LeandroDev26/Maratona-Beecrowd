@@ -4,28 +4,33 @@ using namespace std;
 
 int main()
 {
-    int opc = 1 , inter = 0 , gremio = 0 , grenais = 0 , vitinter = 0 , vitgremi = 0 , empates = 0;
+    int opc = 1, inter = 0, gremio = 0, grenais = 0, vitinter = 0, vitgremi = 0, empates = 0;
 
     while(opc == 1)
     {
 
-      cin>> inter >> gremio;
-      grenais++;
+        cin>> inter >> gremio;
+        grenais++;
 
-     opc = 0;
-     while(opc != 1 && opc != 2){
-        cout<<"Novo grenal (1-sim 2-nao)"<< endl;
-        cin>> opc;
-
-        if(inter > gremio){
-              vitinter++;
-        }else if(gremio > inter){
-                vitgremi++;
-        }else
+        opc = 0;
+        while(opc != 1 && opc != 2)
         {
-           empates++;
+            cout<<"Novo grenal (1-sim 2-nao)"<< endl;
+            cin>> opc;
+
+            if(inter > gremio)
+            {
+                vitinter++;
+            }
+            else if(gremio > inter)
+            {
+                vitgremi++;
+            }
+            else
+            {
+                empates++;
+            }
         }
-     }
 
     }
 
