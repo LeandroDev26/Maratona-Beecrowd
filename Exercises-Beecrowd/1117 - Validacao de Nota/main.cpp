@@ -12,26 +12,11 @@ int main()
     {
         cin>> nota;
 
-        if( a >= 0 && a<= 10)
+        if( nota >= 0 && nota<= 10)
         {
-            media+= a;
+            media+= nota;
             cont++;
 
-
-            cin>> b;
-
-            if( b >= 0 && b <= 10)
-            {
-                media += b;
-                media /= 2;
-                cout<<"media = "<< media <<endl;
-                cont++;
-
-            }
-            else
-            {
-                cout<<"nota invalida"<<endl;
-            }
         }
         else
         {
