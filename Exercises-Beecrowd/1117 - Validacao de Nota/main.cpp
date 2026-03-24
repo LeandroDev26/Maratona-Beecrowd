@@ -1,11 +1,12 @@
 #include <iostream>
-
+#include <iomanip>
 using namespace std;
 
 int main()
 {
 
     double a, b, media;
+    cout<< fixed << setprecision(2);
 
     while (1)
     {
