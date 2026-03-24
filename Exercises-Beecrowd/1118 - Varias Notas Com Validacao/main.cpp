@@ -30,6 +30,7 @@ int main()
     cout<<"media = "<<media<<endl;
 
 
+    while(opc != 0){
     cout<< "novo calculo (1-sim 2-nao)"<<endl;
     cin>> opc;
 
@@ -57,9 +58,10 @@ int main()
 
         }
     }
-
     media /= 2;
     cout<<"media = "<<media<<endl;
+}
+
 
 
     return 0;
