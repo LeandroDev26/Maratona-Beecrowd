@@ -39,11 +39,8 @@ int main()
         media = 0;
         while (cont < 2)
         {
-            if(opc == 2)
-            {
-                break;
-            }
-            else if(opc == 1)
+
+         if(opc == 2)
             {
                 cin>> nota;
 
