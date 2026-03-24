@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int opc = 1 , inter = 0 , gremio = 0 , grenais = 0;
+    int opc = 1 , inter = 0 , gremio = 0 , grenais = 0 , vitinter = 0 , vitgremi = 0 , empates = 0;
 
     while(opc == 1)
     {
@@ -17,7 +17,9 @@ int main()
         cout<<"Novo grenal (1-sim 2-nao)"<< endl;
         cin>> opc;
 
-        if()
+        if(inter > gremio){
+              vitinter++;
+        }
      }
 
     }
