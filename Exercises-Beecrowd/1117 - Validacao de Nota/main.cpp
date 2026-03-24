@@ -11,9 +11,9 @@ int main()
     {
         cin>> a ;
 
-        if( x >= 0 && x<= 10)
+        if( a >= 0 && a<= 10)
         {
-            if( y >= 0 && y <= 10)
+            if( b >= 0 && b <= 10)
             {
 
 
@@ -24,8 +24,7 @@ int main()
             }
 
         }
-
-        if(a < 0 && a > 10)
+        else
         {
             cout<<"nota invalida"<<endl;
         }
