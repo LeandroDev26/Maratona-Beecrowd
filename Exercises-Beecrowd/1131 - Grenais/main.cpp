@@ -4,13 +4,13 @@ using namespace std;
 
 int main()
 {
-    int opc = 1 , ga = 0 , gb = 0;
+    int opc = 1 , ga = 0 , gb = 0 , grenais = 0,  ;
 
     while(opc == 1)
     {
 
       cin>> ga >> gb;
-
+      grenais++;
 
      opc = 0;
      while(opc != 1 && opc != 2){
