@@ -39,12 +39,17 @@ int main()
     cout<<"Gremio:"<<vitgremi<<endl;
     cout<<"Empates:"<<empates<<endl;
 
-    if(vitinter > vitgremi){
+    if(vitinter > vitgremi)
+    {
         cout<< "Inter venceu mais"<<endl;
     }
     else if(vitinter < vitgremi)
     {
-      cout<<"Gremio venceu mais"<<endl;
+        cout<<"Gremio venceu mais"<<endl;
+    }
+    else
+    {
+        cout<<"Nao houve vencedor"<<endl;
     }
 
 
