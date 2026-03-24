@@ -6,7 +6,7 @@ int main()
 {
 
     double nota = 0, media = 0, cont = 0;
-    int opc = 0;
+    int opc = 1;
     cout<< fixed << setprecision(2);
 
     while( opc == 1)
