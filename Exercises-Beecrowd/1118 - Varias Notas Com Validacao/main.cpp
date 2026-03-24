@@ -39,21 +39,23 @@ int main()
         {
             break;
         }
-        cin>> nota;
-
-        if( nota >= 0 && nota<= 10)
+        else if(opc == 1)
         {
-            media+= nota;
-            cont++;
+            cin>> nota;
+
+            if( nota >= 0 && nota<= 10)
+            {
+                media+= nota;
+                cont++;
+
+            }
+            else
+            {
+                cout<<"nota invalida"<<endl;
+            }
 
         }
-        else
-        {
-            cout<<"nota invalida"<<endl;
-        }
-
     }
-
 
     media /= 2;
     cout<<"media = "<<media<<endl;
