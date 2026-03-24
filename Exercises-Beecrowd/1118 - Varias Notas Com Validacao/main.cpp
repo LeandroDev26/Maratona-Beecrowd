@@ -9,28 +9,32 @@ int main()
     int opc = 0;
     cout<< fixed << setprecision(2);
 
-    while (cont < 2)
+    while( opc == 1)
     {
-        cin>> nota;
 
-        if( nota >= 0 && nota<= 10)
+
+        while (cont < 2)
         {
-            media+= nota;
-            cont++;
+            cin>> nota;
+
+            if( nota >= 0 && nota<= 10)
+            {
+                media+= nota;
+                cont++;
+
+            }
+            else
+            {
+                cout<<"nota invalida"<<endl;
+            }
 
         }
-        else
-        {
-            cout<<"nota invalida"<<endl;
-        }
+
+        media /= 2;
+        cout<<"media = "<<media<<endl;
+
 
     }
-
-    media /= 2;
-    cout<<"media = "<<media<<endl;
-
-
-
     return 0;
 
 }
