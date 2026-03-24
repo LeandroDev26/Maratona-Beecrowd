@@ -14,7 +14,8 @@ int main()
 
         if( a >= 0 && a<= 10)
         {
-
+           media+= a;
+           cont++;
         }
         else
         {
@@ -25,10 +26,10 @@ int main()
 
             if( b >= 0 && b <= 10)
             {
-                media = (a+b)/2;
+                media += b;
+                media /= 2;
                 cout<<"media = "<< media <<endl;
-                break;
-
+                cont++;
 
             }
             else
