@@ -29,17 +29,18 @@ int main()
     media /= 2;
     cout<<"media = "<<media<<endl;
 
-    while(opc != 2)
+
+    cout<< "novo calculo (1-sim 2-nao)"<<endl;
+    cin>> opc;
+
+    while (cont < 2)
     {
-
-        cout<< "novo calculo (1-sim 2-nao)"<<endl;
-        cin>> opc;
-
         cin>> nota;
 
         if( nota >= 0 && nota<= 10)
         {
             media+= nota;
+            cont++;
 
         }
         else
@@ -47,8 +48,8 @@ int main()
             cout<<"nota invalida"<<endl;
         }
 
-        break;
     }
+
 
     media /= 2;
     cout<<"media = "<<media<<endl;
