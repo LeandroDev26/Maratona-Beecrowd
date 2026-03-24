@@ -35,6 +35,9 @@ int main()
 
     while (cont < 2)
     {
+        if(opc == 2){
+            break;
+        }
         cin>> nota;
 
         if( nota >= 0 && nota<= 10)
