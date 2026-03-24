@@ -19,6 +19,8 @@ int main()
 
         if(inter > gremio){
               vitinter++;
+        }else if(gremio > inter){
+                vitgremi++;
         }
      }
 
