@@ -23,13 +23,10 @@ int main()
             cout<<"nota invalida"<<endl;
         }
 
-
-        media /= 2;
-        cout<<"media = "<<media<<endl;
-
-
     }
 
+    media /= 2;
+    cout<<"media = "<<media<<endl;
 
 
 
