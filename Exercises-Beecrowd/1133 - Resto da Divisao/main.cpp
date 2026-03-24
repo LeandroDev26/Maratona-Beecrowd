@@ -14,7 +14,9 @@ int main()
         y = aux;
     }
 
-    for(int i = x )
+    for(int i = x; i <= y; i++ ){
+
+    }
 
 
 
