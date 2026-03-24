@@ -35,7 +35,7 @@ int main()
     }
 
     cout<< grenais <<" grenais"<<endl;
-    cout<< "Inter: "<<vitinter<<endl;
+    cout<< "Inter:"<<vitinter<<endl;
 
 
 
