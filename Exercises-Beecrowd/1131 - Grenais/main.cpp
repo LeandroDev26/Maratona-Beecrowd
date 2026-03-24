@@ -21,6 +21,9 @@ int main()
               vitinter++;
         }else if(gremio > inter){
                 vitgremi++;
+        }else
+        {
+           empates++;
         }
      }
 
