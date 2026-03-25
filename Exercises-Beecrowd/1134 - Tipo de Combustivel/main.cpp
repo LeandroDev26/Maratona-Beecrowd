@@ -31,6 +31,7 @@ int main()
     }
 
     cout<< "MUITO OBRIGADO"<<endl;
+    cout<< "Alcool: "<< alco <<endl;
 
 
     return 0;
