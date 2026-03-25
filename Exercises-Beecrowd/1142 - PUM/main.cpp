@@ -13,7 +13,7 @@ int main()
 
         cout<< numero << " " << numero + 1 << " " << numero +2 << " " << "PUM" <<endl;
 
-          numero += 4;
+        numero += 4;
     }
 
 
