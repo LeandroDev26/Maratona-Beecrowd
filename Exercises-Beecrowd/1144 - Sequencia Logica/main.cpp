@@ -6,6 +6,7 @@ int main()
 {
     int n;
     cin>> n ;
+    n = n*2;
 
 
 
