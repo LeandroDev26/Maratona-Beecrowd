@@ -24,6 +24,10 @@ int main()
         {
             dies ++;
         }
+        else if( opc == 4)
+        {
+            break;
+        }
     }
 
 
