@@ -16,6 +16,10 @@ int main()
             alco ++;
 
         }
+        else if ( opc == 2)
+        {
+            gaso ++;
+        }
     }
 
 
