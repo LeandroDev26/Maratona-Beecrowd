@@ -20,6 +20,10 @@ int main()
         {
             gaso ++;
         }
+        else if ( opc == 3)
+        {
+            dies ++;
+        }
     }
 
 
