@@ -11,7 +11,7 @@ int main()
     for (int i = 0; i < n ; i++)
     {
 
-        cout<<i<< " " << i + 1 << " " << i+2 << " " << "PUM";
+        cout<<i<< " " << i + 1 << " " << i+2 << " " << "PUM" <<endl;
 
 
     }
