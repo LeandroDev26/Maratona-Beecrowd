@@ -8,6 +8,10 @@ int main()
     cin>> n ;
     n = n*2;
 
+    for(int i = 0 ; i < n; i++){
+
+    }
+
 
 
     return 0;
