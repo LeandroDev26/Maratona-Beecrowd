@@ -4,10 +4,11 @@ using namespace std;
 
 int main()
 {
+    int opc = 0;
 
-    while()
+    while(opc != 4)
     {
-
+       cin>> opc;
     }
 
 
