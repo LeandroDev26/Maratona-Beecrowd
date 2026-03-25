@@ -9,6 +9,7 @@ int main()
 
   for (int i = 0 ; i < n ; i++){
        cout<< numero << " " << numero*numero << " " << numero* numero<<endl;
+       numero++;
   }
 
 
