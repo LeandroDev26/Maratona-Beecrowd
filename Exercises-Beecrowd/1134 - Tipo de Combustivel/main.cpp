@@ -4,6 +4,12 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+
+    while()
+    {
+
+    }
+
+
     return 0;
 }
