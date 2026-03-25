@@ -33,6 +33,7 @@ int main()
     cout<< "MUITO OBRIGADO"<<endl;
     cout<< "Alcool: "<< alco <<endl;
     cout<< "Gasolina: "<< gaso <<endl;
+    cout<< "Diesel: "<< dies <<endl;
 
 
     return 0;
