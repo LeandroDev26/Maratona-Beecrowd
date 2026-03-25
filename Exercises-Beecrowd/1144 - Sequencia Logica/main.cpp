@@ -14,7 +14,7 @@ int main()
 
         cout<< num <<" "<<(num + 1)<< " " << (num+1)<<endl;
 
-          num ++;
+          num += 2;
 
     }
 
