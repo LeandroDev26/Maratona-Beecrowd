@@ -13,11 +13,13 @@ int main()
         cin>> z;
     }
 
-    for(int i = x; i <= z ; i++)
+    for(int i = x; soma <= z ; i++)
     {
-
+        soma += i;
+        cont++;
     }
 
+    cout<< cont <<endl;
 
 
 
