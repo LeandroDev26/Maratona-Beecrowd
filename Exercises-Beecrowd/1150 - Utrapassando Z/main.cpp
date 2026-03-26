@@ -5,8 +5,14 @@ using namespace std;
 int main()
 {
 
-  int x , z;
-  cin>> x >>  z;
+    int x, z;
+    cin>> x ;
+
+    while( z < x)
+    {
+        cin>> z;
+    }
+
 
 
 
