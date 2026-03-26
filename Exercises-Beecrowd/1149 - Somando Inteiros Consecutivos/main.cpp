@@ -7,6 +7,8 @@ int main()
 
    int a = 0 , n = 0;
 
+   cin>> a >> n;
+
 
 
 
