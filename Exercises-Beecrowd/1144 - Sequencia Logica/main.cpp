@@ -13,7 +13,7 @@ int main()
 
         cout<< num <<" "<<((num * num)+1 )<< " " << ( (num* num * num)+1 )<<endl;
 
-          num ++;
+        num ++;
 
     }
 
