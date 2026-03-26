@@ -10,6 +10,12 @@ int main()
     {
 
         cin>> x ;
+        if( x == 0)
+        {
+            break;
+        }
+
+        for
 
 
 
@@ -23,5 +29,5 @@ int main()
 
 
 
-    return 0;
+return 0;
 }
