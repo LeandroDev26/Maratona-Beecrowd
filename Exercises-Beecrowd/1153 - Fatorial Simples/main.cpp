@@ -10,7 +10,7 @@ int main()
 
     for(int i = 0 ; i <n ; i++)
     {
-        fatorial = n*((n-1) * (n-2) * (n-3) );
+        fatorial = n * (n-i);
 
     }
     cout<< fatorial <<endl;
