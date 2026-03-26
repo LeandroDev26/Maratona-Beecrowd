@@ -7,6 +7,9 @@ int main()
 
     int x, y;
     cin>> x >> y;
+    for(int i = 1; i <= y; i++){
+        cout<< i <<endl;
+    }
 
 
     return 0;
