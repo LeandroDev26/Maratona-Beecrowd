@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
 
-    int x, z;
-    cin>> x ;
+    int x, z , soma = 0 , cont = 0;
+    cin>> x >> z;
 
-    while( z < x)
+    while( z <= x)
     {
         cin>> z;
     }
