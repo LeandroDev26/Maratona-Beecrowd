@@ -10,12 +10,16 @@ int main()
 
     for(int i = 1 ; i <= n ; i++)
     {
-        fatorial += n * (n-i);
-        n--;
+        for( n ; n >= 1; n--)
+        {
+            fatorial += n * (n-i);
 
+        }
     }
-    cout<< fatorial <<endl;
 
+
+
+    cout<< fatorial <<endl;
 
 
 
