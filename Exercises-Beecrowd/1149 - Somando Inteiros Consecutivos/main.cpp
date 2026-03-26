@@ -5,26 +5,25 @@ using namespace std;
 int main()
 {
 
-    int a = 0, n = 0 , soma = 0;
+    int a = 0, n = 0, soma = 0;
 
     cin>> a >> n;
 
-    if(n <= 0)
+
+    while(n <= 0)
     {
-        while(n <= 0)
-        {
-            cin>> n;
-        }
+        cin>> n;
     }
+
 
     for(int i = 0; i <= n - 1; i ++)
     {
-       soma += (a+i);
+        soma += (a+i);
 
 
     }
 
-    cout << soma ;
+    cout << soma<<endl;
 
 
 
