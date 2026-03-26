@@ -9,15 +9,17 @@ int main()
     cin>> x >> y;
     for(int i = 1; i <= y; i++)
     {
-        cout<< i << " ";
         cont++;
         if(cont == x)
         {
             cout<<endl;
-
+            cont = 0;
 
         }
-        cont = 0;
+        else
+        {
+            cout<< i << " ";
+        }
     }
 
 
