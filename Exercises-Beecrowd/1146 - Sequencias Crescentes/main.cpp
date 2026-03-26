@@ -15,7 +15,12 @@ int main()
             break;
         }
 
-        for
+        for( int i = 1 ; i <= x; i++){
+
+
+
+
+        }
 
 
 
