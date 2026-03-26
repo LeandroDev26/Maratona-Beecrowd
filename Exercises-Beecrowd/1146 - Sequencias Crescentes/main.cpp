@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int x = 0;
+    int x = 0 , cont = 0;
 
     while(1)
     {
@@ -17,7 +17,9 @@ int main()
 
         for( int i = 1 ; i <= x; i++){
 
+                if(cont == x){
 
+                }
 
 
         }
