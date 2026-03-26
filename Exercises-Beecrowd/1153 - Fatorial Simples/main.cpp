@@ -4,17 +4,14 @@ using namespace std;
 
 int main()
 {
-    int n, fatorial = 0;
+    int n, fatorial = 1;
 
     cin>> n;
 
     for(int i = 1 ; i <= n ; i++)
     {
-        for( n ; n >= 1; n--)
-        {
-            fatorial += n * (n-i);
+          fatorial += n * (n-i);
 
-        }
     }
 
 
