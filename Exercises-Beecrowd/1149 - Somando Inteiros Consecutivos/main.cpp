@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int a = 0, n = 0;
+    int a = 0, n = 0 , soma = 0;
 
     cin>> a >> n;
 
@@ -19,9 +19,12 @@ int main()
 
     for(int i = 0; i <= n; i ++)
     {
+       soma += (a+i);
 
 
     }
+
+    cout << soma ;
 
 
 
