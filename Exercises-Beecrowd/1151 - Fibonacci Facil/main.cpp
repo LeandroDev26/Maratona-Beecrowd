@@ -15,11 +15,13 @@ int main()
             cout<< a <<endl;
 
         }
-        cout<< a <<" ";
-        aux = a ;
-        a = b;
-        b += aux;
-
+        else
+        {
+            cout<< a <<" ";
+            aux = a ;
+            a = b;
+            b += aux;
+        }
     }
 
 
