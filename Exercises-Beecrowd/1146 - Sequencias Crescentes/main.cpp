@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int x = 0 , cont = 0;
+    int x = 0, cont = 0;
 
     while(1)
     {
@@ -15,14 +15,20 @@ int main()
             break;
         }
 
-        for( int i = 1 ; i <= x; i++){
+        for( int i = 1 ; i <= x; i++)
+        {
 
-                if(cont == x){
+            if(cont == x)
+            {
 
-                     cout<< i <<endl;
-                     cont = 0;
+                cout<< i <<endl;
+                cont = 0;
 
-                }
+            }
+            else
+            {
+              cout<< i <<" ";
+            }
 
 
         }
@@ -39,5 +45,5 @@ int main()
 
 
 
-return 0;
+    return 0;
 }
