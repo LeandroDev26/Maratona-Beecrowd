@@ -12,7 +12,7 @@ int main()
         cont++;
         if(cont == x)
         {
-            cout<<endl;
+            cout << i << endl;
             cont = 0;
 
         }
