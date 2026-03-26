@@ -4,10 +4,21 @@ using namespace std;
 
 int main()
 {
-    int n , a = 0 , b = 1, aux = 0 ;
+    int n, a = 0, b = 1, aux = 0 ;
     cin>> n;
 
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; i++)
+    {
+
+        if(i == n)
+        {
+            cout<< a <<endl;
+
+        }
+        cout<< a <<" ";
+        aux = a ;
+        a = b;
+        b += aux;
 
     }
 
