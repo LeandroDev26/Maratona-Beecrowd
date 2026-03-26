@@ -11,8 +11,7 @@ int main()
     {
         cout<< num <<" "<<(num * num )<< " " << (num* num * num)<<endl;
 
-        cout<< num <<" "<<(num + 1)<< " " << (num+1)<<endl;
-
+        cout<< num <<" "<<((num * num)+1 )<< " " << ( (num* num * num)+1 )<<endl;
 
           num ++;
 
