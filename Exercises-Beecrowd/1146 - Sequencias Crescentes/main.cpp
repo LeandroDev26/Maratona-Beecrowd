@@ -19,6 +19,9 @@ int main()
 
                 if(cont == x){
 
+                     cout<< i <<endl;
+                     cont = 0;
+
                 }
 
 
