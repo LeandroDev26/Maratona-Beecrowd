@@ -10,11 +10,13 @@ int main()
 
     for(int i = 0 ; i < n; i++)
     {
-        cout<< num <<" "<<(num * num)<< " " << (num* num * num)<<endl;
+        cout<< num <<" "<<num<< " " <<num<<endl;
 
         cout<< num <<" "<<(num + 1)<< " " << (num+1)<<endl;
 
-          num ++;
+        num ++;
+
+        cout<< num <<" " << (num*num)<<" "<<(num*num*num)<<endl;
 
     }
 
