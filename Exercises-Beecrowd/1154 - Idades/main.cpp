@@ -6,17 +6,18 @@ int main()
 {
 
     int idade = 0, cont = 0;
-    double media = 0.0;
+    double media = 0;
 
     cin>> idade;
-    media += idade;
 
     while(idade >= 0)
     {
 
-        cin>> idade;
         media += idade;
         cont++;
+
+
+        cin>> idade;
 
 
 
