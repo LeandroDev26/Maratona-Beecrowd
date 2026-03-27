@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int idade = 0;
+    int idade = 0 , cont = 0;
     double media = 0.0;
     cin>> idade;
 
