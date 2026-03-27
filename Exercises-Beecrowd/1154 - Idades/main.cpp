@@ -23,6 +23,8 @@ int main()
 
     }
 
+    cout<< (media/cont)<<endl;
+
 
 
 
