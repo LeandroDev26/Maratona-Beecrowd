@@ -10,6 +10,7 @@ int main()
 
     cin>> idade;
     media += idade;
+    cont++;
 
     while(idade >= 0)
     {
