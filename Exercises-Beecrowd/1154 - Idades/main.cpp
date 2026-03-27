@@ -10,8 +10,14 @@ int main()
     cin>> idade;
 
     while(idade >= 0)
+    {
 
         cin>> idade;
+
+
+
+    }
+
 
 
 
