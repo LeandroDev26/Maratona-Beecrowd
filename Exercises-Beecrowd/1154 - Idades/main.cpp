@@ -22,8 +22,9 @@ int main()
 
 
     }
+    media /= cont;
     cout<< fixed << setprecision(2);
-    cout<< (media/cont)<<endl;
+    cout<< media<<endl;
 
 
 
