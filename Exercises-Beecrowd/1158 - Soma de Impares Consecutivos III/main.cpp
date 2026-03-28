@@ -18,7 +18,7 @@ int main()
         {
 
 
-            if( x % 2 == 1)
+            if( x % 2 != 0)
             {
 
                 soma += x;
