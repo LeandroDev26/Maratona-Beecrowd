@@ -30,9 +30,10 @@ int main()
                 x++;
             }
         }
+        cout<< soma <<endl;
+
     }
 
-    cout<< soma <<endl;
 
 
 
