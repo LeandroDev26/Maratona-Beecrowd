@@ -8,7 +8,8 @@ int main()
 
     for(int i = 1; i <= 100; i++ )
     {
-         s += (1.0/i);
+         s += (k/i);
+         i+=2;
     }
      cout<< fixed << setprecision(2);
      cout<< s <<endl;
