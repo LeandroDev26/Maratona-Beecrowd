@@ -12,6 +12,7 @@ int main()
     {
 
         cin >> x >> y;
+        soma = 0, k = 1;
 
         while( k <= y)
         {
