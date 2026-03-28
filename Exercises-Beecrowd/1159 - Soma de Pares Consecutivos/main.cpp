@@ -9,7 +9,7 @@ int main()
 
     while( x != 0){
 
-
+        cin>> x;
     }
 
 
