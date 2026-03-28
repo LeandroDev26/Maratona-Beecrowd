@@ -9,6 +9,11 @@ int main()
    cin>> n;
    for(int i = 1; i <= n; i++){
 
+        if(i == 1){
+            cout<< i<<endl;
+        }
+
+       if( i % 2 )
    }
 
 
