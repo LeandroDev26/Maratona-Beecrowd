@@ -9,6 +9,7 @@ int main()
     for(int i = 1; i <= 39; i+=2 )
     {
          s += ( i / k);
+         k *= 2;
     }
      cout<< fixed << setprecision(2);
      cout<< s <<endl;
