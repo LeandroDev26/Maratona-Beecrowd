@@ -11,6 +11,7 @@ int main()
          s += (1.0/i);
     }
 
+     cout<< s <<endl;
 
 
     return 0;
