@@ -13,7 +13,7 @@ int main()
 
         cin >> x >> y;
 
-        while( k <= 5)
+        while( k <= y)
         {
 
 
