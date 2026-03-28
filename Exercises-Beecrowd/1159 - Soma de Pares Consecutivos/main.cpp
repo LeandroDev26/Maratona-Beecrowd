@@ -13,7 +13,11 @@ int main()
 
         if( x % 2 == 0)
         {
-
+          while(cont < 5){
+             soma += x;
+             x+=2;
+             cont++;
+          }
 
         }
 
