@@ -7,15 +7,18 @@ int main()
     int x = 0;
     cin>> x;
 
-    while( x != 0){
+    while( x != 0)
+    {
 
 
-         if( x % 2 == 0){
+        if( x % 2 == 0)
+        {
 
-           for(int i = x; i <= x; i+=2 ){
+            for(int i = x; i <= x; i+=2 )
+            {
 
-           }
-         }
+            }
+        }
 
         cin>> x;
 
