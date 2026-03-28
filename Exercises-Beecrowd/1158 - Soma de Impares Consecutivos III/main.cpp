@@ -9,6 +9,7 @@ int main()
     cin>> n;
 
     for(int i = 0 ; i < n; i++){
+
         cin >> x >> y;
 
         for(int k = 0; k < y ; i++){
