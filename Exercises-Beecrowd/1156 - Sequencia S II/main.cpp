@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    double s = 0;
+    double s = 0 , k = 1.0;
 
     for(int i = 1; i <= 100; i++ )
     {
