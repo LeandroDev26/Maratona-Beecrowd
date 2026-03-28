@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int x = 0;
+    int x = 0 , soma = 0 , cont = 0;
     cin>> x;
 
     while( x != 0)
@@ -14,11 +14,9 @@ int main()
         if( x % 2 == 0)
         {
 
-            for(int i = x; i <= x; i+=2 )
-            {
 
-            }
         }
+
 
         cin>> x;
 
