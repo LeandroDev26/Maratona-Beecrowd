@@ -5,24 +5,29 @@ using namespace std;
 int main()
 {
 
-    int n , x = 0 , y = 0, soma = 0 , k = 1;
+    int n, x = 0, y = 0, soma = 0, k = 1;
     cin>> n;
 
-    for(int i = 0 ; i < n; i++){
+    for(int i = 0 ; i < n; i++)
+    {
 
         cin >> x >> y;
 
-        while( k <= 5){
+        while( k <= 5)
+        {
 
 
-             if( x % 2 == 1){
+            if( x % 2 == 1)
+            {
 
                 soma += x;
                 k++;
                 x += 2;
-             }
+            }
         }
     }
+
+    cout<< soma <<endl;
 
 
 
