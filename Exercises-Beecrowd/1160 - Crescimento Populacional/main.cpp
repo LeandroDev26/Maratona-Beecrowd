@@ -20,6 +20,10 @@ int main()
             pb *= (g2 / 100.0);
             anos++;
         }
+
+        if(anos > 100){
+            cout<<"Mais de 1 seculo."<<endl;
+        }
   }
 
 
