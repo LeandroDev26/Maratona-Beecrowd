@@ -20,7 +20,7 @@ int main()
 
         for(int j = 20; j >= 0; j--)
         {
-            cout<< "N[" << k << "]" << " = " <<  <<endl;
+            cout<< "N[" << k << "]" << " = " << n[j] <<endl;
 
         }
     }
