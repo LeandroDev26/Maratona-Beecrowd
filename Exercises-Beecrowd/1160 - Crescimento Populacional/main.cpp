@@ -16,8 +16,12 @@ int main()
 
         while(pa <= pb ){
 
+            pa *= g1;
+            pb *= g2;
+            anos++;
         }
   }
+
 
 
 
