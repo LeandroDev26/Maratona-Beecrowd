@@ -14,9 +14,9 @@ int main()
          cin>> x ;
          cont = 0;
 
-         for(int i = 1; i <= x; i++){
+         for(int k = 1; k <= x; k++){
 
-                if( x % i == 0){
+                if( x % k == 0){
                     cont++;
                 }
          }
