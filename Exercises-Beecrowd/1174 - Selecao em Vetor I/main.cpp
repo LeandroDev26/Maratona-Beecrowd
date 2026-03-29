@@ -6,8 +6,8 @@ using namespace std;
 int main()
 {
 
-    vector <int> a;
-    int v ;
+    vector <double> a;
+    double v ;
 
     for (int i = 0; i < 100; i++){
          cin>> v;
