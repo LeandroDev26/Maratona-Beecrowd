@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <iomanip>
 
 using namespace std;
 
@@ -17,7 +18,7 @@ int main()
     for(int k = 0; k < a.size(); k++){
 
            if( a[k] <= 10){
-             cout<<
+             cout<<"A["<< k << "]"<< " = " << a[k] <<endl;
            }
     }
 
