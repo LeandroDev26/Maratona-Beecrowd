@@ -16,17 +16,12 @@ int main()
         n.push_back(v);
     }
 
-     int k = 0;
-        for(int j = n.size() - 1; j >= 0; j--)
-        {
-            cout<< "N[" << k << "]" << " = " << n[j] <<endl;
-             k++;
-        }
-
-
-
-
-
+    int k = 0;
+    for(int j = n.size() - 1; j >= 0; j--)
+    {
+        cout<< "N[" << k << "]" << " = " << n[j] <<endl;
+        k++;
+    }
 
 
     return 0;
