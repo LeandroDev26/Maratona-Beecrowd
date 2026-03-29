@@ -12,6 +12,7 @@ int main()
     {
 
         cin>> x;
+
         soma = 0;
 
         for(int k = 1; k < x; k++)
@@ -33,9 +34,6 @@ int main()
         }
 
     }
-
-
-
 
     return 0;
 }
