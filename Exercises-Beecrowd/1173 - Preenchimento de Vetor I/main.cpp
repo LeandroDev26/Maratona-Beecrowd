@@ -17,8 +17,8 @@ int main()
 
     }
 
-    for(in k = 0; k < n.size(); k++){
-
+    for(int k = 0; k < n.size(); k++){
+         cout << n[i]<<endl;
     }
 
 
