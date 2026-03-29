@@ -12,6 +12,7 @@ int main()
   for( int i = 0 ; i < t ; i++){
 
         cin>> pa >> pb >> g1 >> g2;
+        anos = 0;
   }
 
 
