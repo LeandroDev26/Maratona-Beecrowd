@@ -14,6 +14,9 @@ int main()
          cin>> v ;
          n.push_back(v);
    }
+     for(int k = 0 ; k < n.size();k++){
+
+     }
 
 
 
