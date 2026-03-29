@@ -6,17 +6,24 @@ using namespace std;
 int main()
 {
 
-   vector <int> n;
-   int v;
+    vector <int> n;
+    int v;
 
-   for(int i = 0; i < 20 ; i++){
+    for(int i = 0; i < 20 ; i++)
+    {
 
-         cin>> v ;
-         n.push_back(v);
-   }
-     for(int k = 0 ; k < n.size();k++){
+        cin>> v ;
+        n.push_back(v);
+    }
+    for(int k = 0 ; k < n.size(); k++)
+    {
 
-     }
+        for(int j = 20; j >= 0; j--)
+        {
+            cout<< "N[" << k << "]" << " = " <<  <<endl;
+
+        }
+    }
 
 
 
