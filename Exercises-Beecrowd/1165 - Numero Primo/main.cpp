@@ -20,7 +20,7 @@ int main()
          }
 
          if( cont == 2){
-
+            cout<< x << " eh primo"<<endl;
          }
 
 
