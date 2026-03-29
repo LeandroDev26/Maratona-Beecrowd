@@ -15,15 +15,14 @@ int main()
         cin>> v ;
         n.push_back(v);
     }
-  //  for(int k = 0 ; k < n.size(); k++)
- //   {
+
      int k = 0;
-        for(int j = n.size(); j > 0; j--)
+        for(int j = n.size() - 1; j >= 0; j--)
         {
             cout<< "N[" << k << "]" << " = " << n[j] <<endl;
              k++;
         }
-   // }
+
 
 
 
