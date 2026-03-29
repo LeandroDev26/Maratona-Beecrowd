@@ -9,6 +9,7 @@ int main()
 
     vector <double> a;
     double v ;
+    cout<< fixed << setprecision(1);
 
     for (int i = 0; i < 100; i++){
          cin>> v;
