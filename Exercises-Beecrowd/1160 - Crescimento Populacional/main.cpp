@@ -16,8 +16,8 @@ int main()
 
         while(pa <= pb ){
 
-            pa *= g1;
-            pb *= g2;
+            pa *= (g1 /100.0);
+            pb *= (g2 / 100.0);
             anos++;
         }
   }
