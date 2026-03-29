@@ -14,6 +14,10 @@ int main()
          a.push_back(v);
     }
 
+    for(int k = 0; k < a.size(); k++){
+
+    }
+
 
 
 
