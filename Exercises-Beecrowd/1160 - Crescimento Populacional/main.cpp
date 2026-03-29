@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-  int t = 0 , pa = 0, pb = 0 , anos = 0 ,conv = 1;
+  int t = 0 , pa = 0, pb = 0 , anos = 0;
   double g1 = 0.0 , g2 = 0.0;
   cin>> t ;
 
@@ -17,7 +17,6 @@ int main()
         while(pa <= pb ){
 
             pa += (int)(pa *(g1 /100.0)) ;
-            conv = 1;
             pb += (int)(pb *(g2 / 100.0));
             anos++;
 
