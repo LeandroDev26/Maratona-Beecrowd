@@ -10,15 +10,16 @@ int main()
     int v ;
     cin>> v;
 
-    for(int i = 0 ; i < 3; i++)
+    for(int i = 0 ; i < 10; i++)
     {
-            n.push_back(v);
-            v += v;
+        n.push_back(v);
+        v += v;
 
     }
 
-    for(int k = 0; k < n.size(); k++){
-         cout << n[k]<<endl;
+    for(int k = 0; k < n.size(); k++)
+    {
+        cout <<"N["<< k << "]"<< " = " << n[k]<<endl;
     }
 
 
