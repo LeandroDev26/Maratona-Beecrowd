@@ -16,9 +16,14 @@ int main()
 
         while(pa <= pb ){
 
-            pa *= (g1 /100.0);
-            pb *= (g2 / 100.0);
+            pa += conv *(pa *(g1 /100.0)) ;
+            conv = 1;
+            pb += conv *(pb *(g2 / 100.0));
             anos++;
+
+            if( anos > 100){
+                break;
+            }
         }
 
         if(anos > 100){
