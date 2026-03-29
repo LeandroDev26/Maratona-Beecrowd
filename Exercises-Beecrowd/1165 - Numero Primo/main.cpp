@@ -12,6 +12,10 @@ int main()
          cin>> x ;
          cont = 0;
 
+         for(int i = 1; i <= x; i++){
+
+         }
+
 
   }
 
