@@ -6,6 +6,7 @@ int main()
 {
 
   int t = 0 , pa = 0, pb = 0;
+  double g1 = 0.0 , g2 = 0.0;
   cin>> t ;
 
   for( int i = 0 ; i < t ; i++){
