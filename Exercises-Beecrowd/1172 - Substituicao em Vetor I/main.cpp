@@ -10,7 +10,8 @@ int main()
     for(int i = 0 ; i < 10; i++)
     {
         cin>> x;
-        if( x <= 0){
+        if( x <= 0)
+        {
             x = 1;
         }
         num.push_back(x);
