@@ -18,7 +18,7 @@ int main()
   //  for(int k = 0 ; k < n.size(); k++)
  //   {
      int k = 0;
-        for(int j = 20; j >= 0; j--)
+        for(int j = n.size(); j >= 0; j--)
         {
             cout<< "N[" << k << "]" << " = " << n[j] <<endl;
              k++;
