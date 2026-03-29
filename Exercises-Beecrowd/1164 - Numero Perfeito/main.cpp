@@ -12,13 +12,13 @@ int main()
     {
 
         cin>> x;
+        soma = 0;
 
         for(int k = 1; k < x; k++)
         {
 
-            if( k % x == 0 )
+            if( x % k == 0 )
             {
-
                 soma += k;
             }
         }
