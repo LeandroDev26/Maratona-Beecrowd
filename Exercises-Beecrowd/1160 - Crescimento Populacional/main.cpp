@@ -23,6 +23,9 @@ int main()
 
         if(anos > 100){
             cout<<"Mais de 1 seculo."<<endl;
+        }else
+        {
+            cout<< anos << " anos"<<endl;
         }
   }
 
