@@ -14,7 +14,7 @@ int main()
         cin>> pa >> pb >> g1 >> g2;
         anos = 0;
 
-        while(){
+        while(pa <= pb ){
 
         }
   }
