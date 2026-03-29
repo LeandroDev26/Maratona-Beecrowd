@@ -5,32 +5,37 @@ using namespace std;
 int main()
 {
 
-  int n , x , cont = 0;
+    int n, x, cont = 0;
 
-  cin >> n;
+    cin >> n;
 
-  for (int i = 0 ; i < n ; i++){
+    for (int i = 0 ; i < n ; i++)
+    {
 
-         cin>> x ;
-         cont = 0;
+        cin>> x ;
+        cont = 0;
 
-         for(int k = 1; k <= x; k++){
+        for(int k = 1; k <= x; k++)
+        {
 
-                if( x % k == 0){
-                    cont++;
-                }
-         }
+            if( x % k == 0)
+            {
+                cont++;
+            }
+        }
 
-         if( cont == 2){
+        if( cont == 2)
+        {
             cout<< x << " eh primo"<<endl;
-         }else
-         {
+        }
+        else
+        {
             cout<< x << " nao eh primo"<<endl;
 
-         }
+        }
 
 
-  }
+    }
 
 
 
