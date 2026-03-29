@@ -16,8 +16,11 @@ int main()
 
              if( k % x == 0 ){
 
+                  soma += k;
              }
         }
+
+
 
     }
 
