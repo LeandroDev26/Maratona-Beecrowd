@@ -7,7 +7,7 @@ int main()
 {
 
    vector <int> n;
-
+   int v;
 
 
 
