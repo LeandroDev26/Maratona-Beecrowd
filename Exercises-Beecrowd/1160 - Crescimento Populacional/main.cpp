@@ -16,9 +16,9 @@ int main()
 
         while(pa <= pb ){
 
-            pa += conv *(pa *(g1 /100.0)) ;
+            pa += (int)(pa *(g1 /100.0)) ;
             conv = 1;
-            pb += conv *(pb *(g2 / 100.0));
+            pb += (int)(pb *(g2 / 100.0));
             anos++;
 
             if( anos > 100){
@@ -30,7 +30,7 @@ int main()
             cout<<"Mais de 1 seculo."<<endl;
         }else
         {
-            cout<< anos << " anos"<<endl;
+            cout<< anos << " anos."<<endl;
         }
   }
 
