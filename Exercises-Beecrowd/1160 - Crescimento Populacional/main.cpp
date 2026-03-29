@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-  int t = 0 , pa = 0, pb = 0 , anos = 0;
+  int t = 0 , pa = 0, pb = 0 , anos = 0 ,conv = 1;
   double g1 = 0.0 , g2 = 0.0;
   cin>> t ;
 
