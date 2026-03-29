@@ -21,7 +21,7 @@ int main()
         for(int j = 20; j >= 0; j--)
         {
             cout<< "N[" << k << "]" << " = " << n[j] <<endl;
-
+             k++;
         }
    // }
 
