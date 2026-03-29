@@ -7,6 +7,8 @@ int main()
 
   int n , x , cont = 0;
 
+  cin >> n;
+
   for (int i = 0 ; i < n ; i++){
 
          cin>> x ;
@@ -21,6 +23,10 @@ int main()
 
          if( cont == 2){
             cout<< x << " eh primo"<<endl;
+         }else
+         {
+            cout<< x << " nao eh primo"<<endl;
+
          }
 
 
