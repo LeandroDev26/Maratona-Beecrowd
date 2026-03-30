@@ -4,12 +4,13 @@ using namespace std;
 
 int main()
 {
-  int t , n ;
+    int t, n ;
+    cin>> t;
 
+    for(int i = 0; i < t; i++)
+    {
 
-  for(int i = 0; i < t; i++){
-
-  }
+    }
 
 
 
