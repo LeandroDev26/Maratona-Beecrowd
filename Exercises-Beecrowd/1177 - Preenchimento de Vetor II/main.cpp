@@ -12,7 +12,7 @@ int main()
 
         for(int k = 0; k <= t -1; k++)
         {
-
+           cout<<"N[" << i << "]" <<" = "<< k <<endl;
         }
     }
 
