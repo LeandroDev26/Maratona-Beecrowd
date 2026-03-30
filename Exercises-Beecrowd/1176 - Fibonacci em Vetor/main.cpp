@@ -7,6 +7,11 @@ int main()
   int t , n ;
 
 
+  for(int i = 0; i < t; i++){
+
+  }
+
+
 
 
 
