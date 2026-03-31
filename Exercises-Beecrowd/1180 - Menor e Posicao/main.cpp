@@ -25,7 +25,7 @@ int main()
 
     for(int k = 0 ; k < x.size(); k++)
     {
-
+     cout<<"Menor valor: " << menor<<endl;
     }
 
 
