@@ -16,10 +16,9 @@ int main()
 
     n.push_back(x);
 
-    for( int i = 1; i < 5; i++)
+    for( int i = 1; i < 99; i++)
     {
-
-        x += x/2;
+            x /= 2;
 
         n.push_back(x);
 
