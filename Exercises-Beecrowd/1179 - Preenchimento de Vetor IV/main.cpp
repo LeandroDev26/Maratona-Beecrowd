@@ -7,12 +7,16 @@ int main()
 {
 
     int x ;
-    vector<int> pares[5];
-    vector<int> impar[5];
+    vector<int> pares;
+    vector<int> impar;
 
     for (int i = 0 ; i < 15; i++)
     {
           cin>> x;
+
+          if( x % 2 == 0){
+            pares.push_back(x);
+          }
     }
 
 
