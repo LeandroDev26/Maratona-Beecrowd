@@ -29,7 +29,9 @@ int main()
     for(int k = 0 ; k < x.size(); k++)
     {
 
-
+            if(menor == x [k]){
+                cout<< k <<endl;
+            }
     }
 
 
