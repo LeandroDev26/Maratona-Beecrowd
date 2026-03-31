@@ -38,6 +38,8 @@ int main()
                 {
                     cout<< "impar[" << k << "]" << " = " << impar[k] << endl;
                 }
+
+                contimp = 0;
             }
         }
     }
