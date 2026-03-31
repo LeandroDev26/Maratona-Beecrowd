@@ -28,6 +28,11 @@ int main()
             }
         }
 
+
+        for(int j = 0 ; j < fibonacci.size(); j++){
+
+        }
+
     }
 
 
