@@ -10,14 +10,15 @@ int main()
 
     cin>> t;
 
-    while(cont < 100)
+    while(cont <= 100)
     {
         for(int k = 0; k <= t -1; k++)
         {
             n.push_back(k);
+            cont++;
         }
     }
-    for(int j = 0 ; j < n.size(); j++)
+    for(int j = 0 ; j < 100; j++)
     {
         cout<<"N[" << j << "]" <<" = "<< n[j] <<endl;
     }
