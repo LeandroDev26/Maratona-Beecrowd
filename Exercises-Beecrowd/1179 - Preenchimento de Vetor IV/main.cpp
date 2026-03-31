@@ -39,7 +39,7 @@ int main()
                 {
                     cout<< "impar[" << k << "]" << " = " << impar[k] << endl;
                 }
-
+                impar.clear();
                 contimp = 0;
             }
         }
