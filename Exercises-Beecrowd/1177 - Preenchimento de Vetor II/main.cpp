@@ -10,7 +10,7 @@ int main()
 
      cin>> t;
 
-    for(int i = 0; i < 100; i++)
+    for(int i = 0; i < 33; i++)
     {
 
         for(int k = 0; k <= t -1; k++)
@@ -21,10 +21,6 @@ int main()
        for(int j = 0 ; j < n.size(); j++){
             cout<<"N[" << j << "]" <<" = "<< n[j] <<endl;
        }
-
-
-//  cout<<"N[" << i << "]" <<" = "<< k <<endl;
-
 
 
 
