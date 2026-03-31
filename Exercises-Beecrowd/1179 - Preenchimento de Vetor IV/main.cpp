@@ -12,11 +12,16 @@ int main()
 
     for (int i = 0 ; i < 15; i++)
     {
-          cin>> x;
+        cin>> x;
 
-          if( x % 2 == 0){
+        if( x % 2 == 0)
+        {
             pares.push_back(x);
-          }
+        }
+        else
+        {
+            impar.push_back(x);
+        }
     }
 
 
