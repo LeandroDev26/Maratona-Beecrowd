@@ -25,6 +25,7 @@ int main()
                 {
                     cout<< "par[" << k << "]" << " = " << pares[k] << endl;
                 }
+                contpar = 0;
             }
         }
         else
