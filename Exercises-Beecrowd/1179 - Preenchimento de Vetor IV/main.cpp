@@ -25,6 +25,7 @@ int main()
                 {
                     cout<< "par[" << k << "]" << " = " << pares[k] << endl;
                 }
+                pares.clear();
                 contpar = 0;
             }
         }
@@ -52,7 +53,7 @@ int main()
     }
 
 
-    for(int j = 0 ; j < pares.size(); j++)
+    for(int j = 0 ; j < impar.size(); j++)
     {
         cout<< "impar[" << j << "]" << " = " << impar[j] << endl;
     }
