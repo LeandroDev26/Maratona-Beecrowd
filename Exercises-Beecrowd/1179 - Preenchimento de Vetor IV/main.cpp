@@ -34,7 +34,7 @@ int main()
 
             if(contimp == 5)
             {
-                for(int k = 0 ; k < pares.size(); k++)
+                for(int k = 0 ; k < impar.size(); k++)
                 {
                     cout<< "impar[" << k << "]" << " = " << impar[k] << endl;
                 }
