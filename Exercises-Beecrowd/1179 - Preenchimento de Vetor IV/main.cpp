@@ -47,16 +47,19 @@ int main()
     }
 
 
+
+    for(int j = 0 ; j < impar.size(); j++)
+    {
+        cout<< "impar[" << j << "]" << " = " << impar[j] << endl;
+    }
+
     for(int k = 0 ; k < pares.size(); k++)
     {
         cout<< "par[" << k << "]" << " = " << pares[k] << endl;
     }
 
 
-    for(int j = 0 ; j < impar.size(); j++)
-    {
-        cout<< "impar[" << j << "]" << " = " << impar[j] << endl;
-    }
+
 
 
 
