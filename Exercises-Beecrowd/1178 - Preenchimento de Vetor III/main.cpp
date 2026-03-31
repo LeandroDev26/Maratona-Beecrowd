@@ -6,12 +6,12 @@ int main()
 {
 
 
-  int x ;
-  vector<int> n;
+    int x ;
+    vector<int> n;
 
-  cin>> x;
+    cin>> x;
 
-  n.push_back(x);
+    n.push_back(x);
 
 
 
