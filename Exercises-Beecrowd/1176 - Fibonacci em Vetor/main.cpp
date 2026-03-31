@@ -11,6 +11,10 @@ int main()
     {
        cin>> n;
 
+       for ( int k = 0 ; k < n; k++){
+
+       }
+
 
     }
 
