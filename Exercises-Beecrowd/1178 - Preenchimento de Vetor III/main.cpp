@@ -6,12 +6,16 @@ int main()
 {
 
 
-    int x ;
-    vector<int> n;
+    double x ;
+    vector<double> n;
 
     cin>> x;
 
     n.push_back(x);
+
+    for( int i = 1; i < 100; i++){
+
+    }
 
 
 
