@@ -11,15 +11,22 @@ int main()
 
     for(int i = 0; i < t; i++)
     {
-       cin>> n;
+        cin>> n;
 
-       for ( int k = 0 ; k < n; k++){
+        for ( int k = 0 ; k < n; k++)
+        {
 
-            if( k == n-1){
-                  fibonacci.push_back(a);
+            if( k == n-1)
+            {
+                fibonacci.push_back(a);
             }
-       }
-
+            else
+            {
+                aux = a;
+                a = b;
+                b += aux;
+            }
+        }
 
     }
 
