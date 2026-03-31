@@ -31,7 +31,7 @@ int main()
 
         for(int j = 0 ; j < fibonacci.size(); j++)
         {
-            cout<<"Fib(" << j << ")"<< " = " << fibonacci[i]<<endl;
+            cout<<"Fib(" << j << ")"<< " = " << fibonacci[j]<<endl;
         }
 
     }
