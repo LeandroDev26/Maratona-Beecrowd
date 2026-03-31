@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     int t, n ;
-    long long int a = 0, b = 1, aux = 0 , y = 0;
+    long long int a = 0, b = 1, aux = 0, y = 0;
     vector<long long int> fibonacci;
 
     for ( int k = 0 ; k < y ; k++)
@@ -31,16 +31,10 @@ int main()
     {
         cin>> n;
 
+        cout<<"Fib(" << n << ")"<< " = " << fibonacci[n]<<endl;
 
 
     }
-
-
-    for(int j = 0 ; j < fibonacci.size(); j++)
-    {
-        cout<<"Fib(" << j << ")"<< " = " << fibonacci[j]<<endl;
-    }
-
 
 
 
