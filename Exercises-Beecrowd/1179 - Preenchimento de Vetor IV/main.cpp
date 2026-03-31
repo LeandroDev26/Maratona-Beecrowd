@@ -49,6 +49,11 @@ int main()
     }
 
 
+    for(int j = 0 ; j < pares.size(); j++)
+    {
+        cout<< "impar[" << j << "]" << " = " << impar[j] << endl;
+    }
+
 
 
     return 0;
