@@ -18,6 +18,10 @@ int main()
 
     for( int i = 1; i < 100; i++){
 
+           x += x/2;
+
+               n.push_back(x);
+
     }
 
 
