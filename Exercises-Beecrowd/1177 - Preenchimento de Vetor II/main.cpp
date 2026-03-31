@@ -28,9 +28,5 @@ int main()
         cout<<"N[" << j << "]" <<" = "<< n[j] <<endl;
     }
 
-
-
-
-
     return 0;
 }
