@@ -28,7 +28,9 @@ int main()
             impar.push_back(x);
             contimp++;
 
-            if(contimp == 4)
+            if(contimp == 4){
+                break;
+            }
         }
     }
 
