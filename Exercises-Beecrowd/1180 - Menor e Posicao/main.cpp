@@ -15,9 +15,13 @@ int main()
         cin>> y;
         x.push_back(y);
 
-        menor = x[0];
+        if(i == 0)
+        {
+            menor = x[0];
 
-        if(menor > x[i])
+        }
+
+        else if(menor > x[i])
         {
             menor = x[i];
         }
@@ -29,9 +33,10 @@ int main()
     for(int k = 0 ; k < x.size(); k++)
     {
 
-            if(menor == x [k]){
-                cout<< "Posicao: "<< k <<endl;
-            }
+        if(menor == x [k])
+        {
+            cout<< "Posicao: "<< k <<endl;
+        }
     }
 
 
