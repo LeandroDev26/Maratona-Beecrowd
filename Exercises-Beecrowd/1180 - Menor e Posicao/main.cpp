@@ -36,6 +36,7 @@ int main()
         if(menor == x [k])
         {
             cout<< "Posicao: "<< k <<endl;
+            break;
         }
     }
 
