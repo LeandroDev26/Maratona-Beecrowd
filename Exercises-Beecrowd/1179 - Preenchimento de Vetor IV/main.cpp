@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int x , contpar = 0, contimp = 0;
+    int x, contpar = 0, contimp = 0;
     vector<int> pares;
     vector<int> impar;
 
@@ -19,8 +19,12 @@ int main()
             pares.push_back(x);
             contpar++;
 
-            if (contpar == 4){
-                break;
+            if (contpar == 4)
+            {
+                for(int k = 0 ; k < pares.size(); k++)
+                {
+
+                }
             }
         }
         else
@@ -28,7 +32,8 @@ int main()
             impar.push_back(x);
             contimp++;
 
-            if(contimp == 4){
+            if(contimp == 4)
+            {
                 break;
             }
         }
