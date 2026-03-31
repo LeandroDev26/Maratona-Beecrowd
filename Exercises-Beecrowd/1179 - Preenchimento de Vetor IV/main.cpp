@@ -23,7 +23,7 @@ int main()
             {
                 for(int k = 0 ; k < pares.size(); k++)
                 {
-                   cout<< "par[" << k << "]" << " = " << pares[k] << endl;
+                    cout<< "par[" << k << "]" << " = " << pares[k] << endl;
                 }
             }
         }
@@ -34,16 +34,19 @@ int main()
 
             if(contimp == 5)
             {
-             for(int k = 0 ; k < pares.size(); k++)
+                for(int k = 0 ; k < pares.size(); k++)
                 {
-                   cout<< "impar[" << k << "]" << " = " << impar[k] << endl;
+                    cout<< "impar[" << k << "]" << " = " << impar[k] << endl;
                 }
             }
         }
     }
 
 
-
+    for(int k = 0 ; k < pares.size(); k++)
+    {
+        cout<< "par[" << k << "]" << " = " << pares[k] << endl;
+    }
 
 
 
