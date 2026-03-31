@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int x ;
+    int x , contpar = 0, contimp = 0;
     vector<int> pares;
     vector<int> impar;
 
@@ -17,6 +17,11 @@ int main()
         if( x % 2 == 0)
         {
             pares.push_back(x);
+            contpar++;
+
+            if (contpar == 5){
+                break;
+            }
         }
         else
         {
