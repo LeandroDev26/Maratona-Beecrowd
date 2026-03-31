@@ -14,6 +14,9 @@ int main()
 
        for ( int k = 0 ; k < n; k++){
 
+            if( k == n-1){
+
+            }
        }
 
 
