@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int n, y, maior = 0;
+    int n, y, menor = 0;
     vector <int> x;
     cin>> n;
 
@@ -14,16 +14,18 @@ int main()
     {
         cin>> y;
         x.push_back(y);
+
+        menor = x[0];
+
+        if(menor > x[i])
+        {
+            menor = x[i];
+        }
     }
 
     for(int k = 0 ; k < x.size(); k++)
     {
-        maior = x[0];
 
-        if(maior < x[k])
-        {
-            maior = x[k];
-        }
     }
 
 
