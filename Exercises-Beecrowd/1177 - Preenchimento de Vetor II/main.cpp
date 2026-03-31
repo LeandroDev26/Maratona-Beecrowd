@@ -10,12 +10,12 @@ int main()
 
     cin>> t;
 
-    while(cont < 100)
+    while(cont < 1000)
     {
         for(int k = 0; k <= t -1; k++)
         {
 
-             if ( cont == 100){
+             if ( cont == 1000){
 
                   break;
              }
