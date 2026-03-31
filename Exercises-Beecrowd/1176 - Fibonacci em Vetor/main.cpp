@@ -7,7 +7,7 @@ int main()
 {
     int t, n ;
     long long int a = 0, b = 1, aux = 0 , y = 0;
-    vector<int> fibonacci;
+    vector<long long int> fibonacci;
 
     for ( int k = 0 ; k < y ; k++)
     {
