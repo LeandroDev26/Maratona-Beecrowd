@@ -16,12 +16,16 @@ int main()
 
     n.push_back(x);
 
-    for( int i = 1; i < 100; i++)
+    for( int i = 1; i < 5; i++)
     {
 
         x += x/2;
 
         n.push_back(x);
+
+    }
+
+    for(int k = 0; k < n.size(); k++){
 
     }
 
