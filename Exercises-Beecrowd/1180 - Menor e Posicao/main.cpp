@@ -12,7 +12,8 @@ int main()
 
     for(int i = 0 ; i < n ; i++)
     {
-
+          cin>> y;
+          x.push_back(y);
     }
 
 
