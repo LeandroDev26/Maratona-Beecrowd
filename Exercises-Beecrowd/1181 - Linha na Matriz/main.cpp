@@ -7,6 +7,8 @@ int main()
 {
 
     vector<vector<int>> matriz;
+    int linhas = 12;
+    int colunas = 12;
 
 
 
