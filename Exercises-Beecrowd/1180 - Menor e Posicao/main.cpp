@@ -23,7 +23,7 @@ int main()
         }
     }
 
-    cout<<"Menor valor: " << menor<<endl;
+    cout<<"Menor valor: " << menor <<endl;
 
 
     for(int k = 0 ; k < x.size(); k++)
