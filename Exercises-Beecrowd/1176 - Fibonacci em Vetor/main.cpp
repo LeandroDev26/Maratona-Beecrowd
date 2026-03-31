@@ -11,17 +11,12 @@ int main()
 
     for ( int k = 0 ; k <= y ; k++)
     {
+        fibonacci.push_back(a);
 
-        if( k == y-1)
-        {
-            fibonacci.push_back(a);
-        }
-        else
-        {
-            aux = a;
-            a = b;
-            b += aux;
-        }
+        aux = a;
+        a = b;
+        b += aux;
+
     }
 
 
