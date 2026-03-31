@@ -19,11 +19,11 @@ int main()
             pares.push_back(x);
             contpar++;
 
-            if (contpar == 4)
+            if (contpar == 5)
             {
                 for(int k = 0 ; k < pares.size(); k++)
                 {
-
+                   cout<< "par[" << k << "]" << " = " << pares[k] << endl;
                 }
             }
         }
@@ -32,9 +32,12 @@ int main()
             impar.push_back(x);
             contimp++;
 
-            if(contimp == 4)
+            if(contimp == 5)
             {
-                break;
+             for(int k = 0 ; k < pares.size(); k++)
+                {
+                   cout<< "impar[" << k << "]" << " = " << impar[k] << endl;
+                }
             }
         }
     }
