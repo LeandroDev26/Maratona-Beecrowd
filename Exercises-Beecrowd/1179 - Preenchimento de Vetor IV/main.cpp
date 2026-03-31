@@ -19,13 +19,16 @@ int main()
             pares.push_back(x);
             contpar++;
 
-            if (contpar == 5){
+            if (contpar == 4){
                 break;
             }
         }
         else
         {
             impar.push_back(x);
+            contimp++;
+
+            if(contimp == 4)
         }
     }
 
