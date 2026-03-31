@@ -29,8 +29,9 @@ int main()
         }
 
 
-        for(int j = 0 ; j < fibonacci.size(); j++){
-
+        for(int j = 0 ; j < fibonacci.size(); j++)
+        {
+            cout<<"Fib(" << j << ")"<< " = " << fibonacci[i]<<endl;
         }
 
     }
