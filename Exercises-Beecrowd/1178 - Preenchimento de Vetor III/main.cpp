@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <iomanip>
+
 using namespace std;
 
 int main()
@@ -8,6 +10,7 @@ int main()
 
     double x ;
     vector<double> n;
+    cout<< fixed << setprecision(4);
 
     cin>> x;
 
