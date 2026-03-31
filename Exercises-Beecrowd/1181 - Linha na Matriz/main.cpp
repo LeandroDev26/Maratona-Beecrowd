@@ -6,9 +6,9 @@ using namespace std;
 int main()
 {
 
-    vector<vector<int>> matriz;
     int linhas = 12;
     int colunas = 12;
+    vector<vector<int>> matriz(linhas, vector<int>(colunas , 0));
 
 
 
