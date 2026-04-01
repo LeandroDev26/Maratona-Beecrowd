@@ -1,4 +1,4 @@
-##include <iostream>
+#include <iostream>
 #include <iomanip>
 #include <vector>
 
@@ -14,6 +14,16 @@ int main()
     vector<vector<double>> matriz(linhas, vector<double>(colunas, 0));
 
     cin>> t;
+
+         for(int i = 0; i < linhas; i++)
+    {
+
+        for(int j = 0; j < colunas; j++)
+        {
+            cin >> matriz[i][j];
+        }
+    }
+
 
 
     return 0;
