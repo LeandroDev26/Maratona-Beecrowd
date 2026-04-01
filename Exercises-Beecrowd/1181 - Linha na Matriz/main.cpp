@@ -1,11 +1,13 @@
 #include <iostream>
 #include <vector>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-
+    string t;
+    int l;
     int linhas = 12;
     int colunas = 12;
     vector<vector<int>> matriz(linhas, vector<int>(colunas, 0));
@@ -21,6 +23,8 @@ int main()
             cin >> matriz[i][j]; // Lendo e guardando o valor na coordenada exata
         }
     }
+
+      cin>> l;
 
 
 
