@@ -15,7 +15,7 @@ int main()
 
     cin>> t;
 
-         for(int i = 0; i < linhas; i++)
+    for(int i = 0; i < linhas; i++)
     {
 
         for(int j = 0; j < colunas; j++)
@@ -24,7 +24,7 @@ int main()
         }
     }
 
-     cout<< fixed << setprecision(1);
+    cout<< fixed << setprecision(1);
 
     for(int l = 0; l < 11; l++)
     {
@@ -32,6 +32,16 @@ int main()
         {
             soma += matriz[l][k];
         }
+    }
+
+    if( t == 'S')
+    {
+        cout<< soma <<endl;
+    }
+    else if( t == 'M')
+    {
+
+        cout << soma / 66.0 << endl;
     }
 
 
