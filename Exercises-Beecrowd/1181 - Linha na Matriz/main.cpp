@@ -12,6 +12,8 @@ int main()
     int colunas = 12;
     vector<vector<int>> matriz(linhas, vector<int>(colunas, 0));
 
+          cin>> l;
+          cin>> t;
 
     // O laço de fora (i) controla os andares (linhas)
     for(int i = 0; i < linhas; i++)
@@ -24,7 +26,6 @@ int main()
         }
     }
 
-      cin>> l;
 
 
 
