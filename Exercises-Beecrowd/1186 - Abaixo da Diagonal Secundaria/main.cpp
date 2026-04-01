@@ -30,7 +30,7 @@ int main()
 
     for(int l = 0; l < 11; l++)
     {
-        for(int k = 0; k < 11 - l; k++)
+        for(int k = l + 1; k < 11 - l; k++)
         {
             soma += matriz[l][k];
         }
