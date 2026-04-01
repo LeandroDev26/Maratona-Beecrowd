@@ -44,7 +44,11 @@ int main()
     else if( t == "M")
     {
 
+           for(int y = 0; y < colunas; y++)
+        {
+            soma += matriz[l][y];
 
+        }
     }
 
 
