@@ -43,7 +43,7 @@ int main()
     else if( t == 'M')
     {
 
-        cout << soma / 12.0 << endl;
+        cout << soma / 66.0 << endl;
     }
 
 
