@@ -31,7 +31,7 @@ int main()
     for(int l = 0; l < linhas; l++)
     {
 
-        for(int k = l + 1; k < colunas; k++)
+        for(int k = l + 1; k < colunas - 1; k++)
         {
             soma += matriz[k][l];
 
