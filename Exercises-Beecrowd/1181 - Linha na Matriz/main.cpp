@@ -29,7 +29,7 @@ int main()
     cout<< fixed << setprecision(1);
 
 
-    if( t == "S")
+    if( t == 'S')
     {
 
         for(int k = 0; k < colunas; k++)
@@ -40,17 +40,10 @@ int main()
 
         cout<< soma <<endl;
     }
-    else if( t == "M")
+    else if( t == 'M')
     {
 
-        for(int y = 0; y < colunas; y++)
-        {
-            soma += matriz[l][y];
-
-        }
-
-        media = (soma/colunas);
-        cout<< media <<endl;
+        cout << soma / 12.0 << endl;
     }
 
 
