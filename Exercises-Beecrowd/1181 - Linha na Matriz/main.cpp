@@ -30,6 +30,11 @@ int main()
          cout<< fixed << setprecision(1);
 
 
+         if( t == "S"){
+
+         }
+
+
 
 
 
