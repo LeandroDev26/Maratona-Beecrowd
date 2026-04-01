@@ -7,8 +7,9 @@ using namespace std;
 
 int main()
 {
-    string t;
-    int l, soma = 0, media = 0;
+    char t;
+    double soma = 0;
+    int l;
     int linhas = 12;
     int colunas = 12;
     vector<vector<double>> matriz(linhas, vector<double>(colunas, 0));
