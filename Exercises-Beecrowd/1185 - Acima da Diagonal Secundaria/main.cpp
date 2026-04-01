@@ -39,6 +39,19 @@ int main()
 
     }
 
+    if( t == 'S')
+    {
+        cout<< soma <<endl;
+    }
+    else if( t == 'M')
+    {
+
+        cout << soma / 66.0 << endl;
+    }
+
+
+
+
 
 
 
