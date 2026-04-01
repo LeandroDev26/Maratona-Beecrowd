@@ -27,16 +27,16 @@ int main()
 
     cout<< fixed << setprecision(1);
 
+    for(int k = 0; k < colunas; k++)
+    {
+        soma += matriz[l][k];
+
+    }
+
+
 
     if( t == 'S')
     {
-
-        for(int k = 0; k < colunas; k++)
-        {
-            soma += matriz[l][k];
-
-        }
-
         cout<< soma <<endl;
     }
     else if( t == 'M')
