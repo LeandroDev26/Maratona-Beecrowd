@@ -25,12 +25,12 @@ int main()
 
     cout<< fixed << setprecision(1);
 
-    for(int l = 0; l < linhas; l++)
+    for(int l = 0; l < colunas; l++)
     {
 
-        for(int k = l + 1; k < colunas; k++)
+        for(int k = l + 1; k < linhas; k++)
         {
-            soma += matriz[l][k];
+            soma += matriz[][];
 
         }
 
