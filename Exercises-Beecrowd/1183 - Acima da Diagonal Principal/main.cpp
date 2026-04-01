@@ -8,7 +8,6 @@ int main()
 {
     char t;
     double soma = 0;
-    int l;
     int linhas = 12;
     int colunas = 12;
     vector<vector<double>> matriz(linhas, vector<double>(colunas, 0));
@@ -28,7 +27,7 @@ int main()
 
     for(int k = 0; k < linhas; k++)
     {
-        soma += matriz[k][l];
+        soma += matriz[l][k];
 
     }
 
