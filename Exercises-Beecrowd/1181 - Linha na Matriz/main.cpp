@@ -33,11 +33,13 @@ int main()
     if( t == "S")
     {
 
-        for(int j = 0; j < colunas; j++)
+        for(int k = 0; k < colunas; k++)
         {
-            cin >> matriz[l][j];
+            soma += matriz[l][k];
 
         }
+
+        cout<< soma <<endl;
     }
     else if( t == "M")
     {
