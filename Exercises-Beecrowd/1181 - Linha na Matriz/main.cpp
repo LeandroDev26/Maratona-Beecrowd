@@ -33,6 +33,11 @@ int main()
          if( t == "S"){
 
          }
+         else if( t == "M")
+         {
+
+
+         }
 
 
 
