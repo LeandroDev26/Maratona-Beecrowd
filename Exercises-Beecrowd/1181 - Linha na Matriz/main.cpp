@@ -10,7 +10,7 @@ int main()
     int l;
     int linhas = 12;
     int colunas = 12;
-    vector<vector<int>> matriz(linhas, vector<int>(colunas, 0));
+    vector<vector<double>> matriz(linhas, vector<double>(colunas, 0));
 
           cin>> l;
           cin>> t;
