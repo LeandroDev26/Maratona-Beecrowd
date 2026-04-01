@@ -16,13 +16,27 @@ int main()
     cin>> t;
 
 
-     for(int i = 0; i < linhas; i++)
+    for(int i = 0; i < linhas; i++)
     {
 
         for(int j = 0; j < colunas; j++)
         {
             cin >> matriz[i][j];
         }
+    }
+
+
+    cout<< fixed << setprecision(1);
+
+    for(int l = 0; l < linhas; l++)
+    {
+
+        for(int k = l + 1; k < colunas; k++)
+        {
+            soma += matriz[k][l];
+
+        }
+
     }
 
 
