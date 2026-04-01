@@ -8,13 +8,13 @@ using namespace std;
 int main()
 {
     string t;
-    int l , soma = 0, media = 0;
+    int l, soma = 0, media = 0;
     int linhas = 12;
     int colunas = 12;
     vector<vector<double>> matriz(linhas, vector<double>(colunas, 0));
 
-          cin>> l;
-          cin>> t;
+    cin>> l;
+    cin>> t;
 
     // O laço de fora (i) controla os andares (linhas)
     for(int i = 0; i < linhas; i++)
@@ -27,30 +27,26 @@ int main()
         }
     }
 
-         cout<< fixed << setprecision(1);
+    cout<< fixed << setprecision(1);
 
 
-         if( t == "S"){
+    if( t == "S")
+    {
 
-         }
-         else if( t == "M")
-         {
+        for(int j = 0; j < colunas; j++)
+        {
+            cin >> matriz[l][j];
 
-
-         }
-
-
-
-
-
+        }
+    }
+    else if( t == "M")
+    {
 
 
-
-
-
-
+    }
 
 
 
     return 0;
+
 }
