@@ -27,6 +27,7 @@ int main()
         }
     }
 
+         cout<< fixed << setprecision(1);
 
 
 
