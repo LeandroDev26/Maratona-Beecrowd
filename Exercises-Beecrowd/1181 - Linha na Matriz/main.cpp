@@ -49,6 +49,9 @@ int main()
             soma += matriz[l][y];
 
         }
+
+        media = (soma/colunas);
+        cout<< media <<endl;
     }
 
 
