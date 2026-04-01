@@ -16,14 +16,12 @@ int main()
     cin>> l;
     cin>> t;
 
-    // O laço de fora (i) controla os andares (linhas)
     for(int i = 0; i < linhas; i++)
     {
 
-        // O laço de dentro (j) anda pelas gavetas (colunas) daquele andar
         for(int j = 0; j < colunas; j++)
         {
-            cin >> matriz[i][j]; // Lendo e guardando o valor na coordenada exata
+            cin >> matriz[i][j];
         }
     }
 
@@ -44,7 +42,7 @@ int main()
     else if( t == "M")
     {
 
-           for(int y = 0; y < colunas; y++)
+        for(int y = 0; y < colunas; y++)
         {
             soma += matriz[l][y];
 
