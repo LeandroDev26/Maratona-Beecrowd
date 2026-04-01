@@ -28,17 +28,13 @@ int main()
 
     cout<< fixed << setprecision(1);
 
-    for(int l = 0; l < linhas; l++)
+    for(int l = 0; l < 11; l++)
     {
-
-        for(int k = l + 1; k < colunas - 1; k++)
+        for(int k = 0; k < 11 - l; k++)
         {
-            soma += matriz[k][l];
-
+            soma += matriz[l][k];
         }
-
     }
-
     if( t == 'S')
     {
         cout<< soma <<endl;
