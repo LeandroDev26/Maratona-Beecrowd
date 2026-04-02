@@ -22,5 +22,22 @@ int main()
               cin>> matriz[i][j];
           }
      }
+
+
+     for(int l = 0 ; l < linhas - 1; l++){
+
+        for(int k = 0 ; k < linhas - 2; k++){
+
+            soma += matriz[l][k];
+        }
+
+     }
+
+      if( t == 'S')
+    {
+        cout<< soma <<endl;
+    }
+
+
     return 0;
 }
