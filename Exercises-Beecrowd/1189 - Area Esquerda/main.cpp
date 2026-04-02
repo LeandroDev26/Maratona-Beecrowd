@@ -37,6 +37,12 @@ int main()
     {
         cout<< soma <<endl;
     }
+    else if( t == 'M')
+    {
+
+        cout << soma / 30.0 << endl;
+    }
+
 
 
     return 0;
