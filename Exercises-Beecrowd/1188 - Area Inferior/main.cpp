@@ -28,7 +28,7 @@ int main()
 
     for(int l = 7; l < 12; l++)
     {
-        for(int k = l + 1; k < 11 - l; k++)
+        for(int k = 12 - l; k < l; k++)
         {
             soma += matriz[k][l];
         }
