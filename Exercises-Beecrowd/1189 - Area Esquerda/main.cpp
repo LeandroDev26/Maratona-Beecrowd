@@ -29,10 +29,10 @@ int main()
     for(int l = 0 ; l < linhas - 1; l++)
     {
 
-        for(int k = 0 ; k < linhas - 2; k++)
+        for(int k = l + 1; k < 11 - l; k++)
         {
 
-            soma += matriz[l][k];
+            soma += matriz[k][l];
         }
 
     }
