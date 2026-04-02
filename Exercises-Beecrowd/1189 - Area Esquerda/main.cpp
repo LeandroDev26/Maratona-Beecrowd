@@ -13,5 +13,14 @@ int main()
     int colunas = 12;
     vector< vector <double>> matriz (linhas , vector<double> (colunas , 0));
 
+
+     cin>> t ;
+
+     for(int i = 0 ; i < linhas; i++){
+
+          for(int j = 0 ; i < colunas ; j++){
+
+          }
+     }
     return 0;
 }
