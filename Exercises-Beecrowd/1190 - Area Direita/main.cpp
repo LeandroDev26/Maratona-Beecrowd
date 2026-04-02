@@ -26,17 +26,16 @@ int main()
     }
 
 
-    for(int l = 0 ; l < linhas - 1; l++)
+    for(int i = 0 ; i < linhas; i++)
     {
-
-        for(int k = l + 1; l + k > 11; k++)
+        for(int j = 0 ; j < colunas; j++)
         {
-
-            soma += matriz[l][k];
+            if(j > i && j > (11 - i))
+            {
+                soma += matriz[i][j];
+            }
         }
-
     }
-
     if( t == 'S')
     {
         cout<< soma <<endl;
