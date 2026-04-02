@@ -19,7 +19,7 @@ int main()
      for(int i = 0 ; i < linhas; i++){
 
           for(int j = 0 ; i < colunas ; j++){
-
+              cin>> matriz[i][j];
           }
      }
     return 0;
