@@ -7,13 +7,13 @@ using namespace std;
 int main()
 {
 
- char t;
+    char t;
     double soma = 0;
     int linhas = 12;
     int colunas = 12;
     vector<vector<double>> matriz(linhas, vector<double>(colunas, 0));
 
-     cin>> t;
+    cin>> t;
 
     for(int i = 0; i < linhas; i++)
     {
@@ -24,7 +24,7 @@ int main()
         }
     }
 
-     cout<< fixed << setprecision(1);
+    cout<< fixed << setprecision(1);
 
     for(int l = 0; l < 11; l++)
     {
@@ -34,7 +34,7 @@ int main()
         }
     }
 
-      if( t == 'S')
+    if( t == 'S')
     {
         cout<< soma <<endl;
     }
