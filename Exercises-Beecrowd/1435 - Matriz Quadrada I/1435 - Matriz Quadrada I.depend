@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1776017231 source:c:\users\leand\onedrive\documentos\meusprojetos\maratona-beecrowd\exercises-beecrowd\1435 - matriz quadrada i\main.cpp
+	<iostream>
+	<iomanip>
+	<algorithm>
+
