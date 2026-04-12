@@ -1,6 +1,8 @@
 #include <iostream>
 #include <iomanip>
 #include <algorithm>
+#include <cmath>
+
 using namespace std;
 
 
@@ -19,7 +21,7 @@ int main() {
                 int dist_dir = n - 1 - j;
 
 
-                int valor = min({dist_cima, dist_baixo, dist_esq, dist_dir}) + 1;
+                int valor = fabs({dist_cima, dist_baixo, dist_esq, dist_dir}) + 1;
 
 
                 if (j == 0) {
