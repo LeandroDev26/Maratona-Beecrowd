@@ -1,10 +1,8 @@
 #include <iostream>
 #include <iomanip>
-#include <algorithm>
 #include <cmath>
 
 using namespace std;
-
 
 int main() {
     int n;
@@ -15,20 +13,12 @@ int main() {
             for (int j = 0; j < n; j++) {
 
 
-                int dist_cima = i;
-                int dist_baixo = n - 1 - i;
-                int dist_esq = j;
-                int dist_dir = n - 1 - j;
-
-
-                int valor = fabs({dist_cima, dist_baixo, dist_esq, dist_dir}) + 1;
+                int valor = abs(i - j) + 1;
 
 
                 if (j == 0) {
-
                     cout << setw(3) << valor;
                 } else {
-
                     cout << " " << setw(3) << valor;
                 }
             }
@@ -39,4 +29,3 @@ int main() {
 
     return 0;
 }
-
