@@ -1,13 +1,14 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 int main()
 {
 
- int n;
+    int n, linhas, colunas;
 
- cin>> n ;
+    cin>> n ;
 
 
 
