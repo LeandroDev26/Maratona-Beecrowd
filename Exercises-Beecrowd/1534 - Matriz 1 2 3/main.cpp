@@ -33,6 +33,10 @@ int main()
                     cout<< "3";
                 }
 
+                if(j == j -1){
+                    cout<<endl;
+                }
+
             }
         }
 
