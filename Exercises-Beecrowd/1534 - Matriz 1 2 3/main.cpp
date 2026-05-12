@@ -33,7 +33,7 @@ int main()
                     cout<< "3";
                 }
 
-                if(j == j -1){
+                if(j == colunas -1){
                     cout<<endl;
                 }
 
