@@ -6,18 +6,16 @@ using namespace std;
 int main()
 {
 
-    int n, linhas, colunas;
+    int n;
 
     while(cin>> n)
     {
-        linhas = n;
-        colunas = n;
-        vector< vector <int>> matriz (linhas, vector<int> (colunas, 0));
 
-        for(int i = 0; i < linhas; i++)
+
+        for(int i = 0; i < n ; i++)
         {
 
-            for(int j = 0; j < colunas; j++)
+            for(int j = 0; j < n; j++)
             {
                 if( i + j == n - 1)
                 {
@@ -33,7 +31,8 @@ int main()
                     cout<< "3";
                 }
 
-                if(j == colunas -1){
+                if(j == n -1)
+                {
                     cout<<endl;
                 }
 
