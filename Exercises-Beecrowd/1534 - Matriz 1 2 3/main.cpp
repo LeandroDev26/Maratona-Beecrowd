@@ -19,10 +19,15 @@ int main()
 
             for(int j = 0; j < colunas; j++)
             {
-                if( i + j == n- 1){
+                if( i + j == n - 1)
+                {
+                    cout<<" 2";
+                }
+                else if( i == j)
+                {
 
                 }
-              cout<< matriz[i][j];
+                cout<< matriz[i][j];
             }
         }
 
