@@ -19,6 +19,9 @@ int main()
 
             for(int j = 0; j < colunas; j++)
             {
+                if( i + j == n- 1){
+
+                }
               cout<< matriz[i][j];
             }
         }
