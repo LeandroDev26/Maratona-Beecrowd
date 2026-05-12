@@ -21,13 +21,18 @@ int main()
             {
                 if( i + j == n - 1)
                 {
-                    cout<<" 2";
+                    cout<<"2";
                 }
                 else if( i == j)
                 {
-
+                    cout<< "1";
                 }
-                cout<< matriz[i][j];
+                else
+                {
+
+                    cout<< "3";
+                }
+
             }
         }
 
