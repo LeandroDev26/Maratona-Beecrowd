@@ -5,13 +5,19 @@ using namespace std;
 int main()
 {
     int n;
-    while(cin>> n){
+    while(cin>> n)
+    {
 
 
-       if( n == 0  ){
+        if( n == 0  )
+        {
 
-            cout<< "Vai ter copa!"<<endl;
-       }
+            cout<< "vai ter copa!"<<endl;
+        }
+        else
+        {
+            cout<<"vai ter duas!"<<endl;
+        }
 
 
 
