@@ -5,36 +5,19 @@ using namespace std;
 
 int main()
 {
-
     int a, b, c;
 
-    while ( a =! 0)
+
+    while (cin >> a && a != 0)
     {
-        cin>> a;
-        cout<<" ";
-
-        if(a == 0)
-        {
-            break;
-        }
-
-        cin>> b;
-        cout<<" ";
-        cin>> c;
-        cout<<endl;
+        cin >> b >> c;
 
         int area = a * b;
-        int areaTotal = (area * 100)/c;
+        int areaTotal = (area * 100) / c;
         int areaDolado = sqrt(areaTotal);
 
-        cout<< areaDolado <<endl;
+        cout << areaDolado << endl;
     }
-
-
-
-
-
-
 
     return 0;
 }
