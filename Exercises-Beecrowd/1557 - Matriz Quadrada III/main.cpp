@@ -1,29 +1,35 @@
 #include <iostream>
 #include <iomanip>
-#include <algorithm>
+#include <cmath>
+#include <string>
 
 using namespace std;
 
-int main() {
+int main()
+{
     int n;
 
-    while (cin >> n && n != 0) {
+    while (cin >> n && n != 0)
+    {
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+        long long maior_numero = pow(2, (n - 1) + (n - 1));
 
+        int T = to_string(maior_numero).length();
 
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
 
+                long long valor = pow(2, i + j);
 
-                int valor = ;
-
-
-                if (j == 0) {
-
-                    cout << setw(3) << valor;
-                } else {
-
-                    cout << " " << setw(3) << valor;
+                if (j == 0)
+                {
+                    cout << setw(T) << valor;
+                }
+                else
+                {
+                    cout << " " << setw(T) << valor;
                 }
             }
             cout << "\n";
