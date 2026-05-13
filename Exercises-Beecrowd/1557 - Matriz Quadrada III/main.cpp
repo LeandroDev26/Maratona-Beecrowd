@@ -5,10 +5,11 @@ using namespace std;
 int main()
 {
 
-    int n, cont = 1;
+    int n, cont;
 
     while (  cin>> n && n != 0)
     {
+        cont = 1;
         for (int i = 1 ; i <= n; i++)
         {
 
