@@ -14,12 +14,17 @@ int main()
 
             for(int j = 1 ; j <= n; j++)
             {
-                cout<< j << " ";
                 cont ++;
-                if (cont == n)
+                if (cont == n -1)
                 {
-                    cout<<endl;
+                    cout<<  j <<endl;
                 }
+                else
+                {
+
+                    cout<< j << " ";
+                }
+
             }
         }
     }
