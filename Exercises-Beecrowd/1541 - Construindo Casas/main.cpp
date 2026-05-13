@@ -6,7 +6,8 @@ int main()
 {
 
     int a, b, c;
-    while ( a != 0)
+
+    while ( a =! 0)
     {
         cin>> a;
         cout<<" ";
@@ -15,6 +16,8 @@ int main()
         cin>> c;
         cout<<endl;
 
+
+        int area = a * b;
     }
 
 
