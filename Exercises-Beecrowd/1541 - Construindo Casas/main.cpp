@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -16,8 +17,9 @@ int main()
         cin>> c;
         cout<<endl;
 
-
         int area = a * b;
+        int areaTotal = (area * 100)/c;
+
     }
 
 
