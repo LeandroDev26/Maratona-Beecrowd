@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int n ;
+    int n, cont = 0;
 
     while (  cin>> n && n != 0)
     {
@@ -15,7 +15,11 @@ int main()
             for(int j = 1 ; j <= n; j++)
             {
                 cout<< j << " ";
-
+                cont ++;
+                if (cont == n)
+                {
+                    cout<<endl;
+                }
             }
         }
     }
