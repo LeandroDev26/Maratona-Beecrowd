@@ -12,6 +12,12 @@ int main()
     {
         cin>> a;
         cout<<" ";
+
+        if(a == 0)
+        {
+            break;
+        }
+
         cin>> b;
         cout<<" ";
         cin>> c;
