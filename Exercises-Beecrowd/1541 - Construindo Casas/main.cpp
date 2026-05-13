@@ -6,9 +6,15 @@ int main()
 {
 
     int a, b, c;
+    while (){
+        cin>> a;
+    cout<<" ";
+    cin>> b;
+    cout<<" ";
+    cin>> c;
+    cout<<endl;
 
-    cin>> a >> b >> c;
-
+    }
 
 
 
