@@ -8,7 +8,10 @@ int main()
     while(cin>> n){
 
 
+       if( n == 0  ){
 
+            cout<< "Vai ter copa!"<<endl;
+       }
 
 
 
