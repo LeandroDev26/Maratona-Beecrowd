@@ -19,7 +19,9 @@ int main()
 
         int area = a * b;
         int areaTotal = (area * 100)/c;
+        int areaDolado = sqrt(areaTotal);
 
+        cout<< areaDolado <<endl;
     }
 
 
