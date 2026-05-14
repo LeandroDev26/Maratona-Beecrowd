@@ -1,23 +1,25 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
 int main()
 {
 
-    int n , cont = 0;
+    int n, cont = 0;
 
     cin>> n;
 
     for(int i = 0 ; i < n; i++)
     {
-       cout<< "Ho ";
+        cout<< "Ho ";
 
-       cont++;
-       if (cont == (n-1)){
+        cont++;
 
-       }
+        if (cont == (n-1))
+        {
+            cout<< "Ho!";
+
+        }
     }
 
 
