@@ -15,7 +15,7 @@ int main()
 
     }
 
-    cout<< "Ho!";
+    cout<< "Ho!"<<endl;
 
     return 0;
 }
