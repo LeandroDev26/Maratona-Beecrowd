@@ -5,28 +5,17 @@ using namespace std;
 int main()
 {
 
-    int n, cont = 0;
+    int n;
 
     cin>> n;
 
-    for(int i = 0 ; i < n; i++)
+    for(int i = 0 ; i < n - 1; i++)
     {
         cout<< "Ho ";
 
-        cont++;
-
-        if (cont == (n-1))
-        {
-            cout<< "Ho!";
-
-        }
     }
 
-
-
-
-
-
+    cout<< "Ho!";
 
     return 0;
 }
