@@ -14,9 +14,19 @@ int main()
         {
             for(int j = 0 ; j < n; j++)
             {
-                  if ( i == n/2 && j == n/2){
+                if ( i == n/2 && j == n/2)
+                {
                     cout<<"4";
-                  }
+                }
+                else if( i == n/3 && j == n -1 -(n/3))
+                {
+                    cout<<"1";
+
+                }
+                else if( i == j )
+                {
+                    cout<<"3";
+                }
             }
         }
 
