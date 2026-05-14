@@ -26,13 +26,19 @@ int main()
             }
         }
 
-
+        if( maior < 10)
+        {
+            cout<<"1"<<endl;
+        }
+        else if( maior >= 10 && l < 20)
+        {
+            cout<<"2"<<endl;
+        }
+        else
+        {
+            cout<< "3"<<endl;
+        }
     }
-
-
-
-
-
 
 
     return 0;
