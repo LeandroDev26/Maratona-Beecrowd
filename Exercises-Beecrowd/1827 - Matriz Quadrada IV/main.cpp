@@ -13,10 +13,7 @@ int main()
         {
             for(int j = 0 ; j < n; j++)
             {
-                if(j == n - 1)
-                {
-                    cout<<endl;
-                }
+
                 if ( i == n/2 && j == n/2)
                 {
                     cout<<"4";
