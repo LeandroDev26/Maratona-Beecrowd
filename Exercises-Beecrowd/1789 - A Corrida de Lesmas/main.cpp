@@ -19,7 +19,11 @@ int main()
             }
             else if(l >= 10 && l < 20)
             {
-
+                cout<<"2"<<endl;
+            }
+            else
+            {
+                cout<< "3"<<endl;
             }
 
         }
