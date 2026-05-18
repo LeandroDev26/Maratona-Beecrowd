@@ -5,14 +5,16 @@ using namespace std;
 
 int main()
 {
-   string sheldon , raj;
-   int t ;
+    string sheldon;
+    string raj;
+    char lixo;
+    int t ;
 
-     cin>> t;
-     for(int i = 0; i < t; i++){
-
-
-     }
+    cin>> t;
+    for(int i = 0; i < t; i++)
+    {
+        cin>> sheldon >> lixo >> raj;
+    }
 
 
 
