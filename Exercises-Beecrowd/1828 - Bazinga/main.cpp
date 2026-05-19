@@ -13,7 +13,7 @@ int main()
     cin>> t;
     for(int i = 0; i < t; i++)
     {
-        cin>> sheldon >> lixo >> raj;
+        cin>> sheldon >> raj;
 
         if( sheldon == raj)
         {
