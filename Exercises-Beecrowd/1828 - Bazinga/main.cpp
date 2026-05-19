@@ -30,7 +30,9 @@ int main()
 
         }
 
-        if(sheldon == "papel" && raj == "pedra" || raj == "spock"){
+        if(sheldon == "papel" && raj == "pedra" || raj == "spock")
+        {
+            cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
 
         }
     }
