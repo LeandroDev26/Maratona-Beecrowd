@@ -7,7 +7,6 @@ int main()
 {
     string sheldon;
     string raj;
-    char lixo;
     int t ;
 
     cin>> t;
@@ -18,6 +17,12 @@ int main()
         if( sheldon == raj)
         {
             cout<<"Caso #" << i+1 <<": De novo!"<<endl;
+        }
+        else if(sheldon == "pedra" && raj == "lagarto" || raj == "tesoura")
+        {
+
+
+
         }
     }
 
