@@ -59,6 +59,16 @@ int main()
             cout<<"Caso #" << i+1 <<": Raj trapaceou!"<<endl;
 
         }
+
+        if(sheldon == "spock" && raj == "pedra" || raj == "tesoura")
+        {
+            cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
+
+        }else
+        {
+            cout<<"Caso #" << i+1 <<": Raj trapaceou!"<<endl;
+
+        }
     }
 
 
