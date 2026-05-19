@@ -12,7 +12,13 @@ int main()
 
     if( r >= 0)
     {
+        cout<< r;
 
+    }
+    else
+    {
+        r = r + abs(b);
+        cout<< r;
     }
 
 
