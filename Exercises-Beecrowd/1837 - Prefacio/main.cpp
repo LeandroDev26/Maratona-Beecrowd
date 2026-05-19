@@ -10,19 +10,15 @@ int main()
     cin>> a >> b;
     int r = a % b;
 
-    if( r >= 0)
-    {
-        cout<< r;
-
-    }
-    else
+    if( r < 0)
     {
         r = r + abs(b);
-        cout<< r;
     }
 
 
+    int q = (a - r)/b;
 
+    cout<< q << " " << r <<endl;
 
     return 0;
 }
