@@ -20,7 +20,6 @@ int main()
         }
         else if(sheldon == "pedra" && raj == "lagarto" || raj == "tesoura")
         {
-
             cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
 
         }
@@ -74,11 +73,6 @@ int main()
 
         }
     }
-
-
-
-
-
 
     return 0;
 }
