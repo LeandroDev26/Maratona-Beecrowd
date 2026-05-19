@@ -23,11 +23,14 @@ int main()
 
             cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
 
-
         }
         else
         {
             cout<<"Caso #" << i+1 <<": Raj trapaceou!"<<endl;
+
+        }
+
+        if(sheldon == "papel" && raj == "pedra" || raj == "spock"){
 
         }
     }
