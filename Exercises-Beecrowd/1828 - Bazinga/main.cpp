@@ -17,7 +17,7 @@ int main()
 
         if( sheldon == raj)
         {
-            cout<<"Caso #" << i <<": De novo!"<<endl;
+            cout<<"Caso #" << i+1 <<": De novo!"<<endl;
         }
     }
 
