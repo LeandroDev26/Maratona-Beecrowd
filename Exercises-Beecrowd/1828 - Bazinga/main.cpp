@@ -14,6 +14,11 @@ int main()
     for(int i = 0; i < t; i++)
     {
         cin>> sheldon >> lixo >> raj;
+
+        if( sheldon == raj)
+        {
+            cout<<"Caso #" << i <<": De novo!"<<endl;
+        }
     }
 
 
