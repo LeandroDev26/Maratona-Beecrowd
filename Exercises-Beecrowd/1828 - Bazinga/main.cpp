@@ -7,70 +7,42 @@ int main()
 {
     string sheldon;
     string raj;
-    int t ;
+    int t;
 
-    cin>> t;
+    cin >> t;
     for(int i = 0; i < t; i++)
     {
-        cin>> sheldon >> raj;
+        cin >> sheldon >> raj;
 
-        if( sheldon == raj)
+        if(sheldon == raj)
         {
-            cout<<"Caso #" << i+1 <<": De novo!"<<endl;
+            cout << "Caso #" << i+1 << ": De novo!" << endl;
         }
-        else if(sheldon == "pedra" && raj == "lagarto" || raj == "tesoura")
-        {
-            cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
 
+        else if(sheldon == "pedra" && (raj == "lagarto" || raj == "tesoura"))
+        {
+            cout << "Caso #" << i+1 << ": Bazinga!" << endl;
         }
+        else if(sheldon == "papel" && (raj == "pedra" || raj == "Spock"))
+        {
+            cout << "Caso #" << i+1 << ": Bazinga!" << endl;
+        }
+        else if(sheldon == "tesoura" && (raj == "papel" || raj == "lagarto"))
+        {
+            cout << "Caso #" << i+1 << ": Bazinga!" << endl;
+        }
+        else if(sheldon == "lagarto" && (raj == "papel" || raj == "Spock"))
+        {
+            cout << "Caso #" << i+1 << ": Bazinga!" << endl;
+        }
+        else if(sheldon == "Spock" && (raj == "pedra" || raj == "tesoura"))
+        {
+            cout << "Caso #" << i+1 << ": Bazinga!" << endl;
+        }
+
         else
         {
-            cout<<"Caso #" << i+1 <<": Raj trapaceou!"<<endl;
-
-        }
-
-        if(sheldon == "papel" && raj == "pedra" || raj == "spock")
-        {
-            cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
-
-        }
-        else
-        {
-            cout<<"Caso #" << i+1 <<": Raj trapaceou!"<<endl;
-
-        }
-
-        if(sheldon == "tesoura" && raj == "papel" || raj == "lagarto")
-        {
-            cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
-
-        }
-        else
-        {
-            cout<<"Caso #" << i+1 <<": Raj trapaceou!"<<endl;
-
-        }
-
-        if(sheldon == "lagarto" && raj == "lagarto" || raj == "spock")
-        {
-            cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
-
-        }
-        else
-        {
-            cout<<"Caso #" << i+1 <<": Raj trapaceou!"<<endl;
-
-        }
-
-        if(sheldon == "spock" && raj == "pedra" || raj == "tesoura")
-        {
-            cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
-
-        }
-        else
-        {
-            cout<<"Caso #" << i+1 <<": Raj trapaceou!"<<endl;
-
+            cout << "Caso #" << i+1 << ": Raj trapaceou!" << endl;
         }
     }
 
