@@ -8,8 +8,9 @@ int main()
     int a, b ;
 
     cin>> a >> b;
+    int r = a % b;
 
-    if(a % b >= 0)
+    if( r >= 0)
     {
 
     }
