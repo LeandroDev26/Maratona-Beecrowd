@@ -34,7 +34,8 @@ int main()
         {
             cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
 
-        }else
+        }
+        else
         {
             cout<<"Caso #" << i+1 <<": Raj trapaceou!"<<endl;
 
@@ -44,7 +45,8 @@ int main()
         {
             cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
 
-        }else
+        }
+        else
         {
             cout<<"Caso #" << i+1 <<": Raj trapaceou!"<<endl;
 
@@ -54,7 +56,8 @@ int main()
         {
             cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
 
-        }else
+        }
+        else
         {
             cout<<"Caso #" << i+1 <<": Raj trapaceou!"<<endl;
 
@@ -64,7 +67,8 @@ int main()
         {
             cout<<"Caso #" << i+1 <<": Bazinga!"<<endl;
 
-        }else
+        }
+        else
         {
             cout<<"Caso #" << i+1 <<": Raj trapaceou!"<<endl;
 
