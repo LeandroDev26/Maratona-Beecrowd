@@ -6,12 +6,18 @@ int main()
 {
 
 
-    int n , t , menor = 0, posicao = 0;
+    int n, t, menor = 100, posicao = 0;
     cin>> n ;
 
     for (int i = 0 ; i < n ; i++)
     {
-         cin>> t;
+        cin>> t;
+
+        if(t < menor)
+        {
+            menor = t ;
+            posicao = i + 1;
+        }
     }
 
 
