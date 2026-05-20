@@ -6,7 +6,7 @@ int main()
 {
 
 
-    int n , t;
+    int n , t , menor = 0;
     cin>> n ;
 
     for (int i = 0 ; i < n ; i++)
