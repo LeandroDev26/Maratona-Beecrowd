@@ -18,6 +18,7 @@ int main()
             menor = t ;
             posicao = i + 1;
         }
+        cout<< posicao <<endl;
     }
 
 
