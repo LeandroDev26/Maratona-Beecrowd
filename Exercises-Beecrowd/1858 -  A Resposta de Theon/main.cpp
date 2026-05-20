@@ -16,12 +16,12 @@ int main()
         if(t < menor)
         {
             menor = t ;
-            posicao = i + 1;
+            //posicao = i + 1;
         }
-        cout<< posicao <<endl;
+
     }
 
-
+    cout<< menor <<endl;
 
 
     return 0;
