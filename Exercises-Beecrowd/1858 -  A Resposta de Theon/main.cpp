@@ -9,7 +9,8 @@ int main()
     int n, t, menor = 1000, posicao = 0;
     cin>> n ;
 
-    for (int i = 0 ; i < n ; i++)
+
+    for (int i = 1 ; i < n ; i++)
     {
         cin>> t;
 
