@@ -6,9 +6,10 @@ int main()
 {
 
 
-    int n, t, menor = 1000, posicao = 0;
+    int n, t, menor, posicao = 0;
     cin>> n ;
 
+    cin>> menor;
 
     for (int i = 1 ; i < n ; i++)
     {
