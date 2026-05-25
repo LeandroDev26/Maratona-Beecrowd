@@ -9,6 +9,11 @@ int main()
     cin>> a >> b >> c;
 
 
+    if(a > b && c >= b)
+    {
+        cout<<":)"<<endl;
+    }
+
 
 
     return 0;
