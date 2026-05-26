@@ -10,7 +10,7 @@ int main()
     cin>> a >> b >> c;
 
      distanciaAb = (a - b);
-     distanciaBc = ()
+     distanciaBc = ( b - c);
     if(a > b && c >= b)
     {
         cout<<":)"<<endl;
