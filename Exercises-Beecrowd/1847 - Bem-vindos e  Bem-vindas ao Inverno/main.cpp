@@ -20,7 +20,7 @@ int main()
     {
         cout<<":("<<endl;
     }
-    else  if(a < b && c > b)
+    else  if(a < b && c > b && ( distanciaAb > distanciaBc))
     {
         cout<<":("<<endl;
     }
