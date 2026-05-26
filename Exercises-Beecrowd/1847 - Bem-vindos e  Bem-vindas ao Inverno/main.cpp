@@ -22,7 +22,7 @@ int main()
     }
     else  if(a < b && c > b)
     {
-        cout<<":)"<<endl;
+        cout<<":("<<endl;
     }
 
 
