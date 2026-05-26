@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -8,7 +9,8 @@ int main()
 
     cin>> a >> b >> c;
 
-
+     distanciaAb = (a - b);
+     distanciaBc = ()
     if(a > b && c >= b)
     {
         cout<<":)"<<endl;
