@@ -24,6 +24,10 @@ int main()
     {
         cout<<":("<<endl;
     }
+    else if(a < b && c > b && (distanciaBc >= distanciaAb) )
+    {
+        cout<<":("<<endl;
+    }
 
 
 
