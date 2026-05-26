@@ -26,7 +26,10 @@ int main()
     }
     else if(a < b && c > b && (distanciaBc >= distanciaAb) )
     {
-        cout<<":("<<endl;
+        cout<<":)"<<endl;
+    }else if(a > b && c < b && (distanciaAb > distanciaBc) )
+    {
+        cout<<":)"<<endl;
     }
 
 
