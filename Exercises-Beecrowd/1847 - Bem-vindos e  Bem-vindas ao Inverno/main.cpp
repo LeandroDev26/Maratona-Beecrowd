@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int a, b, c , distancia = 0;
+    int a, b, c, distanciaAb = 0, distanciaBc = 0;
 
     cin>> a >> b >> c;
 
@@ -16,6 +16,10 @@ int main()
     else if(a < b && c <= b )
     {
         cout<<":("<<endl;
+    }
+    else  if(a < b && c > b)
+    {
+        cout<<":)"<<endl;
     }
 
 
