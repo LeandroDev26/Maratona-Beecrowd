@@ -7,11 +7,12 @@ int main()
 {
 
     string corvo;
-    int soma = 0;
+    int soma = 0 , gritos = 0;
+
 
     for(int i = 0 ; i < 1000 ; i++)
     {
-        cin>> corvo;
+        getline(cin , corvo);
 
         if(corvo == "---")
         {
