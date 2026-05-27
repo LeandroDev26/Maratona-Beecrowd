@@ -7,12 +7,12 @@ int main()
 {
 
     string corvo;
-    int soma = 0 , gritos = 0;
+    int soma = 0, gritos = 0;
 
 
-    for(int i = 0 ; i < 1000 ; i++)
+    for(int i = 0 ; i < gritos; i++)
     {
-        getline(cin , corvo);
+        getline(cin, corvo);
 
         if(corvo == "---")
         {
@@ -46,7 +46,7 @@ int main()
         {
             soma += 7;
         }
-        else
+        else if (corvo == "caw caw")
         {
             cout<< soma << endl;
             soma = 0;
