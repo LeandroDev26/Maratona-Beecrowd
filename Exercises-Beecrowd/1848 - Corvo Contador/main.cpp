@@ -7,11 +7,20 @@ int main()
 {
 
     string corvo;
-    int soma;
+    int soma = 0;
 
     for(int i = 0 ; i < 1000 ; i++)
     {
-         cin>> corvo;
+        cin>> corvo;
+
+        if(corvo == "---")
+        {
+            soma += 0;
+        }
+        else if( corvo == "--*")
+        {
+            soma += 1;
+        }
     }
 
 
