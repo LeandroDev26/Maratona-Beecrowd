@@ -33,6 +33,18 @@ int main()
         {
             soma += 4;
         }
+        else if( corvo == "*-*")
+        {
+            soma += 5;
+        }
+        else if( corvo == "**-")
+        {
+            soma += 6;
+        }
+        else if( corvo == "***")
+        {
+            soma += 7;
+        }
     }
 
 
