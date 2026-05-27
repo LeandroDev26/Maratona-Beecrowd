@@ -9,10 +9,12 @@ int main()
     cin>> n;
     string texto = "LIFE IS NOT A PROBLEM TO BE SOLVED";
 
-    for( char c: texto){
-
+    for (size_t i = 0; i < n; i ++)
+    {
+        cout << texto[i];
     }
 
+      cout<<endl;
 
 
 
