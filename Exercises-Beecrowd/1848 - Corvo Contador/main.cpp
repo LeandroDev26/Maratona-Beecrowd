@@ -10,7 +10,7 @@ int main()
     int soma = 0, gritos = 0;
 
 
-    for(int i = 0 ; i < gritos; i++)
+    while(gritos < 3)
     {
         getline(cin, corvo);
 
