@@ -20,6 +20,12 @@ int main()
         else if( corvo == "--*")
         {
             soma += 1;
+        } else if( corvo == "-*-")
+        {
+            soma += 2;
+        } else if( corvo == "-**")
+        {
+            soma += 3;
         }
     }
 
