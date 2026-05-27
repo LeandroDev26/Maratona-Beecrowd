@@ -45,6 +45,11 @@ int main()
         {
             soma += 7;
         }
+        else
+        {
+            cout<< soma << endl;
+            soma = 0;
+        }
     }
 
 
