@@ -50,6 +50,7 @@ int main()
         {
             cout<< soma << endl;
             soma = 0;
+            gritos++;
         }
     }
 
