@@ -13,6 +13,7 @@ int main()
     for(int i = 0 ; i < qt ; i++)
     {
         cin>> nome1 >> opc1 >> nome2 >> opc2;
+        cin>> n >> m;
     }
 
 
