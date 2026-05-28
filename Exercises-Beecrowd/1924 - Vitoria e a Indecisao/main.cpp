@@ -12,11 +12,11 @@ int main()
 
     for( int i = 0 ; i < n ; i++)
     {
-       cin>> nomedcurso;
+        cin>> nomedcurso;
     }
 
 
-
+    cout<<"Ciencia da Computacao"<<endl;
 
 
     return 0;
