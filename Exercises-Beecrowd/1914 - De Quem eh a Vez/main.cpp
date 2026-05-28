@@ -7,12 +7,12 @@ int main()
 {
 
     int qt ;
-
+    string nome1, opc1, nome2, opc2;
     cin>> qt;
 
     for(int i = 0 ; i < qt ; i++)
     {
-         cin>>
+        cin>> nome1 >> opc1 >> nome2 >> opc2;
     }
 
 
