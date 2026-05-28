@@ -15,13 +15,13 @@ int main()
     {
         cin>> nome >> f;
 
-        if( f > 50)
+        if( nome == "Thor")
         {
-            cout<<"N"<<endl;
+            cout<<"Y"<<endl;
         }
         else
         {
-            cout<<"Y"<<endl;
+            cout<<"N"<<endl;
         }
     }
 
