@@ -26,9 +26,16 @@ int main()
         {
             cout<< nome1<<endl;
         }
-        if(soma % 2 == 0 && (opc2 == "PAR") )
+        else if(soma % 2 == 0 && (opc2 == "PAR") )
         {
             cout<< nome2<<endl;
+        }
+        else if(soma % 2 == 1 && (opc1 == "IMPAR") )
+        {
+            cout<< nome2<<endl;
+        }else if(soma % 2 == 1 && (opc2 == "IMPAR") )
+        {
+            cout<< nome1<<endl;
         }
 
 
