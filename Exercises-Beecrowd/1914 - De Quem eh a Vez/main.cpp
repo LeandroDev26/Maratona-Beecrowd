@@ -26,6 +26,11 @@ int main()
         {
             cout<< nome1<<endl;
         }
+        else
+        {
+
+            cout<< nome2 << endl;
+        }
 
 
 
