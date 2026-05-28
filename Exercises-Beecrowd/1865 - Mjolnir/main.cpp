@@ -14,6 +14,12 @@ int main()
     for(int i = 0 ; i < c ; i++)
     {
        cin>> nome >> f;
+
+       if( f > 50 ){
+         cout<<"Y"<<endl;
+       }else{
+
+       }
     }
 
 
