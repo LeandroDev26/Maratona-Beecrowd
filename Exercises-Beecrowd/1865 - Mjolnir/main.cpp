@@ -6,29 +6,24 @@ using namespace std;
 int main()
 {
 
-    int c , f = 0;
+    int c, f = 0;
     string nome;
 
     cin>> c;
 
     for(int i = 0 ; i < c ; i++)
     {
-       cin>> nome >> f;
+        cin>> nome >> f;
 
-       if( f > 50 ){
-         cout<<"Y"<<endl;
-       }else{
-
-       }
+        if( f > 50)
+        {
+            cout<<"N"<<endl;
+        }
+        else
+        {
+            cout<<"Y"<<endl;
+        }
     }
-
-
-
-
-
-
-
-
 
     return 0;
 }
