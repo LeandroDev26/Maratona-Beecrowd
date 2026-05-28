@@ -28,7 +28,6 @@ int main()
         }
         else
         {
-
             cout<< nome2 << endl;
         }
 
