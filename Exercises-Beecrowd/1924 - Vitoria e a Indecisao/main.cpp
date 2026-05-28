@@ -9,10 +9,11 @@ int main()
     int n ;
     string nomedcurso;
     cin>> n;
+    cin.ignore();
 
     for( int i = 0 ; i < n ; i++)
     {
-        cin>> nomedcurso;
+        getline(cin, nomedcurso);
     }
 
 
