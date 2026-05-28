@@ -6,7 +6,8 @@ using namespace std;
 int main()
 {
 
-    int c;
+    int c , f = 0;
+    string nome;
 
     cin>> c;
 
