@@ -26,11 +26,10 @@ int main()
         {
             cout<< nome1<<endl;
         }
-        else
+        if(soma % 2 == 0 && (opc2 == "PAR") )
         {
-            cout<< nome2 << endl;
+            cout<< nome2<<endl;
         }
-
 
 
     }
