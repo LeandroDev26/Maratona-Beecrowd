@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int qt, n, m ;
+    int qt, n, m , soma = 0;
     string nome1, opc1, nome2, opc2;
     cin>> qt;
 
@@ -14,6 +14,8 @@ int main()
     {
         cin>> nome1 >> opc1 >> nome2 >> opc2;
         cin>> n >> m;
+
+
     }
 
 
