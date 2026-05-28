@@ -33,7 +33,9 @@ int main()
         else if(soma % 2 == 1 && (opc1 == "IMPAR") )
         {
             cout<< nome2<<endl;
-        }else if(soma % 2 == 1 && (opc2 == "IMPAR") )
+
+        }
+        else if(soma % 2 == 1 && (opc2 == "IMPAR") )
         {
             cout<< nome1<<endl;
         }
