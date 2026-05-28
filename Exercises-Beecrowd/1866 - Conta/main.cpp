@@ -14,11 +14,11 @@ int main()
 
         if( n % 2 == 1)
         {
-            cout<< 1;
+            cout<< 1 <<endl;
         }
         else
         {
-            cout<< 0;
+            cout<< 0 <<endl;
         }
     }
 
