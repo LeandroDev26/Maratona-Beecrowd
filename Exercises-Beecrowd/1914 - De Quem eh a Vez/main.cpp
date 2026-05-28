@@ -17,9 +17,14 @@ int main()
         cin>> n >> m;
         soma = (n + m);
 
-        if(soma %  2 == 0)
+        if(opc1 == opc2)
         {
+            return 0;
+        }
 
+        if(soma % 2 == 0 && (opc1 == "PAR") )
+        {
+            cout<< nome1<<endl;
         }
 
 
