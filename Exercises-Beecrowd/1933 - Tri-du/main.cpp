@@ -10,6 +10,15 @@ int main()
     if( a == b )
     {
         cout<< a <<endl;
+
+    }
+    else if( a >  b )
+    {
+        cout<< a <<endl;
+    }
+    else
+    {
+        cout<< b <<endl;
     }
 
 
