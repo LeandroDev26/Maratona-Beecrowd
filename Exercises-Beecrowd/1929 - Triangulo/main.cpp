@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int a, b, c, d, maiorAb, maiorCd , maiorBc;
+    int a, b, c, d, maiorAb, maiorCd , maiorBc , maiorBd;
 
     cin>> a >> b >> c >> d;
     /*
