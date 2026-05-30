@@ -9,8 +9,16 @@ int main()
 
     cin>> a >> b >> c >> d;
 
-     if ( a + b > c && a + c > d && b + c > a){
+    if ( a + b > c && a + c > b && b + c > a)
+    {
         cout<<"S" <<endl;
-     }
+    }
+    else  if ( a + b > d && a + d > c && d + c > a)
+    {
+        cout<<"S" <<endl;
+    } else  if ( a + c > d && a + d > c && d + c > a)
+    {
+        cout<<"S" <<endl;
+    }
     return 0;
 }
