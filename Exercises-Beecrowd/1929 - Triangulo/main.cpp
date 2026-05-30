@@ -9,7 +9,19 @@ int main()
 
     cin>> a >> b >> c >> d;
 
-    if ( a + b > (c || d))
+    if( a > b )
+    {
+        int maiorAb = a;
+
+    }
+    else
+    {
+        int maiorAb = b;
+
+    }
+
+
+        if ( a + b > (d || c))
     {
         cout << "S" << endl;
     }
@@ -37,6 +49,10 @@ int main()
     {
         cout << "S" << endl;
 
+    }
+    else
+    {
+        cout<< "N" <<endl;
     }
 
 
