@@ -21,6 +21,13 @@ int main()
     while(1){
 
           quociente = v / 16;
+          resto = v % 16;
+          if( resto >= 10 && resto <= 15){
+
+            for(int i = 0 ; i < 6 ; i++){
+
+            }
+          }
 
 
 
