@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int a, b, c, d, maiorAb, maiorCd;
+    int a, b, c, d, maiorAb, maiorCd , maiorBd;
 
     cin>> a >> b >> c >> d;
     /*
@@ -17,6 +17,17 @@ int main()
         else
         {
             maiorAb = b;
+
+        }
+
+        if( b > c )
+        {
+            maiorBc = b;
+
+        }
+        else
+        {
+            maiorBc = c;
 
         }
 
