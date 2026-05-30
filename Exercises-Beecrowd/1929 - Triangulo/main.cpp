@@ -5,59 +5,61 @@ using namespace std;
 int main()
 {
 
-    int a, b, c, d , maiorAb , maiorCd;
+    int a, b, c, d, maiorAb, maiorCd;
 
     cin>> a >> b >> c >> d;
+    /*
+        if( a > b )
+        {
+            maiorAb = a;
 
-    if( a > b )
-    {
-        maiorAb = a;
+        }
+        else
+        {
+            maiorAb = b;
 
-    }
-    else
-    {
-         maiorAb = b;
-
-    }
-
-
-     if( c > d )
-    {
-        maiorCd = c;
-
-    }
-    else
-    {
-        maiorCd = d;
-
-    }
+        }
 
 
-    if ( a + b > maiorAb)
-    {
-        cout << "S" << endl;
-    }
-    else if( a + c > (b || d))
+        if( c > d )
+        {
+            maiorCd = c;
+
+        }
+        else
+        {
+            maiorCd = d;
+
+        }
+
+        */
+
+
+    if ( (a + b > c) && (a + b > d))
     {
         cout << "S" << endl;
-
     }
-    else if( a + d > (c || d))
+    else if( (a + c > b )&& (a + c > d))
     {
         cout << "S" << endl;
 
     }
-    else if( b + c  > (a || d))
+    else if( (a + d > c) && (a + d > b ))
     {
         cout << "S" << endl;
 
     }
-    else if( b + d > (a || c))
+    else if( b + c  > (a && d))
     {
         cout << "S" << endl;
 
     }
-    else if( c + d > (a || b))
+    else if( b + d > (a && c))
+    {
+        cout << "S" << endl;
+
+    }
+    else if( c + d > (a && b))
     {
         cout << "S" << endl;
 
