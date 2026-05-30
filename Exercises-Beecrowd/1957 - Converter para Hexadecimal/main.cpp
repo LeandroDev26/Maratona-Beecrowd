@@ -25,32 +25,34 @@ int main()
           if( resto >= 10 && resto <= 15){
 
               if( resto == 10){
-                num = "A" ;
+                num = "A" + num ;
               }else
               if( resto == 11){
-                num = "B" ;
+                num = "B" + num ;
               }else
-              if( resto == 12){
-                num = "C" ;
+              if( resto == 12  ){
+                num = "C" + num ;
               }else
-              if( resto == 13){
-                num = "D" ;
+              if( resto == 13 ){
+                num = "D" + num ;
               }else
-              if( resto == 14){
-                num = "E" ;
+              if( resto == 14 ){
+                num = "E" + num ;
               }else
-              if( resto == 15){
-                num = "F" ;
-              }else{
-               num =  to_string(resto);
+              if( resto == 15 ){
+                num = "F" + num ;
               }
-          }
+          }else{
+               num +=  to_string(resto);
+              }
 
            v = quociente;
 
 
 
     }
+
+    cout << num << endl;
 
 
 
