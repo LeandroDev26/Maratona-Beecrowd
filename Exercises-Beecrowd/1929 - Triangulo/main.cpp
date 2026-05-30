@@ -21,6 +21,18 @@ int main()
     }
 
 
+     if( c > d )
+    {
+        int maiorCd = c;
+
+    }
+    else
+    {
+        int maiorCd = d;
+
+    }
+
+
         if ( a + b > (d || c))
     {
         cout << "S" << endl;
