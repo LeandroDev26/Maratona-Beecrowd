@@ -9,6 +9,16 @@ int main()
 
     cin>> a >> b >> c >> d;
 
+    if ( a + b > (c || d))
+    {
+        cout << "S" << endl;
+    }
+    else if( a + c > (c || d))
+    {
+        cout << "S" << endl;
+
+    }
+
 
     return 0;
 }
