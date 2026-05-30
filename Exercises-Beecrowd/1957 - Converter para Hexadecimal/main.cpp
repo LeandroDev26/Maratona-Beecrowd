@@ -24,9 +24,24 @@ int main()
           resto = v % 16;
           if( resto >= 10 && resto <= 15){
 
-            for(int i = 0 ; i < 6 ; i++){
-
-            }
+              if( resto == 10){
+                num = "A" ;
+              }else
+              if( resto == 11){
+                num = "B" ;
+              }else
+              if( resto == 12){
+                num = "A" ;
+              }else
+              if( resto == 13){
+                num = "A" ;
+              }else
+              if( resto == 14){
+                num = "A" ;
+              }else
+              if( resto == 15){
+                num = "A" ;
+              }
           }
 
 
