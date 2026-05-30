@@ -31,16 +31,16 @@ int main()
                 num = "B" ;
               }else
               if( resto == 12){
-                num = "A" ;
+                num = "C" ;
               }else
               if( resto == 13){
-                num = "A" ;
+                num = "D" ;
               }else
               if( resto == 14){
-                num = "A" ;
+                num = "E" ;
               }else
               if( resto == 15){
-                num = "A" ;
+                num = "F" ;
               }
           }
 
