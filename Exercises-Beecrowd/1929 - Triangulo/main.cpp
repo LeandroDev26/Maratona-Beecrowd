@@ -59,7 +59,7 @@ int main()
         cout << "S" << endl;
 
     }
-    else if( c + d > (a && b))
+    else if( (c + d > a) && (c + d > b))
     {
         cout << "S" << endl;
 
