@@ -5,35 +5,35 @@ using namespace std;
 int main()
 {
 
-    int a, b, c, d;
+    int a, b, c, d , maiorAb , maiorCd;
 
     cin>> a >> b >> c >> d;
 
     if( a > b )
     {
-        int maiorAb = a;
+        maiorAb = a;
 
     }
     else
     {
-        int maiorAb = b;
+         maiorAb = b;
 
     }
 
 
      if( c > d )
     {
-        int maiorCd = c;
+        maiorCd = c;
 
     }
     else
     {
-        int maiorCd = d;
+        maiorCd = d;
 
     }
 
 
-        if ( a + b > (d || c))
+    if ( a + b > maiorAb)
     {
         cout << "S" << endl;
     }
