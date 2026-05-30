@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int v , divi = 0 , resto = 0;
+    int v , quociente = 0 , resto = 0;
     string num;
                                                                 /*10 = A
                                                                 11 = B
@@ -20,7 +20,8 @@ int main()
 
     while(1){
 
-          divi = v / 16;
+          quociente = v / 16;
+
 
 
     }
