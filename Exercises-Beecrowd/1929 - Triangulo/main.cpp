@@ -23,17 +23,12 @@ int main()
         cout << "S" << endl;
 
     }
-    else if( d + c > (a || b))
+    else if( b + c  > (a || d))
     {
         cout << "S" << endl;
 
     }
-    else if( d + c > (a || b))
-    {
-        cout << "S" << endl;
-
-    }
-    else if( d + c > (c || b))
+    else if( b + d > (a || c))
     {
         cout << "S" << endl;
 
