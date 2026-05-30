@@ -18,7 +18,7 @@ int main()
     cin>> v;
 
 
-    while(1){
+    while(v > 0){
 
           quociente = v / 16;
           resto = v % 16;
@@ -43,6 +43,7 @@ int main()
                 num = "F" ;
               }
           }
+
 
 
 
