@@ -16,12 +16,18 @@ int main()
     else  if ( a + b > d && a + d > c && d + c > a)
     {
         cout<<"S" <<endl;
-    } else  if ( a + c > d && a + d > c && d + c > a)
+    }
+    else  if ( a + c > d && a + d > c && d + c > a)
     {
         cout<<"S" <<endl;
-    } else  if ( b + c > d && b + d > c && d + c > b)
+    }
+    else  if ( b + c > d && b + d > c && d + c > b)
     {
         cout<<"S" <<endl;
+    }
+    else
+    {
+        cout<<"N" <<endl;
     }
     return 0;
 }
