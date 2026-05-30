@@ -31,6 +31,16 @@ int main()
 
         }
 
+         if( b > d )
+        {
+            maiorBd = b ;
+
+        }
+        else
+        {
+            maiorBd= d;
+
+        }
 
         if( c > d )
         {
