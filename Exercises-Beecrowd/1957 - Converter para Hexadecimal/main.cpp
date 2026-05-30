@@ -20,7 +20,8 @@ int main()
 
     while(1){
 
-         num = v % 16;
+          divi = v / 16;
+
 
     }
 
