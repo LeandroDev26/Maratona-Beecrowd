@@ -8,9 +8,9 @@ int main()
 
     cin>> t1 >> t2 >> t3 >> t4;
 
-     int soma = ((t1 + t2 + t3 + t4) - 3 );
+    int soma = ((t1 + t2 + t3 + t4) - 3 );
 
-
+    cout<< soma <<endl;
 
 
 
