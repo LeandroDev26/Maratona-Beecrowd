@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int v;
+    int v , divi = 0 , resto = 0;
                                                                 /*10 = A
                                                                 11 = B
                                                                 12 = C
@@ -17,7 +17,9 @@ int main()
     cin>> v;
 
 
-    while(){
+    while(1){
+
+         //v % 16
 
     }
 
