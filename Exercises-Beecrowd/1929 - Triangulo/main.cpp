@@ -33,6 +33,11 @@ int main()
         cout << "S" << endl;
 
     }
+    else if( c + d > (a || b))
+    {
+        cout << "S" << endl;
+
+    }
 
 
     return 0;
