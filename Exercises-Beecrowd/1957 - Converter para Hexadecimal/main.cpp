@@ -5,7 +5,9 @@ using namespace std;
 int main()
 {
 
+    int v;
 
+    cin>> v;
 
 
 
