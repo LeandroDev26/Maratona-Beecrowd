@@ -7,6 +7,7 @@ int main()
 {
 
     int v , divi = 0 , resto = 0;
+    string num;
                                                                 /*10 = A
                                                                 11 = B
                                                                 12 = C
@@ -19,7 +20,7 @@ int main()
 
     while(1){
 
-         //v % 16
+         num = v % 16;
 
     }
 
