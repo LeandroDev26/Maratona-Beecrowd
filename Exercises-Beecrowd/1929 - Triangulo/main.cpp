@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int a, b, c, d, maiorAb, maiorCd , maiorBd;
+    int a, b, c, d, maiorAb, maiorCd , maiorBc;
 
     cin>> a >> b >> c >> d;
     /*
@@ -46,16 +46,16 @@ int main()
         */
 
 
-    if ( (a + b > c) && (a + b > d))
+    if (a + b > maiorCd)
     {
         cout << "S" << endl;
     }
-    else if( (a + c > b )&& (a + c > d))
+    else if( a + c > maiorBd)
     {
         cout << "S" << endl;
 
     }
-    else if( (a + d > c) && (a + d > b ))
+    else if( a + d > maiorBc)
     {
         cout << "S" << endl;
 
