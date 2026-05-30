@@ -44,6 +44,7 @@ int main()
               }
           }
 
+           v = quociente;
 
 
 
