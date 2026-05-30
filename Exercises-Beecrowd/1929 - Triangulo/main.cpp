@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
 
-    int a, b, c, d, maiorAb, maiorCd , maiorBc , maiorBd;
+    int a, b, c, d, maiorAb, maiorAc , maiorAd ,maiorCd , maiorBc , maiorBd;
 
     cin>> a >> b >> c >> d;
-    /*
+
         if( a > b )
         {
             maiorAb = a;
@@ -17,6 +17,28 @@ int main()
         else
         {
             maiorAb = b;
+
+        }
+
+          if( a > c )
+        {
+            maiorAc = a;
+
+        }
+        else
+        {
+            maiorAc = c;
+
+        }
+
+          if( a > d )
+        {
+            maiorAd = a;
+
+        }
+        else
+        {
+            maiorAd = d;
 
         }
 
@@ -52,8 +74,6 @@ int main()
             maiorCd = d;
 
         }
-
-        */
 
 
     if (a + b > maiorCd)
