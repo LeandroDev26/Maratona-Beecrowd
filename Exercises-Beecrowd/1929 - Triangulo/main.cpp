@@ -13,7 +13,7 @@ int main()
     {
         cout<<"S" <<endl;
     }
-    else  if ( a + b > d && a + d > c && d + c > a)
+    else  if ( a + b > d && a + d > b && d + b > a)
     {
         cout<<"S" <<endl;
     }
