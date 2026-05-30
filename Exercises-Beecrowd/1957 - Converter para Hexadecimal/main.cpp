@@ -41,6 +41,8 @@ int main()
               }else
               if( resto == 15){
                 num = "F" ;
+              }else{
+               num =  to_string(resto);
               }
           }
 
