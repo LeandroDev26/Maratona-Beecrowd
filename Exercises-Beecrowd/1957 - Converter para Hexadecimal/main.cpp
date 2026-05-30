@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -14,6 +15,11 @@ int main()
                                                                 15 = F
                                                                  */
     cin>> v;
+
+
+    while(){
+
+    }
 
 
 
