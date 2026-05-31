@@ -27,6 +27,9 @@ int main()
     }else if( n - 50 >= 0)
     {
         cout<< "L";
+    }else if( n - 10 >= 0)
+    {
+        cout<< "X";
     }
 
 
