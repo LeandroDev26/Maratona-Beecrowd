@@ -47,6 +47,10 @@ int main()
         {
             cout<< "L";
             n -= 50;
+        } else if( n - 40 >= 0)
+        {
+            cout<< "XL";
+            n-= 40;
         }
         else if( n - 10 >= 0)
         {
