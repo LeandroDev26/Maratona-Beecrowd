@@ -6,7 +6,9 @@ int main()
 {
 
 
+    double x;
 
+    cin>> x;
 
 
 
