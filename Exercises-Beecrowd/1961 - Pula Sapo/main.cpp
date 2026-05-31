@@ -24,11 +24,11 @@ int main()
 
         if(diferenca > p)
         {
-            cout<< "Game Over" <<endl; // perdeu
+            cout<< "GAME OVER" <<endl; // perdeu
         }
         else
         {
-            //ganhou
+          cout<< " YOU WIN"<<endl;  //ganhou
         }
 
     }
