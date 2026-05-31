@@ -12,32 +12,42 @@ int main()
     /*
      1, V é 5, X é 10, L é 50, C é 100, D é 500 e M representa 1000.
      */
-
-    if( n - 1000 >= 0 )
+    while ( n > 0)
     {
-        cout<< "M";
-        n -= 1000;
+
+        if( n - 1000 >= 0 )
+        {
+            cout<< "M";
+            n -= 1000;
+        }
+        else if( n - 500 >= 0)
+        {
+            cout<< "D";
+            n-= 500;
+        }
+        else if( n - 100 >= 0)
+        {
+            cout<< "C";
+            n -= 100;
+        }
+        else if( n - 50 >= 0)
+        {
+            cout<< "L";
+            n -= 50;
+        }
+        else if( n - 10 >= 0)
+        {
+            cout<< "X";
+            n  -= 10;
+        }
+        else if( n - 5 >= 0)
+        {
+            cout<< "V";
+            n -= 5;
+        }
+
     }
-    else if( n - 500 >= 0)
-    {
-        cout<< "D";
-        n-= 500;
-    }else if( n - 100 >= 0)
-    {
-        cout<< "C";
-        n -= 100;
-    }else if( n - 50 >= 0)
-    {
-        cout<< "L";
-        n -= 50;
-    }else if( n - 10 >= 0)
-    {
-        cout<< "X";
-    }else if( n - 5 >= 0)
-    {
-        cout<< "V";
-    }
 
-
+    cout<<endl;
     return 0;
 }
