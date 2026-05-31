@@ -44,6 +44,10 @@ int main()
         {
             cout<< "V";
             n -= 5;
+        } else if( n - 1 >= 0)
+        {
+            cout<< "I";
+            n -= 1;
         }
 
     }
