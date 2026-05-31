@@ -6,20 +6,32 @@ using namespace std;
 int main()
 {
 
-    int p, n , x , diferenca;
+    int p, n, x, diferenca;
     vector<int> altura;
     cin>> p >> n;
 
-    for (int i = 0 ; i < n; i++){
-         cin>> x ;
-         altura.push_back(x);
+    for (int i = 0 ; i < n; i++)
+    {
+        cin>> x ;
+        altura.push_back(x);
 
     }
 
-      for( int j = 0 ; j < altura.size(); j++){
+    for( int j = 0 ; j < altura.size(); j++)
+    {
 
-             if(p > )
-      }
+        diferenca = p - altura[j];
+
+        if(diferenca > p)
+        {
+            cout<< "Game Over" <<endl; // perdeu
+        }
+        else
+        {
+            //ganhou
+        }
+
+    }
 
 
 
