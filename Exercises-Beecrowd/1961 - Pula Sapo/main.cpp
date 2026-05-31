@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 
-    int p, n, x, diferenca, ok = 0;;
+    int p, n, x, diferenca;
     vector<int> altura;
     cin>> p >> n;
 
@@ -18,27 +18,22 @@ int main()
 
     }
 
-    for( int j = 0 ; j < altura.size(); j++)
+    for( int j = 0 ; j < altura.size() - 1; j++)
     {
 
         diferenca = abs(altura[j] - altura[j+1]);
 
-        if(diferenca <= p )
+        if(diferenca > p )
         {
-            ok++;
-
-        }
-        else
-        {
-          cout<< "GAME OVER" <<endl; // perdeu
-         return 0;
+            cout<< "GAME OVER" <<endl; // perdeu
+            return 0;
         }
 
-        if(ok == (n -1))
-        {
-            cout<< " YOU WIN"<<endl;  //ganhou
-        }
+
     }
+
+    cout<< "YOU WIN"<<endl;  //ganhou
+
 
 
     return 0;
