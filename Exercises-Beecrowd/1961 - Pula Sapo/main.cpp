@@ -25,6 +25,7 @@ int main()
         if(diferenca > p)
         {
             cout<< "GAME OVER" <<endl; // perdeu
+            return 0;
         }
         else
         {
