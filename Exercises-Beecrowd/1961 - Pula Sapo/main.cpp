@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int p, n, x, diferenca;
+    int p, n, x, diferenca, ok = 0;;
     vector<int> altura;
     cin>> p >> n;
 
@@ -29,9 +29,13 @@ int main()
         }
         else
         {
-          cout<< " YOU WIN"<<endl;  //ganhou
+            ok++;
         }
 
+        if(ok == (n -1))
+        {
+            cout<< " YOU WIN"<<endl;  //ganhou
+        }
     }
 
 
