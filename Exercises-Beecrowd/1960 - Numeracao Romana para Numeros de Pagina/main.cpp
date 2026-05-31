@@ -29,6 +29,10 @@ int main()
         {
             cout<< "D";
             n-= 500;
+        } else if( n - 400 >= 0)
+        {
+            cout<< "CD";
+            n-= 400;
         }
         else if( n - 100 >= 0)
         {
