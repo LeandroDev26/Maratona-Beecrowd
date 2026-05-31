@@ -24,6 +24,9 @@ int main()
     }else if( n - 100 >= 0)
     {
         cout<< "C";
+    }else if( n - 50 >= 0)
+    {
+        cout<< "L";
     }
 
 
