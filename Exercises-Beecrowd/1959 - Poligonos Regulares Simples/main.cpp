@@ -5,11 +5,11 @@ using namespace std;
 int main()
 {
 
-    int n, l, p;
+    long long n, l, p;
     cin>> n >> l;
 
     p = n * l;
-
+    cout<< p << endl;
 
 
     return 0;
