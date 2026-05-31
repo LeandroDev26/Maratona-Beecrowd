@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int p, n , x;
+    int p, n , x , diferenca;
     vector<int> altura;
     cin>> p >> n;
 
@@ -18,6 +18,7 @@ int main()
 
       for( int j = 0 ; j < altura.size(); j++){
 
+             if(p > )
       }
 
 
