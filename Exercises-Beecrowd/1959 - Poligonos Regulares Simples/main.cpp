@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
 
-    int n, l;
+    int n, l, p;
     cin>> n >> l;
 
-
+    p = n * l;
 
 
 
