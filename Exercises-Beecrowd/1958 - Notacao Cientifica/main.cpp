@@ -11,7 +11,7 @@ int main()
 
     cin>> x;
 
-    cout<<
+    cout<< scientific << fixed << setprecision(4) << showpos << uppercase << x << endl;
 
 
 
