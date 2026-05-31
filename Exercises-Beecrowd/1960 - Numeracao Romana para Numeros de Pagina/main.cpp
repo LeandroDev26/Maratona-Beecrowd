@@ -20,6 +20,11 @@ int main()
             cout<< "M";
             n -= 1000;
         }
+         else if( n - 900 >= 0)
+        {
+            cout<< "CM";
+            n-= 900;
+        }
         else if( n - 500 >= 0)
         {
             cout<< "D";
