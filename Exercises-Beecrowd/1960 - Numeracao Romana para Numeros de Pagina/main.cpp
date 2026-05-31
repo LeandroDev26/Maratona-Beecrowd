@@ -21,15 +21,21 @@ int main()
     else if( n - 500 >= 0)
     {
         cout<< "D";
+        n-= 500;
     }else if( n - 100 >= 0)
     {
         cout<< "C";
+        n -= 100;
     }else if( n - 50 >= 0)
     {
         cout<< "L";
+        n -= 50;
     }else if( n - 10 >= 0)
     {
         cout<< "X";
+    }else if( n - 5 >= 0)
+    {
+        cout<< "V";
     }
 
 
