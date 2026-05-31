@@ -38,6 +38,10 @@ int main()
         {
             cout<< "C";
             n -= 100;
+        } else if( n - 90 >= 0)
+        {
+            cout<< "XC";
+            n-= 90;
         }
         else if( n - 50 >= 0)
         {
