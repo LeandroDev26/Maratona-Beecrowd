@@ -20,7 +20,7 @@ int main()
             cout<< "M";
             n -= 1000;
         }
-         else if( n - 900 >= 0)
+        else if( n - 900 >= 0)
         {
             cout<< "CM";
             n-= 900;
@@ -29,7 +29,8 @@ int main()
         {
             cout<< "D";
             n-= 500;
-        } else if( n - 400 >= 0)
+        }
+        else if( n - 400 >= 0)
         {
             cout<< "CD";
             n-= 400;
@@ -38,7 +39,8 @@ int main()
         {
             cout<< "C";
             n -= 100;
-        } else if( n - 90 >= 0)
+        }
+        else if( n - 90 >= 0)
         {
             cout<< "XC";
             n-= 90;
@@ -47,7 +49,8 @@ int main()
         {
             cout<< "L";
             n -= 50;
-        } else if( n - 40 >= 0)
+        }
+        else if( n - 40 >= 0)
         {
             cout<< "XL";
             n-= 40;
@@ -57,11 +60,22 @@ int main()
             cout<< "X";
             n  -= 10;
         }
+        else if( n - 9 >= 0)
+        {
+            cout<< "IX";
+            n-= 9;
+        }
         else if( n - 5 >= 0)
         {
             cout<< "V";
             n -= 5;
-        } else if( n - 1 >= 0)
+        }
+        else if( n - 4 >= 0)
+        {
+            cout<< "IV";
+            n-= 4;
+        }
+        else if( n - 1 >= 0)
         {
             cout<< "I";
             n -= 1;
