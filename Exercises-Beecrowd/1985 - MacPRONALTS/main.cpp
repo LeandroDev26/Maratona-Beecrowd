@@ -34,6 +34,11 @@ int main()
 
             valortot = (4.50 * q);
         }
+        else  if(p == 1005)
+        {
+
+            valortot = (5.50 * q);
+        }
 
     }
 
