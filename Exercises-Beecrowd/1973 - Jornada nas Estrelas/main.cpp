@@ -18,6 +18,9 @@ int main()
 
   while(posicaoAtual >= 0 && posicaoAtual < qt.size() ){
 
+       if(posicaoAtual > posicaoMax){
+          posicaoMax = posicaoAtual;
+       }
   }
 
 
