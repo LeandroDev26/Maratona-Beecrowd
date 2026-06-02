@@ -14,7 +14,7 @@ int main()
 
      valorAumento = (a - b);
     valorAumento /= a;
-
+    valorAumento *= 100;
 
 
     return 0;
