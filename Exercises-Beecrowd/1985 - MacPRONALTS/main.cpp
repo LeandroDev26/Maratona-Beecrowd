@@ -6,7 +6,7 @@ int main()
 {
 
     int  totcomp, p, q ;
-    double  valortot;
+    double  valortot = 0.0;
 
     cin>> totcomp;
 
@@ -43,10 +43,6 @@ int main()
     }
 
     cout<< fixed << setprecision(2) << valortot << endl;
-
-
-
-
 
     return 0;
 }
