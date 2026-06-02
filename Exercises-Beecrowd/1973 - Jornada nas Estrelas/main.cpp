@@ -6,8 +6,8 @@ using namespace std;
 
 int main()
 {
-    int posicaoAtual = 0, posicaoMax = 0 , pares = 0 , impar = 0;
-    long long n, x, somaArray = 0, brothercrazy = 0;
+    int posicaoAtual = 0, posicaoMax = 0;
+    long long n, x, somaArray = 0;
     vector<long long> qt;
     cin>> n;
     for(int i = 0 ; i < n ; i++)
