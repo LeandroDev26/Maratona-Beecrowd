@@ -44,7 +44,7 @@ int main()
     }
 
     for(int j = 0 ; j < qt.size(); j++){
-
+        somaArray += qt[j];
     }
     cout<<posicaoMax + 1 << " " << somaArray <<endl;
 
