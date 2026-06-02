@@ -14,6 +14,12 @@ int main()
         {
             cout<< ( 2015 - t)<< " D.C."<<endl;
         }
+        else if( t >= 2015)
+        {
+            cout<< ( t - 2015) + 1 << " A.C."<<endl;
+
+        }
+
     }
 
 
