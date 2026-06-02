@@ -17,27 +17,27 @@ int main()
         if(p == 1001)
         {
 
-            valortot = (1.50 * q);
+            valortot += (1.50 * q);
         }
         else  if(p == 1002)
         {
 
-            valortot = (2.50 * q);
+            valortot += (2.50 * q);
         }
         else  if(p == 1003)
         {
 
-            valortot = (3.50 * q);
+            valortot += (3.50 * q);
         }
         else  if(p == 1004)
         {
 
-            valortot = (4.50 * q);
+            valortot += (4.50 * q);
         }
         else  if(p == 1005)
         {
 
-            valortot = (5.50 * q);
+            valortot += (5.50 * q);
         }
 
     }
