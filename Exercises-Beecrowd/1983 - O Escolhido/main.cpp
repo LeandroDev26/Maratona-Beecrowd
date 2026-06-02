@@ -7,11 +7,13 @@ int main()
 
 
 
-    int n ;
+    int n , m , nota ;
     cin>> n ;
 
     for(int i = 0 ; i < n ; i++)
     {
+         cin>> m >> nota;
+
 
     }
 
