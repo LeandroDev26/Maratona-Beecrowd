@@ -5,12 +5,16 @@ using namespace std;
 int main()
 {
 
-    int p, q ;
+    int  totcomp,p, q ;
 
-    cin>> p >> q;
+    cin>> totcomp;
+
+    for(int i = 0 ; i < totcomp ; i++)
+    {
+        cin>> p >> q;
 
 
-
+    }
 
 
 
