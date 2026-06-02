@@ -16,7 +16,9 @@ int main()
         qt.push_back(x);
     }
 
+  while(posicaoAtual >= 0 && posicaoAtual < qt.size() ){
 
+  }
 
 
 
