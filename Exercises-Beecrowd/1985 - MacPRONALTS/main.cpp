@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int  totcomp,p, q ;
+    int  totcomp, p, q , valortot;
 
     cin>> totcomp;
 
