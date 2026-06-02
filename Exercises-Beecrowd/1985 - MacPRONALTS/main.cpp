@@ -5,7 +5,8 @@ using namespace std;
 int main()
 {
 
-    int  totcomp, p, q , valortot;
+    int  totcomp, p, q ;
+    double  valortot;
 
     cin>> totcomp;
 
@@ -13,6 +14,10 @@ int main()
     {
         cin>> p >> q;
 
+         if(p == 1001){
+
+            valortot = (1.50 * q);
+         }
 
     }
 
