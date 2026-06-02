@@ -7,7 +7,7 @@ int main()
 
 
 
-    int n, m;
+    int n, m, maior = 0, matricula = 0;
     double nota;
     cin>> n ;
 
@@ -17,6 +17,12 @@ int main()
 
         if(nota >= 8)
         {
+            if(maior < nota)
+            {
+                maior = nota;
+                matricula = m;
+
+            }
 
         }
         else
