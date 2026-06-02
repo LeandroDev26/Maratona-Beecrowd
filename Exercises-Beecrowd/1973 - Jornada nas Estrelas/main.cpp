@@ -24,15 +24,9 @@ int main()
             posicaoMax = posicaoAtual;
         }
 
-        if( qt[posicaoAtual] % 2 == 0)
-        {
-              posicaoAtual--;
+           int erapar = qt[posicaoAtual] % 2 == 0;
+            int eraimpar = qt[posicaoAtual] % 2 == 1;
 
-        }
-        else
-        {
-            posicaoAtual++;
-        }
 
         if(qt[posicaoAtual] > 0)
         {
