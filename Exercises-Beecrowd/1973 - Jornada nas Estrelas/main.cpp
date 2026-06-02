@@ -24,17 +24,29 @@ int main()
             posicaoMax = posicaoAtual;
         }
 
-           int erapar = qt[posicaoAtual] % 2 == 0;
-            int eraimpar = qt[posicaoAtual] % 2 == 1;
+        int erapar = qt[posicaoAtual] % 2 == 0;
+        int eraimpar = qt[posicaoAtual] % 2 == 1;
 
 
         if(qt[posicaoAtual] > 0)
         {
             qt[posicaoAtual] --;
         }
+
+        if(posicaoAtual == erapar)
+        {
+            posicaoAtual--;
+        }
+        else
+        {
+            posicaoAtual++;
+        }
     }
 
-      cout<<posicaoMax + 1 << " " << somaArray <<endl;
+    for(int j = 0 ; j < qt.size(); j++){
+
+    }
+    cout<<posicaoMax + 1 << " " << somaArray <<endl;
 
 
     return 0;
