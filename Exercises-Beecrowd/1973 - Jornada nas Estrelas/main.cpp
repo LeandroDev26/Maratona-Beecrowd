@@ -26,12 +26,12 @@ int main()
 
         if( qt[posicaoAtual] % 2 == 0)
         {
-              pares++;
+              posicaoAtual--;
 
         }
         else
         {
-            impar++;
+            posicaoAtual++;
         }
 
         if(qt[posicaoAtual] > 0)
@@ -40,7 +40,7 @@ int main()
         }
     }
 
-
+      cout<<posicaoMax + 1 <<endl;
 
 
     return 0;
