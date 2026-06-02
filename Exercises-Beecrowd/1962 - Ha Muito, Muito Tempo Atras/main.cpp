@@ -12,7 +12,7 @@ int main()
         cin>> t ;
         if((2015 - t) > 0 )
         {
-            cout<< ( 2015 - t)<<endl;
+            cout<< ( 2015 - t)<< " D.C."<<endl;
         }
     }
 
