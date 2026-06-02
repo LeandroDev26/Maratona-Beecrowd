@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <cmath>
 
 using namespace std;
 
@@ -12,10 +13,11 @@ int main()
 
    cout<< fixed << setprecision(2) <<endl;
 
-     valorAumento = (a - b);
+     valorAumento = abs(b - a);
     valorAumento /= a;
     valorAumento *= 100;
 
+     cout<< valorAumento << "%" << endl;
 
     return 0;
 }
