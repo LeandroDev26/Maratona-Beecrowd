@@ -7,8 +7,8 @@ int main()
 
 
 
-    int n, m, maior = 0, matricula = 0;
-    double nota;
+    int n, m, matricula = 0;
+    double nota,maior = 0;
     cin>> n ;
 
     for(int i = 0 ; i < n ; i++)
