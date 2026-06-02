@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    int posicaoAtual = 0, posicaoMax = 0;
+    int posicaoAtual = 0, posicaoMax = 0 , pares = 0 , impar = 0;
     long long n, x, somaArray = 0, brothercrazy = 0;
     vector<long long> qt;
     cin>> n;
@@ -26,11 +26,12 @@ int main()
 
         if( qt[posicaoAtual] % 2 == 0)
         {
-            //par
+              pares++;
+
         }
         else
         {
-            //impar
+            impar++;
         }
 
         if(qt[posicaoAtual] > 0)
