@@ -11,9 +11,9 @@ int main()
 
    cin>> a >> b ;
 
-   cout<< fixed << setprecision(2) <<endl;
+   cout<< fixed << setprecision(2);
 
-     valorAumento = abs(b - a);
+     valorAumento = abs(a - b);
     valorAumento /= a;
     valorAumento *= 100;
 
