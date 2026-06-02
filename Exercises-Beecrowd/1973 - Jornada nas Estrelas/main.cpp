@@ -21,6 +21,12 @@ int main()
        if(posicaoAtual > posicaoMax){
           posicaoMax = posicaoAtual;
        }
+
+     if( qt[posicaoAtual] % 2 == 0){
+        //par
+     }else{
+     //impar
+     }
   }
 
 
