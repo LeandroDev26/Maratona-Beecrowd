@@ -34,7 +34,7 @@ int main()
         }
     }
 
-      cout<<posicaoMax + 1 <<endl;
+      cout<<posicaoMax + 1 << " " << somaArray <<endl;
 
 
     return 0;
