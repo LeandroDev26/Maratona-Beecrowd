@@ -25,16 +25,19 @@ int main()
             }
 
         }
-        else
-        {
-            cout<< "Minimum note not reached"<<endl;
-        }
 
 
     }
 
 
-
+    if(maior > 0)
+    {
+        cout<< matricula <<endl;
+    }
+    else
+    {
+        cout<< "Minimum note not reached"<<endl;
+    }
 
 
 
