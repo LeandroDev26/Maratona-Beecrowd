@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -41,6 +41,8 @@ int main()
         }
 
     }
+
+    cout<< fixed << setprecision(2) << valortot << endl;
 
 
 
