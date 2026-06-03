@@ -4,12 +4,14 @@ using namespace std;
 
 int main()
 {
-    double v ,d , a = 0.0 , r = 0.0 , pi = 3.14;
+    double v ,d , a = 0.0 , r = 0.0 , pi = 3.14 , h = 0.0;
 
     while(cin>> v >> d){
 
       r = d/2;
-      a =
+      a = pi *(r * r);
+
+
 
 
 
