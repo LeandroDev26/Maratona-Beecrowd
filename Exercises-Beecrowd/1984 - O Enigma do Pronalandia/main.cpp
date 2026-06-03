@@ -15,6 +15,7 @@ int main()
            cout<< n[i];
     }
 
+     cout<<endl;
 
 
 
