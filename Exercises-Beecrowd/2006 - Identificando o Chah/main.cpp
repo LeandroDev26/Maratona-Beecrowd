@@ -5,9 +5,18 @@ using namespace std;
 int main()
 {
 
-   int t , a , b ,c ,d;
+   int t , num , correct;
    cin>> t ;
-   cin>> a >> b >> c >> d;
+
+   for(int i = 0 ; i < 5 ; i++){
+
+      cin>> num ;
+      if(){
+
+      }
+
+   }
+
 
 
 
