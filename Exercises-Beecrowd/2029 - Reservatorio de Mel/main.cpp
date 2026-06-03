@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    double v ,d ;
+    double v ,d , a = 0.0 , r ;
 
     while(cin>> v >> d){
 
