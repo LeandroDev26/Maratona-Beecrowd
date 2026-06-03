@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {
 
-   int t ;
+   int t , a , b ,c ,d;
    cin>> t ;
-
+   cin>> a >> b >> c >> d;
 
 
 
