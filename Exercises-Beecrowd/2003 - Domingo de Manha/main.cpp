@@ -6,8 +6,7 @@ using namespace std;
 int main()
 {
 
-    int h, horaChegada, atraso;
-    double m;
+    int h, horaChegada, atraso, m;
     char lixo;
     while(cin>> h >> lixo >> m)
     {
