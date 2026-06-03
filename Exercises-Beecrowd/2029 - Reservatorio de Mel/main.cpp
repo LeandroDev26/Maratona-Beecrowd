@@ -8,6 +8,7 @@ int main()
 
     while(cin>> v >> d){
 
+      r = d/2;
 
 
 
