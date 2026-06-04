@@ -18,7 +18,7 @@ int main()
         }
         if( n <= 0)
         {
-            cout<< "Caso " << caso << ":" <<  totnum <<" numero"<<endl;
+            cout<< "Caso " << caso << ": " <<  totnum <<" numero"<<endl;
             caso++;
         }
         else
@@ -30,12 +30,12 @@ int main()
         }
 
 
-        cout<<"0 ";
+        cout<<"0";
         for (int i = 1 ; i <= n ; i++)
         {
             for(int j = 1 ; j <= i ; j++)
             {
-                cout<< i <<" ";
+                cout<< " " << i;
             }
 
         }
