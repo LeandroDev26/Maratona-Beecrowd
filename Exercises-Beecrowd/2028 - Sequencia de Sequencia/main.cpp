@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int n, caso, totnum ;
+    int n, caso = 1, totnum = 0 ;
 
     while(cin>> n)
     {
