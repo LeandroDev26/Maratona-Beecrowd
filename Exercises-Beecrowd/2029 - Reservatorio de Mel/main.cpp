@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -10,10 +11,10 @@ int main()
 
       r = d/2;
       a = pi *(r * r);
+      h = v/a;
 
-
-
-
+      cout<< fixed << setprecision(2);
+      cout<< h << a <<endl;
 
     }
 
