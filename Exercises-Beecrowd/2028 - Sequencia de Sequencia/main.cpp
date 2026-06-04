@@ -9,6 +9,15 @@ int main()
 
     while(cin>> n)
     {
+
+
+
+
+
+
+
+
+
         cout<<"0 ";
         for (int i = 1 ; i <= n ; i++)
         {
