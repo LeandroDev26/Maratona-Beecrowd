@@ -5,11 +5,17 @@ using namespace std;
 int main()
 {
 
-    int n, caso = 1, totnum = 0 ;
+    int n, caso = 1, totnum = 1 ;
 
     while(cin>> n)
     {
 
+        totnum = 1;
+
+        for(int k = 1 ; k <= n; k++)
+        {
+            totnum += k;
+        }
         if( n <= 0)
         {
             cout<< "Caso " << caso << ":" <<  totnum <<" numero"<<endl;
@@ -17,16 +23,11 @@ int main()
         }
         else
         {
-            cout<< "Caso " << caso << ":" <<  totnum <<" numeros"<<endl;
-                        caso++;
+            cout<< "Caso " << caso << ": " <<  totnum <<" numeros"<<endl;
+            caso++;
 
 
         }
-
-
-
-
-
 
 
         cout<<"0 ";
