@@ -5,14 +5,20 @@ using namespace std;
 int main()
 {
 
-    int n , caso , totnum ;
+    int n, caso, totnum ;
 
     while(cin>> n)
     {
 
-    if( n == 0){
-        cout<< "Caso 1: 1 numero "
-    }
+        if( n <= 0)
+        {
+            cout<< "Caso " << caso << ":" <<  totnum <<" numero"<<endl;
+        }
+        else
+        {
+            cout<< "Caso " << caso << ":" <<  totnum <<" numeros"<<endl;
+
+        }
 
 
 
