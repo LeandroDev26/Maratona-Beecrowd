@@ -13,10 +13,13 @@ int main()
         if( n <= 0)
         {
             cout<< "Caso " << caso << ":" <<  totnum <<" numero"<<endl;
+            caso++;
         }
         else
         {
             cout<< "Caso " << caso << ":" <<  totnum <<" numeros"<<endl;
+                        caso++;
+
 
         }
 
