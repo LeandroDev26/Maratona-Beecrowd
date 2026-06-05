@@ -6,18 +6,28 @@ using namespace std;
 int main()
 {
 
-   int n ;
-   string opc1 , opc2;
+    int n ;
+    string opc1, opc2;
 
-   cin>> n;
-   for(int i = 0 ; i < n; i++){
+    cin>> n;
+    for(int i = 0 ; i < n; i++)
+    {
 
         cin>> opc1 >> opc2 ;
 
-        if(opc1 == "ataque" && opc2 == "pedra"){
-             cout<<"Jogador 1 venceu"<<endl;
+        if(opc1 == "ataque" && opc2 == "pedra")
+        {
+            cout<<"Jogador 1 venceu"<<endl;
         }
-   }
+        else  if(opc1 == "pedra" && opc2 == "ataque")
+        {
+            cout<<"Jogador 2 venceu"<<endl;
+        }
+        else if(opc1 == "ataque" && opc2 == "ataque")
+        {
+            cout<<"Aniquilacao mutua"<<endl;
+        }
+    }
 
 
 
