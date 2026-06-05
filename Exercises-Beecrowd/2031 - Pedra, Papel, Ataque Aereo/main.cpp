@@ -35,9 +35,12 @@ int main()
         {
             cout<<"Jogador 2 venceu"<<endl;
         }
-        else if(opc1 == "papel" && opc2 == "ataque")
+        else if(opc1 == "ataque" && opc2 == "papel")
         {
             cout<<"Jogador 1 venceu"<<endl;
+        }else if(opc1 == "papel" && opc2 == "ataque")
+        {
+            cout<<"Jogador 2 venceu"<<endl;
         }
     }
 
