@@ -35,6 +35,10 @@ int main()
         {
             cout<<"Jogador 2 venceu"<<endl;
         }
+        else if(opc1 == "papel" && opc2 == "ataque")
+        {
+            cout<<"Jogador 1 venceu"<<endl;
+        }
     }
 
 
