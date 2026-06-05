@@ -26,9 +26,14 @@ int main()
         else if(opc1 == "ataque" && opc2 == "ataque")
         {
             cout<<"Aniquilacao mutua"<<endl;
-        } else if(opc1 == "pedra" && opc2 == "papel")
+        }
+        else if(opc1 == "pedra" && opc2 == "papel")
         {
             cout<<"Jogador 1 venceu"<<endl;
+        }
+        else if(opc1 == "papel" && opc2 == "pedra")
+        {
+            cout<<"Jogador 2 venceu"<<endl;
         }
     }
 
