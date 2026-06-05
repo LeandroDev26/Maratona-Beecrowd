@@ -46,16 +46,12 @@ int main()
         else if(opc1 == "papel" && opc2 == "papel")
         {
             cout<<"Ambos venceram"<<endl;
+
         }else if(opc1 == "pedra" && opc2 == "pedra")
         {
             cout<<"Sem ganhador"<<endl;
         }
     }
-
-
-
-
-
 
     return 0;
 }
