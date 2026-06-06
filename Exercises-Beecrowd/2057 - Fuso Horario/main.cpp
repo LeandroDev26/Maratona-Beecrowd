@@ -14,23 +14,7 @@ int main()
         c = (24 + ( t + f));
         cout<< c<<endl;
     }
-    else if( s > 0 )
-    {
-        c = 0;
-        c =(s + t + f);
-        if(c <= 23)
-        {
-            cout<< c <<endl;
-        }
-        else
-        {
-            c = 0;
-            c = 24 - ( t + f);
-            cout<< c <<endl;
 
-
-        }
-    }
 
 
 
