@@ -12,6 +12,11 @@ int main()
 
     if(c == 24){
         cout<<"0"<<endl;
+    }else if (c > 24){
+      c -= 24;
+      cout<< c <<endl;
+    }else{
+
     }
 
 
