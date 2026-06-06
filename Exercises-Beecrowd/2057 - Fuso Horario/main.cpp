@@ -12,6 +12,7 @@ int main()
     if( s == 0)
     {
         c = (24 + ( t + f));
+        cout<< c<<endl;
     }
 
 
