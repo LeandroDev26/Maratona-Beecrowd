@@ -22,6 +22,14 @@ int main()
         {
             cout<< c <<endl;
         }
+        else
+        {
+            c = 0;
+            c = 24 - ( t + f);
+            cout<< c <<endl;
+
+
+        }
     }
 
 
