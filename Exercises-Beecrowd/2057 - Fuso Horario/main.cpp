@@ -24,17 +24,8 @@ int main()
     else if( c < 0)
     {
         c += 24;
-        cout<< c;
+        cout<< c <<endl;
     }
-
-
-
-
-
-
-
-
-
 
 
     return 0;
