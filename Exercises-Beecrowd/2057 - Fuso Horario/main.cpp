@@ -21,6 +21,11 @@ int main()
         c -= 24;
         cout<< c <<endl;
     }
+    else if( c < 0)
+    {
+        c += 24;
+        cout<< c;
+    }
 
 
 
