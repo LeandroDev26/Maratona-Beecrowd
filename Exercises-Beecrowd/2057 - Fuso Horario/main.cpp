@@ -8,7 +8,11 @@ int main()
     int s, t, f , c;
     // saida , tempo de viagem , fusuorário , chegada
 
+    c = (s + t + f);
 
+    if(c == 24){
+        cout<<"0"<<endl;
+    }
 
 
 
