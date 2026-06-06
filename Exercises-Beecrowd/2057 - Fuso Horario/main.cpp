@@ -9,13 +9,11 @@ int main()
     // saida , tempo de viagem , fusuorário , chegada
     cin>> s >> t >> f;
 
-    if( s == 0)
-    {
-        c = (24 + ( t + f));
-        cout<< c<<endl;
+    c = (s + t + f);
+
+    if( c > 0 && c < 23){
+        cout<< c <<endl;
     }
-
-
 
 
 
