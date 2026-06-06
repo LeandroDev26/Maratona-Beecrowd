@@ -11,7 +11,7 @@ int main()
 
     c = (s + t + f);
 
-    if( c > 0 && c < 23)
+    if( c >= 0 && c <= 23)
     {
         cout<< c <<endl;
     }
