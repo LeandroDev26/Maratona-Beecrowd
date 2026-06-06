@@ -11,7 +11,14 @@ int main()
 
     c = (s + t + f);
 
-    if( c > 0 && c < 23){
+    if( c > 0 && c < 23)
+    {
+        cout<< c <<endl;
+    }
+    else if( c >= 24)
+    {
+
+        c -= 24;
         cout<< c <<endl;
     }
 
