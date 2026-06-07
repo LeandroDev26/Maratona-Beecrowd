@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int p, j1, j2, r, a , sum = 0;
+    int p, j1, j2, r, a, sum = 0;
 
     cin>> p >> j1 >> j2 >> r >> a;
 
@@ -16,12 +16,18 @@ int main()
     else  if( r == 1 && a == 0)
     {
         cout<<"Jogador 1 ganha!"<<endl;
-    } else  if( r == 0 && a == 1)
+    }
+    else  if( r == 0 && a == 1)
     {
         cout<<"Jogador 1 ganha!"<<endl;
     }
 
-    if()
+    sum = (j1 + j2);
+    if(p == 1 && sum % 2 == 0)
+    {
+        cout<<"Jogador 1 ganha!"<<endl;
+
+    }
 
 
 
