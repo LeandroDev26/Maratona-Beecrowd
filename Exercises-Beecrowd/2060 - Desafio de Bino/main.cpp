@@ -25,6 +25,8 @@ int main()
 
     }
 
+    cout<< mult2 <<" Multiplo(s) de 2"<<endl;
+
 
 
 
