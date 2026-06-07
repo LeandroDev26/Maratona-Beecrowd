@@ -31,6 +31,14 @@ int main()
     {
         cout<<"Jogador 2 ganha!"<<endl;
 
+    }else if(p == 0 && sum % 2 == 1)
+    {
+        cout<<"Jogador 1 ganha!"<<endl;
+
+    }else if(p == 0 && sum % 2 == 0)
+    {
+        cout<<"Jogador 2 ganha!"<<endl;
+
     }
 
 
