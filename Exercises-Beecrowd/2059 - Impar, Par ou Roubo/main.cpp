@@ -27,6 +27,10 @@ int main()
     {
         cout<<"Jogador 1 ganha!"<<endl;
 
+    }else if(p == 1 && sum % 2 == 1)
+    {
+        cout<<"Jogador 2 ganha!"<<endl;
+
     }
 
 
