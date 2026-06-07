@@ -28,10 +28,7 @@ int main()
     cout<< mult2 <<" Multiplo(s) de 2"<<endl;
         cout<< mult3 <<" Multiplo(s) de 3"<<endl;
             cout<< mult4 <<" Multiplo(s) de 4"<<endl;
-
-
-
-
+                 cout<< mult5 <<" Multiplo(s) de 5"<<endl;
 
 
     return 0;
