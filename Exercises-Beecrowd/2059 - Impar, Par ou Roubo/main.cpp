@@ -16,6 +16,9 @@ int main()
     else  if( r == 1 && a == 0)
     {
         cout<<"Jogador 1 ganha!"<<endl;
+    } else  if( r == 0 && a == 1)
+    {
+        cout<<"Jogador 1 ganha!"<<endl;
     }
 
 
