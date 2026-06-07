@@ -36,12 +36,5 @@ int main()
     cout<< mult3 <<" Multiplo(s) de 3"<<endl;
     cout<< mult4 <<" Multiplo(s) de 4"<<endl;
     cout<< mult5 <<" Multiplo(s) de 5"<<endl;
-
-
-
-
-
-
-
     return 0;
 }
