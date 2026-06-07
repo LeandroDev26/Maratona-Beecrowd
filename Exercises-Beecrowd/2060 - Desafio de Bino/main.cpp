@@ -19,6 +19,8 @@ int main()
             mult3++;
         }else  if(t % 4 == 0){
             mult4++;
+        }else  if(t % 5 == 0){
+            mult5++;
         }
 
     }
