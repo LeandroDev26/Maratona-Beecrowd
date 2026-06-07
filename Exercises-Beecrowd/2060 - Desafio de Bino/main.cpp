@@ -13,22 +13,34 @@ int main()
     {
         cin>> t;
 
-        if(t % 2 == 0){
+        if(t % 2 == 0)
+        {
             mult2++;
-        }else  if(t % 3 == 0){
+        }
+        if(t % 3 == 0)
+        {
             mult3++;
-        }else  if(t % 4 == 0){
+        }
+        if(t % 4 == 0)
+        {
             mult4++;
-        }else  if(t % 5 == 0){
+        }
+        if(t % 5 == 0)
+        {
             mult5++;
         }
 
     }
 
     cout<< mult2 <<" Multiplo(s) de 2"<<endl;
-        cout<< mult3 <<" Multiplo(s) de 3"<<endl;
-            cout<< mult4 <<" Multiplo(s) de 4"<<endl;
-                 cout<< mult5 <<" Multiplo(s) de 5"<<endl;
+    cout<< mult3 <<" Multiplo(s) de 3"<<endl;
+    cout<< mult4 <<" Multiplo(s) de 4"<<endl;
+    cout<< mult5 <<" Multiplo(s) de 5"<<endl;
+
+
+
+
+
 
 
     return 0;
