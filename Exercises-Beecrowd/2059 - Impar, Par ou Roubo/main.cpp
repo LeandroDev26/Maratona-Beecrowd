@@ -9,11 +9,13 @@ int main()
 
     cin>> p >> j1 >> j2 >> r >> a;
 
-    if( r )
-    {
-
-
+    if( r == 1 && a == 0){
+        cout<<"Jogador 2 ganha!"<<endl;
     }
+
+
+
+
 
 
 
