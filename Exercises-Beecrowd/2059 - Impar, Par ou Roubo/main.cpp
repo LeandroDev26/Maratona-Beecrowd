@@ -21,39 +21,32 @@ int main()
     {
         cout<<"Jogador 1 ganha!"<<endl;
     }
-
-    sum = (j1 + j2);
-    if(p == 1 && sum % 2 == 0)
+    else
     {
-        cout<<"Jogador 1 ganha!"<<endl;
 
-    }else if(p == 1 && sum % 2 == 1)
-    {
-        cout<<"Jogador 2 ganha!"<<endl;
+        sum = (j1 + j2);
+        if(p == 1 && sum % 2 == 0)
+        {
+            cout<<"Jogador 1 ganha!"<<endl;
 
-    }else if(p == 0 && sum % 2 == 1)
-    {
-        cout<<"Jogador 1 ganha!"<<endl;
+        }
+        else if(p == 1 && sum % 2 == 1)
+        {
+            cout<<"Jogador 2 ganha!"<<endl;
 
-    }else if(p == 0 && sum % 2 == 0)
-    {
-        cout<<"Jogador 2 ganha!"<<endl;
+        }
+        else if(p == 0 && sum % 2 == 1)
+        {
+            cout<<"Jogador 1 ganha!"<<endl;
+
+        }
+        else if(p == 0 && sum % 2 == 0)
+        {
+            cout<<"Jogador 2 ganha!"<<endl;
+
+        }
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     return 0;
 }
