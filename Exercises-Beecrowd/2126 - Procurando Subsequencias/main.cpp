@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int caso = 1 ;
+    int caso = 1 , quantidade , posicao ;
     string n1, n2 ;
 
     while( cin>> n1 >> n2 )
