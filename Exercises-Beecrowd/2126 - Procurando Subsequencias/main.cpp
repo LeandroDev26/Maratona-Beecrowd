@@ -14,6 +14,11 @@ int main()
         quantidade = 0, posicao = 0;
         cout<<"Caso #"<<caso<<":"<<endl;
 
+        for(int i = 0 ; i < n2.length(); i++)
+        {
+
+        }
+
 
 
         caso++;
