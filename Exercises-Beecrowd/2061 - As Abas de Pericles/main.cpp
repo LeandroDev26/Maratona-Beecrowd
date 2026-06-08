@@ -15,7 +15,11 @@ int main()
         cin>> acao;
         if(acao == "fechou")
         {
-
+            n++;
+        }
+        else
+        {
+            n--;
         }
     }
 
