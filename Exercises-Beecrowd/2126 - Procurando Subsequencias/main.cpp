@@ -11,7 +11,7 @@ int main()
 
     while( cin>> n1 >> n2 )
     {
-
+        cout<<"Caso #"<<caso<<":"<<endl;
     }
 
 
