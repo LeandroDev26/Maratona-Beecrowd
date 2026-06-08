@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -6,9 +7,9 @@ int main()
 {
 
 
-    long long n1, n2 ;
+    string n1, n2 ;
 
-    while( cin>> n1 )
+    while( cin>> n1 >> n2 )
     {
 
     }
