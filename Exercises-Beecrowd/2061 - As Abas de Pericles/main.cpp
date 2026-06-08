@@ -12,7 +12,11 @@ int main()
 
     for (int i = 0 ; i < m ; i++)
     {
-    cin>> acao;
+        cin>> acao;
+        if(acao == "fechou")
+        {
+
+        }
     }
 
 
