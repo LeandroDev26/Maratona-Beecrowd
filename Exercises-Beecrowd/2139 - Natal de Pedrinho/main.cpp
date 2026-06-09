@@ -33,8 +33,8 @@ int main()
 
             soma += d;
             //total de dias de entrada
-
-
+            int diferenca = ( 360 - soma);
+            cout<<"Faltam "<< diferenca <<"dias para o natal!"<<endl;
 
 
 
