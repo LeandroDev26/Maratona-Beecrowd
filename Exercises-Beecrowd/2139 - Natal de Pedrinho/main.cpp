@@ -25,7 +25,7 @@ int main()
         }
         else
         {
-
+            soma = 0;
             for(int i = 0 ; i < m - 1; i++)
             {
                 soma += meses[i];
