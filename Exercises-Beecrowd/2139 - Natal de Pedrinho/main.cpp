@@ -26,10 +26,15 @@ int main()
         else
         {
 
-            for(int i = 0 ; i < 12; i++)
+            for(int i = 0 ; i < m - 1; i++)
             {
                 soma += meses[i];
             }
+
+            soma += d;
+            //total de dias de entrada
+
+
 
 
 
