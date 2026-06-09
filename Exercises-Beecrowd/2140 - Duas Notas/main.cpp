@@ -15,6 +15,10 @@ int main()
         troco = ( m - n);
 
 
+       for(int i = 0 ; i < 6; i++){
+
+       }
+
         if(qtd == 2)
         {
             cout<< "possible"<<endl;
