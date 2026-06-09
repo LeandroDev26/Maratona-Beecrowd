@@ -25,6 +25,11 @@ int main()
                 troco -= 50;
                 qtd++;
 
+            }else if(troco % 30 > 0)
+            {
+                troco -= 30;
+                qtd++;
+
             }
         }
 
