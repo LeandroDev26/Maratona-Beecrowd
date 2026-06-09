@@ -13,6 +13,8 @@ int main()
 
     if( m == 12 && d == 25){
         cout<<"E natal!"<<endl;
+    }else if( m == 12 && d == 24){
+      cout<<"E vespera de natal!"<<endl;
     }
 
 
