@@ -15,10 +15,13 @@ int main()
             if(n % 2 == 1)
             {
                 totp = (n - 1) * 2 + 1;
+                cout<< totp <<endl;
             }
             else
             {
                 totp = (n - 2) * 2 + 2;
+                cout<< totp <<endl;
+
 
             }
         }
