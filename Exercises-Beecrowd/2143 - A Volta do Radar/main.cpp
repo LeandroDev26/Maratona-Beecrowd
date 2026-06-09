@@ -7,11 +7,14 @@ int main()
 
     int t, n;
 
-    cin>>  t;
-    for (int i = 0 ; i < n; i++)
+    while (cin>>  t && t != 0)
     {
+        for (int i = 0 ; i < n; i++)
+        {
 
+        }
     }
+
 
 
     return 0;
