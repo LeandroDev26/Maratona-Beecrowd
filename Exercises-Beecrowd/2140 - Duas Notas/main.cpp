@@ -32,7 +32,7 @@ int main()
             }
         }
 
-        if(possivel == 1)
+        if(possivel == true)
         {
             cout<< "possible"<<endl;
         }
