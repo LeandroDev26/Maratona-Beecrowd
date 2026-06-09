@@ -11,6 +11,10 @@ int main()
       soma += meses[i];
     }
 
+    if( m == 12 && d == 25){
+        cout<<"E natal!"<<endl;
+    }
+
 
     /*while( cin>> m >> d)
     {
