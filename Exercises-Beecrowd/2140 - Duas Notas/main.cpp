@@ -15,7 +15,10 @@ int main()
         troco = ( n - m);
         while( troco >= 0 )
         {
-
+            if(troco % 100 > 0){
+                troco -= 100;
+                qtd++;
+            }
         }
 
 
