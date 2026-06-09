@@ -13,7 +13,7 @@ int main()
 
 
         bool possivel ;
-
+        soma = 0;
         troco = ( m - n);
 
 
@@ -26,7 +26,8 @@ int main()
                 soma += notas[i] + notas[j];
                 if(soma == troco)
                 {
-
+                   possivel = true;
+                   break;
                 }
             }
         }
