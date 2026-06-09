@@ -15,9 +15,14 @@ int main()
         troco = ( m - n);
 
 
-       for(int i = 0 ; i < 6; i++){
+        for(int i = 0 ; i < 6; i++)
+        {
 
-       }
+            for(int j = 0 ; j < 6 ; j++)
+            {
+
+            }
+        }
 
         if(qtd == 2)
         {
