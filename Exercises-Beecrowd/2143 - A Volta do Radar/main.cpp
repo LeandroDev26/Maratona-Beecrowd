@@ -9,9 +9,9 @@ int main()
 
     while (cin>>  t && t != 0)
     {
-        for (int i = 0 ; i < n; i++)
+        for (int i = 0 ; i < t; i++)
         {
-
+            cin>> n;
         }
     }
 
