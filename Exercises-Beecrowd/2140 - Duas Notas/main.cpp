@@ -35,6 +35,11 @@ int main()
                 troco -= 10;
                 qtd++;
 
+            }else if(troco % 5 > 0)
+            {
+                troco -= 5;
+                qtd++;
+
             }
         }
 
