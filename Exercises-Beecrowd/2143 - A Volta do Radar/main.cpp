@@ -21,8 +21,6 @@ int main()
             {
                 totp = (2 * n) - 2;
                 cout<< totp <<endl;
-
-
             }
         }
     }
