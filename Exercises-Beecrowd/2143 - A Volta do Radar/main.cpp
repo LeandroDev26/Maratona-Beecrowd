@@ -14,12 +14,12 @@ int main()
             cin>> n;
             if(n % 2 == 1)
             {
-                totp = (n - 1) * 2 + 1;
+                totp = (2 * n ) - 1;
                 cout<< totp <<endl;
             }
             else
             {
-                totp = (n - 2) * 2 + 2;
+                totp = (2 * n) - 2;
                 cout<< totp <<endl;
 
 
