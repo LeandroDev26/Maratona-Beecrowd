@@ -11,23 +11,19 @@ int main()
     {
         // As notas disponíveis são: 2, 5, 10, 20, 50 e 100.
 
-
-        bool possivel ;
-        soma = 0;
-        troco = ( m - n);
-
+        bool possivel = false;
+        troco = m - n;
 
         for(int i = 0 ; i < 6; i++)
         {
-            notas[i];
-
             for(int j = 0 ; j < 6 ; j++)
             {
-                soma += notas[i] + notas[j];
+                soma = notas[i] + notas[j];
+
                 if(soma == troco)
                 {
-                   possivel = true;
-                   break;
+                    possivel = true;
+                    break;
                 }
             }
         }
