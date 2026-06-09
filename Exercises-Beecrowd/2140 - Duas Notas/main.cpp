@@ -25,22 +25,26 @@ int main()
                 troco -= 50;
                 qtd++;
 
-            }else if(troco % 20 > 0)
+            }
+            else if(troco % 20 > 0)
             {
                 troco -= 20;
                 qtd++;
 
-            }else if(troco % 10 > 0)
+            }
+            else if(troco % 10 > 0)
             {
                 troco -= 10;
                 qtd++;
 
-            }else if(troco % 5 > 0)
+            }
+            else if(troco % 5 > 0)
             {
                 troco -= 5;
                 qtd++;
 
-            }else if(troco % 2 > 0)
+            }
+            else if(troco % 2 > 0)
             {
                 troco -= 2;
                 qtd++;
@@ -48,7 +52,13 @@ int main()
             }
         }
 
-
+        if(qtd == 2)
+        {
+            cout<< "possible"<<endl;
+        }
+        else
+        {
+        }
 
     }
 
