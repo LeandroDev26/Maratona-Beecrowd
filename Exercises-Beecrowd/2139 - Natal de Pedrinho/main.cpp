@@ -12,27 +12,27 @@ int main()
         soma += meses[i];
     }
 
-    if( m == 12 && d == 25)
-    {
-        cout<<"E natal!"<<endl;
-    }
-    else if( m == 12 && d == 24)
-    {
-        cout<<"E vespera de natal!"<<endl;
-    }
-    else if ( m == 12 && d > 25)
-    {
-        cout<<"Ja passou!"<<endl;
 
-    }
-
-
-    /*while( cin>> m >> d)
+    while( cin>> m >> d)
     {
 
+        if( m == 12 && d == 25)
+        {
+            cout<<"E natal!"<<endl;
+        }
+        else if( m == 12 && d == 24)
+        {
+            cout<<"E vespera de natal!"<<endl;
+        }
+        else if ( m == 12 && d > 25)
+        {
+            cout<<"Ja passou!"<<endl;
+
+        }
+
     }
 
-    */
+
 
 
 
