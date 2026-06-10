@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 using namespace std;
 
@@ -13,6 +14,7 @@ int main()
     {
          cin>> frase ;
          tempo = frase.length() * 100;
+         cout<< fixed << setprecision(2);
 
     }
 
