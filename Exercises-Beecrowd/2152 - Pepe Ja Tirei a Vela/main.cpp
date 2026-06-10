@@ -15,8 +15,13 @@ int main()
         {
             if( o == 0)
             {
-                cout<<"0"<< h<< ":"<<"0"<< m<< " - A porta fechou!"<<endl;
+                cout<<"0"<< h << ":"<<"0"<< m << " - A porta fechou!"<<endl;
             }
+        }
+        else if( o == 1)
+        {
+            cout<< h << ":"<< m << " - A porta abriu!"<<endl;
+
         }
     }
 
