@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -11,33 +12,19 @@ int main()
     {
         cin>> h >> m >> o;
 
-        if( h <= 9 && m <= 9)
-        {
-            if( o == 0)
-            {
-                cout<<"0"<< h << ":"<<"0"<< m << " - A porta fechou!"<<endl;
-            }
-            else
-            {
-                cout<<"0"<< h << ":"<<"0"<< m << " - A porta abriu!"<<endl;
+        cout << setfill('0') << setw(2) << h << ":"
+             << setfill('0') << setw(2) << m << " - A porta ";
 
-            }
+        if(o == 0)
+        {
+            cout << "fechou!" << endl;
         }
         else
         {
-            if( o == 0)
-            {
-                cout<< h << ":"<< m << " - A porta fechou!"<<endl;
-
-            }
-            else
-            {
-                cout<< h << ":"<< m << " - A porta abriu!"<<endl;
-
-            }
-
+            cout << "abriu!" << endl;
         }
     }
+
 
     return 0;
 }
