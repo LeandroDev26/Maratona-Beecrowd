@@ -8,7 +8,7 @@ int main()
     int n;
     while(cin>> n)
     {
-
+      cout<< n - 1 <<endl;
     }
 
 
