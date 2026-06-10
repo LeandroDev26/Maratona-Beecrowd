@@ -15,6 +15,7 @@ int main()
          cin>> frase ;
          tempo = (frase.length() * 100);
          cout<< fixed << setprecision(2);
+         cout<< tempo <<endl;
 
     }
 
