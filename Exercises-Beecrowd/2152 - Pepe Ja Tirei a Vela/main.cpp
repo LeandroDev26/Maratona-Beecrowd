@@ -25,7 +25,11 @@ int main()
         }
         else
         {
-            cout<< h << ":"<< m << " - A porta abriu!"<<endl;
+            if( o == 0)
+            {
+                cout<< h << ":"<< m << " - A porta abriu!"<<endl;
+
+            }
 
         }
     }
