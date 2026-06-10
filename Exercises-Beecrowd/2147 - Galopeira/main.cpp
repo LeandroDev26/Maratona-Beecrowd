@@ -13,7 +13,7 @@ int main()
     for(int i = 0 ; i < c ; i++)
     {
          cin>> frase ;
-         tempo = frase.length() * 100;
+         tempo = (frase.length() * 100);
          cout<< fixed << setprecision(2);
 
     }
