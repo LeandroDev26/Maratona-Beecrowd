@@ -15,7 +15,7 @@ int main()
     {
          cin>> frase ;
          tempo = frase.length();
-         cout<< tempo / 100 <<endl;
+         cout<< tempo / 100.0 <<endl;
 
     }
 
