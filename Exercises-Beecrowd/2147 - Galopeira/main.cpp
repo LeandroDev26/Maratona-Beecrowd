@@ -6,7 +6,8 @@ using namespace std;
 
 int main()
 {
-     double tempo;
+    cout<< fixed << setprecision(2);
+    double tempo;
     string frase;
     int c ;
     cin>> c;
@@ -14,7 +15,6 @@ int main()
     {
          cin>> frase ;
          tempo = frase.length();
-         cout<< fixed << setprecision(2);
          cout<< tempo / 100 <<endl;
 
     }
