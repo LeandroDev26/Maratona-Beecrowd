@@ -11,14 +11,19 @@ int main()
     {
         cin>> h >> m >> o;
 
-        if( h == 0 && m <= 9)
+        if( h <= 9 && m <= 9)
         {
             if( o == 0)
             {
                 cout<<"0"<< h << ":"<<"0"<< m << " - A porta fechou!"<<endl;
             }
+            else
+            {
+                cout<<"0"<< h << ":"<<"0"<< m << " - A porta abriu!"<<endl;
+
+            }
         }
-        else if( o == 1)
+        else
         {
             cout<< h << ":"<< m << " - A porta abriu!"<<endl;
 
