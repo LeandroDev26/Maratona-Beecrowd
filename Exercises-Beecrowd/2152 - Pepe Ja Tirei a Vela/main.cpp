@@ -15,7 +15,7 @@ int main()
         {
             if( o == 0)
             {
-                cout<<"0"<< h<< ":50 - A porta fechou!"<<endl;
+                cout<<"0"<< h<< ":"<<"0"<< m<< " - A porta fechou!"<<endl;
             }
         }
     }
