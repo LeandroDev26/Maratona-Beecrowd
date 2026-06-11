@@ -9,6 +9,9 @@ int main()
     string l;
     getline(cin, l);
 
+    if(l.length() > 80){
+
+    }
 
 
 
