@@ -6,7 +6,8 @@ int main()
 {
 
 
-
+  double n;
+  cin>> n;
 
 
 
