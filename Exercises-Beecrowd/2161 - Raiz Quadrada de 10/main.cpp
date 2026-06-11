@@ -6,7 +6,7 @@ int main()
 {
 
     cout<< fixed << setprecision(10);
-    double n;
+    double n , fracao = 0.0;;
     cin>> n;
 
 
