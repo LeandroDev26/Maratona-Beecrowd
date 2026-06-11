@@ -7,9 +7,11 @@ using namespace std;
 int main()
 {
 
-  cout<< fixed << setprecision(1);
-    double n , p , m ;
+    cout<< fixed << setprecision(1);
+    double n, p, m ;
     cin>> n;
+
+    cout<< p <<" "<< m <<endl;
 
 
 
