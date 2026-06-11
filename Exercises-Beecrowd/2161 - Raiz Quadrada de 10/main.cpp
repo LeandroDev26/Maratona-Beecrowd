@@ -11,9 +11,9 @@ int main()
 
     for(int i = 0 ; i < n ; i++)
     {
-
+       fracao = ( 1 / (6 + fracao));
     }
-
+   cout<< "3" << fracao <<endl;
 
 
 
