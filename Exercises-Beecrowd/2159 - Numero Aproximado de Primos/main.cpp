@@ -8,7 +8,7 @@ int main()
 {
 
   cout<< fixed << setprecision(1);
-    double n ;
+    double n , p , m ;
     cin>> n;
 
 
