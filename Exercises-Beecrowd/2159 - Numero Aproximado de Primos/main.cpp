@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 
-
+  cout<< fixed << setprecision(1);
     double n ;
     cin>> n;
 
