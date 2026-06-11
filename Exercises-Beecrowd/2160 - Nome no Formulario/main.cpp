@@ -9,7 +9,13 @@ int main()
     string l;
     getline(cin, l);
 
-    if(l.length() > 80){
+    if(l.length() > 80)
+    {
+        cout<<"NO"<<endl;
+    }
+    else
+    {
+        cout<<"YES"<<endl;
 
     }
 
