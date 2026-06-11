@@ -13,10 +13,7 @@ int main()
     {
        fracao = ( 1 / (6 + fracao));
     }
-   cout<< "3" << fracao <<endl;
-
-
-
+   cout<< fracao + 3 <<endl;
 
 
     return 0;
