@@ -4,35 +4,19 @@ using namespace std;
 
 int main()
 {
-    vector<vector<int>> terreno =
-    {
-        {11, 12, 7, 7, 7, 13, 14},
-        {15, 6, 7, 42, 7, 7, 42},
-        {98, -5, 7, 7, 7, 42, 7},
-        {-1, 42, 3, 9, 7, 7, 7}
-    };
     int n, m;
-    int flag = 1;
-    cin>> n >> m;
+    cin >> n >> m;
 
-    for(int i = 0 ; i < n; i++)
+    vector<vector<int>> terreno(n, vector<int>(m));
+
+    for(int i = 0; i < n; i++)
     {
-        for(int j = 0 ; j < m; j++)
+        for(int j = 0; j < m; j++)
         {
-
-            if( j == m )
-            {
-                cout<<terreno[i][j];
-
-            }
-
-            cout<< terreno[i][j] <<" ";
-
-
+            cin >> terreno[i][j];
         }
-        cout<<endl;
     }
-
+    bool achou = false;
 
     for(int l = 1 ; l < n - 1; l++)
     {
@@ -40,83 +24,23 @@ int main()
         {
             if(terreno[l][k] == 42)
             {
-
-                if( terreno[l-1][k] == 7)
+                // Checa as 8 posições ao mesmo tempo!
+                if( terreno[l-1][k-1] == 7 && terreno[l-1][k] == 7 && terreno[l-1][k+1] == 7 &&
+                    terreno[l][k-1]   == 7 &&                         terreno[l][k+1]   == 7 &&
+                    terreno[l+1][k-1] == 7 && terreno[l+1][k] == 7 && terreno[l+1][k+1] == 7 )
                 {
-                    ///cima
-                    flag++;
-
+                    cout << l + 1 << " " << k + 1 << endl;
+                    achou = true;
+                    break;
                 }
-                else if( terreno[l-1][k - 1] == 7)
-                {
-                    //cima + esquerda
-                    flag++;
-
-
-                }
-                else if( terreno[l-1][k + 1] == 7)
-                {
-                    //cima + direita
-                    flag++;
-                }
-
-
-                else if( terreno[l+1][k] == 7)
-                {
-                    //baixo
-                    flag++;
-
-
-                }
-                else if( terreno[l+1][k-1] == 7)
-                {
-                    //baixo + esquerda
-                    flag++;
-
-
-                }
-                else if( terreno[l+1][k-1] == 7)
-                {
-                    //baixo + direita
-                    flag++;
-
-
-                }
-                else if( terreno[l][k -1] == 7)
-                {
-                    //antes
-                    flag++;
-
-
-                }
-                else if( terreno[l][k+1] == 7)
-                {
-                    //depois
-                    flag++;
-
-
-                }
-
-
-                if(flag == 8)
-                {
-
-                }
-                else
-                {
-                    cout<< "0 0"<<endl;
-                }
-
-
             }
         }
-
+        if (achou) break;
     }
 
+    if(!achou)
+    {
+        cout << "0 0" << endl;
+    }
 
-
-
-
-
-    return 0;
 }
