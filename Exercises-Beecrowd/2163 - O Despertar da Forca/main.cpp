@@ -34,11 +34,12 @@ int main()
     }
 
 
-    for(int k = 1 ; k < n - 1; k++)
+    for(int l = 1 ; l < n - 1; l++)
     {
-        for(int l = 1 ; l < m - 1; l++)
+        for(int k = 1 ; k < m - 1; k++)
         {
-        }
+            if(terreno)
+            }
 
     }
 
