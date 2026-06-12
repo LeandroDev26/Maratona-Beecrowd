@@ -38,7 +38,7 @@ int main()
     {
         for(int k = 1 ; k < m - 1; k++)
         {
-            if(terreno[l][k])
+            if(terreno[l][k] == 42)
             {
 
             }
