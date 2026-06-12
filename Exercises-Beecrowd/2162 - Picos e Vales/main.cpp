@@ -21,7 +21,9 @@ int main()
         padrao_valido = false;
     }
 
+   for(int j = 2; j < numeros.size(); j++){
 
+   }
 
 
 
