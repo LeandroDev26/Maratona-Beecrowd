@@ -19,19 +19,29 @@ int main()
     {
         for(int j = 0 ; j < m; j++)
         {
-            if( j == 0)
+
+            if( j == m )
             {
-                cout<< terreno[i][j];
+                cout<<terreno[i][j];
 
             }
-            else
-            {
-                cout<< terreno[i][j];
 
-            }
+            cout<< terreno[i][j] <<" ";
+
+
         }
         cout<<endl;
     }
+
+
+    for(int i = 0 ; i < n; i++)
+    {
+        for(int j = 0 ; j < m; j++)
+        {
+        }
+
+    }
+
 
 
 
