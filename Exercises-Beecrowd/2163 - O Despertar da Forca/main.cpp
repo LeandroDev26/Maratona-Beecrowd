@@ -40,8 +40,12 @@ int main()
         {
             if(terreno[l][k] == 42)
             {
+                if( terreno[l-1][k] == 7){
 
+                }
             }
+
+
         }
 
     }
