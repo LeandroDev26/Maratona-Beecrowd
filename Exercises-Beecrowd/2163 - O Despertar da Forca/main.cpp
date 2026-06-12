@@ -42,16 +42,22 @@ int main()
             {
                 if( terreno[l-1][k] == 7)
                 {
+                    ///cima
 
                 }
                 else if( terreno[l+1][k] == 7)
                 {
+                    //baixo
 
-                }else if( terreno[l][k -1] == 7)
+                }
+                else if( terreno[l][k -1] == 7)
                 {
+                    //antes
 
-                }else if( terreno[l][k+1] == 7)
+                }
+                else if( terreno[l][k+1] == 7)
                 {
+                    //depois
 
                 }
 
