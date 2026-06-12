@@ -53,7 +53,8 @@ int main()
                     flag++;
 
 
-                }else if( terreno[l-1][k + 1] == 7)
+                }
+                else if( terreno[l-1][k + 1] == 7)
                 {
                     //cima + direita
                     flag++;
@@ -66,13 +67,15 @@ int main()
                     flag++;
 
 
-                }  else if( terreno[l+1][k-1] == 7)
+                }
+                else if( terreno[l+1][k-1] == 7)
                 {
                     //baixo + esquerda
                     flag++;
 
 
-                }  else if( terreno[l+1][k-1] == 7)
+                }
+                else if( terreno[l+1][k-1] == 7)
                 {
                     //baixo + direita
                     flag++;
@@ -95,18 +98,21 @@ int main()
                 }
 
 
+                if(flag == 8)
+                {
+
+                }
+                else
+                {
+                    cout<< "0 0"<<endl;
+                }
+
+
             }
         }
 
     }
-    if(flag == true)
-    {
 
-    }
-    else
-    {
-        cout<< "0 0"<<endl;
-    }
 
 
 
