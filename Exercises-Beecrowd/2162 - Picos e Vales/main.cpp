@@ -46,6 +46,15 @@ int main()
 
     }
 
+    if(padrao_valido == true)
+    {
+        cout<<"1"<<endl;
+    }
+    else
+    {
+        cout<<"0"<<endl;
+    }
+
 
 
     return 0;
