@@ -34,9 +34,9 @@ int main()
     }
 
 
-    for(int i = 0 ; i < n; i++)
+    for(int k = 0 ; k < n; k++)
     {
-        for(int j = 0 ; j < m; j++)
+        for(int l = 0 ; l < m; l++)
         {
         }
 
