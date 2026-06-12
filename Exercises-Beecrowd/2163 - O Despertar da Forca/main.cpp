@@ -12,7 +12,7 @@ int main()
         {-1, 42, 3, 9, 7, 7, 7}
     };
     int n, m;
-
+    bool flag = false;
     cin>> n >> m;
 
     for(int i = 0 ; i < n; i++)
@@ -40,6 +40,7 @@ int main()
         {
             if(terreno[l][k] == 42)
             {
+                flag = true;
                 if( terreno[l-1][k] == 7)
                 {
                     ///cima
@@ -65,6 +66,13 @@ int main()
             }
         }
 
+    }
+    if(flag == true)
+    {
+
+    }
+    else
+    {
     }
 
 
