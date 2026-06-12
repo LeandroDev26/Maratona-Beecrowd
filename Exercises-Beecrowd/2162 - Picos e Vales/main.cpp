@@ -21,9 +21,14 @@ int main()
         padrao_valido = false;
     }
 
-   for(int j = 2; j < numeros.size(); j++){
+    for(int j = 2; j < numeros.size(); j++)
+    {
 
-   }
+        int atual = numeros[j];
+        int meio = numeros[j-1];
+        int primary = numeros[j-2];
+
+    }
 
 
 
