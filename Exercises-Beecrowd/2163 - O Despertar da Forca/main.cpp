@@ -47,6 +47,12 @@ int main()
                 else if( terreno[l+1][k] == 7)
                 {
 
+                }else if( terreno[l][k -1] == 7)
+                {
+
+                }else if( terreno[l][k+1] == 7)
+                {
+
                 }
 
 
