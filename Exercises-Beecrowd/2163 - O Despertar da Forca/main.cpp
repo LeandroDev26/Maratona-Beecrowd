@@ -53,7 +53,7 @@ int main()
                     flag++;
 
 
-                }else if( terreno[l+1][k + 1] == 7)
+                }else if( terreno[l-1][k + 1] == 7)
                 {
                     //cima + direita
                     flag++;
@@ -63,6 +63,18 @@ int main()
                 else if( terreno[l+1][k] == 7)
                 {
                     //baixo
+                    flag++;
+
+
+                }  else if( terreno[l+1][k-1] == 7)
+                {
+                    //baixo + esquerda
+                    flag++;
+
+
+                }  else if( terreno[l+1][k-1] == 7)
+                {
+                    //baixo + direita
                     flag++;
 
 
