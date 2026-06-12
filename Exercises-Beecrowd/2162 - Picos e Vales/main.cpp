@@ -18,6 +18,7 @@ int main()
 
     if(n = 2 && numeros[0] == numeros[1])
     {
+        padrao_valido = false;
     }
 
 
