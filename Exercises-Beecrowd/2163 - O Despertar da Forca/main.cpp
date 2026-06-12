@@ -38,8 +38,11 @@ int main()
     {
         for(int k = 1 ; k < m - 1; k++)
         {
-            if(terreno)
+            if(terreno[l][k])
+            {
+
             }
+        }
 
     }
 
