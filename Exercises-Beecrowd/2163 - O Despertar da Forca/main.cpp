@@ -12,7 +12,7 @@ int main()
         {-1, 42, 3, 9, 7, 7, 7}
     };
     int n, m;
-    bool flag = false;
+    int flag = 1;
     cin>> n >> m;
 
     for(int i = 0 ; i < n; i++)
@@ -40,25 +40,45 @@ int main()
         {
             if(terreno[l][k] == 42)
             {
-                flag = true;
+
                 if( terreno[l-1][k] == 7)
                 {
                     ///cima
+                    flag++;
 
                 }
+                else if( terreno[l-1][k - 1] == 7)
+                {
+                    //cima + esquerda
+                    flag++;
+
+
+                }else if( terreno[l+1][k + 1] == 7)
+                {
+                    //cima + direita
+                    flag++;
+                }
+
+
                 else if( terreno[l+1][k] == 7)
                 {
                     //baixo
+                    flag++;
+
 
                 }
                 else if( terreno[l][k -1] == 7)
                 {
                     //antes
+                    flag++;
+
 
                 }
                 else if( terreno[l][k+1] == 7)
                 {
                     //depois
+                    flag++;
+
 
                 }
 
@@ -73,6 +93,7 @@ int main()
     }
     else
     {
+        cout<< "0 0"<<endl;
     }
 
 
