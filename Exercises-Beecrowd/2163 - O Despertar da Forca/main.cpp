@@ -21,6 +21,7 @@ int main()
         {
             cout<< terreno[i][j];
         }
+        cout<<endl;
     }
 
 
