@@ -36,6 +36,13 @@ int main()
         {
             //vale
         }
+        else
+        {
+            padrao_valido = false;
+            break;
+        }
+
+
 
     }
 
