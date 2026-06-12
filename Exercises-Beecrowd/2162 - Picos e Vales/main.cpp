@@ -28,6 +28,10 @@ int main()
         int meio = numeros[j-1];
         int primary = numeros[j-2];
 
+        if( meio > primary && meio > atual){
+
+        }
+
     }
 
 
