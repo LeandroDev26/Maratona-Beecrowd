@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+    cout<< fixed <<setprecision(1);
 
     double raiz5 = sqrt(5) , n , fibonacci;
     double positivo = ( 1 + raiz5) / 2;
