@@ -12,6 +12,7 @@ int main()
 
     cin>> n ;
     fibonacci = (pow(positivo, n) - pow(negativo, n))/raiz5;
+    cout<< fibonacci <<endl;
 
 
 
