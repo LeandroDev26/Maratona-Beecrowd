@@ -18,7 +18,7 @@ int main()
 
 
     }
-    for(int j = 1 ; j <= rotacoes.size(); j++)
+    for(int j = 1 ; j < rotacoes.size(); j++)
     {
         int atual = rotacoes[j];
         int antes = rotacoes[j-1];
@@ -29,10 +29,7 @@ int main()
             ehvalido = false;
             break;
         }
-        if(atual == antes)
-        {
-            ehvalido = true;
-        }
+
 
     }
     if(ehvalido == true)
