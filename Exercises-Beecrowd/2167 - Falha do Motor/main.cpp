@@ -25,13 +25,17 @@ int main()
 
         if( atual < antes)
         {
-            cout<< j <<endl;
+            cout<< j + 1 <<endl;
             ehvalido = false;
             break;
         }
+        if(atual == antes)
+        {
+            ehvalido = true;
+        }
 
     }
-    if(ehvalido)
+    if(ehvalido == true)
     {
         cout<<"0"<<endl;
     }
