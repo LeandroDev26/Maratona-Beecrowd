@@ -28,10 +28,12 @@ int main()
             cout<< j <<endl;
             ehvalido = false;
             break;
-        }else if( atual == antes){
-
         }
 
+    }
+    if(ehvalido)
+    {
+        cout<<"0"<<endl;
     }
 
 
