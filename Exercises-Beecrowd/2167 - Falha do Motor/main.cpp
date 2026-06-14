@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-
+    bool ehvalido = true;
     int n, r;
     vector<int> rotacoes;
     cin>> n;
