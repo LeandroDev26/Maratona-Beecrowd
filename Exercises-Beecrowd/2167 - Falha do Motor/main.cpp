@@ -22,6 +22,9 @@ int main()
     {
         int atual = rotacoes[j];
         int antes = rotacoes[j-1];
+        if( atual > antes){
+
+        }
 
     }
 
