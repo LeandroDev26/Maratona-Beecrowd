@@ -17,6 +17,9 @@ int main()
 
 
      }
+     for(int j = 1 ; j < rotacoes.size(); j++){
+
+     }
 
 
     return 0;
