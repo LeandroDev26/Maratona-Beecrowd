@@ -18,10 +18,10 @@ int main()
 
 
     }
-    for(int j = 0 ; j < rotacoes.size(); j++)
+    for(int j = 1 ; j <= rotacoes.size(); j++)
     {
-        int atual = rotacoes[j + 1];
-        int antes = rotacoes[j - 1];
+        int atual = rotacoes[j];
+        int antes = rotacoes[j-1];
 
         if( atual < antes)
         {
