@@ -6,20 +6,24 @@ using namespace std;
 int main()
 {
 
-     int n , r;
-     vector<int> rotacoes;
-     cin>> n;
+    int n, r;
+    vector<int> rotacoes;
+    cin>> n;
 
 
-     for(int i = 0 ; i < n; i++){
+    for(int i = 0 ; i < n; i++)
+    {
         cin>> r;
         rotacoes.push_back(r);
 
 
-     }
-     for(int j = 1 ; j < rotacoes.size(); j++){
+    }
+    for(int j = 1 ; j < rotacoes.size(); j++)
+    {
+        int atual = rotacoes[j];
+        int antes = rotacoes[j-1];
 
-     }
+    }
 
 
     return 0;
