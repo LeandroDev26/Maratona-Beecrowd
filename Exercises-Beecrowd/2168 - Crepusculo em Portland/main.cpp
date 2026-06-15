@@ -26,7 +26,13 @@ int main()
             {
                 cameras++;
             }
-            else   if(matriz[l][k] == 1)
+            else   if(matriz[l][k+1] == 1)
+            {
+                cameras++;
+            }else   if(matriz[l+1][k] == 1)
+            {
+                cameras++;
+            }else   if(matriz[l+1][k+1] == 1)
             {
                 cameras++;
             }
