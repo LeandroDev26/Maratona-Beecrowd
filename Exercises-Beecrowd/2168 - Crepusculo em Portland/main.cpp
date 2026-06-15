@@ -21,7 +21,7 @@ int main()
     {
         for(int k = 0; k < n ; k++)
         {
-            int cameras = 0;
+            int cameras =  (matriz[l][k] + matriz[l][k+1] + matriz[l+1][k] + matriz[l+1][k+1]);
 
 
 
