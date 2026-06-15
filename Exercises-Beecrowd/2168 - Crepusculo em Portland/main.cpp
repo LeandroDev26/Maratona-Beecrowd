@@ -29,13 +29,23 @@ int main()
             else   if(matriz[l][k+1] == 1)
             {
                 cameras++;
-            }else   if(matriz[l+1][k] == 1)
-            {
-                cameras++;
-            }else   if(matriz[l+1][k+1] == 1)
+            }
+            else   if(matriz[l+1][k] == 1)
             {
                 cameras++;
             }
+            else   if(matriz[l+1][k+1] == 1)
+            {
+                cameras++;
+            }
+        }
+        if(cameras >= 2)
+        {
+            cout<<"S";
+        }
+        else
+        {
+            cout<<"U";
         }
 
         cout<<endl;
