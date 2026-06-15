@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int n ;
+    int n , cameras = 0;
     cin>> n ;
     vector< vector <int>> matriz( n+1, vector<int>(n+1, 0));
     for(int i = 0; i <= n ; i++)
