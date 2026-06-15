@@ -19,33 +19,22 @@ int main()
 
     for(int l = 0 ; l < n; l++)
     {
-        int cameras = 0;
         for(int k = 0; k < n ; k++)
         {
-            if(matriz[l][k] == 1)
+            int cameras = 0;
+
+
+
+            if(cameras >= 2)
             {
-                cameras++;
+                cout<<"S";
             }
-            else   if(matriz[l][k+1] == 1)
+            else
             {
-                cameras++;
+                cout<<"U";
             }
-            else   if(matriz[l+1][k] == 1)
-            {
-                cameras++;
-            }
-            else   if(matriz[l+1][k+1] == 1)
-            {
-                cameras++;
-            }
-        }
-        if(cameras >= 2)
-        {
-            cout<<"S";
-        }
-        else
-        {
-            cout<<"U";
+
+
         }
 
         cout<<endl;
