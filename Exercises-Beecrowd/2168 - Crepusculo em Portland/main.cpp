@@ -22,7 +22,14 @@ int main()
         int cameras = 0;
         for(int k = 0; k < n ; k++)
         {
-
+            if(matriz[l][k] == 1)
+            {
+                cameras++;
+            }
+            else   if(matriz[l][k] == 1)
+            {
+                cameras++;
+            }
         }
 
         cout<<endl;
