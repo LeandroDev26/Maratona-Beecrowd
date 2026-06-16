@@ -4,9 +4,12 @@ using namespace std;
 
 int main()
 {
-   int xf , yf , xi, yi, vi , r1 , r2;
+    int xf, yf, xi, yi, vi, r1, r2;
 
+    while(cin>> xf >> yf >> xi >> yi >> vi >> r1 >> r2)
+    {
 
+    }
 
 
 
