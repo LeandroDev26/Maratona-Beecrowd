@@ -10,16 +10,16 @@ int main()
     {
         Di = (sqrt(pow(xi - xf, 2) + pow(yi - yf, 2) ) );
         Di += (vi * 1.5);
+        Am = (r1 + r2);
         if(Di > Am)
         {
-
+            cout<<"Y"<<endl;
         }
         else
         {
+            cout<<"N"<<endl;
         }
     }
-
-
 
     return 0;
 }
