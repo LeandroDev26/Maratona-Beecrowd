@@ -23,8 +23,6 @@ int main()
         {
             int cameras =  (matriz[l][k] + matriz[l][k+1] + matriz[l+1][k] + matriz[l+1][k+1]);
 
-
-
             if(cameras >= 2)
             {
                 cout<<"S";
