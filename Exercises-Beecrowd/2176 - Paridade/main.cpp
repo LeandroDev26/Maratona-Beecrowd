@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int par = 0, impar = 0;
+    int par = 0;
     string s ;
     cin>> s;
 
@@ -15,12 +15,12 @@ int main()
         {
             par++;
         }
-        else
-        {
-            impar++;
-        }
+
     }
 
+     if(par % 2 == 1){
+        cout<< s + 1 <<endl;
+     }
 
 
 
