@@ -11,7 +11,7 @@ int main()
 
     for(int i = 0; i < s.length(); i++)
     {
-        if( s[i] == 1)
+        if( s[i] == '1')
         {
             par++;
         }
@@ -20,7 +20,12 @@ int main()
 
     if(par % 2 == 1)
     {
-        s += 1;
+        s += "1";
+        cout<< s <<endl;
+    }
+    else
+    {
+        s += "0";
         cout<< s <<endl;
     }
 
