@@ -12,22 +12,28 @@ int main()
 
     for(int i = 0 ; i < t; i++)
     {
+        int valorGolpe = 0;
         cin>> b >> Ai >> Di >> Li;
 
         if(Li % 2 == 0)
         {
-            int valorGolpe = ((Ai + Di)/2) + b;
+             valorGolpe = ((Ai + Di)/2) + b;
 
         }
         else
         {
-            int valorGolpe = (Ai + Di)/2;
+            valorGolpe = (Ai + Di)/2;
 
         }
 
+        golpes.push_back(valorGolpe);
 
 
     }
+
+      for(int j = 0 ; j < golpes.size(); j++){
+
+      }
 
 
 
