@@ -8,7 +8,8 @@ int main()
 
     int h, p;
     double media ;
-
+    cin>> h >> p ;
+    media = (h /p);
 
 
 
