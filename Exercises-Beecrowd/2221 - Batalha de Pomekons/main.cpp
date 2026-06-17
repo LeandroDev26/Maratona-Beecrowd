@@ -14,6 +14,7 @@ int main()
     {
         int valorGolpe = 0;
         cin>> b >> Ai >> Di >> Li;
+        cin>> b >> Ai >> Di >> Li;
 
         if(Li % 2 == 0)
         {
