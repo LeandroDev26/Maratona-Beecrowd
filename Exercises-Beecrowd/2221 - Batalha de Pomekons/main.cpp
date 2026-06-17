@@ -17,7 +17,7 @@ int main()
 
         if(Li % 2 == 0)
         {
-             valorGolpe = ((Ai + Di)/2) + b;
+            valorGolpe = ((Ai + Di)/2) + b;
 
         }
         else
@@ -31,9 +31,19 @@ int main()
 
     }
 
-      for(int j = 0 ; j < golpes.size(); j++){
-
-      }
+    // dabriel = 0 guarte = 1
+    if(golpes[0] > golpes[1])
+    {
+        cout<<"Dabriel"<<endl;
+    }
+    else if(golpes[0] < golpes[1])
+    {
+        cout<<"Guarte"<<endl;
+    }
+    else
+    {
+        cout<<"Empate"<<endl;
+    }
 
 
 
