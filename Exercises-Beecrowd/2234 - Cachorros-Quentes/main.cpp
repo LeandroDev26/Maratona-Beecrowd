@@ -6,16 +6,12 @@ using namespace std;
 int main()
 {
 
-    int h, p;
+    double h, p;
     double media ;
     cin>> h >> p ;
     media = (h /p);
-
-
-
-
-
-
+    cout<< fixed << setprecision(2);
+    cout<< media <<endl;
 
     return 0;
 }
