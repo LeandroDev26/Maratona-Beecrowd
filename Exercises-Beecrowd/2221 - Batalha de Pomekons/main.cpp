@@ -6,47 +6,37 @@ using namespace std;
 int main()
 {
 
-    int t, b, Ai, Di, Li;
-    cin>> t ;
-    vector<int> golpes;
+ int t, b, a1, d1, l1, a2, d2, l2;
+    cin >> t;
 
     for(int i = 0 ; i < t; i++)
     {
-        int valorGolpe = 0;
-        cin>> b >> Ai >> Di >> Li;
-        cin>> b >> Ai >> Di >> Li;
+        cin >> b;
 
-        if(Li % 2 == 0)
+        cin >> a1 >> d1 >> l1;
+        int golpeDabriel = (a1 + d1) / 2;
+        if(l1 % 2 == 0) {
+            golpeDabriel += b;
+        }
+
+        cin >> a2 >> d2 >> l2;
+        int golpeGuarte = (a2 + d2) / 2;
+        if(l2 % 2 == 0) {
+            golpeGuarte += b;
+        }
+
+        if(golpeDabriel > golpeGuarte)
         {
-            valorGolpe = ((Ai + Di)/2) + b;
-
+            cout << "Dabriel" << endl;
+        }
+        else if(golpeDabriel < golpeGuarte)
+        {
+            cout << "Guarte" << endl;
         }
         else
         {
-            valorGolpe = (Ai + Di)/2;
-
+            cout << "Empate" << endl;
         }
-
-        golpes.push_back(valorGolpe);
-
-
     }
-
-    // dabriel = 0 guarte = 1
-    if(golpes[0] > golpes[1])
-    {
-        cout<<"Dabriel"<<endl;
-    }
-    else if(golpes[0] < golpes[1])
-    {
-        cout<<"Guarte"<<endl;
-    }
-    else
-    {
-        cout<<"Empate"<<endl;
-    }
-
-
-
     return 0;
 }
