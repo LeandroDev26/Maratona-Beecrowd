@@ -8,6 +8,7 @@ int main()
 
     int t, b, Ai, Di, Li;
     cin>> t ;
+    vector<int> golpes;
 
     for(int i = 0 ; i < t; i++)
     {
