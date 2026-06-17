@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 
+  int t , b , Ai , Di , Li;
 
 
 
