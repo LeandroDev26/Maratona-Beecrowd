@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 using namespace std;
 
@@ -27,8 +28,12 @@ int main()
     }
 
     double percentualsaque = (tots/totAs)*100;
-    double percentualsaque = (tots/totAs)*100;
-    double percentualsaque = (tots/totAs)*100;
+    double percentualbloqueio = (totb/totAb)*100;
+    double percentualataque = (tota/totAa)*100;
+
+    cout<< fixed << setprecision(2);
+    cout<<"Pontos de Saque: " << percentualsaque <<" %."<<endl;
+
 
 
 
