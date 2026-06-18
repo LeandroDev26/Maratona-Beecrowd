@@ -10,6 +10,11 @@ int main()
     int n;
     string nome;
 
+    for(int i = 0 ; i < n ; i++){
+        cin>> s >> b >> a ;
+
+    }
+
 
 
 
