@@ -26,6 +26,11 @@ int main()
 
     }
 
+    double percentualsaque = (tots/totAs)*100;
+    double percentualsaque = (tots/totAs)*100;
+    double percentualsaque = (tots/totAs)*100;
+
+
 
 
 
