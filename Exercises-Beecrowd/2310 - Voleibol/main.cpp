@@ -33,6 +33,9 @@ int main()
 
     cout<< fixed << setprecision(2);
     cout<<"Pontos de Saque: " << percentualsaque <<" %."<<endl;
+    cout<<"Pontos de Bloqueio: "<< percentualbloqueio<<" %."<<endl;
+    cout<<"Pontos de Ataque: "<< percentualataque<<" %."<<endl;
+
 
 
 
