@@ -12,6 +12,7 @@ int main()
 
     for(int i = 0 ; i < n ; i++)
     {
+        cin>> nome;
         cin>> s >> b >> a ;
         tots += s;
         totb += b;
