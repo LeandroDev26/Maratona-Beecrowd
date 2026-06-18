@@ -17,7 +17,10 @@ int main()
     {
         cout<<"S"<<endl;
 
-    }else if(a - c == 0 || (a - c) + b){
+    }
+    else if(a - c == 0 || (a - c) + b == 0)
+    {
+        cout<<"S"<<endl;
 
     }
     else
