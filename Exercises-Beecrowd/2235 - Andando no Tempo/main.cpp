@@ -23,6 +23,11 @@ int main()
         cout<<"S"<<endl;
 
     }
+    else if(b - c == 0 ||(b + c) - a == 0)
+    {
+        cout<<"S"<<endl;
+
+    }
     else
     {
         cout<<"N"<<endl;
