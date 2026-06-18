@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    double s, b, a, s1, b1, a1;
+    double s, b, a, s1, b1, a1 , tots = 0 , totb = 0, tota = 0;
     int n;
     string nome;
 
