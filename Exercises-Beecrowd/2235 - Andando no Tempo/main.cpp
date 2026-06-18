@@ -9,6 +9,16 @@ int main()
 
     cin>> a >> b >> c;
 
+    if(a+b == 0 || (a + b - c) == 0)
+    {
+
+    }
+    else if(a - b == 0 || (a - b + c) == 0)
+    {
+
+    }
+
+
 
 
     return 0;
