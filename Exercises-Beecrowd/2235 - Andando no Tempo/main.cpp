@@ -9,7 +9,7 @@ int main()
 
     cin>> a >> b >> c;
 
-    if(a+b == 0 || ((a + b)- c) == 0)
+    if((a + b )- c == 0)
     {
         cout<<"S"<<endl;
     }
