@@ -14,8 +14,7 @@ int main()
 
     for(int i = 0 ; i < n ; i++)
     {
-        getline(cin, nome);
-
+        cin>>nome;
         cin>> s >> b >> a ;
         tots += s;
         totb += b;
