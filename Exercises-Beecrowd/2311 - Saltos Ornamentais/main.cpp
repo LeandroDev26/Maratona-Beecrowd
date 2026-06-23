@@ -26,7 +26,9 @@ int main()
 
         for(int l = 0 ; l < notas.size(); l++)
         {
+              if(notas[l] > maior){
 
+              }
         }
 
     }
