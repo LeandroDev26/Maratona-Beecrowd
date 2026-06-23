@@ -1,48 +1,42 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
-#include <vector>
 
 using namespace std;
 
 int main()
 {
-    cout<< fixed << setprecision(2);
-    int n ;
-    string nome;
-    vector <double> notas;
-    double gd, n1, maior = 0, menor = 0, soma = 0, resultado;
-    cin>> n ;
+    int n;
+    cin >> n;
+
+    cout << fixed << setprecision(2);
+
     for(int i = 0 ; i < n ; i++)
     {
-        cin>> nome >> gd;
-        soma = 0;
-        resultado = 0;
-        notas.clear();
+        string nome;
+        double gd, nota;
+
+        double soma = 0, maior = 0, menor = 10.0;
+
+        cin >> nome >> gd;
+
         for(int j = 0 ; j < 7; j++)
         {
-            cin>> n1;
-            soma += n1;
-            notas.push_back(n1);
-        }
-        maior = 0;
-        menor = 10;
-        for(int l = 0 ; l < notas.size(); l++)
-        {
-            if(notas[l] > maior)
-            {
+            cin >> nota;
+            soma += nota;
 
-                maior = notas[l];
+            if(nota > maior)
+            {
+                maior = nota;
             }
-
-            if(notas[l] < menor)
+            if(nota < menor)
             {
-                menor = notas[l];
+                menor = nota;
             }
         }
 
-        resultado =  (soma - (menor + maior))* gd;
-        cout<< nome << " " << resultado<<endl;
+        double resultado = (soma - (menor + maior)) * gd;
+        cout << nome << " " << resultado << endl;
     }
 
     return 0;
