@@ -11,12 +11,13 @@ int main()
     int n ;
     string nome;
     vector <double> notas;
-    double gd, n1, maior = 0, menor = 0, soma = 0;
+    double gd, n1, maior = 0, menor = 0, soma = 0, resultado;
     cin>> n ;
     for(int i = 0 ; i < n ; i++)
     {
         cin>> nome >> gd;
         soma = 0;
+        resultado = 0;
         for(int j = 0 ; j < 7; j++)
         {
             cin>> n1;
@@ -39,6 +40,7 @@ int main()
             }
         }
 
+        resultado =  (soma - (menor + maior))* gd;
     }
 
 
