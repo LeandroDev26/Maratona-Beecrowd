@@ -23,12 +23,18 @@ int main()
             soma += n1;
             notas.push_back(n1);
         }
-
+        maior = 0;
         for(int l = 0 ; l < notas.size(); l++)
         {
-              if(notas[l] > maior){
+            if(notas[l] > maior)
+            {
 
-              }
+                maior = notas[l];
+            }
+            else
+            {
+                menor = notas[l];
+            }
         }
 
     }
