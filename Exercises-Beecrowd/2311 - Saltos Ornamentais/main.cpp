@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
+#include <vector>
 
 using namespace std;
 
@@ -9,15 +10,14 @@ int main()
     cout<< fixed << setprecision(2);
     int n ;
     string nome;
-    double gd, n1, n2, n3, n4, n5, n6, n7, maior = 0, menor = 0, soma = 0;
+    vector <double> notas;
+    double gd, n1;
     cin>> n ;
     for(int i = 0 ; i < n ; i++)
     {
-        cin>> nome >> gd >> n1 >> n2 >> n3 >> n4 >> n5 >> n6 >> n7;
-        if(n1 > maior){
+        cin>> nome >> gd >> n1;
 
-        }
-        soma = (n1 + n2 + n3 + n4 + n5 + n6 + n7);
+
 
     }
 
