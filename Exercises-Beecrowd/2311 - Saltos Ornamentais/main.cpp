@@ -11,13 +11,23 @@ int main()
     int n ;
     string nome;
     vector <double> notas;
-    double gd, n1;
+    double gd, n1, maior = 0, menor = 0, soma = 0;
     cin>> n ;
     for(int i = 0 ; i < n ; i++)
     {
-        cin>> nome >> gd >> n1;
+        cin>> nome >> gd;
+        soma = 0;
+        for(int j = 0 ; j < 7; j++)
+        {
+            cin>> n1;
+            soma += n1;
+            notas.push_back(n1);
+        }
 
+        for(int l = 0 ; l < notas.size(); l++)
+        {
 
+        }
 
     }
 
