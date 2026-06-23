@@ -24,6 +24,7 @@ int main()
             notas.push_back(n1);
         }
         maior = 0;
+        menor = 10;
         for(int l = 0 ; l < notas.size(); l++)
         {
             if(notas[l] > maior)
@@ -31,7 +32,8 @@ int main()
 
                 maior = notas[l];
             }
-            else
+
+            if(notas[l] < menor)
             {
                 menor = notas[l];
             }
