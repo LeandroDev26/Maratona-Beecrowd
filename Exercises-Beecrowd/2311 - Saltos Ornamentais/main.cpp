@@ -18,6 +18,7 @@ int main()
         cin>> nome >> gd;
         soma = 0;
         resultado = 0;
+        notas.clear();
         for(int j = 0 ; j < 7; j++)
         {
             cin>> n1;
@@ -41,15 +42,8 @@ int main()
         }
 
         resultado =  (soma - (menor + maior))* gd;
-        cout<< nome << resultado<<endl;
+        cout<< nome << " " << resultado<<endl;
     }
-
-
-
-
-
-
-
 
     return 0;
 }
