@@ -41,6 +41,7 @@ int main()
         }
 
         resultado =  (soma - (menor + maior))* gd;
+        cout<< nome << resultado<<endl;
     }
 
 
