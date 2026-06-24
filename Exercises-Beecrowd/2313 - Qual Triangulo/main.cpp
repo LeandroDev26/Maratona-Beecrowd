@@ -15,9 +15,14 @@ int main()
     else   if ( a + c > b )
     {
 
-    } else   if ( b + c > a )
+    }
+    else   if ( b + c > a )
     {
 
+    }
+    else
+    {
+        cout<<"Invalido"<<endl;
     }
 
 
