@@ -8,13 +8,13 @@ int main()
     long long a, b, c ;
     cin>> a >> b >> c;
 
-    if ( a + b > c || a + c > b || b + c > a )
+    if ( a + b > c && a + c > b && b + c > a )
     {
-        if(a == b && b == c)
+        if((a*a) == b && b == c)
         {
             cout<<"Valido-Equilatero"<<endl;
         }
-        else if( a == b || a == c || b == c)
+        else if( (a*a)== b || a == c || b == c)
         {
             cout<<"Valido-Isoceles"<<endl;
         }
@@ -46,9 +46,6 @@ int main()
     {
         cout<<"Invalido"<<endl;
     }
-
-
-
 
     return 0;
 }
