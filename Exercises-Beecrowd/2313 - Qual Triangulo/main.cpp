@@ -10,7 +10,9 @@ int main()
 
     if ( a + b > c || a + c > b || b + c > a )
     {
-
+      if(a == b && b == c){
+        cout<<"Valido-Equilatero"<<endl;
+      }
     }
     else
     {
