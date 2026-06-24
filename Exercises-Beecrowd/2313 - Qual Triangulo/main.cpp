@@ -22,6 +22,12 @@ int main()
         {
             cout<<"Valido-Escaleno"<<endl;
         }
+
+
+        if(a == (b+c))
+        {
+            cout<<"Retangulo: S"<<endl;
+        }
     }
     else
     {
