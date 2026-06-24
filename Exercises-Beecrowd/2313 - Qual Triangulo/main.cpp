@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int a, b, c ;
+    long long a, b, c ;
     cin>> a >> b >> c;
 
     if ( a + b > c || a + c > b || b + c > a )
@@ -24,13 +24,22 @@ int main()
         }
 
 
-        if(a == (b+c))
+        if(a == (b* b)+(c*c))
         {
             cout<<"Retangulo: S"<<endl;
         }
-        else   if( b == (a+c))
+        else   if( b == (a*a)+(c*c))
         {
             cout<<"Retangulo: S"<<endl;
+        }
+        else   if( c == (a* a)+(b*b))
+        {
+            cout<<"Retangulo: S"<<endl;
+        }
+        else
+        {
+            cout<<"Retangulo: N"<<endl;
+
         }
     }
     else
