@@ -28,6 +28,10 @@ int main()
         {
             cout<<"Retangulo: S"<<endl;
         }
+        else   if( b == (a+c))
+        {
+            cout<<"Retangulo: S"<<endl;
+        }
     }
     else
     {
