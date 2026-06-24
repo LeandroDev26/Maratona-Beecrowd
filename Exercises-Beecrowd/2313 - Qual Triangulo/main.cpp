@@ -10,11 +10,11 @@ int main()
 
     if ( a + b > c && a + c > b && b + c > a )
     {
-        if((a*a) == b && b == c)
+        if(a == b && b == c)
         {
             cout<<"Valido-Equilatero"<<endl;
         }
-        else if( (a*a)== b || a == c || b == c)
+        else if( a == b || a == c || b == c)
         {
             cout<<"Valido-Isoceles"<<endl;
         }
@@ -24,15 +24,15 @@ int main()
         }
 
 
-        if(a == (b* b)+(c*c))
+        if((a*a) == (b* b)+(c*c))
         {
             cout<<"Retangulo: S"<<endl;
         }
-        else   if( b == (a*a)+(c*c))
+        else   if( (b*b) == (a*a)+(c*c))
         {
             cout<<"Retangulo: S"<<endl;
         }
-        else   if( c == (a* a)+(b*b))
+        else   if( (c*c) == (a* a)+(b*b))
         {
             cout<<"Retangulo: S"<<endl;
         }
