@@ -16,7 +16,11 @@ int main()
         }
         else if( a == b || a == c || b == c)
         {
-
+            cout<<"Valido-Isoceles"<<endl;
+        }
+        else
+        {
+            cout<<"Valido-Escaleno"<<endl;
         }
     }
     else
