@@ -13,6 +13,10 @@ int main()
         {
             cout<<"0"<<endl;
         }
+        else
+        {
+            cout<< p - 1 <<endl;
+        }
     }
 
 
