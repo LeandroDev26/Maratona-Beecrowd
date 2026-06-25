@@ -11,6 +11,9 @@ int main()
     {
         cout<<"E"<<endl;
     }
+    else if(n > 0 && n <= 35)
+    {
+    }
 
 
 
