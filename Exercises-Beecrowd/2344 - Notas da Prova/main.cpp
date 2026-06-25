@@ -15,6 +15,10 @@ int main()
     {
         cout<<"D"<<endl;
 
+    }  else if(n > 35 && n <= 60)
+    {
+        cout<<"C"<<endl;
+
     }
 
 
