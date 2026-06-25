@@ -9,8 +9,10 @@ int main()
     cin>> a ;
     cout<<"Feliz nat";
     for(int i = 0 ; i < a; i++){
-
+        cout<< a;
     }
+
+      cout<<"l!"<<endl;
 
 
 
