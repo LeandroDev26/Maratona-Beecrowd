@@ -19,6 +19,10 @@ int main()
     {
         cout<<"C"<<endl;
 
+    }  else if(n > 60 && n <= 85)
+    {
+        cout<<"B"<<endl;
+
     }
 
 
