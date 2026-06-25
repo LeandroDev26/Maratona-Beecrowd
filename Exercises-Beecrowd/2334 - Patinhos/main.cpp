@@ -9,7 +9,10 @@ int main()
 
     while(cin>> p && p != -1)
     {
-
+        if(p == 0)
+        {
+            cout<<"0"<<endl;
+        }
     }
 
 
