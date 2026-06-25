@@ -23,6 +23,10 @@ int main()
     {
         cout<<"B"<<endl;
 
+    }  else if(n > 85 && n <= 100)
+    {
+        cout<<"A"<<endl;
+
     }
 
 
