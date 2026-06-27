@@ -17,6 +17,19 @@ int main()
         {"brocolis", 34}
     };
 
+    int T;
+
+    // O loop continua até que a entrada seja 0
+    while (cin >> T && T != 0) {
+        int total_consumido = 0;
+
+
+
+
+
+
+    }
+
 
 
 
