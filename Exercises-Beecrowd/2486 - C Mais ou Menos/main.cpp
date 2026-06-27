@@ -19,7 +19,7 @@ int main()
 
     int T;
 
-    // O loop continua até que a entrada seja 0
+    // O loop continua ate que a entrada seja 0
     while (cin >> T && T != 0) {
         int total_consumido = 0;
 
@@ -29,20 +29,20 @@ for (int i = 0; i < T; ++i) {
             int N;
             string alimento;
 
-            // Lê a quantidade consumida
+            // Le a quantidade consumida
             cin >> N;
 
             // Ignora o espaço em branco entre o número e o nome do alimento
             cin.ignore();
 
-            // Lê o nome do alimento (que pode conter espaços)
+            // Le o nome do alimento (que pode conter espacos)
             getline(cin, alimento);
 
             // Multiplica a quantidade consumida pelo valor nutricional e adiciona ao total
             total_consumido += N * tabela_vitC[alimento];
         }
 
-        // Verifica o total consumido em relação ao limite diário (110 mg a 130 mg)
+        // Verifica o total consumido em relacao limite diario (110 mg a 130 mg)
         if (total_consumido < 110) {
             cout << "Mais " << 110 - total_consumido << " mg\n";
         } else if (total_consumido > 130) {
