@@ -6,8 +6,9 @@ using namespace std;
 int main()
 {
 
- // Mapeamento dos alimentos e suas respectivas quantidades de Vitamina C (em mg)
-    map<string, int> tabela_vitC = {
+// Mapeamento dos alimentos e suas respectivas quantidades de Vitamina C (em mg)
+    map<string, int> tabela_vitC =
+    {
         {"suco de laranja", 120},
         {"morango fresco", 85},
         {"mamao", 85},
@@ -20,12 +21,14 @@ int main()
     int T;
 
     // O loop continua ate que a entrada seja 0
-    while (cin >> T && T != 0) {
+    while (cin >> T && T != 0)
+    {
         int total_consumido = 0;
 
 
 
-for (int i = 0; i < T; ++i) {
+        for (int i = 0; i < T; ++i)
+        {
             int N;
             string alimento;
 
@@ -43,11 +46,16 @@ for (int i = 0; i < T; ++i) {
         }
 
         // Verifica o total consumido em relacao limite diario (110 mg a 130 mg)
-        if (total_consumido < 110) {
+        if (total_consumido < 110)
+        {
             cout << "Mais " << 110 - total_consumido << " mg\n";
-        } else if (total_consumido > 130) {
+        }
+        else if (total_consumido > 130)
+        {
             cout << "Menos " << total_consumido - 130 << " mg\n";
-        } else {
+        }
+        else
+        {
             cout << total_consumido << " mg\n";
         }
 
