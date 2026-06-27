@@ -42,6 +42,15 @@ for (int i = 0; i < T; ++i) {
             total_consumido += N * tabela_vitC[alimento];
         }
 
+        // Verifica o total consumido em relação ao limite diário (110 mg a 130 mg)
+        if (total_consumido < 110) {
+            cout << "Mais " << 110 - total_consumido << " mg\n";
+        } else if (total_consumido > 130) {
+            cout << "Menos " << total_consumido - 130 << " mg\n";
+        } else {
+            cout << total_consumido << " mg\n";
+        }
+
 
     }
 
