@@ -25,7 +25,22 @@ int main()
 
 
 
+for (int i = 0; i < T; ++i) {
+            int N;
+            string alimento;
 
+            // Lê a quantidade consumida
+            cin >> N;
+
+            // Ignora o espaço em branco entre o número e o nome do alimento
+            cin.ignore();
+
+            // Lê o nome do alimento (que pode conter espaços)
+            getline(cin, alimento);
+
+            // Multiplica a quantidade consumida pelo valor nutricional e adiciona ao total
+            total_consumido += N * tabela_vitC[alimento];
+        }
 
 
     }
