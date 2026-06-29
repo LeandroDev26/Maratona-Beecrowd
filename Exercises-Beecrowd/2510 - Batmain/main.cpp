@@ -12,7 +12,7 @@ int main()
         cin>> nome;
    }
 
-
+  cout<<"Y"<<endl;
 
 
 
