@@ -11,9 +11,10 @@ int main()
     for(int i = 0 ; i < t; i++)
     {
         cin>> nome;
+        cout<<"Y"<<endl;
+
     }
 
-    cout<<"Y"<<endl;
 
 
 
