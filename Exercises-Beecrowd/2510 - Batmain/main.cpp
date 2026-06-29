@@ -6,9 +6,10 @@ int main()
 {
 
     int t ;
+    string nome;
     cin>> t;
    for(int i = 0 ; i < t; i++){
-
+        cin>> nome;
    }
 
 
