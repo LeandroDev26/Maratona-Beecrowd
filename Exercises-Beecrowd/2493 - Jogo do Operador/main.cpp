@@ -38,8 +38,7 @@ int main()
 
             cin >> nome >> indice >> resposta;
 
-            // O jogador escolhe de 1 a T, mas nosso vetor vai de 0 a T-1.
-            // Então subtraímos 1 do índice!
+
             Expressao ex = expressoes[indice - 1];
 
             // Calculamos todas as verdades matemáticas daquela expressão
