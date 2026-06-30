@@ -62,7 +62,6 @@ int main()
 
         sort(eliminados.begin(), eliminados.end());
 
-        // 4. O Veredito Final
         if (eliminados.empty())
         {
             cout << "You Shall All Pass!" << endl;
@@ -73,10 +72,9 @@ int main()
         }
         else
         {
-            // Imprime os nomes separados por espaço
             for (int i = 0; i < eliminados.size(); i++)
             {
-                if (i > 0) cout << " "; // Evita colocar espaço sobrando no final da linha
+                if (i > 0) cout << " ";
                 cout << eliminados[i];
             }
             cout << endl;
