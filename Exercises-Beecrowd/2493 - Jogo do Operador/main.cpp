@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// Criamos uma "caixa" para guardar as 3 partes da expressão juntas
 struct Expressao {
     int x;
     int y;
