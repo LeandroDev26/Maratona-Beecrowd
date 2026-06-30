@@ -48,13 +48,11 @@ int main()
 
             bool acertou = false;
 
-            // Comparamos o chute do jogador com a verdade matemática
             if (resposta == '+' && soma_certa) acertou = true;
             else if (resposta == '-' && sub_certa) acertou = true;
             else if (resposta == '*' && mult_certa) acertou = true;
             else if (resposta == 'I' && impossivel) acertou = true;
 
-            // Se a flag continuou falsa, ele errou. Guardamos o nome dele!
             if (!acertou)
             {
                 eliminados.push_back(nome);
