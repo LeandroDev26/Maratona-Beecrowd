@@ -5,7 +5,8 @@
 
 using namespace std;
 
-struct Expressao {
+struct Expressao
+{
     int x;
     int y;
     int z;
