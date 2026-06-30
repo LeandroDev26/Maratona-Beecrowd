@@ -15,12 +15,11 @@ int main()
 {
     int t;
 
-    // O problema diz que a entrada termina em EOF, então lemos direto no while
+
     while (cin >> t)
     {
         vector<Expressao> expressoes(t);
 
-        // 1. Leitura do "Banco de Dados" de expressões
         for (int i = 0; i < t; i++)
         {
             char sinal_igual;
