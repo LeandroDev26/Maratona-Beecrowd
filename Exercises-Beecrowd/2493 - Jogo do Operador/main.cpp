@@ -41,7 +41,6 @@ int main()
 
             Expressao ex = expressoes[indice - 1];
 
-            // Calculamos todas as verdades matemáticas daquela expressão
             bool soma_certa = (ex.x + ex.y == ex.z);
             bool sub_certa  = (ex.x - ex.y == ex.z);
             bool mult_certa = (ex.x * ex.y == ex.z);
