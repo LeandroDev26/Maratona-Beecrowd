@@ -1,20 +1,94 @@
 #include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm> // Necessário para a função sort()
 
 using namespace std;
 
+// Criamos uma "caixa" para guardar as 3 partes da expressão juntas
+struct Expressao {
+    int x;
+    int y;
+    int z;
+};
+
 int main()
 {
+    int t;
 
-  int t ;
+    // O problema diz que a entrada termina em EOF, então lemos direto no while
+    while (cin >> t)
+    {
+        vector<Expressao> expressoes(t);
 
+        // 1. Leitura do "Banco de Dados" de expressões
+        for (int i = 0; i < t; i++)
+        {
+            char sinal_igual;
+            // Lemos os dois números, o caractere '=' é engolido pela variável sinal_igual
+            cin >> expressoes[i].x >> expressoes[i].y >> sinal_igual >> expressoes[i].z;
+        }
 
+        vector<string> eliminados;
 
+        // 2. Leitura e Julgamento dos Jogadores
+        for (int i = 0; i < t; i++)
+        {
+            string nome;
+            int indice;
+            char resposta;
 
+            cin >> nome >> indice >> resposta;
 
+            // O jogador escolhe de 1 a T, mas nosso vetor vai de 0 a T-1.
+            // Então subtraímos 1 do índice!
+            Expressao ex = expressoes[indice - 1];
 
+            // Calculamos todas as verdades matemáticas daquela expressão
+            bool soma_certa = (ex.x + ex.y == ex.z);
+            bool sub_certa  = (ex.x - ex.y == ex.z);
+            bool mult_certa = (ex.x * ex.y == ex.z);
+            bool impossivel = (!soma_certa && !sub_certa && !mult_certa);
 
+            bool acertou = false;
 
+            // Comparamos o chute do jogador com a verdade matemática
+            if (resposta == '+' && soma_certa) acertou = true;
+            else if (resposta == '-' && sub_certa) acertou = true;
+            else if (resposta == '*' && mult_certa) acertou = true;
+            else if (resposta == 'I' && impossivel) acertou = true;
 
+            // Se a flag continuou falsa, ele errou. Guardamos o nome dele!
+            if (!acertou)
+            {
+                eliminados.push_back(nome);
+            }
+        }
+
+        // 3. Ordenação Alfabética
+        // A função sort() organiza o vetor do início ao fim automaticamente
+        sort(eliminados.begin(), eliminados.end());
+
+        // 4. O Veredito Final
+        if (eliminados.empty())
+        {
+            cout << "You Shall All Pass!" << endl;
+        }
+        else if (eliminados.size() == t)
+        {
+            cout << "None Shall Pass!" << endl;
+        }
+        else
+        {
+            // Imprime os nomes separados por espaço
+            for (int i = 0; i < eliminados.size(); i++)
+            {
+                if (i > 0) cout << " "; // Evita colocar espaço sobrando no final da linha
+                cout << eliminados[i];
+            }
+            cout << endl;
+        }
+    }
 
     return 0;
 }
