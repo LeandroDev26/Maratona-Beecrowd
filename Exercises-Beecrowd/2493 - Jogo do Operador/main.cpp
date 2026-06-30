@@ -29,7 +29,7 @@ int main()
 
         vector<string> eliminados;
 
-        // 2. Leitura e Julgamento dos Jogadores
+
         for (int i = 0; i < t; i++)
         {
             string nome;
