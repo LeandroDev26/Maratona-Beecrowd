@@ -23,7 +23,7 @@ int main()
         for (int i = 0; i < t; i++)
         {
             char sinal_igual;
-            // Lemos os dois números, o caractere '=' é engolido pela variável sinal_igual
+
             cin >> expressoes[i].x >> expressoes[i].y >> sinal_igual >> expressoes[i].z;
         }
 
