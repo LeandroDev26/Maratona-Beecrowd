@@ -59,8 +59,7 @@ int main()
             }
         }
 
-        // 3. Ordenação Alfabética
-        // A função sort() organiza o vetor do início ao fim automaticamente
+
         sort(eliminados.begin(), eliminados.end());
 
         // 4. O Veredito Final
