@@ -7,7 +7,8 @@ using namespace std;
 int main()
 {
 
-    string alfabeto , frase;
+    string alfabeto, frase;
+    char letra;
     int n, indice;
     while(cin>> alfabeto)
     {
@@ -18,11 +19,13 @@ int main()
             cin>> indice;
             if(alfabeto[indice] != '/0' )
             {
-               frase
+                letra = alfabeto[indice];
+                frase.push_back(letra);
             }
         }
-           cout<<endl;
-           alfabeto.clear();
+        cout<< frase <<endl;
+        alfabeto.clear();
+        frase.clear();
     }
 
 
