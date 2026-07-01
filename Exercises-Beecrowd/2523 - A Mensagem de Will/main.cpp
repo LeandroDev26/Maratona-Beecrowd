@@ -8,7 +8,6 @@ int main()
 {
 
     string alfabeto, frase;
-    char letra;
     int n, indice;
     while(cin>> alfabeto)
     {
@@ -18,19 +17,14 @@ int main()
         {
             cin>> indice;
             indice -= 1;
-            if(alfabeto[indice] != '/0' )
-            {
-                letra = alfabeto[indice];
-                frase.push_back(letra);
-            }
+
+            frase.push_back(alfabeto[indice]);
+
         }
         cout<< frase <<endl;
         alfabeto.clear();
         frase.clear();
     }
-
-
-
 
     return 0;
 }
