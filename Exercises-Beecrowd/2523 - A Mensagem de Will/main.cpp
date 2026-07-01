@@ -20,6 +20,7 @@ int main()
                cout<< alfabeto[indice];
             }
         }
+           cout<<endl;
     }
 
 
