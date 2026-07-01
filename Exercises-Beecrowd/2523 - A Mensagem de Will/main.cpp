@@ -17,7 +17,8 @@ int main()
         for(int i = 0 ; i < n; i++)
         {
             cin>> indice;
-            if(alfabeto[indice + 1] != '/0' )
+            indice -= 1;
+            if(alfabeto[indice] != '/0' )
             {
                 letra = alfabeto[indice];
                 frase.push_back(letra);
