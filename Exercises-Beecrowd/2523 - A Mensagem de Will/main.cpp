@@ -7,9 +7,10 @@ int main()
 {
 
   string alfabeto;
-
+  int n , indice;
     while(cin>> alfabeto){
 
+         cin>> n ;
     }
 
 
