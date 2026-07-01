@@ -15,6 +15,10 @@ int main()
         for(int i = 0 ; i < n; i++)
         {
             cin>> indice;
+            if(alfabeto[indice] != '/0' )
+            {
+               cout<< alfabeto[indice];
+            }
         }
     }
 
