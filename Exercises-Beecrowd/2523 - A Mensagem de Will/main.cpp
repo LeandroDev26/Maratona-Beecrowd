@@ -8,6 +8,9 @@ int main()
 
   string alfabeto;
 
+    while(cin>> alfabeto){
+
+    }
 
 
 
