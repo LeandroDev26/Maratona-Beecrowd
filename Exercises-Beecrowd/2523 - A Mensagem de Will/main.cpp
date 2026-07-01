@@ -6,11 +6,16 @@ using namespace std;
 int main()
 {
 
-  string alfabeto;
-  int n , indice;
-    while(cin>> alfabeto){
+    string alfabeto;
+    int n, indice;
+    while(cin>> alfabeto)
+    {
 
-         cin>> n ;
+        cin>> n ;
+        for(int i = 0 ; i < n; i++)
+        {
+            cin>> indice;
+        }
     }
 
 
