@@ -1,12 +1,13 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
 int main()
 {
 
-    string alfabeto;
+    string alfabeto , frase;
     int n, indice;
     while(cin>> alfabeto)
     {
@@ -17,10 +18,11 @@ int main()
             cin>> indice;
             if(alfabeto[indice] != '/0' )
             {
-               cout<< alfabeto[indice];
+               frase
             }
         }
            cout<<endl;
+           alfabeto.clear();
     }
 
 
