@@ -6,7 +6,9 @@ int main()
 {
    int n , l;
 
+   while (cin>> n >> l){
 
+   }
 
 
 
