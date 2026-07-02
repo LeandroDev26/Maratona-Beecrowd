@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-   int n , l;
+   int n , l , i , j;
 
    while (cin>> n >> l){
 
-        for(int i = 0 ; i < n ; i++){
+        for(int k = 0 ; k < n ; k++){
 
         }
    }
