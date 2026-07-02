@@ -10,6 +10,7 @@ int main()
 
         for(int k = 0 ; k < n ; k++){
 
+             cin>> i >> j ;
         }
    }
 
