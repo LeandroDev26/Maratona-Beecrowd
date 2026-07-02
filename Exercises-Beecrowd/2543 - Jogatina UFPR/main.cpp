@@ -19,6 +19,8 @@ int main()
                   cont++;
                }
         }
+
+           cout<<cont<<endl;
     }
 
 
