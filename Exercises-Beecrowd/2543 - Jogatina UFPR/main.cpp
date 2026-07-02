@@ -16,7 +16,7 @@ int main()
             cin>> i >> j ;
 
                if(i == l && j == 0){
-
+                  cont++;
                }
         }
     }
