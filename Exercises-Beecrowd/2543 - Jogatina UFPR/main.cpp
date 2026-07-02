@@ -4,15 +4,18 @@ using namespace std;
 
 int main()
 {
-   int n , l , i , j;
+    int n, l, i, j, cont;
 
-   while (cin>> n >> l){
+    while (cin>> n >> l)
+    {
 
-        for(int k = 0 ; k < n ; k++){
+        cont = 0;
+        for(int k = 0 ; k < n ; k++)
+        {
 
-             cin>> i >> j ;
+            cin>> i >> j ;
         }
-   }
+    }
 
 
 
