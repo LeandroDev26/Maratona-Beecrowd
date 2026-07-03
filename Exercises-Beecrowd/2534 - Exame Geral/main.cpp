@@ -22,6 +22,8 @@ int main()
        sort(numeros.begin(), numeros.end(), std::greater<int>());
 
       for(int k = 0; k < q ; k++){
+            cin>> y;
+
 
       }
   }
