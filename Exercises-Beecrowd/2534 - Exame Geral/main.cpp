@@ -31,6 +31,8 @@ int main()
 
 
         }
+
+        numeros.clear();
     }
 
 
