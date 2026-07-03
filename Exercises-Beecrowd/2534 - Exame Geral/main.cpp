@@ -15,7 +15,8 @@ int main()
 
 
       for(int i = 0 ; i < n ; i++){
-
+           cin>> x;
+           numeros.push_back(x);
       }
 
        sort(numeros.begin(), numeros.end(), std::greater<int>());
