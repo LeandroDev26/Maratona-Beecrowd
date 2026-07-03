@@ -8,25 +8,31 @@ int main()
 {
 
 
-  int n ,q , x , y;
-  vector<int> numeros;
+    int n,q, x, y;
+    vector<int> numeros;
 
-  while(cin>> n >> q){
+    while(cin>> n >> q)
+    {
 
 
-      for(int i = 0 ; i < n ; i++){
-           cin>> x;
-           numeros.push_back(x);
-      }
+        for(int i = 0 ; i < n ; i++)
+        {
+            cin>> x;
+            numeros.push_back(x);
+        }
 
-       sort(numeros.begin(), numeros.end(), std::greater<int>());
+        sort(numeros.begin(), numeros.end(), std::greater<int>());
 
-      for(int k = 0; k < q ; k++){
+        for(int k = 0; k < q ; k++)
+        {
             cin>> y;
+            if(y == 0)
+            {
+                cout<<numeros[y]<<endl;
+            }
 
-
-      }
-  }
+        }
+    }
 
 
 
