@@ -26,10 +26,9 @@ int main()
         for(int k = 0; k < q ; k++)
         {
             cin>> y;
-            if(y == 0)
-            {
-                cout<<numeros[y]<<endl;
-            }
+
+            cout<<numeros[y-1]<<endl;
+
 
         }
     }
