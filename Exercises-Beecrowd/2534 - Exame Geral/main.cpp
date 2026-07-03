@@ -15,7 +15,9 @@ int main()
 
       }
 
-      for(int k = 0 )
+      for(int k = 0; k < q ; k++){
+
+      }
   }
 
 
