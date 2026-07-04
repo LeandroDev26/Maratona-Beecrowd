@@ -8,6 +8,7 @@ int main()
     string frase;
 
     cin>> n;
+    cin.ignore();
 
     for(int i = 0 ; i < n ; i++)
     {
