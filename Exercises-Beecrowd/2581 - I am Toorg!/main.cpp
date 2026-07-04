@@ -7,8 +7,10 @@ int main()
     int n ;
     string frase;
 
-    for(int i = 0 ; i < n ; i++){
+    cin>> n;
 
+    for(int i = 0 ; i < n ; i++){
+         getline(cin, frase);
     }
 
 
