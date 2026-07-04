@@ -9,10 +9,11 @@ int main()
 
     cin>> n;
 
-    for(int i = 0 ; i < n ; i++){
-         getline(cin, frase);
+    for(int i = 0 ; i < n ; i++)
+    {
+        getline(cin, frase);
+        cout<<"I am Toorg!"<<endl;
     }
-
 
 
 
