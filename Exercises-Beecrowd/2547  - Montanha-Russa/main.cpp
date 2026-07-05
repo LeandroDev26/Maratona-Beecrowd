@@ -12,6 +12,9 @@ int main()
          tot = 0;
         for(int i = 0 ; i < n ; i++){
             cin>> avis;
+
+            if(avis >= amin && avis <= amax){}
+
         }
   }
 
