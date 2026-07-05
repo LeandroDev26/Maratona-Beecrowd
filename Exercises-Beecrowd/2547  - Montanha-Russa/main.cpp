@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-  int n , amin , amax;
+  int n , amin , amax , avis;
 
   while(cin>> n >> amin >> amax){
 
