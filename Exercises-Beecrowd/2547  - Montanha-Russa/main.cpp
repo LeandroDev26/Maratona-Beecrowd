@@ -5,18 +5,20 @@ using namespace std;
 int main()
 {
 
-  int n , amin , amax , avis , tot;
+    int n, amin, amax, avis, tot;
 
-  while(cin>> n >> amin >> amax){
+    while(cin>> n >> amin >> amax)
+    {
 
-         tot = 0;
-        for(int i = 0 ; i < n ; i++){
+        tot = 0;
+        for(int i = 0 ; i < n ; i++)
+        {
             cin>> avis;
 
-            if(avis >= amin && avis <= amax){}
+            if(avis >= amin && avis <= amax) {}
 
         }
-  }
+    }
 
 
 
