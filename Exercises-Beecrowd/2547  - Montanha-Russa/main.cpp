@@ -15,8 +15,11 @@ int main()
         {
             cin>> avis;
 
-            if(avis >= amin && avis <= amax) {}
-               tot++;
+            if(avis >= amin && avis <= amax)
+            {
+                tot++;
+
+            }
         }
         cout<< tot <<endl;
     }
