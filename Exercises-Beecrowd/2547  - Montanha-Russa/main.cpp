@@ -7,7 +7,9 @@ int main()
 
   int n , amin , amax;
 
+  while(cin>> n >> amin >> amax){
 
+  }
 
 
 
