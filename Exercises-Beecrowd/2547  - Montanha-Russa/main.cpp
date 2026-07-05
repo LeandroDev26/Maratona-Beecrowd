@@ -9,6 +9,9 @@ int main()
 
   while(cin>> n >> amin >> amax){
 
+        for(int i = 0 ; i < n ; i++){
+
+        }
   }
 
 
