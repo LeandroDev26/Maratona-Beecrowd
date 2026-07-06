@@ -34,11 +34,12 @@ int main()
         {
             getline(cin, frase);
 
-            // AQUI ENTRA A LÓGICA DE DECIFRAR E IMPRIMIR
-            // Você vai fazer um for para percorrer a string 'frase',
-            // checar no dicionario e imprimir a letra certa.
+            for(int k = 0; k < frase.length();)
+                // AQUI ENTRA A LÓGICA DE DECIFRAR E IMPRIMIR
+                // Você vai fazer um for para percorrer a string 'frase',
+                // checar no dicionario e imprimir a letra certa.
 
-            cout << endl; // Quebra de linha após imprimir a frase decifrada
+                cout << endl; // Quebra de linha após imprimir a frase decifrada
         }
 
         cout << endl;
