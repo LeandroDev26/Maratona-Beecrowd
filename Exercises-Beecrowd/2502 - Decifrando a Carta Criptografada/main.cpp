@@ -34,12 +34,11 @@ int main()
         {
             getline(cin, frase);
 
-            for(int k = 0; k < frase.length() - 1; k++){
-
+            for (char letra : frase)
+            {
 
             }
-
-                cout << endl;
+            cout << endl;
         }
 
         cout << endl;
