@@ -38,11 +38,8 @@ int main()
 
 
             }
-                // AQUI ENTRA A LÓGICA DE DECIFRAR E IMPRIMIR
-                // Você vai fazer um for para percorrer a string 'frase',
-                // checar no dicionario e imprimir a letra certa.
 
-                cout << endl; // Quebra de linha após imprimir a frase decifrada
+                cout << endl;
         }
 
         cout << endl;
