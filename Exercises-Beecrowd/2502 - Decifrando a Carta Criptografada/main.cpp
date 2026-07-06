@@ -30,7 +30,7 @@ int main()
             dicionario[char2] = char1; // P minúsculo aponta para Z minúsculo
         }
 
-        for(int i = 0; i < n; i++)
+    for(int i = 0; i < n; i++)
         {
             getline(cin, frase);
 
@@ -57,15 +57,15 @@ int main()
                 }
             }
 
+            cout << endl;
+
         }
+
         cout << endl;
+
+        dicionario.clear();
+
     }
 
-    cout << endl;
-
-
-    dicionario.clear();
-
-
-return 0;
+    return 0;
 }
