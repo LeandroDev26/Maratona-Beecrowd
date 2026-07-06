@@ -15,23 +15,23 @@ int main()
         {
 
         case 0:
-           cout<< "PROXYCITY"<<endl;
+            cout<< "PROXYCITY"<<endl;
             break;
 
         case 1:
-                 cout<< "P.Y.N.G."<<endl;
+            cout<< "P.Y.N.G."<<endl;
 
             break;
         case 2:
-           cout<< "DNSUEY!"<<endl;
+            cout<< "DNSUEY!"<<endl;
 
             break;
         case 3:
-           cout<< "SERVERS"<<endl;
+            cout<< "SERVERS"<<endl;
 
             break;
         case 4:
-
+            cout<<"HOST!"<<endl;
             break;
 
         case 5:
