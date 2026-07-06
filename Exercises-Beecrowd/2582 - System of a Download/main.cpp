@@ -41,7 +41,7 @@ int main()
             cout<<"OFFLINE DAY"<<endl;
             break;
         case 7:
-            cout<<"HOST!"<<endl;
+            cout<<"SALT"<<endl;
             break;
 
         case 8:
