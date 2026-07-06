@@ -51,7 +51,7 @@ int main()
             cout<<"RAR?"<<endl;
             break;
         case 10:
-            cout<<"HOST!"<<endl;
+            cout<<"WIFI ANTENNAS"<<endl;
             break;
 
 
