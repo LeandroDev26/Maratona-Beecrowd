@@ -23,6 +23,7 @@ int main()
 
             break;
         case 2:
+           cout<< "DNSUEY!"<<endl;
 
             break;
         case 3:
