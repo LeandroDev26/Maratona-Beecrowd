@@ -35,23 +35,23 @@ int main()
             break;
 
         case 5:
-
+            cout<<"HOST!"<<endl;
             break;
         case 6:
-
+            cout<<"HOST!"<<endl;
             break;
         case 7:
-
+            cout<<"HOST!"<<endl;
             break;
 
         case 8:
-
+            cout<<"HOST!"<<endl;
             break;
         case 9:
-
+            cout<<"HOST!"<<endl;
             break;
         case 10:
-
+            cout<<"HOST!"<<endl;
             break;
 
 
