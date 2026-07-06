@@ -27,6 +27,7 @@ int main()
 
             break;
         case 3:
+           cout<< "SERVERS"<<endl;
 
             break;
         case 4:
