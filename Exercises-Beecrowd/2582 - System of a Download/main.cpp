@@ -35,7 +35,7 @@ int main()
             break;
 
         case 5:
-            cout<<"HOST!"<<endl;
+            cout<<"CRIPTONIZE"<<endl;
             break;
         case 6:
             cout<<"HOST!"<<endl;
