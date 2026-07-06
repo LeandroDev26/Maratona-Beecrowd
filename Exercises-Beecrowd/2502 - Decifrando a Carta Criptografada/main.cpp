@@ -34,7 +34,10 @@ int main()
         {
             getline(cin, frase);
 
-            for(int k = 0; k < frase.length();)
+            for(int k = 0; k < frase.length() - 1; k++){
+
+
+            }
                 // AQUI ENTRA A LÓGICA DE DECIFRAR E IMPRIMIR
                 // Você vai fazer um for para percorrer a string 'frase',
                 // checar no dicionario e imprimir a letra certa.
