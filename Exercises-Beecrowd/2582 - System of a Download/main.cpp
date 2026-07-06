@@ -45,7 +45,7 @@ int main()
             break;
 
         case 8:
-            cout<<"HOST!"<<endl;
+            cout<<"ANSWER!"<<endl;
             break;
         case 9:
             cout<<"HOST!"<<endl;
