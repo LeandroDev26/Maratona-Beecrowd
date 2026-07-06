@@ -48,7 +48,7 @@ int main()
             cout<<"ANSWER!"<<endl;
             break;
         case 9:
-            cout<<"HOST!"<<endl;
+            cout<<"RAR?"<<endl;
             break;
         case 10:
             cout<<"HOST!"<<endl;
