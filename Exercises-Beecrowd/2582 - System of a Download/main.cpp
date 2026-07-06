@@ -38,7 +38,7 @@ int main()
             cout<<"CRIPTONIZE"<<endl;
             break;
         case 6:
-            cout<<"HOST!"<<endl;
+            cout<<"OFFLINE DAY"<<endl;
             break;
         case 7:
             cout<<"HOST!"<<endl;
