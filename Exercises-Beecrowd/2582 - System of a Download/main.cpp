@@ -19,6 +19,7 @@ int main()
             break;
 
         case 1:
+                 cout<< "P.Y.N.G."<<endl;
 
             break;
         case 2:
