@@ -36,16 +36,36 @@ int main()
 
             for (char letra : frase)
             {
+                char letra_minuscula = tolower(letra);
 
+                if (dicionario.count(letra_minuscula) == 1)
+                {
+                    char traduzida = dicionario[letra_minuscula];
+
+                    if (isupper(letra))
+                    {
+                        cout << (char)toupper(traduzida);
+                    }
+                    else
+                    {
+                        cout << traduzida;
+                    }
+                }
+                else
+                {
+                    cout << letra;
+                }
             }
-            cout << endl;
+
         }
-
         cout << endl;
-
-
-        dicionario.clear();
     }
 
-    return 0;
+    cout << endl;
+
+
+    dicionario.clear();
+}
+
+return 0;
 }
