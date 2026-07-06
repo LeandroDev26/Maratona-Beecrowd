@@ -15,7 +15,7 @@ int main()
         {
 
         case 0:
-
+           cout<< "PROXYCITY"<<endl;
             break;
 
         case 1:
