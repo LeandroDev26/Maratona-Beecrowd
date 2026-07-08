@@ -10,7 +10,7 @@ int main()
     while(cin>> n >> m)
     {
         vector<vector<int>> matriz(n, vector<int>(m));
-        int x1 = 0 , y1 = 0 , x2  = 0, y2 = 0 , distanciavertical = 0 , distanciahorizontal = 0 , tempoMinimo =  0;
+        int x1 = 0, y1 = 0, x2  = 0, y2 = 0, distanciavertical = 0, distanciahorizontal = 0, tempoMinimo =  0;
         for(int i = 0 ;  i < n; i++)
         {
             for(int j = 0 ; j < m ; j++)
@@ -27,23 +27,17 @@ int main()
                     y2 = j;
                 }
 
-                 distanciavertical = abs(x1 - x2);
-                 distanciahorizontal = abs(y1 - y2);
             }
 
 
         }
-
+        distanciavertical = abs(x1 - x2);
+        distanciahorizontal = abs(y1 - y2);
         tempoMinimo = (distanciavertical + distanciahorizontal);
         cout<<tempoMinimo <<endl;
         matriz.clear();
 
     }
-
-
-
-
-
 
     return 0;
 }
