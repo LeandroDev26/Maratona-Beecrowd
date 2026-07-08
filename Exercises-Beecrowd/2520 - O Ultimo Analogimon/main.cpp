@@ -33,6 +33,9 @@ int main()
 
 
         }
+
+        tempoMinimo = (distanciavertical + distanciahorizontal);
+        cout<<tempoMinimo <<endl;
     }
 
 
