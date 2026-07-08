@@ -12,7 +12,8 @@ int main()
         int totn = 0 , totc = 0;
         for(int i = 0; i < m; i++){
             cin>> n >> c;
-
+             totn += n;
+             totc += c;
         }
 
     }
