@@ -18,6 +18,8 @@ int main()
             }
         }
 
+        notaCorte = (n /3)*2;
+
     }
 
 
