@@ -27,7 +27,9 @@ int main()
                     y2 = j;
                 }
 
+                 distanciavertical = (x1 - x2);
             }
+
 
         }
     }
