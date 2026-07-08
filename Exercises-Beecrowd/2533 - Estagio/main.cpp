@@ -17,7 +17,8 @@ int main()
              totc += c;
         }
 
-
+         ira = (totn)/(totc*100);
+         cout<< ira <<endl;
 
     }
 
