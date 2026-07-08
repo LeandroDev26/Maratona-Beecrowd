@@ -18,11 +18,13 @@ int main()
                 cin>> matriz[i][j];
                 if(matriz[i][j] == 1)
                 {
-
+                    x1 = i;
+                    y1 = j;
                 }
                 else  if(matriz[i][j] == 2)
                 {
-
+                    x2 = i;
+                    y2 = j;
                 }
             }
         }
