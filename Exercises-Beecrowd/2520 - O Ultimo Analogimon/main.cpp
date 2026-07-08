@@ -20,6 +20,10 @@ int main()
                 {
 
                 }
+                else  if(matriz[i][j] == 2)
+                {
+
+                }
             }
         }
     }
