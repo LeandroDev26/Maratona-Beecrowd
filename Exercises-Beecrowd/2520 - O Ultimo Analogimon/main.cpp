@@ -10,7 +10,7 @@ int main()
     while(cin>> n >> m)
     {
         vector<vector<int>> matriz(n, vector<int>(m));
-        int x1 = 0 , y1 = 0 , x2  = 0, y2 = 0 , distanciavertical = 0 , distanciahorizontal = 0;
+        int x1 = 0 , y1 = 0 , x2  = 0, y2 = 0 , distanciavertical = 0 , distanciahorizontal = 0 , tempoMinimo =  0;
         for(int i = 0 ;  i < n; i++)
         {
             for(int j = 0 ; j < m ; j++)
@@ -28,6 +28,7 @@ int main()
                 }
 
             }
+
         }
     }
 
