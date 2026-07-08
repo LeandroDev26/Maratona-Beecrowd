@@ -10,12 +10,16 @@ int main()
     while(cin>> n >> m)
     {
         vector<vector<int>> matriz(n, vector<int>(m));
-
+        int x1, y1, x2, y2;
         for(int i = 0 ;  i < n; i++)
         {
             for(int j = 0 ; j < m ; j++)
             {
                 cin>> matriz[i][j];
+                if(matriz[i][j] == 1)
+                {
+
+                }
             }
         }
     }
