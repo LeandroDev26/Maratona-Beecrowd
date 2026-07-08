@@ -19,6 +19,14 @@ int main()
         }
 
         notaCorte = (n /3)*2;
+        if(favoraveis >= notaCorte)
+        {
+            cout<< "impeachment"<<endl;
+        }
+        else
+        {
+            cout<<"acusacao arquivada"<<endl;
+        }
 
     }
 
