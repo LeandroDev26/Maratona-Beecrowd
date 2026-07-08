@@ -27,7 +27,8 @@ int main()
                     y2 = j;
                 }
 
-                 distanciavertical = (x1 - x2);
+                 distanciavertical = abs(x1 - x2);
+                 distanciahorizontal = abs(y1 - y2);
             }
 
 
