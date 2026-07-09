@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int n, m, l, x, y ;
+    int n, m, l, x, y , cm , cl , atsort;
     while(cin>> n)
     {
         cin>> m >> l;
