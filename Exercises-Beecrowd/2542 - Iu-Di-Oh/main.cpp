@@ -9,22 +9,22 @@ int main()
     while(cin>> n)
     {
         cin>> m >> l;
-        vector<vector<int>> matrizM(n, vector<int>(m));
-        vector<vector<int>> matrizL(n, vector<int>(l));
+        vector<vector<int>> matrizM(m, vector<int>(n));
+        vector<vector<int>> matrizL(l, vector<int>(n));
 
 
         for(int i = 0 ; i < m; i++)
         {
             for(int j = 0; j < n ; j++ )
             {
-               cin>> matrizM[i][j];
+                cin>> matrizM[i][j];
             }
         }
         for(int k = 0 ; k < l; k++)
         {
             for(int x = 0; x < n ; x++ )
             {
-                 cin>>matrizL[k][x];
+                cin>>matrizL[k][x];
             }
         }
 
