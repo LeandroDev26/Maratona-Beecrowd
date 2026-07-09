@@ -20,6 +20,17 @@ int main()
 
         cin>> cm >> cl;
         cin>> atsort;
+
+        if(cm == cl)
+        {
+
+        }
+        else if(cm > cl)
+        {
+        }
+        else
+        {
+        }
     }
 
 
