@@ -31,12 +31,12 @@ int main()
         cin>> cm >> cl;
         cin>> a;
 
-        if(matrizM[cm][a] == matrizL[cl][a])
+        if(matrizM[cm-1][a-1] == matrizL[cl-1][a-1])
         {
             cout<<"Empate"<<endl;
 
         }
-        else if(matrizM[cm][a] > matrizL[cl][a])
+        else if(matrizM[cm-1][a-1] > matrizL[cl-1][a-1])
         {
             cout<<"Marcos"<<endl;
         }
