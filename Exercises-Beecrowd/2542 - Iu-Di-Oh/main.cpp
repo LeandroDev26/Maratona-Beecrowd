@@ -23,13 +23,17 @@ int main()
 
         if(cm == cl)
         {
+            cout<<"Empate"<<endl;
 
         }
         else if(cm > cl)
         {
+            cout<<"Marcos"<<endl;
         }
         else
         {
+            cout<<"Leonardo"<<endl;
+
         }
     }
 
