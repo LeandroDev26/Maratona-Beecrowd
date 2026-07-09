@@ -8,7 +8,7 @@ int main()
     int n ;
     while(cin>> n)
     {
-        double notaCorte = 0, favoraveis = 0, x = 0;
+        double notaCorte = 0, favoraveis = 0, x = 0 , totVotos = n;
         for(int i = 0 ; i < n ; i++)
         {
             cin>> x ;
