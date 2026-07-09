@@ -17,14 +17,14 @@ int main()
         {
             for(int j = 0; j < n ; j++ )
             {
-
+               cin>> matrizM[i][j];
             }
         }
         for(int k = 0 ; k < l; k++)
         {
             for(int x = 0; x < n ; x++ )
             {
-
+                 cin>>matrizL[k][x];
             }
         }
 
