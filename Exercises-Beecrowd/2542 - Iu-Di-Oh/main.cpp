@@ -9,6 +9,9 @@ int main()
     while(cin>> n)
     {
         cin>> m >> l;
+        for(int i = 0 ; i < (n*m); i++){
+
+        }
     }
 
 
