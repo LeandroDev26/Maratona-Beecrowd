@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
 int main()
@@ -9,13 +9,23 @@ int main()
     while(cin>> n)
     {
         cin>> m >> l;
-        for(int i = 0 ; i < (n*m); i++)
+        vector<vector<int>> matrizM(n, vector<int>(m));
+        vector<vector<int>> matrizL(n, vector<int>(l));
+
+
+        for(int i = 0 ; i < m; i++)
         {
-            cin>> x;
+            for(int j = 0; j < n ; j++ )
+            {
+
+            }
         }
-        for(int k = 0 ; k < (n*l); k++)
+        for(int k = 0 ; k < l; k++)
         {
-            cin>> y;
+            for(int x = 0; x < n ; x++ )
+            {
+
+            }
         }
 
         cin>> cm >> cl;
