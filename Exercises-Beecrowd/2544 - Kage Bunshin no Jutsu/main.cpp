@@ -14,15 +14,22 @@ int main()
         {
             cout<< 0 <<endl;
         }
-
-        while(n > 1)
+        else
         {
 
-            n /= 2;
-            cont++;
+
+            while(n > 1)
+            {
+
+                n /= 2;
+                cont++;
+            }
+
+            cout<< cont <<endl;
+
         }
 
-        cout<< cont <<endl;
+
 
 
     }
