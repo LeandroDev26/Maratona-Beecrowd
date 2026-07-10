@@ -17,7 +17,8 @@ int main()
 
         while(n > 1){
 
-
+            n /= 2;
+            cont++;
         }
 
     }
