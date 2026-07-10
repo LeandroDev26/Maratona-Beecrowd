@@ -14,14 +14,27 @@ int main()
         {
             cout<< 0 <<endl;
         }
+        else
+        {
 
-        while(n > 1){
 
-            n /= 2;
-            cont++;
+
+
+
+
+            while(n > 1)
+            {
+
+                n /= 2;
+                cont++;
+            }
+
+            cout<< cont <<endl;
+
+
         }
 
-        cout<< cont <<endl;
+
 
     }
 
