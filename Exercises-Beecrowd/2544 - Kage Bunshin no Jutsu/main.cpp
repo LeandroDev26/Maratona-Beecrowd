@@ -13,10 +13,11 @@ int main()
         {
             cout<< 0 <<endl;
         }
-        else
-        {
-            cout<< n/2 <<endl;
+
+        while(n > 1){
+
         }
+
     }
 
 
