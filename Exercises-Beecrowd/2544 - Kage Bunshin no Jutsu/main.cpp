@@ -15,6 +15,7 @@ int main()
         }
         else
         {
+            cout<< n/2 <<endl;
         }
     }
 
