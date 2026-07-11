@@ -11,6 +11,7 @@ int main()
     {
         double maior_velocidade = 0.0, t = 0.0, d = 0.0;
         double velocidade = 0.0;
+        int dia = 0;
         for(int i = 0; i < n; i++)
         {
             cin>> t >> d;
@@ -18,7 +19,8 @@ int main()
             if(velocidade > maior_velocidade)
             {
                 maior_velocidade = velocidade;
-                cout<<maior_velocidade<<endl;
+                dia = (i+1);
+                cout<<dia<<endl;
             }
 
 
