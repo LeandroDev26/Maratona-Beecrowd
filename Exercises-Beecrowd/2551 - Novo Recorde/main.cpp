@@ -18,9 +18,10 @@ int main()
             velocidade = (d/t);
             if(velocidade > maior_velocidade)
             {
-                maior_velocidade = velocidade;
                 dia = (i+1);
                 cout<<dia<<endl;
+                maior_velocidade = velocidade;
+
             }
 
 
