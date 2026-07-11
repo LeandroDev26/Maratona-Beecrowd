@@ -15,6 +15,9 @@ int main()
         {
             cin>> t >> d;
             velocidade = (d/t);
+            if(velocidade > maior_velocidade){
+                maior_velocidade = velocidade;
+            }
         }
     }
 
