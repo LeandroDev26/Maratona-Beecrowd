@@ -15,9 +15,13 @@ int main()
         {
             cin>> t >> d;
             velocidade = (d/t);
-            if(velocidade > maior_velocidade){
+            if(velocidade > maior_velocidade)
+            {
                 maior_velocidade = velocidade;
+                cout<<maior_velocidade<<endl;
             }
+
+
         }
     }
 
