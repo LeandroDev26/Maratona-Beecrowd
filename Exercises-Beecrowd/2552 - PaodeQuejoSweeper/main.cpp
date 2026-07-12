@@ -24,6 +24,14 @@ int main()
             for(int k = 0 ; k < m ; k++)
             {
 
+                if(matriz[l][k] == 1 )
+                {
+                    cout<< 9 ;
+                }
+                else
+                {
+
+                }
             }
         }
 
