@@ -10,7 +10,7 @@ int main()
     while(cin>> n >> m)
     {
         vector<vector<int>> matriz(n, vector<int>(m));
-
+        int cont = 0;
         for(int i = 0 ; i < n; i++)
         {
             for(int j = 0 ; j < m ; j++)
@@ -37,7 +37,6 @@ int main()
         }
 
     }
-
 
 
     return 0;
