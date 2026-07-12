@@ -30,7 +30,7 @@ int main()
                 }
                 else
                 {
-                    int cont = 0;
+                    cont = 0;
 
                     if(l > 0 && (matriz[l - 1][k] == 1))
                     {
