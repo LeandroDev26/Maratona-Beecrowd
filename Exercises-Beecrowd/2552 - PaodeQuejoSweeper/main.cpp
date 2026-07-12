@@ -28,7 +28,7 @@ int main()
                 {
                     cout<< 9 ;
                 }
-                else
+                else if(l == 0 && k == 0)
                 {
 
                 }
@@ -37,9 +37,6 @@ int main()
         }
 
     }
-
-
-
 
 
 
