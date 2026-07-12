@@ -10,7 +10,7 @@ int main()
     while(cin>> n >> m)
     {
         vector<vector<int>> matriz(n, vector<int>(m));
-        int cont = 0;
+        int cont;
         for(int i = 0 ; i < n; i++)
         {
             for(int j = 0 ; j < m ; j++)
@@ -30,6 +30,8 @@ int main()
                 }
                 else
                 {
+                    int cont = 0;
+
                     if(l > 0 && (matriz[l - 1][k] == 1))
                     {
                         cont++;
@@ -50,15 +52,18 @@ int main()
 
                     }
 
-
+                    cout<<cont ;
 
                 }
-                cout<<endl;
             }
+
+            cout<<endl;
+
 
         }
 
 
-        return 0;
     }
+    return 0;
+
 }
