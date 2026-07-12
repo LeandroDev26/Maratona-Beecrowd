@@ -28,16 +28,19 @@ int main()
                 {
                     cout<< 9 ;
                 }
-                else if(l == 0 && k == 0)
+                else
                 {
-
+                    if(l > 0 && (matriz[l - 1][k] == 1))
+                    {
+                        cont++;
+                    }
                 }
+                cout<<endl;
             }
-            cout<<endl;
+
         }
 
+
+        return 0;
     }
-
-
-    return 0;
 }
