@@ -15,7 +15,15 @@ int main()
         {
             for(int j = 0 ; j < m ; j++)
             {
-               cin>> matriz[i][j];
+                cin>> matriz[i][j];
+            }
+        }
+
+        for(int l = 0 ; l < n; l++)
+        {
+            for(int k = 0 ; k < m ; k++)
+            {
+
             }
         }
 
