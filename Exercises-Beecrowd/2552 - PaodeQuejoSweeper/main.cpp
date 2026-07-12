@@ -34,6 +34,12 @@ int main()
                     {
                         cont++;
                     }
+
+                    if(l < (n - 1) && (matriz[l + 1][k] == 1))
+                    {
+                        cont++;
+
+                    }
                 }
                 cout<<endl;
             }
