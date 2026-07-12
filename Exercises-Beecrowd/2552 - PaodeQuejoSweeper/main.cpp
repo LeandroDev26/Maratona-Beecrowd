@@ -40,6 +40,18 @@ int main()
                         cont++;
 
                     }
+                    if(k > 0 && (matriz[l][k-1] == 1))
+                    {
+                        cont++;
+                    }
+                    if(k < (m - 1) && (matriz[l][k + 1] == 1))
+                    {
+                        cont++;
+
+                    }
+
+
+
                 }
                 cout<<endl;
             }
