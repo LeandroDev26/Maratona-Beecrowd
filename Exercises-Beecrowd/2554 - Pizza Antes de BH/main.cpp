@@ -34,7 +34,7 @@ int main()
 
         if(!dataEscolhida.empty())
         {
-            cout<<dataEscolhida;
+            cout<<dataEscolhida<<endl;
             dataEscolhida.clear();
 
         }
