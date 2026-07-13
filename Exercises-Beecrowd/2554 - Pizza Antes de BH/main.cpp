@@ -23,8 +23,12 @@ int main()
                     todo_mundo_pode = false;
                 }
             }
-            if(todo_mundo_pode){
+            if(todo_mundo_pode)
+            {
+                if(dataEscolhida.empty())
+                {
 
+                }
             }
         }
 
