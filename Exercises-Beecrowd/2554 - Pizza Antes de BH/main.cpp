@@ -35,11 +35,14 @@ int main()
         if(!dataEscolhida.empty())
         {
             cout<<dataEscolhida;
+            dataEscolhida.clear();
+
         }
         else
         {
             cout<<"Pizza antes de FdI"<<endl;
         }
+
 
     }
 
