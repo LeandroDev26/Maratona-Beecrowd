@@ -32,17 +32,16 @@ int main()
             }
         }
 
-                if(!dataEscolhida.empty()){
-                    cout<<dataEscolhida;
-                }
+        if(!dataEscolhida.empty())
+        {
+            cout<<dataEscolhida;
+        }
+        else
+        {
+            cout<<"Pizza antes de FdI"<<endl;
+        }
 
     }
-
-
-
-
-
-
 
 
     return 0;
