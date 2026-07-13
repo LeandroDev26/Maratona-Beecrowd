@@ -27,10 +27,14 @@ int main()
             {
                 if(dataEscolhida.empty())
                 {
-
+                    dataEscolhida = data;
                 }
             }
         }
+
+                if(!dataEscolhida.empty()){
+                    cout<<dataEscolhida;
+                }
 
     }
 
