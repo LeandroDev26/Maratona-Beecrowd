@@ -7,6 +7,7 @@ int main()
 
     int n, d, pessoa;
     string data;
+    bool todo_mundo_pode = true;
     while(cin>> n >> d)
     {
         for(int i = 0; i < d ; i++)
@@ -16,6 +17,10 @@ int main()
             for(int j = 0; j < n ; j++)
             {
                 cin>> pessoa;
+                if(pessoa == 0)
+                {
+                    todo_mundo_pode = false;
+                }
             }
         }
 
