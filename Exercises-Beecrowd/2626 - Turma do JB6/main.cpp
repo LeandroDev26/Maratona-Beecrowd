@@ -16,6 +16,11 @@ int main()
         {
             cout<<"Iron Maiden's gonna get you, no matter how far!"<<endl;
         }
+        else if(dodo == "tesoura" && leo == "tesoura" && pep == "pedra")
+        {
+            cout<<"Urano perdeu algo muito precioso..."<<endl;
+        }
+
 
     }
 
