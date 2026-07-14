@@ -33,6 +33,7 @@ int main()
         {
             cout<<"Urano perdeu algo muito precioso..."<<endl;
         }
+        //tesoura
 
 
     }
