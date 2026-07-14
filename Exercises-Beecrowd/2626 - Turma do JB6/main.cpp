@@ -21,15 +21,15 @@ int main()
             cout<<"Urano perdeu algo muito precioso..."<<endl;
         }
         // pedra
-        if(dodo == "tesoura" && leo == "papel" && pep == "papel")
+        else if(dodo == "tesoura" && leo == "papel" && pep == "papel")
         {
             cout<<"Os atributos dos monstros vao ser inteligencia, sabedoria..."<<endl;
         }
-        else if(dodo == "tesoura" && leo == "pedra" && pep == "tesoura")
+        else if(dodo == "papel" && leo == "tesoura" && pep == "papel")
         {
             cout<<"Iron Maiden's gonna get you, no matter how far!"<<endl;
         }
-        else if(dodo == "tesoura" && leo == "tesoura" && pep == "pedra")
+        else if(dodo == "papel" && leo == "papel" && pep == "tesoura")
         {
             cout<<"Urano perdeu algo muito precioso..."<<endl;
         }
