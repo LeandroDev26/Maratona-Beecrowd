@@ -46,6 +46,10 @@ int main()
         {
             cout<<"Urano perdeu algo muito precioso..."<<endl;
         }
+        else
+        {
+            cout<<"Putz vei, o Leo ta demorando muito pra jogar..."<<endl;
+        }
 
 
     }
