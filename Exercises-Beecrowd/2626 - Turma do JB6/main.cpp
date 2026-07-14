@@ -14,6 +14,7 @@ int main()
         }
         else if(dodo == "tesoura" && leo == "pedra" && pep == "tesoura")
         {
+            cout<<"Iron Maiden's gonna get you, no matter how far!"<<endl;
         }
 
     }
