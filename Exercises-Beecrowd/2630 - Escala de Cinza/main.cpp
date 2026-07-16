@@ -10,7 +10,21 @@ int main()
     cin>> t ;
 
     for(int i = 0 ; i < t; i++){
+       cin>> conversao >> r >> g >> b;
 
+       if(conversao == "min"){
+          int mini = 1000;
+
+           if(r < mini){
+            mini = r;
+           }
+           if(g < mini){
+            mini = g;
+           }
+           if(b < mini){
+            mini = b;
+           }
+       }
     }
 
     return 0;
