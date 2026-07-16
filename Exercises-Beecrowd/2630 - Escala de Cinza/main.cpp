@@ -41,7 +41,7 @@ int main()
         else if(conversao == "eye")
         {
             int p = 0;
-            p = (0.30*r + 0.59*g + 0.11*b )
+            p = (0.30*(double)r + 0.59*(double)g + 0.11*(double)b );
         }
     }
 
