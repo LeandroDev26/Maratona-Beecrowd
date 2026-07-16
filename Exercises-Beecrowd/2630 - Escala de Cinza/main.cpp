@@ -42,6 +42,8 @@ int main()
         {
             int p = 0;
             p = (0.30*(double)r + 0.59*(double)g + 0.11*(double)b );
+            cout<< "Caso #"<< i <<": "<< p <<endl;
+
         }
     }
 
