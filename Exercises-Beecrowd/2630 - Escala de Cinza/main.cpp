@@ -38,6 +38,9 @@ int main()
             media = (r + g + b)/3;
             cout<< "Caso #"<< i <<": "<< media<<endl;
         }
+        else if(conversao == "eye")
+        {
+        }
     }
 
     return 0;
