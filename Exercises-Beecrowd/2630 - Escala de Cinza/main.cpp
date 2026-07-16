@@ -29,6 +29,8 @@ int main()
             {
                 mini = b;
             }
+
+            cout<< mini <<endl;
         }
         else if(conversao ==  "mean")
         {
