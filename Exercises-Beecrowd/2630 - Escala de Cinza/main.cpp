@@ -38,32 +38,36 @@ int main()
 
             if(r > maxi)
             {
-                mini = r;
+                maxi = r;
             }
-            if(g < mini)
+            if(g > maxi)
             {
-                mini = g;
+                maxi = g;
             }
-            if(b < mini)
+            if(b > maxi)
             {
-                mini = b;
+                maxi = b;
             }
 
-            cout<<"Caso #"<< i+1 <<": "<< mini <<endl;
+            cout<<"Caso #"<< i+1 <<": "<< maxi <<endl;
         }
-    }else if(conversao ==  "mean")
-    {
-        int media = 0;
-        media = (r + g + b)/3;
-        cout<< "Caso #"<< i+1 <<": "<< media<<endl;
-    }
-    else if(conversao == "eye")
-    {
-        int p = 0;
-        p = (0.30*(double)r + 0.59*(double)g + 0.11*(double)b );
-        cout<< "Caso #"<< i+1 <<": "<< p <<endl;
+
+        else if(conversao ==  "mean")
+        {
+            int media = 0;
+            media = (r + g + b)/3;
+            cout<< "Caso #"<< i+1 <<": "<< media<<endl;
+        }
+        else if(conversao == "eye")
+        {
+            int p = 0;
+            p = (0.30*(double)r + 0.59*(double)g + 0.11*(double)b );
+            cout<< "Caso #"<< i+1 <<": "<< p <<endl;
+
+        }
 
     }
+
 
     return 0;
 }
