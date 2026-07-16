@@ -34,6 +34,9 @@ int main()
         }
         else if(conversao ==  "mean")
         {
+            int media = 0;
+            media = (r + g + b)/3;
+            cout<< media<<endl;
         }
     }
 
