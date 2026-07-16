@@ -30,13 +30,13 @@ int main()
                 mini = b;
             }
 
-            cout<< mini <<endl;
+            cout<<"Caso #1: "<< mini <<endl;
         }
         else if(conversao ==  "mean")
         {
             int media = 0;
             media = (r + g + b)/3;
-            cout<< media<<endl;
+            cout<< "Caso #1: "<< media<<endl;
         }
     }
 
