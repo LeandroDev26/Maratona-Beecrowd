@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int t ;
+    int t , r , g , b;
     string conversao;
     cin>> t ;
 
