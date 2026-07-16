@@ -32,19 +32,37 @@ int main()
 
             cout<<"Caso #"<< i+1 <<": "<< mini <<endl;
         }
-        else if(conversao ==  "mean")
+        else if(conversao == "max")
         {
-            int media = 0;
-            media = (r + g + b)/3;
-            cout<< "Caso #"<< i+1 <<": "<< media<<endl;
-        }
-        else if(conversao == "eye")
-        {
-            int p = 0;
-            p = (0.30*(double)r + 0.59*(double)g + 0.11*(double)b );
-            cout<< "Caso #"<< i+1 <<": "<< p <<endl;
+            int maxi = -1;
 
+            if(r > maxi)
+            {
+                mini = r;
+            }
+            if(g < mini)
+            {
+                mini = g;
+            }
+            if(b < mini)
+            {
+                mini = b;
+            }
+
+            cout<<"Caso #"<< i+1 <<": "<< mini <<endl;
         }
+    }else if(conversao ==  "mean")
+    {
+        int media = 0;
+        media = (r + g + b)/3;
+        cout<< "Caso #"<< i+1 <<": "<< media<<endl;
+    }
+    else if(conversao == "eye")
+    {
+        int p = 0;
+        p = (0.30*(double)r + 0.59*(double)g + 0.11*(double)b );
+        cout<< "Caso #"<< i+1 <<": "<< p <<endl;
+
     }
 
     return 0;
