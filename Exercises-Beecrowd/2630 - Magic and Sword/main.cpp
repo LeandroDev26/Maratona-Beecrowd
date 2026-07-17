@@ -12,15 +12,12 @@ struct Magia {
 
 int main()
 {
-    // Otimização para leitura de dados em maratonas de programação
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    // 2. Declaramos o mapa. A chave é uma string (nome) e o valor é a nossa struct (Magia)
     map<string, Magia> tabelaMagias;
 
-    // 3. Preenchemos o mapa antes de começar o loop (já que esses dados nunca mudam)
-    // A sintaxe entre chaves { } preenche diretamente os campos da struct na ordem (dano, {raios})
+
     tabelaMagias["fire"]  = {200, {20, 30, 50}};
     tabelaMagias["water"] = {300, {10, 25, 40}};
     tabelaMagias["earth"] = {400, {25, 55, 70}};
