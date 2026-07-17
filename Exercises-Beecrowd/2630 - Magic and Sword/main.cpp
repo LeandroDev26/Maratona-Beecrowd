@@ -39,22 +39,16 @@ int main()
 
         int danoMagia = magiaAtual.dano;
 
-        // Subtraímos 1 do nível porque o array começa no índice 0.
-        // Nível 1 está no índice 0, Nível 2 no 1, e Nível 3 no 2.
+
         int raioMagia = magiaAtual.raios[nivel - 1];
 
-        // ==========================================================
-        // LÓGICA GEOMÉTRICA (CÁLCULO DA COLISÃO)
-        // ==========================================================
 
-        // Definimos as fronteiras/limites do retângulo do inimigo
         int x_min = x0;
         int x_max = x0 + w;
         int y_min = y0;
         int y_max = y0 + h;
 
-        // Encontramos o ponto do retângulo mais próximo do centro do círculo (Função Clamp)
-        // Se cx estiver fora do retângulo, ele assume o limite do retângulo (x_min ou x_max)
+
         int x_proximo = max(x_min, min(cx, x_max));
         int y_proximo = max(y_min, min(cy, y_max));
 
