@@ -28,10 +28,8 @@ int main()
 
     for(int i = 0 ; i < t; i++)
     {
-        // Lendo os dados do retângulo (inimigo)
         cin >> w >> h >> x0 >> y0;
 
-        // Lendo os dados do feitiço lançado
         string nomeMagia;
         int nivel, cx, cy;
         cin >> nomeMagia >> nivel >> cx >> cy;
