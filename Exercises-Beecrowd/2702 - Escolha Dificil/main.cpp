@@ -6,11 +6,12 @@ int main()
 {
 
 
-    int c, b, p, cr, br, pr;
+    int c, b, p, cr, br, pr , passa;
     cin>> c >> b >> p;
     cin>> cr >> br >> pr;
-    int passa = abs((c-cr)+(b-br)+(p-pr));
+     if(pr > p){
 
+     }
     cout<<passa<<endl;
 
 
