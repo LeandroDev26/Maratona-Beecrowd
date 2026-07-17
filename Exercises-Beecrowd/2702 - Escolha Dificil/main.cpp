@@ -6,6 +6,8 @@ int main()
 {
 
 
+    int c, b, p;
+    cin>> c >> b >> p;
 
 
 
