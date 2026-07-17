@@ -6,7 +6,7 @@ int main()
 {
 
 
-    int c, b, p, cr, br, pr, passa;
+    int c, b, p, cr, br, pr, passa = 0;
     cin>> c >> b >> p;
     cin>> cr >> br >> pr;
     if(cr > c)
