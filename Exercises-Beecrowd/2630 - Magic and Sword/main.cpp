@@ -5,10 +5,9 @@
 
 using namespace std;
 
-// 1. Criamos a struct OUTSIDE da main. Ela agrupa as características de uma magia.
 struct Magia {
     int dano;
-    int raios[3]; // Um array com 3 posições para os raios dos níveis 1, 2 e 3
+    int raios[3];
 };
 
 int main()
