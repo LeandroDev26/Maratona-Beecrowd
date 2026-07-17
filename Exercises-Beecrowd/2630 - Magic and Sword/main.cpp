@@ -34,14 +34,9 @@ int main()
         int nivel, cx, cy;
         cin >> nomeMagia >> nivel >> cx >> cy;
 
-        // ==========================================================
-        // COMO USAR A STRUCT COMBINADA COM O MAP:
-        // ==========================================================
 
-        // Buscamos a ficha da magia usando o nome dela como chave
         Magia magiaAtual = tabelaMagias[nomeMagia];
 
-        // Agora acessamos as propriedades da struct que recuperamos:
         int danoMagia = magiaAtual.dano;
 
         // Subtraímos 1 do nível porque o array começa no índice 0.
