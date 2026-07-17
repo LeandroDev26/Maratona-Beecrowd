@@ -6,14 +6,19 @@ int main()
 {
 
 
-    int c, b, p, cr, br, pr , passa;
+    int c, b, p, cr, br, pr, passa;
     cin>> c >> b >> p;
     cin>> cr >> br >> pr;
-     if(pr > p){
-
-     }
+    if(pr > p)
+    {
+        passa += abs(p - pr);
+    }
+    else if(br > b)
+    {
+        passa += abs(b- br);
+    }
     cout<<passa<<endl;
 
 
-return 0;
+    return 0;
 }
