@@ -9,13 +9,17 @@ int main()
     int c, b, p, cr, br, pr, passa;
     cin>> c >> b >> p;
     cin>> cr >> br >> pr;
-    if(pr > p)
+    if(cr > c)
     {
-        passa += abs(p - pr);
+        passa += abs(c - cr);
     }
-    else if(br > b)
+    if(br > b)
     {
         passa += abs(b- br);
+    }
+   if(pr > p)
+    {
+        passa += abs(p - pr);
     }
     cout<<passa<<endl;
 
