@@ -52,15 +52,12 @@ int main()
         int x_proximo = max(x_min, min(cx, x_max));
         int y_proximo = max(y_min, min(cy, y_max));
 
-        // Calculamos os catetos (distância em X e em Y) entre o centro do círculo e o ponto mais próximo
         int dist_x = cx - x_proximo;
         int dist_y = cy - y_proximo;
 
-        // Teorema de Pitágoras (Distância ao Quadrado = ca^2 + cb^2)
         int distancia_quadrado = (dist_x * dist_x) + (dist_y * dist_y);
         int raio_quadrado = raioMagia * raioMagia;
 
-        // Se a distância ao quadrado for menor ou igual ao raio ao quadrado, houve colisão
         if (distancia_quadrado <= raio_quadrado) {
             cout << danoMagia << "\n";
         } else {
