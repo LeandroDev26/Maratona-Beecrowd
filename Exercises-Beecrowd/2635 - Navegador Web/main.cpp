@@ -27,7 +27,7 @@ int main()
         cin>> qs;
         for(int k = 0 ; k < pesquisas.size(); k++)
         {
-            if(qs == pesquisas[k])
+            if(pesquisas[k].find(qs) == 0)
             {
                 cont++;
                 if(maior < pesquisas[k].length())
