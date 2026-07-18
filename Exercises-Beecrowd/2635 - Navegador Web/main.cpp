@@ -9,11 +9,14 @@ int main()
 
     int n, q ;
     string  ns, qs;
+    vector <string> pesquisas;
 
     cin>> n;
     for(int i = 0; i < n; i++)
     {
         cin>> ns;
+        pesquisas.push_back(ns);
+
 
     }
     cin>> q;
