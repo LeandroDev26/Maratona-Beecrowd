@@ -35,8 +35,13 @@ int main()
                 }
             }
         }
-        if(cont == 0){
+        if(cont == 0)
+        {
             cout<< -1 <<endl;
+        }
+        else
+        {
+            cout<<cont<<" "<<maior<<endl;
         }
 
     }
