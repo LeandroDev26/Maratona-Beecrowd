@@ -19,12 +19,13 @@ int main()
 
     }
     cin>> q;
-    int maior = 0, cont = 0;
 
     for(int j = 0; j < q; j++)
     {
+        int maior = 0, cont = 0;
+
         cin>> qs;
-        for(int k = 0 ; k < pesquisas.size()-1; k++)
+        for(int k = 0 ; k < pesquisas.size(); k++)
         {
             if(qs == pesquisas[k])
             {
