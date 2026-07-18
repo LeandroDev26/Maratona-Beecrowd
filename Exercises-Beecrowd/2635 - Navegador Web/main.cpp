@@ -10,7 +10,6 @@ int main()
     int n, q ;
     string  ns, qs;
     vector <string> pesquisas;
-    int maior = 0, cont = 0;
     cin>> n;
     for(int i = 0; i < n; i++)
     {
@@ -20,6 +19,8 @@ int main()
 
     }
     cin>> q;
+    int maior = 0, cont = 0;
+
     for(int j = 0; j < q; j++)
     {
         cin>> qs;
