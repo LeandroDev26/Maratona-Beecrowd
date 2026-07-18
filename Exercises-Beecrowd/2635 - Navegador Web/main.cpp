@@ -24,7 +24,7 @@ int main()
     for(int j = 0; j < q; j++)
     {
         cin>> qs;
-        for(int k = 0 ; k < qs.length()-1; k++)
+        for(int k = 0 ; k < pesquisas.size()-1; k++)
         {
             if(qs == pesquisas[k])
             {
@@ -35,6 +35,10 @@ int main()
                 }
             }
         }
+        if(cont == 0){
+            cout<< -1 <<endl;
+        }
+
     }
 
 
