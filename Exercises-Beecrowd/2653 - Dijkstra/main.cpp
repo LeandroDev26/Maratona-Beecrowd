@@ -4,10 +4,14 @@ using namespace std;
 
 int main()
 {
-
-    string joias, joiasDistintas;
+    vector <string> joiasDistintas;
+    string joias;
     while (cin>> joias)
     {
+        if(joiasDistintas.empty())
+        {
+
+        }
 
 
     }
