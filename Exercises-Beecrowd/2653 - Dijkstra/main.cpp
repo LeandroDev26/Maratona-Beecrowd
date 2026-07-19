@@ -25,7 +25,15 @@ int main()
                 }
             }
 
+            if(cont == 0)
+            {
+                joiasDistintas.push_back(joias);
+
+            }
+
         }
+
+
 
 
     }
