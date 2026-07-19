@@ -5,7 +5,13 @@ using namespace std;
 int main()
 {
 
-  string joias , joiasDistintas;
+    string joias, joiasDistintas;
+    while (cin>> joias)
+    {
+
+
+    }
+
 
 
 
