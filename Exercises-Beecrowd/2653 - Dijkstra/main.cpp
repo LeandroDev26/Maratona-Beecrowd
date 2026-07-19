@@ -11,7 +11,10 @@ int main()
     {
         if(joiasDistintas.empty())
         {
-
+            joiasDistintas.push_back(joias);
+        }
+        else if()
+        {
         }
 
 
