@@ -9,14 +9,20 @@ int main()
     string joias;
     while (cin>> joias)
     {
+        int cont = 0;
+
         if(joiasDistintas.empty())
         {
             joiasDistintas.push_back(joias);
         }
         else
         {
-            for(string atual : joiasDistintas){
+            for(string atual : joiasDistintas)
+            {
+                if(joias == atual)
+                {
 
+                }
             }
 
         }
