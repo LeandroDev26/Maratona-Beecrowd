@@ -13,8 +13,12 @@ int main()
         {
             joiasDistintas.push_back(joias);
         }
-        else if()
+        else
         {
+            for(string atual : joiasDistintas){
+
+            }
+
         }
 
 
