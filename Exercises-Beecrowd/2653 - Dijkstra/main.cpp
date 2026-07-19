@@ -33,12 +33,8 @@ int main()
 
         }
 
-
-
-
     }
-
-
+    cout<< joiasDistintas.size()<<endl;
 
 
 
