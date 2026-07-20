@@ -37,6 +37,8 @@ int main()
         }
     }
 
+    cout<< classificados <<endl;
+
 
 
     return 0;
