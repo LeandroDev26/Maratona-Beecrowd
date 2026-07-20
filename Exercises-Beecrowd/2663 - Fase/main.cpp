@@ -15,7 +15,7 @@ int main()
         competidores.push_back(x);
     }
 
-    sort(competidores.begin(), competidores.end());
+    sort(competidores.rbegin(), competidores.rend());
 
 
 
