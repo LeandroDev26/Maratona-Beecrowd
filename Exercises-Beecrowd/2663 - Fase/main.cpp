@@ -26,6 +26,14 @@ int main()
         }
         else
         {
+            if(competidores[j] == competidores[j-1])
+            {
+                classificados++;
+            }
+            else
+            {
+                break;
+            }
         }
     }
 
