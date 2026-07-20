@@ -17,9 +17,12 @@ int main()
 
     sort(competidores.rbegin(), competidores.rend());
 
+
     for(int j = 0; j < competidores.size(); j++)
     {
-
+        if(classificados < k){
+           classificados++;
+        }
     }
 
 
