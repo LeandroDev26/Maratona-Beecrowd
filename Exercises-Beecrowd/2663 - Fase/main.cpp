@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int n, k, x;
+    int n, k, x, classificados = 0;
     vector <int> competidores;
     cin>> n >> k;
     for(int i = 0; i < n ; i++)
@@ -17,7 +17,10 @@ int main()
 
     sort(competidores.rbegin(), competidores.rend());
 
+    for(int j = 0; j < competidores.size(); j++)
+    {
 
+    }
 
 
 
