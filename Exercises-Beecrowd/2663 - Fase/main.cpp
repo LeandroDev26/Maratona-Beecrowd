@@ -20,8 +20,12 @@ int main()
 
     for(int j = 0; j < competidores.size(); j++)
     {
-        if(classificados < k){
-           classificados++;
+        if(classificados < k)
+        {
+            classificados++;
+        }
+        else
+        {
         }
     }
 
