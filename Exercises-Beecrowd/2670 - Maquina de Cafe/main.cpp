@@ -11,6 +11,8 @@ int main()
 
      minutos = (a1*a3);
 
+     cout<< minutos <<endl;
+
 
 
 
