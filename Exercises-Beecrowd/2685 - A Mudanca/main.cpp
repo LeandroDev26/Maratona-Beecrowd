@@ -16,6 +16,9 @@ int main()
         else if( m >= 90 && m < 180)
         {
             cout<<"Boa Tarde!!"<<endl;
+        } else if( m >= 180 && m < 270)
+        {
+            cout<<"Boa Noite!!"<<endl;
         }
     }
 
