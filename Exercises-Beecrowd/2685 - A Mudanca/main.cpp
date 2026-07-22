@@ -7,7 +7,10 @@ int main()
 
     int m ;
 
-    cin>> m;
+    while(cin>> m)
+    {
+
+    }
 
 
 
