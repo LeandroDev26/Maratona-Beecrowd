@@ -5,11 +5,15 @@ using namespace std;
 int main()
 {
 
-    int t ;
+    int t , saidas = 0 , voltas = 0;;
     string acao;
     while((cin>> acao) && acao != "ABEND" )
     {
         cin>> t;
+
+        if(acao == "SALIDA "){
+
+        }
     }
 
 
