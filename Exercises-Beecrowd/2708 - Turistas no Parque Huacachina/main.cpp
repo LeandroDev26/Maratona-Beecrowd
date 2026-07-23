@@ -22,9 +22,10 @@ int main()
             passVolta += t;
         }
     }
-     int totJipe = jipeIndo - jipeVoltando;
-     int totpass = passIda - passVolta;
-     //cout<<
+    int totJipe = jipeIndo - jipeVoltando;
+    int totpass = passIda - passVolta;
+    cout<<totpass<<endl;
+    cout<<totJipe<<endl;
 
 
 
