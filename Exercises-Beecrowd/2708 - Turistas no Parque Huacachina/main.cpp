@@ -13,9 +13,11 @@ int main()
 
         if(acao == "SALIDA ")
         {
+            jipeIndo++;
         }
         else
         {
+            jipeVoltando++;
         }
     }
 
