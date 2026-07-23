@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -22,8 +23,8 @@ int main()
             passVolta += t;
         }
     }
-    int totJipe = jipeIndo - jipeVoltando;
-    int totpass = passIda - passVolta;
+    int totJipe = abs(jipeIndo - jipeVoltando);
+    int totpass = abs(passIda - passVolta);
     cout<<totpass<<endl;
     cout<<totJipe<<endl;
 
