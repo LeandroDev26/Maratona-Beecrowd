@@ -7,6 +7,10 @@ int main()
 
     int t ;
     string acao;
+    while((cin>> acao >> t) && acao != "ABEND" )
+    {
+
+    }
 
 
 
