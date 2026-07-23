@@ -7,9 +7,9 @@ int main()
 
     int t ;
     string acao;
-    while((cin>> acao >> t) && acao != "ABEND" )
+    while((cin>> acao) && acao != "ABEND" )
     {
-
+        cin>> t;
     }
 
 
