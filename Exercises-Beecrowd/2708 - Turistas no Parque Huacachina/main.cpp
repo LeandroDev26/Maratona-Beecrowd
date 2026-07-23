@@ -12,7 +12,7 @@ int main()
     {
         cin>> t;
 
-        if(acao == "SALIDA ")
+        if(acao == "SALIDA")
         {
             jipeIndo++;
             passIda += t;
@@ -23,8 +23,8 @@ int main()
             passVolta += t;
         }
     }
-    int totJipe = abs(jipeVoltando - jipeIndo);
-    int totpass = abs(passVolta - passIda);
+    int totJipe = (jipeIndo - jipeVoltando);
+    int totpass = (passIda - passVolta);
     cout<<totpass<<endl;
     cout<<totJipe<<endl;
 
