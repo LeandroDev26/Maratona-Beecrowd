@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int t, saidas = 0, voltas = 0, passIda = 0, passVolta = 0;
+    int t, Gisaidas = 0, Givoltas = 0, passIda = 0, passVolta = 0;
     string acao;
     while((cin>> acao) && acao != "ABEND" )
     {
@@ -13,11 +13,11 @@ int main()
 
         if(acao == "SALIDA ")
         {
-            saidas += t;
+            Gisaidas += t;
         }
         else
         {
-            voltas += t;
+            Givoltas += t;
         }
     }
 
