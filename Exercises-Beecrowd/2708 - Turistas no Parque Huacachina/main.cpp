@@ -13,10 +13,11 @@ int main()
 
         if(acao == "SALIDA ")
         {
-
+            saidas += t;
         }
         else
         {
+            voltas += t;
         }
     }
 
