@@ -14,10 +14,12 @@ int main()
         if(acao == "SALIDA ")
         {
             jipeIndo++;
+            passIda += t;
         }
         else
         {
             jipeVoltando++;
+            passVolta += t;
         }
     }
 
