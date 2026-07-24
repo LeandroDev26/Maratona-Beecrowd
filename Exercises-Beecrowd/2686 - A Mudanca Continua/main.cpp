@@ -8,6 +8,10 @@ int main()
     while (cin>> graus)
     {
         int horas = 0, minutos = 0, segundos = 0, totseg = 0;
+        totseg = (graus*240.0);
+        totseg += 21600.0;
+        segundos = totseg;
+        segundos = segundos % 8600;
 
     }
 
