@@ -4,7 +4,11 @@ using namespace std;
 
 int main()
 {
+    double graus ;
+    while (cin>> graus)
+    {
 
+    }
 
 
 
