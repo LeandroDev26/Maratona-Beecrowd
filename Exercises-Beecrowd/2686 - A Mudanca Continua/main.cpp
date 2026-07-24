@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {
     double graus ;
-    int horas = 0, minutos = 0, segundos = 0 , totseg = 0;
     while (cin>> graus)
     {
+        int horas = 0, minutos = 0, segundos = 0, totseg = 0;
 
     }
 
