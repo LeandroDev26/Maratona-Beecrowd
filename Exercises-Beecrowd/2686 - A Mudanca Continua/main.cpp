@@ -11,7 +11,7 @@ int main()
         totseg = (graus*240.0);
         totseg += 21600.0;
         segundos = totseg;
-        segundos = segundos % 8600;
+        segundos = segundos % 86400;
 
     }
 
