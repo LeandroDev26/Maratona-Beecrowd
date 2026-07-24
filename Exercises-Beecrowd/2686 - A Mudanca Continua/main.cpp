@@ -14,7 +14,9 @@ int main()
         segundos = segundos % 86400;
 
         horas = segundos / 3600;
-
+        segundosrestante = segundos % 3600;
+        minutos = segundosrestante / 60;
+        segundosfinais = segundosrestante % 60;
     }
 
 
