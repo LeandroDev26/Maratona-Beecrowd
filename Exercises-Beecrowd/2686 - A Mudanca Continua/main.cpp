@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -22,6 +23,7 @@ int main()
         if((graus >= 0 && graus < 90) || graus == 360 )
         {
             cout<<"Bom Dia!!"<<endl;
+            cout << setfill('0') << setw(2) << horas << ":";
         }
         else if( graus >= 90 && graus < 180)
         {
