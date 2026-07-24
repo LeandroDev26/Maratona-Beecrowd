@@ -17,6 +17,8 @@ int main()
         segundosrestante = segundos % 3600;
         minutos = segundosrestante / 60;
         segundosfinais = segundosrestante % 60;
+        segundos = segundosfinais;
+
     }
 
 
