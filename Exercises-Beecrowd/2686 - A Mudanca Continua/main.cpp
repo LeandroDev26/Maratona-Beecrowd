@@ -13,6 +13,8 @@ int main()
         segundos = totseg;
         segundos = segundos % 86400;
 
+        horas = segundos / 3600;
+        minutos = (segundos % 3600)/60;
     }
 
 
