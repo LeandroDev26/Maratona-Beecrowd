@@ -35,10 +35,14 @@ int main()
         else if( graus >= 180 && graus < 270)
         {
             cout<<"Boa Noite!!"<<endl;
+            cout << setfill('0') << setw(2) << horas << ":" << setw(2) << minutos << ":" << setw(2) << segundos;
+
         }
         else
         {
             cout<< "De Madrugada!!"<<endl;
+            cout << setfill('0') << setw(2) << horas << ":" << setw(2) << minutos << ":" << setw(2) << segundos;
+
         }
     }
 
