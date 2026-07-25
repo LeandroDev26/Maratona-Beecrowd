@@ -16,6 +16,7 @@ int main()
     }
     else
     {
+        cout<<"Farei hoje!"<<endl;
     }
 
 
