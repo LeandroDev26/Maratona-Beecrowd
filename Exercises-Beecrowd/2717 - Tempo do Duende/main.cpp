@@ -14,6 +14,9 @@ int main()
     {
         cout<<"Deixa para amanha!"<<endl;
     }
+    else
+    {
+    }
 
 
 
