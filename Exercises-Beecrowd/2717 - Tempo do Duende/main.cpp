@@ -10,6 +10,11 @@ int main()
     cin>> n;
     cin>> a >> b ;
 
+    if( (a + b) > n)
+    {
+        cout<<"Deixa para amanha!"<<endl;
+    }
+
 
 
 
