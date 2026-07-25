@@ -19,14 +19,5 @@ int main()
         cout<<"Farei hoje!"<<endl;
     }
 
-
-
-
-
-
-
-
-
-
     return 0;
 }
