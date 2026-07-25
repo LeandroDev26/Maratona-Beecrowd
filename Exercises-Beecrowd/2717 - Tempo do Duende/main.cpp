@@ -5,9 +5,11 @@ using namespace std;
 int main()
 {
 
-    int n;
+    int n, a, b;
 
     cin>> n;
+    cin>> a >> b ;
+
 
 
 
