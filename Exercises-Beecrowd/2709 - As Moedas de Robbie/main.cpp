@@ -18,7 +18,7 @@ int main()
 
         int soma = 0;
         while(!pilhaMoedas.empty()){
-
+            soma += pilhaMoedas.top();
         }
 
     }
