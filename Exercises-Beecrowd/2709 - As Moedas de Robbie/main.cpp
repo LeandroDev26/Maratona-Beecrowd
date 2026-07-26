@@ -4,16 +4,17 @@ using namespace std;
 
 int main()
 {
-    int m , n;
+    int m ;
     while(cin>> m)
     {
-        int valorMoeda = 0;
+        int valorMoeda = 0 , n = 0;
         stack<int> pilhaMoedas;
         for(int i = 0; i < m ; i++)
         {
             cin>> valorMoeda;
             pilhaMoedas.push(valorMoeda);
         }
+        cin>> n;
 
     }
 
