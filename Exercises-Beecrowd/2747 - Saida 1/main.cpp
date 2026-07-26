@@ -17,7 +17,13 @@ int main()
         {
             cout<<"|";
         }
+        else
+        {
+            cout<<" ";
+        }
     }
+    cout<<endl;
+
 
     return 0;
 }
