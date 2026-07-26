@@ -11,19 +11,22 @@ int main()
         cout<<"-";
     }
     cout<<endl;
-    for(int j = 0; j < n; j++)
-    {
-        if(j == n-1 || j == 0)
-        {
-            cout<<"|";
-        }
-        else
-        {
-            cout<<" ";
-        }
-    }
-    cout<<endl;
 
+    for(int k = 0; k < 5; k++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            if(j == n-1 || j == 0)
+            {
+                cout<<"|";
+            }
+            else
+            {
+                cout<<" ";
+            }
+        }
+        cout<<endl;
+    }
 
     return 0;
 }
