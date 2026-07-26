@@ -30,9 +30,14 @@ int main()
 
         }
 
-        if(soma <= 1){
+        for(int k = 2 ; k < soma; k++)
+        {
+            if(soma <= 1)
+            {
 
+            }
         }
+
 
     }
 
