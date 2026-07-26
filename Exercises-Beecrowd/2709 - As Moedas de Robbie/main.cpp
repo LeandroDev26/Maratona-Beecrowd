@@ -16,6 +16,11 @@ int main()
         }
         cin>> n;
 
+        int soma = 0;
+        while(!pilhaMoedas.empty()){
+
+        }
+
     }
 
 
