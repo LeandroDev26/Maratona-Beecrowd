@@ -19,6 +19,10 @@ int main()
         int soma = 0;
         while(!pilhaMoedas.empty()){
             soma += pilhaMoedas.top();
+            for(int j = 0; j < n ; j++){
+                pilhaMoedas.pop();
+            }
+
         }
 
     }
