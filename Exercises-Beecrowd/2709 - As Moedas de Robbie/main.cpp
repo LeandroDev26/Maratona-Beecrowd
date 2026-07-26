@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int m ;
+    int m , n;
     while(cin>> m)
     {
         int valorMoeda = 0;
