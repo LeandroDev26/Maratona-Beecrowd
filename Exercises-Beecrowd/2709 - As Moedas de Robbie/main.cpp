@@ -7,7 +7,7 @@ int main()
     int m ;
     while(cin>> m)
     {
-        int valorMoeda = 0 , n = 0;
+        int valorMoeda = 0, n = 0;
         stack<int> pilhaMoedas;
         for(int i = 0; i < m ; i++)
         {
@@ -17,10 +17,15 @@ int main()
         cin>> n;
 
         int soma = 0;
-        while(!pilhaMoedas.empty()){
+        while(!pilhaMoedas.empty())
+        {
             soma += pilhaMoedas.top();
-            for(int j = 0; j < n ; j++){
-                pilhaMoedas.pop();
+            for(int j = 0; j < n ; j++)
+            {
+                if(!pilhaMoedas.empty())
+                {
+                    pilhaMoedas.pop();
+                }
             }
 
         }
