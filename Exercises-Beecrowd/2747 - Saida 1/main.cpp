@@ -13,7 +13,7 @@ int main()
     cout<<endl;
     for(int j = 0; j < n; j++)
     {
-        if(j == n-1 || n == 0)
+        if(j == n-1 || j == 0)
         {
             cout<<"|";
         }
