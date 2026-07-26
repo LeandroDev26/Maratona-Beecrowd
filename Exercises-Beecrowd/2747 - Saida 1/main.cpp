@@ -11,7 +11,13 @@ int main()
         cout<<"-";
     }
     cout<<endl;
-
+    for(int j = 0; j < n; j++)
+    {
+        if(j == n-1 || n == 0)
+        {
+            cout<<"|";
+        }
+    }
 
     return 0;
 }
