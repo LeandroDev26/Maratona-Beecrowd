@@ -7,6 +7,9 @@ int main()
     int m ;
     while(cin>> m)
     {
+        for(int i = 0; i < m ; i++){
+
+        }
 
     }
 
