@@ -29,18 +29,18 @@ int main()
             }
 
         }
-        int naoehprimo = 0;
+        int ehprimo = 0;
 
         for(int k = 2 ; k <=soma; k++)
         {
 
             if(soma % k == 0)
             {
-                naoehprimo++;
+                ehprimo++;
             }
         }
 
-        if(naoehprimo > 0 )
+        if(ehprimo == 0 )
         {
             cout<<"You’re a coastal aircraft, Robbie, a large silver aircraft."<<endl;
         }
