@@ -31,7 +31,7 @@ int main()
         }
         int naoehprimo = 0;
 
-        for(int k = 2 ; k < soma; k++)
+        for(int k = 2 ; k <=soma; k++)
         {
 
             if(soma % k == 0)
