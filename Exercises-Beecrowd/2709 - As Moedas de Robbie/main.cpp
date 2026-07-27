@@ -29,14 +29,19 @@ int main()
             }
 
         }
+        int naoehprimo = 0;
 
         for(int k = 2 ; k < soma; k++)
         {
-            if(soma <= 1)
-            {
 
+            if(soma % k == 0){
+                naoehprimo++;
             }
         }
+
+         if(naoehprimo > 0 ){
+            cout<<"
+         }
 
 
     }
