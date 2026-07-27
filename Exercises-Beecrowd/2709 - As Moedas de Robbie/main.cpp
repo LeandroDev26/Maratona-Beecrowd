@@ -29,18 +29,25 @@ int main()
             }
 
         }
-        int ehprimo = 0;
+        bool ehPrimo = true;
 
-        for(int k = 2 ; k <=soma; k++)
+        if (soma <= 1)
         {
-
-            if(soma % k == 0)
+            ehPrimo = false;
+        }
+        else
+        {
+            for(int k = 2; k < soma; k++)
             {
-                ehprimo++;
+                if(soma % k == 0)
+                {
+                    ehPrimo = false;
+                    break;
+                }
             }
         }
 
-        if(ehprimo == 0 )
+        if(ehPrimo)
         {
             cout<<"You’re a coastal aircraft, Robbie, a large silver aircraft."<<endl;
         }
