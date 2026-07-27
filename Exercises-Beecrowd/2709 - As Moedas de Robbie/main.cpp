@@ -46,14 +46,11 @@ int main()
         }
         else
         {
+            cout<<"Bad boy! I’ll hit you."<<endl;
         }
 
 
     }
-
-
-
-
 
     return 0;
 }
