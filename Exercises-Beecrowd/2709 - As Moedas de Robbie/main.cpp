@@ -34,14 +34,19 @@ int main()
         for(int k = 2 ; k < soma; k++)
         {
 
-            if(soma % k == 0){
+            if(soma % k == 0)
+            {
                 naoehprimo++;
             }
         }
 
-         if(naoehprimo > 0 ){
-            cout<<"
-         }
+        if(naoehprimo > 0 )
+        {
+            cout<<"You’re a coastal aircraft, Robbie, a large silver aircraft."<<endl;
+        }
+        else
+        {
+        }
 
 
     }
