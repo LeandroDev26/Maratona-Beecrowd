@@ -21,6 +21,10 @@ int main()
             }
 
         }
+        else
+        {
+            atual = 0;
+        }
 
 
     }
