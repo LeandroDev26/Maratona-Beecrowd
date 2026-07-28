@@ -17,6 +17,10 @@ int main()
             soma += x;
 
         }
+        gugu = soma;
+        for(int j = 0 ; j < listaDeTrabalhos.size(); j++){
+
+        }
 
     }
 
