@@ -44,6 +44,9 @@ int main()
             }
             else
             {
+                ok = false;
+                cout<<"FAILURE"<<endl;
+                break;
             }
         }
     }
