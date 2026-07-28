@@ -11,6 +11,10 @@ int main()
     for(int i = 0; i < n ; i++)
     {
         cin>> placa;
+
+       for(int j = 0; j < placa.length(); j++){
+
+       }
     }
 
 
