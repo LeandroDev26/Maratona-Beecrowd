@@ -7,6 +7,7 @@ int main()
 {
 
     long long n , x;
+    vector<long long> listaDeTrabalhos;
     while(cin>> n )
     {
         long long  soma = 0, rangel = 0, gugu = 0;
