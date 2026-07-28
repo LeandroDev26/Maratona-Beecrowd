@@ -4,74 +4,71 @@ using namespace std;
 
 int main()
 {
-
     int n;
     string placa;
-    cin>> n ;
+    cin >> n;
+
     for(int i = 0; i < n ; i++)
     {
-        cin>> placa;
+        cin >> placa;
         bool ok = true;
-        for(int j = 0 ; j < 3; j++)
-        {
-            if(placa[j] >= 'A' && placa[j] <= 'Z')
-            {
-            }
-            else
-            {
-                ok = false;
-                cout<<"FAILURE"<<endl;
-                break;
 
-            }
-        }
-        if(placa[3] == '-')
+        if (placa.size() != 8)
         {
+            ok = false;
         }
         else
         {
-            ok = false;
-            cout<<"FAILURE"<<endl;
-            break;
-        }
-
-        for(int k = 4; k < 8; k++)
-        {
-            if(placa[k] >= 0 && placa[k] <= 9)
+            for(int j = 0 ; j < 3; j++)
             {
+                if(!(placa[j] >= 'A' && placa[j] <= 'Z'))
+                {
+                    ok = false;
+                }
             }
-            else
+
+            if(placa[3] != '-')
             {
                 ok = false;
-                cout<<"FAILURE"<<endl;
-                break;
+            }
+
+            for(int k = 4; k < 8; k++)
+            {
+                if(!(placa[k] >= '0' && placa[k] <= '9'))
+                {
+                    ok = false;
+                }
             }
         }
 
-        if(placa[7] == '1' || placa[7] == '2')
+        if(!ok)
         {
-            cout<<"MONDAY"<<endl;
+            cout << "FAILURE" << endl;
         }
-        else   if(placa[7] == '3' || placa[7] == '4')
+        else
         {
-            cout<<"TUESDAY"<<endl;
-        }
-        else   if(placa[7] == '5' || placa[7] == '6')
-        {
-            cout<<"WEDNESDAY"<<endl;
-        }
-        else   if(placa[7] == '7' || placa[7] == '8')
-        {
-            cout<<"THURSDAY"<<endl;
-        }
-        else   if(placa[7] == '9' || placa[7] == '0')
-        {
-            cout<<"FRIDAY"<<endl;
+            if(placa[7] == '1' || placa[7] == '2')
+            {
+                cout << "MONDAY" << endl;
+            }
+            else if(placa[7] == '3' || placa[7] == '4')
+            {
+                cout << "TUESDAY" << endl;
+            }
+            else if(placa[7] == '5' || placa[7] == '6')
+            {
+                cout << "WEDNESDAY" << endl;
+            }
+            else if(placa[7] == '7' || placa[7] == '8')
+            {
+                cout << "THURSDAY" << endl;
+            }
+            else if(placa[7] == '9' || placa[7] == '0')
+            {
+                cout << "FRIDAY" << endl;
+            }
         }
     }
-
-
-
 
     return 0;
 }
