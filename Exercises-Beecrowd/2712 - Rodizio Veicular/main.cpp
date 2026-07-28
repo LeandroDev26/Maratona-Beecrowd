@@ -11,28 +11,39 @@ int main()
     for(int i = 0; i < n ; i++)
     {
         cin>> placa;
-        bool ok = true;
+        bool ok = false;
         for(int j = 0 ; j < 3; j++)
         {
             if(placa[i] >= 'A' && placa[j] <= 'Z')
             {
-                if(placa[3] == '-')
-                {
-
-                }
-                else
-                {
-                    ok = false;
-                    cout<<"FAILURE"<<endl;
-                    break;
-                }
+                ok = true;
             }
             else
             {
-                ok = false;
                 cout<<"FAILURE"<<endl;
                 break;
 
+            }
+        }
+        if(placa[3] == '-')
+        {
+            ok = true ;
+        }
+        else
+        {
+            ok = false;
+            cout<<"FAILURE"<<endl;
+            break;
+        }
+
+        for(int k = 4; k < 8; k++)
+        {
+            if(placa[k] >= 0 && placa[k] <= 9)
+            {
+                ok = true;
+            }
+            else
+            {
             }
         }
     }
