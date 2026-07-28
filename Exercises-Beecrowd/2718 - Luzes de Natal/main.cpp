@@ -13,8 +13,14 @@ int main()
     {
         cin>> x;
         bitset<8> binario(x);
-        for(int j = 0; j < binario.size(); j++){
+        int lampadasQuebradas = 0;
 
+        for(int j = 0; j < binario.size(); j++)
+        {
+            if(binario[j] == 1)
+            {
+
+            }
         }
     }
 
