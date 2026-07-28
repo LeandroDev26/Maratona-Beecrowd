@@ -24,15 +24,14 @@ int main()
             else
             {
                 atual = 0;
+                x /= 2;
+
             }
         }
         cout<< maximo<<endl;
 
 
     }
-
-
-
 
 
 
