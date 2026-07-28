@@ -19,6 +19,7 @@ int main()
         {
             if(binario[j] == 1)
             {
+                lampadasQuebradas++;
 
             }
         }
