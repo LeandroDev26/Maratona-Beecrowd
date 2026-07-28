@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    long long n , x;
+    long long n, x;
     vector<long long> listaDeTrabalhos;
     while(cin>> n )
     {
@@ -18,8 +18,12 @@ int main()
 
         }
         gugu = soma;
-        for(int j = 0 ; j < listaDeTrabalhos.size(); j++){
+        long long diferenca = 100000000000000000000000000000000000000000000;
+        for(int j = 0 ; j < listaDeTrabalhos.size(); j++)
+        {
 
+            rangel += listaDeTrabalhos[j];
+            gugu -= listaDeTrabalhos[j];
         }
 
     }
