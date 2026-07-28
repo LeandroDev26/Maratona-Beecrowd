@@ -12,9 +12,13 @@ int main()
     {
         cin>> placa;
 
-       for(int j = 0; j < placa.length(); j++){
+        for(int j = 0 ; j < 3; j++)
+        {
+            if(placa[i] >= 'A' && placa[j] <= 'Z')
+            {
 
-       }
+            }
+        }
     }
 
 
