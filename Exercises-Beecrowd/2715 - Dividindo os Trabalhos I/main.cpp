@@ -18,12 +18,18 @@ int main()
 
         }
         gugu = soma;
-        long long diferenca = 100000000000000000000000000000000000000000000 , novaDiferenca;
+        long long diferenca = 100000000000000000000000000000000000000000000, novaDiferenca;
         for(int j = 0 ; j < listaDeTrabalhos.size(); j++)
         {
 
             rangel += listaDeTrabalhos[j];
             gugu -= listaDeTrabalhos[j];
+            novaDiferenca = abs(rangel - gugu);
+
+            if(novaDiferenca < diferenca)
+            {
+                diferenca = novaDiferenca;
+            }
         }
 
     }
