@@ -12,21 +12,25 @@ int main()
     {
         cin>> x;
         int atual = 0, maximo = 0;
-        if(x % 2 == 1)
+        while(x > 0)
         {
-            atual ++;
-            if(atual > maximo)
+            if(x % 2 == 1)
             {
-                maximo = atual;
+                atual ++;
+                if(atual > maximo)
+                {
+                    maximo = atual;
+                }
+                x /= 2;
+
             }
-
+            else
+            {
+                atual = 0;
+            }
         }
-        else
-        {
-            atual = 0;
-        }
 
-
+        cout<< maximo<<endl;
     }
 
 
