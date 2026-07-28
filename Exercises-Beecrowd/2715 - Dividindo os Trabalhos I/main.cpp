@@ -18,7 +18,7 @@ int main()
 
         }
         gugu = soma;
-        long long diferenca = 100000000000000000000000000000000000000000000;
+        long long diferenca = 100000000000000000000000000000000000000000000 , novaDiferenca;
         for(int j = 0 ; j < listaDeTrabalhos.size(); j++)
         {
 
