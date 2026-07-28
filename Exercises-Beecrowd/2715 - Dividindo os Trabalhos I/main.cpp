@@ -36,7 +36,6 @@ int main()
         }
 
         cout<<diferenca<<endl;
-        cout<<endl;
 
     }
 
