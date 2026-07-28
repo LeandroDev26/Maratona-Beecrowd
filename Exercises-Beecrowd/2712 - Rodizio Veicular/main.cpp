@@ -60,6 +60,10 @@ int main()
         {
             cout<<"WEDNESDAY"<<endl;
         }
+        else   if(placa[7] == '7' || placa[7] == '8')
+        {
+            cout<<"THURSDAY"<<endl;
+        }
     }
 
 
