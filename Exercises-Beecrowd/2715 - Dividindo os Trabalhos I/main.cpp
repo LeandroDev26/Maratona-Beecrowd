@@ -20,8 +20,9 @@ int main()
 
         }
         gugu = soma;
-        long long diferenca = 100000000000000000000000000000000000000000000, novaDiferenca;
-        for(int j = 0 ; j < listaDeTrabalhos.size(); j++)
+        long long diferenca = 200000000000LL;
+        long long novaDiferenca;
+        for(int j = 0 ; j < n; j++)
         {
 
             rangel += listaDeTrabalhos[j];
