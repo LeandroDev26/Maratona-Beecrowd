@@ -48,9 +48,14 @@ int main()
             }
         }
 
-         if(placa[7] == '1' || placa[7] == '2'){
+        if(placa[7] == '1' || placa[7] == '2')
+        {
             cout<<"MONDAY"<<endl;
-         }
+        }
+        else   if(placa[7] == '3' || placa[7] == '4')
+        {
+            cout<<"TUESDAY"<<endl;
+        }
     }
 
 
