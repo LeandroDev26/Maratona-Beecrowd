@@ -14,7 +14,7 @@ int main()
         bool ok = true;
         for(int j = 0 ; j < 3; j++)
         {
-            if(placa[i] >= 'A' && placa[j] <= 'Z')
+            if(placa[j] >= 'A' && placa[j] <= 'Z')
             {
             }
             else
@@ -48,10 +48,9 @@ int main()
             }
         }
 
-        if(ok)
-        {
-
-        }
+         if(placa[7] == '1' || placa[7] == '2'){
+            cout<<"MONDAY"<<endl;
+         }
     }
 
 
