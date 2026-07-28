@@ -10,6 +10,7 @@ int main()
     vector<long long> listaDeTrabalhos;
     while(cin>> n )
     {
+        listaDeTrabalhos.clear();
         long long  soma = 0, rangel = 0, gugu = 0;
         for(int i = 0; i < n; i++)
         {
