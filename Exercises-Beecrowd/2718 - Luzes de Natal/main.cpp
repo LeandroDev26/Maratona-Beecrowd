@@ -18,15 +18,15 @@ int main()
                 {
                     maximo = atual;
                 }
-                x /= 2;
 
             }
             else
             {
                 atual = 0;
-                x /= 2;
 
             }
+            x /= 2;
+
         }
         cout<< maximo<<endl;
 
