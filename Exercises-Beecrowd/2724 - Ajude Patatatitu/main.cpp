@@ -20,8 +20,10 @@ int main()
             cin>> formulaDanger;
             for(int y = 0; y < formulaDanger.length(); y++)
             {
+                if(isupper(formulaDanger[y]))
+                {
 
-
+                }
             }
         }
 
