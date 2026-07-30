@@ -20,6 +20,14 @@ int main()
             {
                 cout<<"|";
             }
+            else if( k == 0 && j == 9)
+            {
+                cout<<"Roberto"<<endl;
+            }
+            else if( k == 2 && j == 9)
+            {
+                cout<<"5786"<<endl;
+            }
             else
             {
                 cout<<" ";
