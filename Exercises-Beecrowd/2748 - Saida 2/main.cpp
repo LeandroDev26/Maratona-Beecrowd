@@ -23,14 +23,17 @@ int main()
             else if( k == 0 && j == 9)
             {
                 cout<<"Roberto";
+                j+= 6;
             }
             else if( k == 2 && j == 9)
             {
                 cout<<"5786";
+                j+= 3;
             }
             else if( k == 4 && j == 9)
             {
                 cout<<"UNIFEI";
+                j+= 5;
             }
             else
             {
