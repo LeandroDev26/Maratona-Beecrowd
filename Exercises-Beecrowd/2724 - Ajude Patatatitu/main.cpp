@@ -9,6 +9,7 @@ int main()
 
     int n, t, u;
     string formulaDanger, elementosJuvenal;
+    vector <string> blocos;
     cin>> n ;
     for(int i = 0 ; i < n; i++)
     {
@@ -17,6 +18,10 @@ int main()
         for(int j = 0; j < t; j++)
         {
             cin>> formulaDanger;
+            for(int y = 0; y < formulaDanger.length(); y++)
+            {
+
+            }
         }
 
         cin>> u;
