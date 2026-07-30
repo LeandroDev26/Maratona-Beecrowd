@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+#include <cctype>
 using namespace std;
 
 int main()
@@ -20,6 +20,7 @@ int main()
             cin>> formulaDanger;
             for(int y = 0; y < formulaDanger.length(); y++)
             {
+
 
             }
         }
