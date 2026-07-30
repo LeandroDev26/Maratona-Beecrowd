@@ -22,15 +22,15 @@ int main()
             }
             else if( k == 0 && j == 9)
             {
-                cout<<"Roberto"<<endl;
+                cout<<"Roberto";
             }
             else if( k == 2 && j == 9)
             {
-                cout<<"5786"<<endl;
+                cout<<"5786";
             }
             else if( k == 4 && j == 9)
             {
-                cout<<"UNIFEI"<<endl;
+                cout<<"UNIFEI";
             }
             else
             {
