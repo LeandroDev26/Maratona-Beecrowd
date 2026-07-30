@@ -36,6 +36,9 @@ int main()
                     blocoAtual += formulaDanger[y];
                 }
             }
+
+            blocos.push_back(blocoAtual);
+
         }
 
         cin>> u;
