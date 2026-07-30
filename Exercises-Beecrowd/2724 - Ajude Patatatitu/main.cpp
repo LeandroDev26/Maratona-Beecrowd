@@ -23,6 +23,12 @@ int main()
             {
                 if(isupper(formulaDanger[y]))
                 {
+                    if(!blocoAtual.empty())
+                    {
+
+                        string blocoAtual = "";
+
+                    }
 
                 }
             }
