@@ -20,15 +20,15 @@ int main()
             {
                 cout<<"|";
             }
-            if( k == 0 && j == 9)
+            else if( k == 0 && j == 9)
             {
                 cout<<"Roberto"<<endl;
             }
-            if( k == 2 && j == 9)
+            else if( k == 2 && j == 9)
             {
                 cout<<"5786"<<endl;
             }
-            if( k == 4 && j == 9)
+            else if( k == 4 && j == 9)
             {
                 cout<<"UNIFEI"<<endl;
             }
