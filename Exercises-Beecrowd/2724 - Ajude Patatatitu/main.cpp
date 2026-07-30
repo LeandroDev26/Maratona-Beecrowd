@@ -18,6 +18,7 @@ int main()
         for(int j = 0; j < t; j++)
         {
             cin>> formulaDanger;
+            string blocoAtual = "";
             for(int y = 0; y < formulaDanger.length(); y++)
             {
                 if(isupper(formulaDanger[y]))
