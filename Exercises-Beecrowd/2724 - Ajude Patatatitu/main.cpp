@@ -25,11 +25,15 @@ int main()
                 {
                     if(!blocoAtual.empty())
                     {
-
+                        blocos.push_back(blocoAtual);
                         string blocoAtual = "";
 
                     }
 
+                }
+                else
+                {
+                    blocoAtual += formulaDanger[y];
                 }
             }
         }
