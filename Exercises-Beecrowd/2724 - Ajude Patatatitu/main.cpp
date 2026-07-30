@@ -13,12 +13,18 @@ int main()
     cin>> n ;
     for(int i = 0 ; i < n; i++)
     {
-        cin>> t;
 
+        vector<vector<string>> listaPerigos;
+
+        cin >> t;
         for(int j = 0; j < t; j++)
         {
-            cin>> formulaDanger;
+            cin >> formulaDanger;
+
+
+            vector<string> blocos;
             string blocoAtual = "";
+
             for(int y = 0; y < formulaDanger.length(); y++)
             {
                 if(isupper(formulaDanger[y]))
@@ -26,10 +32,9 @@ int main()
                     if(!blocoAtual.empty())
                     {
                         blocos.push_back(blocoAtual);
-                        string blocoAtual = "";
-
+                        blocoAtual = "";
                     }
-
+                    blocoAtual += formulaDanger[y];
                 }
                 else
                 {
@@ -37,18 +42,13 @@ int main()
                 }
             }
 
-            blocos.push_back(blocoAtual);
+            if (!blocoAtual.empty())
+            {
+                blocos.push_back(blocoAtual);
+            }
 
+            listaPerigos.push_back(blocos);
         }
-
-        cin>> u;
-
-        for(int k = 0; k < u; k++)
-        {
-            cin>>elementosJuvenal;
-        }
-
-
     }
 
 
