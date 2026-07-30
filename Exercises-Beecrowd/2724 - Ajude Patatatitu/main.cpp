@@ -14,7 +14,9 @@ int main()
     {
         cin>> t;
 
-
+        for(int j = 0; j < t; j++){
+            cin>> formulaDanger;
+        }
 
 
     }
