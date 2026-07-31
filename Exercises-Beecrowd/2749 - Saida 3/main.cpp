@@ -20,10 +20,10 @@ int main()
             {
                 cout<<"|";
             }
-            else if( k == 0 && j == 9)
+            else if( k == 0 && j == 1)
             {
-                cout<<"Roberto";
-                j+= 6;
+                cout<<"x = 35";
+                j+= 5;
             }
             else if( k == 2 && j == 9)
             {
