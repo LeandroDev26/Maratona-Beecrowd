@@ -25,9 +25,9 @@ int main()
                 cout<<"x = 35";
                 j+= 5;
             }
-            else if( k == 2 && j == 9)
+            else if( k == 2 && j == 16)
             {
-                cout<<"5786";
+                cout<<"x = 35";
                 j+= 3;
             }
             else if( k == 4 && j == 9)
