@@ -28,11 +28,11 @@ int main()
             else if( k == 2 && j == 16)
             {
                 cout<<"x = 35";
-                j+= 3;
+                j+= 5;
             }
-            else if( k == 4 && j == 9)
+            else if( k == 4 && j == 32)
             {
-                cout<<"UNIFEI";
+                cout<<"x = 35";
                 j+= 5;
             }
             else
