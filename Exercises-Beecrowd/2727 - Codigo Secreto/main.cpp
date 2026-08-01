@@ -42,7 +42,7 @@ int main()
                     numbranco++;
                 }
             }
-              int indice = (numbranco*3)+ numpont;
+              int indice = ((numbranco*3)+ numpont);
             cout<< alfabeto[indice]<<endl;
 
         }
