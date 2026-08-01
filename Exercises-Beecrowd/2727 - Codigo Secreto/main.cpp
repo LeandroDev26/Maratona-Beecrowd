@@ -7,8 +7,10 @@ int main()
 
 
     int n;
+
     while(cin>> n)
     {
+        string cifra = "";
         for(int i = 0; i < n ; i++ )
         {
 
