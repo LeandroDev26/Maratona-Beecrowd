@@ -10,6 +10,14 @@ int main()
 
     int n;
     string cifra = "";
+    map<int, char> alfabeto;
+
+    int numero = 1;
+    for (char letra = 'a'; letra <= 'z'; letra++)
+    {
+        alfabeto[numero] = letra;
+        numero++;
+    }
 
     while(cin>> n)
     {
