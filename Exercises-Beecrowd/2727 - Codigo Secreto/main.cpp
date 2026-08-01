@@ -19,27 +19,34 @@ int main()
         numero++;
     }
 
-    cin>> n;
-
-    for(int i = 0; i < n ; i++ )
+    while(cin>> n)
     {
-        getline(cin, cifra);
-
-        int numpont = 0;
-
-        for(int j = 0; j < cifra.length(); j++)
+        cin.ignore();
+        for(int i = 0; i < n ; i++ )
         {
-            if(cifra[j] == '.')
+            getline(cin, cifra);
+
+            int numpont = 0;
+            int numbranco = 0;
+
+
+            for(int j = 0; j < cifra.length(); j++)
             {
-                numpont++;
+                if(cifra[j] == '.')
+                {
+                    numpont++;
 
+                }
+                else
+                {
+                    numbranco++;
+                }
             }
+
+            cout<< alfabeto[numpont]<<endl;
+
         }
-
-        cout<< alfabeto[numpont]<<endl;
-
     }
-
 
 
 
