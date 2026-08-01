@@ -21,6 +21,7 @@ int main()
             {
                 if(cifra[j] == '.')
                 {
+                    numpont++;
 
                 }
             }
