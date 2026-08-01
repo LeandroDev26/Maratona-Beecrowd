@@ -37,7 +37,8 @@ int main()
                     numpont++;
 
                 }
-                else
+                else if(cifra[j] == ' ')
+
                 {
                     numbranco++;
                 }
