@@ -15,8 +15,14 @@ int main()
         {
             getline(cin, cifra);
 
-            for(int j = 0; j < cifra.length();j++){
+            int numpont = 0;
 
+            for(int j = 0; j < cifra.length(); j++)
+            {
+                if(cifra[j] == '.')
+                {
+
+                }
             }
 
         }
