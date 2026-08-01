@@ -13,8 +13,11 @@ int main()
     {
         for(int i = 0; i < n ; i++ )
         {
-            int numpont = 0;
             getline(cin, cifra);
+
+            for(int j = 0; j < cifra.length();j++){
+
+            }
 
         }
     }
