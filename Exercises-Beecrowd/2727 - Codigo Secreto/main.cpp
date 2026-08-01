@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 int main()
@@ -7,12 +7,13 @@ int main()
 
 
     int n;
+    string cifra = "";
 
     while(cin>> n)
     {
-        string cifra = "";
         for(int i = 0; i < n ; i++ )
         {
+            getline(cin, cifra);
 
         }
     }
