@@ -1,33 +1,24 @@
 #include <iostream>
-#include <iomanip>
+#include <stdio.h>
+
 using namespace std;
 
-int main()
-{
-
+int main() {
     double primeira = 234.345;
     double segunda = 45.698;
-    cout<< fixed << setprecision(6);
-    cout<< primeira <<" - " <<segunda <<endl;
-    cout<< fixed << setprecision(0);
-    cout<< primeira <<" - " <<segunda <<endl;
-    cout<< fixed << setprecision(1);
-    cout<< primeira <<" - " <<segunda <<endl;
-    cout<< fixed << setprecision(2);
-    cout<< primeira <<" - " <<segunda <<endl;
-    cout<< fixed << setprecision(3);
-    cout<< primeira <<" - " <<segunda <<endl;
-    cout<< fixed << setprecision(6);
-    cout<< primeira << "e+02"<<" - " <<segunda <<"e+01"<<endl ;
-    cout<< primeira << "E+02"<<" - " <<segunda <<"E+01"<<endl ;
-    cout<< fixed << setprecision(3);
-    cout<< primeira <<" - " <<segunda <<endl;
-    cout<< primeira <<" - " <<segunda <<endl;
 
+    printf("%.6f - %.6f\n", primeira, segunda);
+    printf("%.0f - %.0f\n", primeira, segunda);
+    printf("%.1f - %.1f\n", primeira, segunda);
+    printf("%.2f - %.2f\n", primeira, segunda);
+    printf("%.3f - %.3f\n", primeira, segunda);
 
+    printf("%e - %e\n", primeira, segunda);
 
+    printf("%E - %E\n", primeira, segunda);
 
-
+    printf("%g - %g\n", primeira, segunda);
+    printf("%g - %g\n", primeira, segunda);
 
     return 0;
 }
