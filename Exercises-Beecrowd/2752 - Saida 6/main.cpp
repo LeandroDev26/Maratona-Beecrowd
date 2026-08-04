@@ -1,15 +1,16 @@
-#include <iostream>
+#include <stdio.h>
 
-using namespace std;
+int main() {
+    char frase[50] = "AMO FAZER EXERCICIO NO URI";
 
-int main()
-{
-
-
-
-
-
-
+    printf("<%s>\n", frase);
+    printf("<%30s>\n", frase);
+    printf("<%.20s>\n", frase);
+    printf("<%-20s>\n", frase);
+    printf("<%-30s>\n", frase);
+    printf("<%.30s>\n", frase);
+    printf("<%30.20s>\n", frase);
+    printf("<%-30.20s>\n", frase);
 
     return 0;
 }
