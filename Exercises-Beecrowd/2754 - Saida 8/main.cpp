@@ -20,6 +20,9 @@ int main()
     cout<< fixed << setprecision(6);
     cout<< primeira << "e+02"<<" - " <<segunda <<"e+01"<<endl ;
     cout<< primeira << "E+02"<<" - " <<segunda <<"E+01"<<endl ;
+    cout<< fixed << setprecision(3);
+    cout<< primeira <<" - " <<segunda <<endl;
+    cout<< primeira <<" - " <<segunda <<endl;
 
 
 
