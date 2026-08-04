@@ -11,7 +11,8 @@ int main()
     cout<< primeira <<" - " <<segunda <<endl;
     cout<< fixed << setprecision(0);
     cout<< primeira <<" - " <<segunda <<endl;
-
+    cout<< fixed << setprecision(1);
+    cout<< primeira <<" - " <<segunda <<endl;
 
 
 
