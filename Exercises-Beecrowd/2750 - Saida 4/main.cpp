@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
+  cout<<"---------------------------------------"<<endl;
+  cout<<"| decimal   |  octal  |  Hexadecimal  |"<<endl;
 
 
 
