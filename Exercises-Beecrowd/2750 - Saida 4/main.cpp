@@ -17,7 +17,12 @@ int main()
     cout<<"|      7    |    7    |       7       |"<<endl;
     cout<<"|      8    |   10    |       8       |"<<endl;
     cout<<"|      9    |   11    |       9       |"<<endl;
-    cout<<"|      0    |    0    |       0       |"<<endl;
+    cout<<"|     10    |   12    |       A       |"<<endl;
+    cout<<"|     10    |   12    |       A       |"<<endl;
+    cout<<"|     10    |   12    |       A       |"<<endl;
+    cout<<"|     10    |   12    |       A       |"<<endl;
+    cout<<"|     10    |   12    |       A       |"<<endl;
+
 
 
 
