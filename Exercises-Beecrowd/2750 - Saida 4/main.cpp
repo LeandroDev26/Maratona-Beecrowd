@@ -18,9 +18,9 @@ int main()
     cout<<"|      8    |   10    |       8       |"<<endl;
     cout<<"|      9    |   11    |       9       |"<<endl;
     cout<<"|     10    |   12    |       A       |"<<endl;
-    cout<<"|     10    |   12    |       A       |"<<endl;
-    cout<<"|     10    |   12    |       A       |"<<endl;
-    cout<<"|     10    |   12    |       A       |"<<endl;
+    cout<<"|     11    |   13    |       B       |"<<endl;
+    cout<<"|     12    |   14    |       C       |"<<endl;
+    cout<<"|     13    |   15    |       D       |"<<endl;
     cout<<"|     10    |   12    |       A       |"<<endl;
 
 
