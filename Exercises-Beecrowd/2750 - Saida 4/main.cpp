@@ -21,7 +21,8 @@ int main()
     cout<<"|     11    |   13    |       B       |"<<endl;
     cout<<"|     12    |   14    |       C       |"<<endl;
     cout<<"|     13    |   15    |       D       |"<<endl;
-    cout<<"|     10    |   12    |       A       |"<<endl;
+    cout<<"|     14    |   16    |       E       |"<<endl;
+    cout<<"|     15    |   17    |       F       |"<<endl;
 
 
 
