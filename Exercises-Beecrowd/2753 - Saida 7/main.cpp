@@ -8,9 +8,10 @@ int main()
     char letra = 'a';
     int numero = 97;
 
-    letra++;
-    cout<<letra<<endl;
-
+    while(letra <= 'z')
+    {
+        cout<<numero<<" "<<"e "<<letra<<endl;
+    }
 
 
 
