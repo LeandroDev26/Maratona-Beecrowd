@@ -10,7 +10,7 @@ int main()
 
     while(letra <= 'z')
     {
-        cout<<numero<<" "<<"e "<<letra<<endl;
+        cout<<numero<<" e "<<letra<<endl;
         letra++;
         numero++;
     }
