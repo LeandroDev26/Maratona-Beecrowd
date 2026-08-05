@@ -27,6 +27,9 @@ int main()
 
     switch(pilhaNeve)
     {
+    case 0:
+        cout<<"Rudolph"<<endl;
+        break;
 
     case 1:
         cout<<"Dasher"<<endl;
