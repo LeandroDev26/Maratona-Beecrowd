@@ -25,6 +25,21 @@ int main()
         }
     }
 
+    switch(pilhaNeve)
+    {
+
+    case 1:
+
+    break;
+
+
+
+
+
+
+
+    }
+
 
 
 
