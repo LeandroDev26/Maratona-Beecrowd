@@ -12,20 +12,13 @@ int main()
         cin>> n;
         pilhaNeve += n;
     }
-
+    int opc = 0;
     while(pilhaNeve > 9)
     {
-        if( (pilhaNeve % 9) < 9)
-        {
-            break;
-        }
-        else
-        {
-            pilhaNeve /= 9;
-        }
+        pilhaNeve /= 9;
     }
 
-    switch(pilhaNeve)
+    switch(opc)
     {
     case 0:
         cout<<"Rudolph"<<endl;
