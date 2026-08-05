@@ -15,8 +15,8 @@ int main()
     int opc = 0;
     while(pilhaNeve > 9)
     {
-        pilhaNeve /= 9;
         opc = (pilhaNeve % 9);
+        pilhaNeve /= 9;
     }
 
     switch(opc)
