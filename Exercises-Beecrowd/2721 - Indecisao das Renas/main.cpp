@@ -13,6 +13,10 @@ int main()
         pilhaNeve += n;
     }
 
+      if( (pilhaNeve % 9) < 9){
+
+      }
+
 
 
 
