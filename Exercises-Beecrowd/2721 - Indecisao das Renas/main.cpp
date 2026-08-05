@@ -45,7 +45,7 @@ int main()
         break;
 
     case 5:
-
+        cout<<"Comet"<<endl;
         break;
 
     case 6:
