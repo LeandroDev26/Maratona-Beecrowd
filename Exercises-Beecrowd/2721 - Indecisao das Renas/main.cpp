@@ -21,6 +21,7 @@ int main()
         }
         else
         {
+            pilhaNeve /= 9;
         }
     }
 
