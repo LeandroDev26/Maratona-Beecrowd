@@ -53,7 +53,7 @@ int main()
         break;
 
     case 7:
-
+        cout<<"Donner"<<endl;
         break;
 
     case 8:
