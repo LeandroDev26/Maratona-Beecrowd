@@ -12,12 +12,8 @@ int main()
         cin>> n;
         pilhaNeve += n;
     }
-    int opc = 0;
-    while(pilhaNeve > 9)
-    {
-        opc = (pilhaNeve % 9);
-        pilhaNeve /= 9;
-    }
+
+    int opc = pilhaNeve % 9;
 
     switch(opc)
     {
@@ -57,25 +53,7 @@ int main()
         cout<<"Blitzen"<<endl;
         break;
 
-    case 9:
-        cout<<"Rudolph"<<endl;
-        break;
-
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
 
     return 0;
 }
