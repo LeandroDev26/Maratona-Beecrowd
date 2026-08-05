@@ -13,9 +13,18 @@ int main()
         pilhaNeve += n;
     }
 
-      if( (pilhaNeve % 9) < 9){
+    while(pilhaNeve > 9)
+    {
+        if( (pilhaNeve % 9) < 9)
+        {
+            break;
+        }
+        else
+        {
+        }
+    }
 
-      }
+
 
 
 
