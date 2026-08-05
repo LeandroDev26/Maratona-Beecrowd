@@ -49,7 +49,7 @@ int main()
         break;
 
     case 6:
-
+        cout<<"Cupid"<<endl;
         break;
 
     case 7:
