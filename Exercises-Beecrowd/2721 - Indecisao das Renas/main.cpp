@@ -33,11 +33,11 @@ int main()
         break;
 
     case 2:
-
+        cout<<"Dancer"<<endl;
         break;
 
     case 3:
-
+        cout<<"Prancer"<<endl;
         break;
 
     case 4:
