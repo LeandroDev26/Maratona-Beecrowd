@@ -12,7 +12,7 @@ int main()
 
 
 
-    cout<<"A = "<< setw(10) << a <<endl;
+    cout<<"A = "<< setw(10) << a << "," << " B = "<< setw(10) << b << "," << " C = "<< setw(10) << c <<endl;
 
     //1 cout<< left << setw(10) << a << endl;
 
