@@ -12,9 +12,9 @@ int main()
 
 
 
-    cout<< setw(10) << a << endl;
+    cout<<"A = "<< setw(10) << a <<endl;
 
-    cout << left << setw(10) << b << endl;
+    //1 cout<< left << setw(10) << a << endl;
 
     cout<< setfill('0') << right << setw(10) << c << endl;
 
