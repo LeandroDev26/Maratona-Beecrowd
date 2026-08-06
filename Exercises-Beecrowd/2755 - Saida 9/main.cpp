@@ -4,15 +4,13 @@ using namespace std;
 
 int main()
 {
+    cout << "\"Ro'b'er\tto\\/\"" << endl;
 
-  cout<<"Ro'b'er    to\/"<<endl;
-  cout<<"(._.) ( 1: ) (.-.) ( 1: ) (._.)"<<endl;
-  cout<<"(^_-) (-_-) (-_^)"<<endl;
+    cout << "(._.) ( l: ) ( .-. ) ( :l ) (._.)" << endl;
 
+    cout << "(^_-) (-_-) (-_^)" << endl;
 
-
-
-
+    cout << "(\"_\") ('.')" << endl;
 
     return 0;
 }
