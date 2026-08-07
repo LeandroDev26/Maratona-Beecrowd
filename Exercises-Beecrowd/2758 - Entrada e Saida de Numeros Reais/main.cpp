@@ -13,6 +13,8 @@ int main()
         cin>>nota;
         if(nota == -1) break;
         if(nota < 0 || nota > 10) continue;
+        notasvalidas++;
+        soma += nota;
     }
     while(notasvalidas < 5);
 
