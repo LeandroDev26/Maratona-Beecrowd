@@ -8,6 +8,11 @@ int main()
     int notasvalidas = 0;
     int nota;
 
+    do {
+
+
+    }while(notasvalidas < 5);
+
 
 
 
