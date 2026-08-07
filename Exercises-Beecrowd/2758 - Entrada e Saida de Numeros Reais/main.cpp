@@ -11,6 +11,7 @@ int main()
     do
     {
         cin>>nota;
+        if(nota == -1) break;
         if(nota < 0 || nota > 10) continue;
     }
     while(notasvalidas < 5);
