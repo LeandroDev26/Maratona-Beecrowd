@@ -18,6 +18,7 @@ int main()
     }
     while(notasvalidas < 5);
 
+    int media = soma/5;
 
 
 
