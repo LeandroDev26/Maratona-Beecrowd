@@ -20,6 +20,8 @@ int main()
 
     int media = soma/5;
 
+    cout<<media<<endl;
+
 
 
 
