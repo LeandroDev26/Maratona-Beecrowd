@@ -6,12 +6,14 @@ int main()
 {
 
     int notasvalidas = 0;
-    int nota;
+    int nota, soma = 0;
 
-    do {
+    do
+    {
 
-
-    }while(notasvalidas < 5);
+        cin>>nota;
+    }
+    while(notasvalidas < 5);
 
 
 
