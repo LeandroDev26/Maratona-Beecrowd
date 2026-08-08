@@ -6,7 +6,8 @@ int main()
 {
     double a, b, c, d ;
     string lixo;
-    while(cin>> ){
+    while(cin>> a >> lixo >> b >> c >> lixo >> d){
+
 
     }
 
