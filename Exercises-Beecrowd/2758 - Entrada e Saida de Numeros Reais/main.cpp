@@ -11,6 +11,9 @@ int main()
 
         cout<< fixed << setprecision(6) << "A = "<< a << ","<< " B = "<< b <<endl;
         cout<<"C = "<< c << ","<< " D = "<< d <<endl;
+        cout<< fixed << setprecision(1) << "A = "<< a << ","<< " B = "<< b <<endl;
+        cout<<"C = "<< c << ","<< " D = "<< d <<endl;
+
     }
 
 
