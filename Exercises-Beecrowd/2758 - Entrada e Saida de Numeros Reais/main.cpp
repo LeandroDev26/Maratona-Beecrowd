@@ -13,6 +13,8 @@ int main()
         cout<<"C = "<< c << ","<< " D = "<< d <<endl;
         cout<< fixed << setprecision(1) << "A = "<< a << ","<< " B = "<< b <<endl;
         cout<<"C = "<< c << ","<< " D = "<< d <<endl;
+        cout<< fixed << setprecision(2) << "A = "<< a << ","<< " B = "<< b <<endl;
+        cout<<"C = "<< c << ","<< " D = "<< d <<endl;
 
     }
 
