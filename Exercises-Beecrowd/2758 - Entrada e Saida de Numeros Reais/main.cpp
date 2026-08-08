@@ -4,12 +4,9 @@ using namespace std;
 
 int main()
 {
-    // A e B em precisão simples (float)
     float a, b;
-    // C e D em precisão dupla (double)
     double c, d;
 
-    // O cin por si só já ignora espaços e quebras de linha
     while(cin >> a >> b >> c >> d)
     {
         // 6 casas decimais (Padrão)
