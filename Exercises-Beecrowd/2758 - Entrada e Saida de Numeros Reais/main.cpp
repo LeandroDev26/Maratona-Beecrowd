@@ -8,7 +8,7 @@ int main()
     string lixo;
     while(cin>> a >> lixo >> b >> c >> lixo >> d)
     {
-
+        cout<< internal;
         cout<< fixed << setprecision(6) << "A = "<< a << ","<< " B = "<< b <<endl;
         cout<<"C = "<< c << ","<< " D = "<< d <<endl;
         cout<< fixed << setprecision(1) << "A = "<< a << ","<< " B = "<< b <<endl;
@@ -17,6 +17,18 @@ int main()
         cout<<"C = "<< c << ","<< " D = "<< d <<endl;
         cout<< fixed << setprecision(3) << "A = "<< a << ","<< " B = "<< b <<endl;
         cout<<"C = "<< c << ","<< " D = "<< d <<endl;
+
+
+
+
+
+
+
+
+
+
+            cout << right;
+
     }
 
 
