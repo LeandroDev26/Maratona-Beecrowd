@@ -4,35 +4,44 @@ using namespace std;
 
 int main()
 {
-    double a, b, c, d ;
-    string lixo;
-    while(cin>> a >> lixo >> b >> c >> lixo >> d)
+    // A e B em precisão simples (float)
+    float a, b;
+    // C e D em precisão dupla (double)
+    double c, d;
+
+    // O cin por si só já ignora espaços e quebras de linha
+    while(cin >> a >> b >> c >> d)
     {
-        cout<< internal;
-        cout<< fixed << setprecision(6) << "A = "<< a << ","<< " B = "<< b <<endl;
-        cout<<"C = "<< c << ","<< " D = "<< d <<endl;
-        cout<< fixed << setprecision(1) << "A = "<< a << ","<< " B = "<< b <<endl;
-        cout<<"C = "<< c << ","<< " D = "<< d <<endl;
-        cout<< fixed << setprecision(2) << "A = "<< a << ","<< " B = "<< b <<endl;
-        cout<<"C = "<< c << ","<< " D = "<< d <<endl;
-        cout<< fixed << setprecision(3) << "A = "<< a << ","<< " B = "<< b <<endl;
-        cout<<"C = "<< c << ","<< " D = "<< d <<endl;
-        cout << right;
-        cout<< internal << scientific<< "A = "<< a << ","<< " B = "<< b <<endl;
-        cout<<"C = "<< c << ","<< " D = "<< d <<endl;
-        cout << defaultfloat;
-        cout<< internal;
+        // 6 casas decimais (Padrão)
+        cout << fixed << setprecision(6);
+        cout << "A = " << a << ", B = " << b << endl;
+        cout << "C = " << c << ", D = " << d << endl;
 
+        // 1 casa decimal
+        cout << fixed << setprecision(1);
+        cout << "A = " << a << ", B = " << b << endl;
+        cout << "C = " << c << ", D = " << d << endl;
 
+        // 2 casas decimais
+        cout << fixed << setprecision(2);
+        cout << "A = " << a << ", B = " << b << endl;
+        cout << "C = " << c << ", D = " << d << endl;
 
+        // 3 casas decimais
+        cout << fixed << setprecision(3);
+        cout << "A = " << a << ", B = " << b << endl;
+        cout << "C = " << c << ", D = " << d << endl;
 
+        // Notação científica com 'E' maiúsculo e 3 casas decimais
+        cout << scientific << uppercase << setprecision(3);
+        cout << "A = " << a << ", B = " << b << endl;
+        cout << "C = " << c << ", D = " << d << endl;
 
-
-
+        // Retornando para formatação normal, sem letras maiúsculas e 0 casas (parte inteira arredondada)
+        cout << fixed << nouppercase << setprecision(0);
+        cout << "A = " << a << ", B = " << b << endl;
+        cout << "C = " << c << ", D = " << d << endl;
     }
-
-
-
 
     return 0;
 }
