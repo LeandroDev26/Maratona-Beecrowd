@@ -17,17 +17,17 @@ int main()
         cout<<"C = "<< c << ","<< " D = "<< d <<endl;
         cout<< fixed << setprecision(3) << "A = "<< a << ","<< " B = "<< b <<endl;
         cout<<"C = "<< c << ","<< " D = "<< d <<endl;
+        cout << right;
+        cout<< internal << scientific<< "A = "<< a << ","<< " B = "<< b <<endl;
+        cout<<"C = "<< c << ","<< " D = "<< d <<endl;
+        cout << defaultfloat;
+        cout<< internal;
 
 
 
 
 
 
-
-
-
-
-            cout << right;
 
     }
 
