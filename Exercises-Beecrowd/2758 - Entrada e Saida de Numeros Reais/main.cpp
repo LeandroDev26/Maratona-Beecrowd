@@ -9,7 +9,7 @@ int main()
 
     while(cin >> a >> b >> c >> d)
     {
-        // 6 casas decimais (Padrão)
+        // 6 casas decimais (Padrao)
         cout << fixed << setprecision(6);
         cout << "A = " << a << ", B = " << b << endl;
         cout << "C = " << c << ", D = " << d << endl;
@@ -29,12 +29,12 @@ int main()
         cout << "A = " << a << ", B = " << b << endl;
         cout << "C = " << c << ", D = " << d << endl;
 
-        // Notação científica com 'E' maiúsculo e 3 casas decimais
+        // Notacao cientifica com 'E' maiusculo e 3 casas decimais
         cout << scientific << uppercase << setprecision(3);
         cout << "A = " << a << ", B = " << b << endl;
         cout << "C = " << c << ", D = " << d << endl;
 
-        // Retornando para formatação normal, sem letras maiúsculas e 0 casas (parte inteira arredondada)
+        // Retornando para formatacao normal, sem letras maiúsculas e 0 casas (parte inteira arredondada)
         cout << fixed << nouppercase << setprecision(0);
         cout << "A = " << a << ", B = " << b << endl;
         cout << "C = " << c << ", D = " << d << endl;
