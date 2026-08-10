@@ -11,6 +11,8 @@ int main()
     cin>> a >> b >> c;
 
     cout<<"A = " << a << "," <<" B = " << b << "," << " C = " << c <<endl;
+    cout<<"A = " << b << "," <<" B = " << c << "," << " C = " << a <<endl;
+    cout<<"A = " << c << "," <<" B = " << a << "," << " C = " << b <<endl;
 
 
 
