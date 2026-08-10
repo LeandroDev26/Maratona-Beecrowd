@@ -10,7 +10,7 @@ int main()
 
     cin>> a >> b >> c;
 
-
+    cout<<"A = " << a << "," <<" B = " << b << "," << " C = " << c <<endl;
 
 
 
