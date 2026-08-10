@@ -6,7 +6,9 @@ int main()
 {
 
 
+    char a, b,c ;
 
+    cin>> a >> b >> c;
 
 
 
