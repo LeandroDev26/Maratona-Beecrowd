@@ -23,6 +23,11 @@ int main()
             cout<< setw(3) << num2<<endl;
 
         }
+        else
+        {
+            cout<< setfill('0') << setw(3) << num2 <<endl;
+
+        }
         if(num3 != 0 )
         {
             cout<< setw(3) << num3 <<endl;
