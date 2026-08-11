@@ -13,6 +13,7 @@ int main()
 
         cout<< a << b << c <<endl;
         cout<< b << c << a <<endl;
+        cout<< c  << a << b <<endl;
 
 
 
