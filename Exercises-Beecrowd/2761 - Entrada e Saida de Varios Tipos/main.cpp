@@ -13,7 +13,10 @@ int main()
     while(cin>> a >> b >> c)
     {
         cin.ignore();
+        getline(cin, d);
 
+        cout<< a << b << c << d <<endl;
+        cout << a << "\t" << b << "\t" << c << "\t" << d << endl;
 
     }
 
