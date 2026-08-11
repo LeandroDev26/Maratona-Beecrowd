@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 int main()
@@ -10,8 +10,9 @@ int main()
     char c ;
     string d;
 
-    while(cin>> a >> b >> c){
-
+    while(cin>> a >> b >> c)
+    {
+        cin.ignore();
 
 
     }
