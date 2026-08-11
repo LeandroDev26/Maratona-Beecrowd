@@ -9,9 +9,9 @@ int main()
     while (cin>> num1 >> pont1 >> num2 >> pont2 >> num3 >> hifen >> num4 )
     {
         cout<< num1 <<endl;
-        cout<< num1 <<endl;
-        cout<< num1 <<endl;
-        cout<< num1 <<endl;
+        cout<< num2 <<endl;
+        cout<< num3 <<endl;
+        cout<< num4 <<endl;
 
     }
 
