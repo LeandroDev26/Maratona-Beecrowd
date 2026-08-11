@@ -1,27 +1,19 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 int main()
 {
-    string a, b, c ;
+    string a, b, c;
 
-    while(getline(cin, a), getline(cin, b), getline(cin, c) )
+    while(getline(cin, a) && getline(cin, b) && getline(cin, c))
     {
-        cin.ignore();
-        if(a.length() > 100 || b.length() > 100 || c.length() > 100) continue;
-
-        cout<< a << b << c <<endl;
-        cout<< b << c << a <<endl;
-        cout<< c  << a << b <<endl;
-        cout<< a.substr(0, 10) << b.substr(0, 10) << c.substr(0,10)<<endl;
-
-
+        cout << a << b << c << endl;
+        cout << b << c << a << endl;
+        cout << c << a << b << endl;
+        cout << a.substr(0, 10) << b.substr(0, 10) << c.substr(0, 10) << endl;
     }
-
-
-
-
 
     return 0;
 }
