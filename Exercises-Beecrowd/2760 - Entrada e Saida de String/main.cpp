@@ -11,6 +11,8 @@ int main()
         cin.ignore();
         if(a.length() > 100 || b.length() > 100 || c.length() > 100) continue;
 
+        cout<< a << b << c <<endl;
+        cout<< b << c << a <<endl;
 
 
 
