@@ -10,6 +10,11 @@ int main()
     char c ;
     string d;
 
+    while(cin>> a >> b >> c){
+
+
+
+    }
 
 
 
