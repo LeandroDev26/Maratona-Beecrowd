@@ -33,6 +33,11 @@ int main()
             cout<< setw(3) << num3 <<endl;
 
         }
+        else
+        {
+            cout<< setfill('0')<<setw(3) << num3 <<endl;
+
+        }
         if(num4 != 0 )
         {
             cout<< setw(3) << num4 <<endl;
