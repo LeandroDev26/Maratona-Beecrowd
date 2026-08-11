@@ -14,7 +14,7 @@ int main()
         cout<< a << b << c <<endl;
         cout<< b << c << a <<endl;
         cout<< c  << a << b <<endl;
-
+        cout<< a.substr(0, 10) << b.substr(0, 10) << c.substr(0,10)<<endl;
 
 
     }
