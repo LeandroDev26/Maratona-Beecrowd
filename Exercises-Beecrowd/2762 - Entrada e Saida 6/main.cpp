@@ -6,11 +6,12 @@ int main()
 {
 
 
-    int a , b ;
+    int a, b ;
+    char ponto;
+    while(cin>> a >> ponto >> b)
+    {
 
-    while(cin>> a >> b){
-
-
+        cout<< b <<"."<< a <<endl;
     }
 
 
