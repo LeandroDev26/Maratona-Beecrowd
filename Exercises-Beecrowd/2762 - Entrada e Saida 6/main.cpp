@@ -6,9 +6,10 @@ int main()
 {
 
 
-    double numero;
+    int a , b ;
 
-    while(cin>> numero){
+    while(cin>> a >> b){
+
 
     }
 
