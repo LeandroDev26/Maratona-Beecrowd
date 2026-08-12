@@ -6,6 +6,8 @@ int main()
 {
 
 
+    double numero;
+
 
 
 
