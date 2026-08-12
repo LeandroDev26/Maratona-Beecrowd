@@ -8,7 +8,9 @@ int main()
 
     double numero;
 
+    while(cin>> numero){
 
+    }
 
 
 
