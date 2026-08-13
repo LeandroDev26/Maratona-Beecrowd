@@ -13,9 +13,15 @@ int main()
         {
             if(frase[i] != ',')
             {
-
+                cout<<frase[i];
+            }
+            else
+            {
+                cout<<endl;
             }
         }
+        cout<<endl;
+
     }
 
 
