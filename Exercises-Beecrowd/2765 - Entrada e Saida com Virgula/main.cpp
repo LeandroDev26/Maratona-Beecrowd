@@ -11,7 +11,10 @@ int main()
     {
         for(int i = 0 ; i < frase.length(); i++)
         {
+            if(frase[i] != ',')
+            {
 
+            }
         }
     }
 
