@@ -22,7 +22,7 @@ int main()
         cout<<listadeNomes[2]<<endl;
         cout<<listadeNomes[6]<<endl;
         cout<<listadeNomes[8]<<endl;
-
+        listadeNomes.clear();
     }
 
     return 0;
