@@ -9,7 +9,10 @@ int main()
 
     while(getline(cin, frase))
     {
+        for(int i = 0 ; i < frase.length(); i++)
+        {
 
+        }
     }
 
 
