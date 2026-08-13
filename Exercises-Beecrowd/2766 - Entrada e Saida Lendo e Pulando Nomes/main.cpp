@@ -21,6 +21,12 @@ int main()
             listadeNomes.push_back(nome);
 
         }
+        cout<<listadeNomes[2]<<endl;
+        cout<<listadeNomes[6]<<endl;
+        cout<<listadeNomes[8]<<endl;
+
+
+
     }
 
 
