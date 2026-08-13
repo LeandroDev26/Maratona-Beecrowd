@@ -6,8 +6,6 @@ using namespace std;
 
 int main()
 {
-
-
     string nome;
     vector<string> listadeNomes;
 
@@ -25,15 +23,7 @@ int main()
         cout<<listadeNomes[6]<<endl;
         cout<<listadeNomes[8]<<endl;
 
-
-
     }
-
-
-
-
-
-
 
     return 0;
 }
