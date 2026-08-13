@@ -17,6 +17,8 @@ int main()
         listadeNomes.push_back(nome);
         for(int i = 0 ; i < 9; i++)
         {
+            cin>> nome;
+            listadeNomes.push_back(nome);
 
         }
     }
