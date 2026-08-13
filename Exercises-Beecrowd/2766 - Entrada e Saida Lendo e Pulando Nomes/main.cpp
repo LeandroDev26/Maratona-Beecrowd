@@ -9,9 +9,17 @@ int main()
 
 
     string nome;
-    vector<string>
+    vector<string> listadeNomes;
 
+    while(cin>> nome)
+    {
 
+        listadeNomes.push_back(nome);
+        for(int i = 0 ; i < 9; i++)
+        {
+
+        }
+    }
 
 
 
