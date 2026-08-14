@@ -14,7 +14,6 @@ int main()
         cin>> e1 >> e2;
         for(int i = 0 ; i < n ; i++)
         {
-            cin>>
         }
     }
 
