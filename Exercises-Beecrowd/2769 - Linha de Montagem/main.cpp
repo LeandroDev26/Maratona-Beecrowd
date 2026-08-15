@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <algorithm> // Necessário para usar a função min()
+#include <algorithm>
 
 using namespace std;
 
