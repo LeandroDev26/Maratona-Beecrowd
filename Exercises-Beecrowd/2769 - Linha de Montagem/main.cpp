@@ -47,10 +47,16 @@ int main()
 
         cin>> x1 >> x2;
 
-        int atualLinha1 = 0, atualLinha2 = 0;
+        int atualLinha1 = 0, atualLinha2 = 0,melhortempo = 0;
 
         for(int y = 0; y < n; y++ )
         {
+            if(y == 0)
+            {
+                atualLinha1 += (e1 + linha1[y]);
+                atualLinha2 += (e2 + linha2[y]);
+            }
+
 
         }
 
