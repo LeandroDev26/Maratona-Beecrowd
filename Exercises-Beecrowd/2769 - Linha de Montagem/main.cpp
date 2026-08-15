@@ -34,14 +34,14 @@ int main()
         {
             int z;
             cin>> z;
-            linha1.push_back(z);
+            linha1_2.push_back(z);
         }
 
         for(int k = 1 ; k < n ; k++)
         {
             int z;
             cin>> z;
-            linha2.push_back(z);
+            linha2_1.push_back(z);
 
         }
 
