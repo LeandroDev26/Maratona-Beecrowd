@@ -6,8 +6,12 @@ int main()
 {
 
 
-    int x, y, m ;
+    int x, y, m , xi , yi;
     cin>> x >> y >> m;
+
+    for(int i = 0; i < m ; i++){
+
+    }
 
 
 
