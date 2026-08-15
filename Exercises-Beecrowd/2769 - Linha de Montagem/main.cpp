@@ -9,8 +9,9 @@ int main()
     int n, e1, e2;
     vector < int > linha1;
     vector < int > linha2;
-    vector < int > linha1;
-    vector < int > linha2;
+    vector < int >  linha1_2;
+    vector < int > linha2_1;
+
     while(cin>> n)
     {
         cin>> e1 >> e2;
