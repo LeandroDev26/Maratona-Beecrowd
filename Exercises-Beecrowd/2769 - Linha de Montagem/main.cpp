@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int n, e1, e2 , x1 , x2;
+    int n, e1, e2, x1, x2;
     vector < int > linha1;
     vector < int > linha2;
     vector < int >  linha1_2;
@@ -44,6 +44,8 @@ int main()
             linha2_1.push_back(z);
 
         }
+
+        cin>> x1 >> x2;
 
 
     }
