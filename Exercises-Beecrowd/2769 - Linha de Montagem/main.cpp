@@ -47,9 +47,12 @@ int main()
 
         cin>> x1 >> x2;
 
-    int atualLinha1 = 0 , atualLinha2 = 0;
+        int atualLinha1 = 0, atualLinha2 = 0;
 
+        for(int y = 0; y < n; y++ )
+        {
 
+        }
 
 
     }
