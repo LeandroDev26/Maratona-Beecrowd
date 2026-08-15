@@ -7,13 +7,13 @@ int main()
 {
 
     int n, e1, e2, x1, x2;
-    vector < int > linha1;
-    vector < int > linha2;
-    vector < int >  linha1_2;
-    vector < int > linha2_1;
-
     while(cin>> n)
     {
+        vector < int > linha1;
+        vector < int > linha2;
+        vector < int >  linha1_2;
+        vector < int > linha2_1;
+
         cin>> e1 >> e2;
         for(int i = 0 ; i < n ; i++)
         {
@@ -46,6 +46,10 @@ int main()
         }
 
         cin>> x1 >> x2;
+
+
+
+
 
 
     }
