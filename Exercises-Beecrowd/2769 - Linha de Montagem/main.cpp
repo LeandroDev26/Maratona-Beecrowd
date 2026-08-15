@@ -56,6 +56,10 @@ int main()
                 atualLinha1 += (e1 + linha1[y]);
                 atualLinha2 += (e2 + linha2[y]);
             }
+            else
+            {
+
+            }
 
 
         }
