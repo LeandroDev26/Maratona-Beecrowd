@@ -23,7 +23,7 @@ int main()
     }
 
           int figurinhasFaltando = (n-numeros.size());
-
+          cout<<figurinhasFaltando<<endl;
 
 
 
