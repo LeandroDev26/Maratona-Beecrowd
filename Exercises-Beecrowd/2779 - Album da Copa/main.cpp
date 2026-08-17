@@ -14,13 +14,15 @@ int main()
     {
 
         cin>> valor;
-        auto it = std::find(numeros.begin(), numeros.end(), valor);
+        auto it = find(numeros.begin(), numeros.end(), valor);
         if(it == numeros.end())
         {
             numeros.push_back(valor);
         }
 
     }
+
+          int figurinhasFaltando = (n-numeros.size());
 
 
 
