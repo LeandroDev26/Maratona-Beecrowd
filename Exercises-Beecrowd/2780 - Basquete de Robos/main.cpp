@@ -6,6 +6,10 @@ int main()
 {
 
 
+    int d ;
+    cin>> d;
+
+
 
 
 
