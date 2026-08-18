@@ -40,11 +40,11 @@ int main()
         {
 
             precisao = (lista[k] - media);
-            precisao = (precisao*precisao);
+            precisao = pow(precisao, 2);
 
         }
 
-        precisao /= (qt -1);
+        precisao = (precisao / (qt -1));
         float result = sqrt(precisao);
 
         cout<< fixed << setprecision(5)<< result <<endl;
