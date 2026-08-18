@@ -13,19 +13,19 @@ int main()
 
     while(cin>> h >> m)
     {
-        vector<float> lista;
+        vector<double> lista;
         int totmin = (h*60);
         int qt = totmin/m;
 
         for(int i = 0 ; i < qt; i++)
         {
-            float xi;
+            double xi;
             cin>> xi;
             lista.push_back(xi);
 
         }
 
-        float media = 0 ;
+        double media = 0 ;
 
         for(int j = 0 ; j < qt; j++)
         {
@@ -34,7 +34,7 @@ int main()
         }
 
         media = (media/qt);
-        float precisao = 0;
+        double precisao = 0;
 
         for(int k = 0 ; k < qt; k++)
         {
@@ -45,7 +45,7 @@ int main()
         }
 
         precisao = (precisao / (qt -1));
-        float result = sqrt(precisao);
+        double result = sqrt(precisao);
 
         cout<< fixed << setprecision(5)<< result <<endl;
 
