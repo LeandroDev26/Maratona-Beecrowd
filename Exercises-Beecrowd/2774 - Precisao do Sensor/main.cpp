@@ -43,6 +43,7 @@ int main()
         }
 
         precisao /= (qt -1);
+        float result = sqrt(precisao);
 
 
 
