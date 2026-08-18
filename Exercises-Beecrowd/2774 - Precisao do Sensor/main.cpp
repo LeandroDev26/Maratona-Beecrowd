@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <iomanip>
+#include <cmath>
+
 using namespace std;
 
 int main()
@@ -34,6 +36,9 @@ int main()
         float precisao = 0;
 
         for(int k = 0 ; k < qt; k++){
+
+                precisao = (lista[k] - media);
+                precisao = (precisao*precisao);
 
         }
 
