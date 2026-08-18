@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
 int main()
@@ -7,7 +7,7 @@ int main()
 
 
     int h, m ;
-
+    vector<float> lista;
     while(cin>> h >> m)
     {
         int totmin = (h*60);
