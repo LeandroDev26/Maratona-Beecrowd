@@ -6,7 +6,12 @@ int main()
 {
 
 
+    int h, m ;
 
+    while(cin>> h >> m)
+    {
+
+    }
 
 
 
