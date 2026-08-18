@@ -15,6 +15,8 @@ int main()
 
         for(int i = 0 ; i < qt; i++)
         {
+            float xi;
+            cin>> xi;
 
         }
 
