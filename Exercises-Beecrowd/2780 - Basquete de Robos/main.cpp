@@ -9,6 +9,14 @@ int main()
     int d ;
     cin>> d;
 
+    if(d <= 800)
+    {
+        cout<< 1 <<endl;
+    }
+    else if(d <= 1400)
+    {
+    }
+
 
 
 
