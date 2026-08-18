@@ -17,6 +17,10 @@ int main()
     {
         cout<< 2 <<endl;
 
+    } else if(d <= 2000)
+    {
+        cout<< 3 <<endl;
+
     }
 
 
