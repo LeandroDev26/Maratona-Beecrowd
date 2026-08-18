@@ -19,7 +19,7 @@ int main()
 
     } else if(d <= 2000)
     {
-        cout<< 3 <<endl;
+        cout<< 321 <<endl;
 
     }
 
