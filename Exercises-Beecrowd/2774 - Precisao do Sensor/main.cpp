@@ -34,18 +34,16 @@ int main()
         }
 
         media = (media/qt);
-        double precisao = 0;
-
+        double somatorio = 0;
         for(int k = 0 ; k < qt; k++)
         {
 
-            precisao = (lista[k] - media);
-            precisao = pow(precisao, 2);
+            somatorio += pow(lista[k] - media, 2);
 
         }
 
-        precisao = (precisao / (qt -1));
-        double result = sqrt(precisao);
+        double precisao_final = somatorio / (qt - 1);
+        double result = sqrt(precisao_final);
 
         cout<< fixed << setprecision(5)<< result <<endl;
 
