@@ -10,6 +10,13 @@ int main()
 
     while(cin>> h >> m)
     {
+        int totmin = (h*60);
+        int qt = totmin/m;
+
+        for(int i = 0 ; i < qt; i++)
+        {
+
+        }
 
     }
 
