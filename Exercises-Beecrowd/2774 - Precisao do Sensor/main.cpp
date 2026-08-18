@@ -21,6 +21,18 @@ int main()
 
         }
 
+        float media = 0 ;
+
+        for(int j = 0 ; j < qt; j++)
+        {
+            media += lista[j];
+
+        }
+
+        media = (media/qt);
+
+
+
     }
 
 
