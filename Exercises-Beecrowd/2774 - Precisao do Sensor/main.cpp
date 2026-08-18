@@ -17,6 +17,7 @@ int main()
         {
             float xi;
             cin>> xi;
+            lista.push_back(xi);
 
         }
 
