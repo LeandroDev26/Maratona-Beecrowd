@@ -10,9 +10,10 @@ int main()
 
 
     int h, m ;
-    vector<float> lista;
+
     while(cin>> h >> m)
     {
+        vector<float> lista;
         int totmin = (h*60);
         int qt = totmin/m;
 
@@ -35,15 +36,18 @@ int main()
         media = (media/qt);
         float precisao = 0;
 
-        for(int k = 0 ; k < qt; k++){
+        for(int k = 0 ; k < qt; k++)
+        {
 
-                precisao = (lista[k] - media);
-                precisao = (precisao*precisao);
+            precisao = (lista[k] - media);
+            precisao = (precisao*precisao);
 
         }
 
         precisao /= (qt -1);
         float result = sqrt(precisao);
+
+        cout<< fixed << setprecision(5)<< result <<endl;
 
 
 
