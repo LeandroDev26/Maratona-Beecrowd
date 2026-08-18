@@ -31,7 +31,7 @@ int main()
         }
 
         media = (media/qt);
-
+        float precisao = 0;
 
         for(int k = 0 ; k < qt; k++){
 
