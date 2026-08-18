@@ -15,6 +15,8 @@ int main()
     }
     else if(d <= 1400)
     {
+        cout<< 2 <<endl;
+
     }
 
 
