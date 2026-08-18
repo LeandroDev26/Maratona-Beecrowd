@@ -33,6 +33,11 @@ int main()
         media = (media/qt);
 
 
+        for(int k = 0 ; k < qt; k++){
+
+        }
+
+
 
     }
 
