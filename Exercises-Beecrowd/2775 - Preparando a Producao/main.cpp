@@ -83,7 +83,6 @@ int main()
 {
     int n;
 
-    // Lê até o EOF
     while (cin >> n)
     {
         vector<Pacote> pacotes(n);
