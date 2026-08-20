@@ -15,28 +15,29 @@ int main()
         numeros.push_back(x);
 
     }
-    int contador = 0;
-    int diferencaAtual;
-    int novaDiferenca;
 
 
-    if (n == 1 || n == 2) {
+    if (n == 1 || n == 2)
+    {
         cout << 1 << endl;
         return 0;
     }
 
+    int contador = 1;
+    int diferencaAtual = numeros[0] - numeros[1];
+    int novaDiferenca;
 
 
 
-        for(int j = 2 ; j < n ; j++)
-        {
-            contador = 1;
+    for(int j = 2 ; j < n ; j++)
+    {
+        contador = 1;
 
 
 
 
 
-        }
+    }
 
 
 
