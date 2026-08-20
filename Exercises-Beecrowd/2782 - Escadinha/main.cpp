@@ -20,18 +20,18 @@ int main()
     int novaDiferenca;
 
 
-    if(n > 2)
-    {
-        contador++;
-        diferencaAtual = numeros[0] - numeros[1];
-
-
+    if (n == 1 || n == 2) {
+        cout << 1 << endl;
+        return 0;
     }
-    else
-    {
+
+
+
 
         for(int j = 2 ; j < n ; j++)
         {
+            contador = 1;
+
 
 
 
@@ -39,7 +39,7 @@ int main()
         }
 
 
-    }
+
 
 
 
