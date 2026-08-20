@@ -38,14 +38,11 @@ int main()
             diferencaAtual = novaDiferenca;
         }
 
-
-
-        cout<<contador<<endl;
-
     }
 
 
 
+    cout<<contador<<endl;
 
 
 
