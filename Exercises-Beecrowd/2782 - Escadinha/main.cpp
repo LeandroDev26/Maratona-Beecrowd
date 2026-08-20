@@ -24,7 +24,7 @@ int main()
     }
 
     int contador = 1;
-    int diferencaAtual = numeros[0] - numeros[1];
+    int diferencaAtual = numeros[1] - numeros[0];
     int novaDiferenca;
 
 
