@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    long long n , x;
+    long long n, x;
     vector<long long> numeros;
     cin>> n;
 
@@ -15,12 +15,14 @@ int main()
         numeros.push_back(x);
 
     }
+    int contador = 0;
+    int diferencaAtual;
+
+    for(int j = 0 ; j < n ; j++)
+    {
 
 
-     for(int j = 0 ; j < n ; j++){
-
-
-     }
+    }
 
 
 
