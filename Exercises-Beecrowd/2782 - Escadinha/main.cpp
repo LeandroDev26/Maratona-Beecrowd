@@ -31,7 +31,12 @@ int main()
 
     for(int j = 2 ; j < n ; j++)
     {
-        contador = 1;
+        novaDiferenca = numeros[j] - numeros[j-1];
+        if(novaDiferenca != diferencaAtual)
+        {
+            contador++;
+            diferencaAtual = novaDiferenca;
+        }
 
 
 
