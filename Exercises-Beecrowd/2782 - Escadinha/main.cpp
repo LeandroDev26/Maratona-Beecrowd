@@ -20,6 +20,11 @@ int main()
 
     for(int j = 0 ; j < n ; j++)
     {
+        if(n > 2)
+        {
+            contador++;
+            diferencaAtual = numeros[j] - numeros[j+1];
+        }
 
 
     }
