@@ -40,10 +40,9 @@ int main()
 
 
 
-
+        cout<<contador<<endl;
 
     }
-
 
 
 
