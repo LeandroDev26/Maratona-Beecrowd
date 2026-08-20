@@ -17,13 +17,25 @@ int main()
     }
     int contador = 0;
     int diferencaAtual;
+    int novaDiferenca;
 
-    for(int j = 0 ; j < n ; j++)
+
+    if(n > 2)
     {
-        if(n > 2)
+        contador++;
+        diferencaAtual = numeros[0] - numeros[1];
+
+
+    }
+    else
+    {
+
+        for(int j = 2 ; j < n ; j++)
         {
-            contador++;
-            diferencaAtual = numeros[j] - numeros[j+1];
+
+
+
+
         }
 
 
