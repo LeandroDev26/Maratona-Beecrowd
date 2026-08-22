@@ -41,21 +41,30 @@ int main()
         dp[0][j] = matriz[0][j];
     }
 
-
-    for(int i = 0 ; i < n; i++)
+    for(int i = 1; i < n; i++)
     {
 
 
-        for(int j = 0 ; j < n ; j++)
+        for(int j = 0; j <= n - (i + 1); j++)
         {
 
+            int esquerda = j;
+            int direita = j + i;
+
+            int soma_bloco = prefixos[i][direita];
+            if (esquerda > 0)
+            {
+                soma_bloco = soma_bloco - prefixos[i][esquerda - 1];
+            }
+
+
+            dp[i][j] = soma_bloco + min(dp[i-1][j], dp[i-1][j+1]);
         }
-        cout<<endl;
     }
 
 
 
-
+    cout << dp[n-1][0] << endl;
 
 
 
