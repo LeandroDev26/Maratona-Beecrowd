@@ -20,6 +20,7 @@ int main()
     for(int j = 0; j < m; j++)
     {
         cin>>yi;
+        figurinhasCompradas.push_back(yi);
     }
 
     int cont = 0;
@@ -32,6 +33,7 @@ int main()
             if(figurinhasCarimbadas[l] == figurinhasCompradas[k])
             {
                 cont++;
+                break;
             }
 
         }
