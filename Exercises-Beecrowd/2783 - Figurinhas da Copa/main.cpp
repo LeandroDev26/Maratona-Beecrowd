@@ -21,7 +21,8 @@ int main()
         cin>>yi;
     }
 
-
+    int atual = 0;
+    int cont = 0;
     for(int l = 0 ; l < c ; l++)
     {
 
