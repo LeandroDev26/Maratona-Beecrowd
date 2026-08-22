@@ -36,6 +36,10 @@ int main()
         }
     }
 
+    int falta = (c - cont);
+
+    cout<<falta<<endl;
+
 
 
 
