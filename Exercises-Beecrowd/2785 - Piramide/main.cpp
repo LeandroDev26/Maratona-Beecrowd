@@ -1,14 +1,15 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 int main()
 {
 
-   int n ;
-   cin>> n ;
+    int n ;
+    cin>> n ;
 
-
+    vector<vector<int>> matriz (n, vector<int> (n));
 
 
 
