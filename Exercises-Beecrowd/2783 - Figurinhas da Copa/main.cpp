@@ -14,6 +14,7 @@ int main()
     for(int i = 0 ; i < c ; i++)
     {
         cin>> xi;
+        figurinhasCarimbadas.push_back(xi);
     }
 
     for(int j = 0; j < m; j++)
