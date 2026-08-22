@@ -21,7 +21,6 @@ int main()
         cin>>yi;
     }
 
-    int atual = 0;
     int cont = 0;
     for(int l = 0 ; l < c ; l++)
     {
@@ -29,6 +28,10 @@ int main()
 
         for(int k = 0 ; k < m; k++)
         {
+            if(figurinhasCarimbadas[l] == figurinhasCompradas[k])
+            {
+                cont++;
+            }
 
         }
     }
