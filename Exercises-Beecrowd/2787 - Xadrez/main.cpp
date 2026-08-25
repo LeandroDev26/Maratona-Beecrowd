@@ -11,7 +11,9 @@ int main()
 
     cin>> l >> c;
 
-
+    if(l % 2 == 1 && c % 2 == 1){
+        cout<< 1 <<endl;
+    }
 
 
 
