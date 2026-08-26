@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -14,6 +15,8 @@ int main()
     }
     else
     {
+        int valor = pow(2,n);
+        cout<< valor <<endl;
 
     }
 
