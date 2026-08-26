@@ -5,17 +5,18 @@ using namespace std;
 int main()
 {
 
-    int ci;
+    int ci  = 0 , position = 0;
     for(int i = 0 ; i < 4; i++)
     {
         cin>> ci;
         if(ci == 1)
         {
-            cout<< i+1 <<endl;
-            break;
+           position = i+1;
+
         }
 
     }
+      cout<<position<<endl;
 
 
 
