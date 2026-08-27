@@ -22,12 +22,14 @@ int main()
     for(int i = 2 ; i < n; i++)
     {
 
-        atual += (fibonacci[i-1] + fibonacci[i-2]);
+        atual = (fibonacci[i-1] + fibonacci[i-2]);
         fibonacci.push_back(atual);
     }
 
 
+   for(n-1; n-1 >= 0; n--){
 
+   }
 
 
 
