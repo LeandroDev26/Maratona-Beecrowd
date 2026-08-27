@@ -7,7 +7,6 @@ int main()
     int n, atual = 0;
     cin >> n;
 
-    // Trata casos inválidos ou zero
     if (n <= 0)
     {
         return 0;
