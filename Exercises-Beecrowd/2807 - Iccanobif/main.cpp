@@ -17,6 +17,10 @@ int main()
     {
         fibonacci[0] = 1;
         fibonacci[1] = 1;
+        if(n == 2)
+        {
+            cout<<fibonacci[1] <<" " << fibonacci[0]<<" " <<endl;
+        }
 
     }
     for(int i = 2 ; i < n; i++)
@@ -32,7 +36,7 @@ int main()
         cout<<fibonacci[j]<<" ";
     }
 
-     cout<<endl;
+    cout<<endl;
 
 
     return 0;
