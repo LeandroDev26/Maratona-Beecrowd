@@ -6,7 +6,7 @@ int main()
 {
 
     vector<int> fibonacci;
-    int n , atual = 0 ;
+    int n, atual = 0 ;
     cin>> n;
     fibonacci[0] = 1;
     fibonacci[1] = 1;
@@ -16,8 +16,10 @@ int main()
         atual += (fibonacci[i-1] + fibonacci[i]);
     }
 
-
-
+    if(n == 1)
+    {
+        cout<< 1 <<endl;
+    }
 
 
 
