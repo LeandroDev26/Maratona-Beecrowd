@@ -32,6 +32,7 @@ int main()
         cout<<fibonacci[j]<<" ";
     }
 
+     cout<<endl;
 
 
     return 0;
