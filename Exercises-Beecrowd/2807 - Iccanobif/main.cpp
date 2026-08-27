@@ -27,9 +27,10 @@ int main()
     }
 
 
-   for(n-1; n-1 >= 0; n--){
-
-   }
+    for(int j = n-1; j >= 0; j--)
+    {
+        cout<<fibonacci[j]<<" ";
+    }
 
 
 
