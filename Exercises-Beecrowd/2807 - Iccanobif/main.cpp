@@ -14,6 +14,7 @@ int main()
     {
 
         atual += (fibonacci[i-1] + fibonacci[i]);
+        fibonacci.push_back(atual);
     }
 
     if(n == 1)
