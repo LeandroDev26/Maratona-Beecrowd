@@ -1,23 +1,19 @@
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
 int main()
 {
+    long long n;
 
-    int n ;
-    cin>> n;
-
-    if(n == 1)
+    while (cin >> n)
     {
-        cout<< 1 <<endl;
-    }
-    else
-    {
-        int valor = pow(2,n-1);
-        cout<< valor <<endl;
+        long long combinacoes_4 = (n * (n - 1) * (n - 2) * (n - 3)) / 24;
+        long long combinacoes_2 = (n * (n - 1)) / 2;
 
+        long long partes = combinacoes_4 + combinacoes_2 + 1;
+
+        cout << partes << endl;
     }
 
     return 0;
