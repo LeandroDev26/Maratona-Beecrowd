@@ -14,6 +14,15 @@ int main()
     int difeColuna = abs(col1 - col2);
     int difeLinha = abs(lin1 - lin2);
 
+    if((difeColuna == 1 && difeLinha == 2) || (difeColuna == 2 && difeLinha == 1)  )
+    {
+        cout<<"VALIDO"<<endl;
+    }
+    else
+    {
+        cout<<"INVALIDO"<<endl;
+    }
+
 
     return 0;
 }
