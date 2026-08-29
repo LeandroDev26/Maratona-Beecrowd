@@ -6,15 +6,17 @@ using namespace std;
 int main()
 {
 
-    int n, m;
+    int n, m, mi;
 
     while(cin>> n)
     {
         vector <int> lista;
         cin>> m;
 
-        for(int i = 0 ; i < m ; i++){
-
+        for(int i = 0 ; i < m ; i++)
+        {
+            cin>> mi;
+            lista.push_back(mi);
         }
     }
 
