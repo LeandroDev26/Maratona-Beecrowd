@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -23,6 +23,9 @@ int main()
 
             }
         }
+
+            sort(lista.begin(), lista.end());
+
 
         for(int j = 0; j < m ; j++){
 
