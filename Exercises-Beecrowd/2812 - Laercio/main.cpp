@@ -18,6 +18,11 @@ int main()
             cin>> mi;
             lista.push_back(mi);
         }
+
+
+        for(int j = 0 ; j < m ; j++){
+
+        }
     }
 
 
