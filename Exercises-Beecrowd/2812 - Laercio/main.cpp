@@ -17,11 +17,15 @@ int main()
         for(int i = 0 ; i < m ; i++)
         {
             cin>> mi;
-            if(mi%2 == 1)
+            if(mi %2 == 1)
             {
                 lista.push_back(mi);
 
             }
+        }
+
+        for(int j = 0; j < m ; j++){
+
         }
 
 
