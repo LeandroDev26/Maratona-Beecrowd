@@ -22,6 +22,7 @@ int main()
             {
                 comprados_casa++;
             }
+            sobrando_escritorio++;
         }
 
     }
