@@ -51,11 +51,6 @@ int main()
                 }
             }
             cout << endl;
-
-            if (caso < n - 1)
-            {
-                cout << endl;
-            }
         }
     }
 
