@@ -25,23 +25,22 @@ int main()
         }
 
         sort(lista.begin(), lista.end());
-
+        vector <int> listaOrganizada;
 
         int ini = 0, fim = m;
-        while (ini < m)
+        while (ini == fim)
         {
+
+
+
 
         }
 
 
 
+
+
     }
-
-
-
-
-
-
 
 
     return 0;
