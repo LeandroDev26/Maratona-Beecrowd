@@ -6,12 +6,12 @@ int main()
 {
 
     int n ;
-    string sd, sn;
+    string ida , volta;
     cin>> n;
 
     for(int i = 0 ; i < n ; i++)
     {
-        cin>> sd >> sn;
+        cin>> ida >> volta;
 
     }
 
