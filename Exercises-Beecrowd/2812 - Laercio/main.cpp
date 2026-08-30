@@ -31,6 +31,12 @@ int main()
         while (ini == fim)
         {
 
+            int atual = lista[fim];
+            listaOrganizada.push_back(atual);
+            fim++;
+            atual = lista[ini];
+            listaOrganizada.push_back(atual);
+            ini++;
 
 
 
