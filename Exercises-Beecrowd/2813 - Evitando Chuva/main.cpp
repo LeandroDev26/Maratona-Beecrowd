@@ -25,6 +25,19 @@ int main()
             sobrando_escritorio++;
         }
 
+        if(volta == "chuva")
+        {
+            if(sobrando_escritorio > 0)
+            {
+                sobrando_escritorio--;
+            }
+            else
+            {
+                comprados_escritorio++;
+            }
+            sobrando_casa++;
+        }
+
     }
 
 
