@@ -14,9 +14,14 @@ int main()
         cin>> ida >> volta;
         if(ida == "chuva")
         {
-             if(sobrando_casa > 0){
+            if(sobrando_casa > 0)
+            {
                 sobrando_casa--;
-             }
+            }
+            else
+            {
+                comprados_casa++;
+            }
         }
 
     }
