@@ -40,6 +40,8 @@ int main()
 
     }
 
+    cout<< comprados_casa<<" "<<comprados_escritorio<<endl;
+
 
 
 
