@@ -24,10 +24,12 @@ int main()
             }
         }
 
-            sort(lista.begin(), lista.end());
+        sort(lista.begin(), lista.end());
 
 
-        for(int j = 0; j < m ; j++){
+        int ini = 0, fim = m;
+        while (ini < m)
+        {
 
         }
 
