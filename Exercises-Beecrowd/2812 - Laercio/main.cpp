@@ -5,49 +5,59 @@ using namespace std;
 
 int main()
 {
-
     int n, m, mi;
 
-    while(cin>> n)
+    if (cin >> n)
     {
-        vector <int> lista;
-
-        cin>> m;
-
-        for(int i = 0 ; i < m ; i++)
+        for (int caso = 0; caso < n; caso++)
         {
-            cin>> mi;
-            if(mi %2 == 1)
-            {
-                lista.push_back(mi);
+            vector<int> lista;
+            cin >> m;
 
+            for (int i = 0; i < m; i++)
+            {
+                cin >> mi;
+                if (mi % 2 == 1)
+                {
+                    lista.push_back(mi);
+                }
+            }
+
+            sort(lista.begin(), lista.end());
+
+            vector<int> listaOrganizada;
+
+            int ini = 0;
+            int fim = lista.size() - 1;
+
+            while (ini <= fim)
+            {
+                listaOrganizada.push_back(lista[fim]);
+                fim--;
+
+                if (ini <= fim)
+                {
+                    listaOrganizada.push_back(lista[ini]);
+                    ini++;
+                }
+            }
+
+            for (size_t i = 0; i < listaOrganizada.size(); i++)
+            {
+                cout << listaOrganizada[i];
+                if (i < listaOrganizada.size() - 1)
+                {
+                    cout << " ";
+                }
+            }
+            cout << endl;
+
+            if (caso < n - 1)
+            {
+                cout << endl;
             }
         }
-
-        sort(lista.begin(), lista.end());
-        vector <int> listaOrganizada;
-
-        int ini = 0, fim = m;
-        while (ini == fim)
-        {
-
-            int atual = lista[fim];
-            listaOrganizada.push_back(atual);
-            fim++;
-            atual = lista[ini];
-            listaOrganizada.push_back(atual);
-            ini++;
-
-
-
-        }
-
-
-
-
-
     }
-
 
     return 0;
 }
