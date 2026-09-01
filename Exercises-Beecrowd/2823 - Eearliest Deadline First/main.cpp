@@ -18,6 +18,14 @@ int main()
         soma += u;
     }
 
+    if(soma <= 1)
+    {
+        cout<<"OK"<<endl;
+    }
+    else
+    {
+       cout<<"FAIL"<<endl;
+    }
 
 
 
