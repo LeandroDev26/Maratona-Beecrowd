@@ -15,8 +15,15 @@ int main()
         cin>> ai;
         lista.push_back(ai);
     }
+    int maior = lista[0];
 
-
+    for(int j = 1; j < n; j++)
+    {
+        if(maior < lista[j])
+        {
+            maior = lista[j];
+        }
+    }
 
 
 
