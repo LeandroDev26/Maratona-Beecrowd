@@ -6,12 +6,12 @@ int main()
 {
 
 
-    int n ;
+    int n , ai;
     cin>> n;
 
     for(int i = 0 ; i < n; i++)
     {
-
+         cin>> ai;
     }
 
 
