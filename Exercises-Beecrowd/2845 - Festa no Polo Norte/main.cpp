@@ -25,6 +25,8 @@ int main()
         }
     }
 
+    cout<< maior+1 <<endl;
+
 
 
 
