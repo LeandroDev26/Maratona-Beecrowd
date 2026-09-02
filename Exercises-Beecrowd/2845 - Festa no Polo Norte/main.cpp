@@ -6,14 +6,14 @@ int main()
 {
 
 
-    int n , ai;
+    int n, ai;
     vector<int> lista;
     cin>> n;
 
     for(int i = 0 ; i < n; i++)
     {
-         cin>> ai;
-
+        cin>> ai;
+        lista.push_back(ai);
     }
 
 
