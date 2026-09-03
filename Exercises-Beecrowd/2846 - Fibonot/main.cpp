@@ -9,6 +9,10 @@ int main()
     int a = 2 , b = 3 , totfibonot = 0 , anterior = 0;
     cin>> k ;
 
+    while(totfibonot < k){
+
+    }
+
 
 
 
