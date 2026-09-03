@@ -14,6 +14,12 @@ int main()
         anterior = totfibonot;
         int quantidade = (b - a)- 1;
         totfibonot += quantidade;
+
+        if(totfibonot < k){
+            int proximo = (a+b);
+            a = b ;
+            b = proximo;
+        }
     }
 
 
