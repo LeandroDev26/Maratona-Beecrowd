@@ -15,12 +15,17 @@ int main()
         int quantidade = (b - a)- 1;
         totfibonot += quantidade;
 
-        if(totfibonot < k){
+        if(totfibonot < k)
+        {
             int proximo = (a+b);
             a = b ;
             b = proximo;
         }
     }
+    int passos = k - anterior;
+    int resposta = a + passos;
+
+    cout<< resposta<<endl;
 
 
 
