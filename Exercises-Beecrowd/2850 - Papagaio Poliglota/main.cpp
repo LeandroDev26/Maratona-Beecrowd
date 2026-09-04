@@ -11,7 +11,14 @@ int main()
     while(getline(cin, frase))
     {
 
-
+        if(frase == "esquerda")
+        {
+            cout<<"ingles"<<endl;
+        }
+        else if( frase == "direita")
+        {
+            cout<<"frances"<<endl;
+        }
 
     }
 
