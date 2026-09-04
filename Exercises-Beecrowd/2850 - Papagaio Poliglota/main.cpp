@@ -19,6 +19,10 @@ int main()
         {
             cout<<"frances"<<endl;
         }
+        else if(frase == "nenhuma")
+        {
+            cout<<"portugues"<<endl;
+        }
 
     }
 
