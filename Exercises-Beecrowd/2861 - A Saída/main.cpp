@@ -15,15 +15,5 @@ int main()
         cout<<"gzuz"<<endl;
     }
 
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
