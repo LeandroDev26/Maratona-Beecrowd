@@ -11,7 +11,8 @@ int main()
     cin.ignore();
     for(int i = 0; i < c; i++)
     {
-        getline(cin, frase );
+        getline(cin, frase);
+        cout<<"gzuz"<<endl;
     }
 
 
