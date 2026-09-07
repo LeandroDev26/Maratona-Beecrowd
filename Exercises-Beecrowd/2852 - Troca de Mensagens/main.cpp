@@ -6,7 +6,9 @@ int main()
 {
 
 
-
+    string k ;
+    cin>> k ;
+    int c;
 
 
 
