@@ -8,11 +8,14 @@ int main()
     double num;
     while (cin>> t)
     {
-        double maior = 111;
+        double menor = 111;
         for(int i = 0; i < t; i++)
         {
             cin>> num;
-
+            if(num < menor)
+            {
+                menor = num;
+            }
         }
 
     }
