@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -17,6 +18,9 @@ int main()
                 menor = num;
             }
         }
+
+        cout<< fixed <<setprecision(2);
+        cout<< menor <<endl;
 
     }
 
