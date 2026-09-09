@@ -5,8 +5,6 @@ using namespace std;
 
 int main()
 {
-
-
     int c ;
     double  n , m ;
     cin>> c ;
@@ -17,15 +15,5 @@ int main()
         int result =  temp * m;
         cout<< result + 1 <<endl;
     }
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
