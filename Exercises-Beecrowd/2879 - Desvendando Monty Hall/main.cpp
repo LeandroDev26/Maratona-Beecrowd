@@ -15,8 +15,7 @@ int main()
         }
     }
 
-
-
+       cout<<ganhou<<endl;
 
     return 0;
 }
