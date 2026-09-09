@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-    int c ;
-    double  n , m ;
+    int c , n , m ;
+
     cin>> c ;
     for(int i = 0; i < c; i++)
     {
