@@ -15,6 +15,7 @@ int main()
         cin>> n >> m;
         int temp = log10(n);
         int result =  temp * m;
+        cout<< result + 1 <<endl;
     }
 
 
