@@ -11,6 +11,7 @@ int main()
     for(int i = 0; i < t; i++)
     {
         cin>> n >> k;
+        int result = (n/k) + (n%k);
     }
 
 
