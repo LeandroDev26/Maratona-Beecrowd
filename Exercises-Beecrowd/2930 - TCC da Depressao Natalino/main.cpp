@@ -32,6 +32,10 @@ int main()
         }
 
     }
+    else
+    {
+        cout<<"Eu odeio a professora!"<<endl;
+    }
 
 
 
