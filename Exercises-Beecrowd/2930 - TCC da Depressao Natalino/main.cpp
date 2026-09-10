@@ -10,6 +10,11 @@ int main()
 
     cin>> e >> d ;
 
+    int diferenca = (e - d);
+    if(diferenca >= 3)
+    {
+        cout<< "Muito bem! Apresenta antes do Natal!"<<endl;
+    }
 
 
 
