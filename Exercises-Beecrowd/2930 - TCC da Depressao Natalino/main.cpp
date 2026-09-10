@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -10,7 +11,7 @@ int main()
 
     cin>> e >> d ;
 
-    int diferenca = (e - d);
+    int diferenca = abs(e - d);
     if(diferenca >= 3)
     {
         cout<< "Muito bem! Apresenta antes do Natal!"<<endl;
@@ -18,6 +19,10 @@ int main()
     else if( diferenca < 3)
     {
         cout<<"Parece o trabalho do meu filho!"<<endl;
+        int distanciaNatal = abs((d + 2) - 24);
+        if(distanciaNatal > 0 ){
+            cout<<"TCC Apresentado!"<<endl;
+        }
     }
 
 
