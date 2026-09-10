@@ -20,9 +20,9 @@ int main()
     {
         cout<<"Parece o trabalho do meu filho!"<<endl;
 
-        int distanciaNatal = abs((d + 2) - 24);
+        int distanciaNatal = d + 2;
 
-        if(distanciaNatal > 0 )
+        if(distanciaNatal < 24)
         {
             cout<<"TCC Apresentado!"<<endl;
         }
