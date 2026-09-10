@@ -5,8 +5,6 @@ using namespace std;
 
 int main()
 {
-
-
     int e, d;
 
     cin>> e >> d ;
@@ -20,7 +18,7 @@ int main()
     {
         cout<<"Parece o trabalho do meu filho!"<<endl;
 
-        int distanciaNatal = d + 2;
+        int distanciaNatal = e + 2;
 
         if(distanciaNatal < 24)
         {
@@ -36,10 +34,6 @@ int main()
     {
         cout<<"Eu odeio a professora!"<<endl;
     }
-
-
-
-
 
     return 0;
 }
