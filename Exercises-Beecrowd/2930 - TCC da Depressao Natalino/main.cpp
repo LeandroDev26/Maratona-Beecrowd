@@ -15,6 +15,10 @@ int main()
     {
         cout<< "Muito bem! Apresenta antes do Natal!"<<endl;
     }
+    else if( diferenca < 3)
+    {
+        cout<<"Parece o trabalho do meu filho!"<<endl;
+    }
 
 
 
