@@ -26,10 +26,11 @@ int main()
         {
             cout<<"TCC Apresentado!"<<endl;
         }
-    }
-    else
-    {
-        cout<<"Fail! Entao eh nataaaaal!"<<endl;
+        else
+        {
+            cout<<"Fail! Entao eh nataaaaal!"<<endl;
+        }
+
     }
 
 
