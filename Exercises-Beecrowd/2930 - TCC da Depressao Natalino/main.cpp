@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
@@ -7,32 +6,30 @@ int main()
 {
     int e, d;
 
-    cin>> e >> d ;
+    cin >> e >> d;
 
-    int diferenca = abs(e - d);
-    if(diferenca >= 3)
+    if (e > d)
     {
-        cout<< "Muito bem! Apresenta antes do Natal!"<<endl;
+        cout << "Eu odeio a professora!" << endl;
     }
-    else if( diferenca < 3)
+    else if (d - e >= 3)
     {
-        cout<<"Parece o trabalho do meu filho!"<<endl;
-
-        int distanciaNatal = e + 2;
-
-        if(distanciaNatal < 24)
-        {
-            cout<<"TCC Apresentado!"<<endl;
-        }
-        else
-        {
-            cout<<"Fail! Entao eh nataaaaal!"<<endl;
-        }
-
+        cout << "Muito bem! Apresenta antes do Natal!" << endl;
     }
     else
     {
-        cout<<"Eu odeio a professora!"<<endl;
+        cout << "Parece o trabalho do meu filho!" << endl;
+
+        int dataApresentacao = e + 2;
+
+        if (dataApresentacao < 24)
+        {
+            cout << "TCC Apresentado!" << endl;
+        }
+        else
+        {
+            cout << "Fail! Entao eh nataaaaal!" << endl;
+        }
     }
 
     return 0;
