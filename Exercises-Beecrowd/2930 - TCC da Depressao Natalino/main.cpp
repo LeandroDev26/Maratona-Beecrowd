@@ -19,10 +19,17 @@ int main()
     else if( diferenca < 3)
     {
         cout<<"Parece o trabalho do meu filho!"<<endl;
+
         int distanciaNatal = abs((d + 2) - 24);
-        if(distanciaNatal > 0 ){
+
+        if(distanciaNatal > 0 )
+        {
             cout<<"TCC Apresentado!"<<endl;
         }
+    }
+    else
+    {
+        cout<<"Fail! Entao eh nataaaaal!"<<endl;
     }
 
 
