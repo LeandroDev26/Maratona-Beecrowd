@@ -28,6 +28,11 @@ int main()
     vector<array<int,9>> sucessores;
     if(linha > 0)
     {
-        (linha - 1) * 3 + coluna;
+        int cima = linha - 1;
     }
+    if(linha <= 2)
+    {
+        int baixo = linha + 1;
+    }
+
 }
