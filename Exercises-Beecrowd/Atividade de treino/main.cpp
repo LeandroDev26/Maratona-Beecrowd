@@ -30,9 +30,14 @@ int main()
     {
         int cima = linha - 1;
     }
-    if(linha <= 2)
+    if(linha < 2)
     {
         int baixo = linha + 1;
     }
-
+    if(coluna > 0){
+        int esquerda = coluna - 1;
+    }
+    if(coluna < 2 ){
+        int direita = coluna + 1;
+    }
 }
