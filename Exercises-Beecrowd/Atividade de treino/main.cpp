@@ -29,15 +29,22 @@ int main()
     if(linha > 0)
     {
         int cima = linha - 1;
+        int indicelinearCima = (linha - 1) * 3 + coluna;
     }
     if(linha < 2)
     {
         int baixo = linha + 1;
+        int indicelinearBaixo = (linha + 1) * 3 + coluna;
+
     }
     if(coluna > 0){
         int esquerda = coluna - 1;
+                int indicelinearEsquerda = linha * 3 + (coluna - 1);
+
     }
     if(coluna < 2 ){
         int direita = coluna + 1;
+        int indicelinearEsquerda = linha * 3 + (coluna + 1);
+
     }
 }
