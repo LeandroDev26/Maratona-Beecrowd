@@ -19,6 +19,10 @@ int main()
         {
             elfos++;
         }
+        else  if(tipo == 'H')
+        {
+            humanos++;
+        }
     }
 
 
