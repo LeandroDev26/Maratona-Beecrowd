@@ -4,12 +4,9 @@
 #include <vector>
 using namespace std;
 
-int main()
+vector<array<int,9>> gerarSucessores(array<int,9> estado)
 {
-
-    array<int,9> estado = {1,2,3,4,0,6,7,5,8}; // 0 é o vazio
-
-    // encontrar a posição do 0
+// encontrar a posição do 0
     int pos = -1;
     for (int i = 0; i < 9; i++)
     {
@@ -61,5 +58,18 @@ int main()
         swap(novo_estado[pos], novo_estado[indicelinearDireita]);
         sucessores.push_back(novo_estado);
     }
+
+    return sucessores;
+}
+
+int main()
+{
+
+    array<int,9> estado = {0,1,2,3,4,5,6,7,8}; // 0 é o vazio
+    // outro exemplo de teste 0,1,2,3,4,5,6,7,8 saída esperada : 2
+
+    vector<array<int,9>> vizinhos = gerarSucessores(estado);
+
+    cout << "Total de vizinhos gerados: " << vizinhos.size() << "\n";
 
 }
