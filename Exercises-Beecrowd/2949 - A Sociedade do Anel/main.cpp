@@ -37,10 +37,5 @@ int main()
                   cout<< elfos << " Elfo(s)"<<endl;
                           cout<< anoes << " Anao(oes)"<<endl;
                                 cout<< magos << "Mago(s)"<<endl;
-
-
-
-
-
     return 0;
 }
