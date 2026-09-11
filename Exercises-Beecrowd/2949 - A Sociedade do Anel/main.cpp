@@ -23,6 +23,14 @@ int main()
         {
             humanos++;
         }
+        else  if(tipo == 'M')
+        {
+            magos++;
+        }
+        else
+        {
+            hobbits++;
+        }
     }
 
 
