@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+
     array<int,9> estado = {1,2,3,4,0,6,7,5,8}; // 0 é o vazio
 
     // encontrar a posição do 0
@@ -26,12 +27,12 @@ int main()
          << " (linha " << linha << ", coluna " << coluna << ")\n";
 
     vector<array<int,9>> sucessores;
-    array<int,9> novo_estado = estado;
 
     if(linha > 0)
     {
         // int cima = linha - 1;
         int indicelinearCima = (linha - 1) * 3 + coluna;
+        array<int,9> novo_estado = estado;
         swap(novo_estado[pos], novo_estado[indicelinearCima]);
         sucessores.push_back(novo_estado);
 
@@ -40,6 +41,7 @@ int main()
     {
         //int baixo = linha + 1;
         int indicelinearBaixo = (linha + 1) * 3 + coluna;
+        array<int,9> novo_estado = estado;
         swap(novo_estado[pos], novo_estado[indicelinearBaixo]);
         sucessores.push_back(novo_estado);
     }
@@ -47,6 +49,7 @@ int main()
     {
         // int esquerda = coluna - 1;
         int indicelinearEsquerda = linha * 3 + (coluna - 1);
+        array<int,9> novo_estado = estado;
         swap(novo_estado[pos], novo_estado[indicelinearEsquerda]);
         sucessores.push_back(novo_estado);
     }
@@ -54,6 +57,7 @@ int main()
     {
         //int direita = coluna + 1;
         int indicelinearDireita = linha * 3 + (coluna + 1);
+        array<int,9> novo_estado = estado;
         swap(novo_estado[pos], novo_estado[indicelinearDireita]);
         sucessores.push_back(novo_estado);
     }
