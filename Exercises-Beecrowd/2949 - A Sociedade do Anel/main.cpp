@@ -32,9 +32,11 @@ int main()
             hobbits++;
         }
     }
-
-
-
+      cout<< hobbits << " Hobbit(s)"<<endl;
+            cout<< humanos << " Humano(s))"<<endl;
+                  cout<< elfos << " Elfo(s)"<<endl;
+                          cout<< anoes << " Anao(oes)"<<endl;
+                                cout<< magos << "Mago(s)"<<endl;
 
 
 
