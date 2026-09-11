@@ -26,25 +26,36 @@ int main()
          << " (linha " << linha << ", coluna " << coluna << ")\n";
 
     vector<array<int,9>> sucessores;
+    array<int,9> novo_estado = estado;
+
     if(linha > 0)
     {
-        int cima = linha - 1;
+        // int cima = linha - 1;
         int indicelinearCima = (linha - 1) * 3 + coluna;
+        swap(novo_estado[pos], novo_estado[indicelinearCima]);
+        sucessores.push_back(novo_estado);
+
     }
     if(linha < 2)
     {
-        int baixo = linha + 1;
+        //int baixo = linha + 1;
         int indicelinearBaixo = (linha + 1) * 3 + coluna;
-
+        swap(novo_estado[pos], novo_estado[indicelinearBaixo]);
+        sucessores.push_back(novo_estado);
     }
-    if(coluna > 0){
-        int esquerda = coluna - 1;
-                int indicelinearEsquerda = linha * 3 + (coluna - 1);
-
+    if(coluna > 0)
+    {
+        // int esquerda = coluna - 1;
+        int indicelinearEsquerda = linha * 3 + (coluna - 1);
+        swap(novo_estado[pos], novo_estado[indicelinearEsquerda]);
+        sucessores.push_back(novo_estado);
     }
-    if(coluna < 2 ){
-        int direita = coluna + 1;
-        int indicelinearEsquerda = linha * 3 + (coluna + 1);
-
+    if(coluna < 2 )
+    {
+        //int direita = coluna + 1;
+        int indicelinearDireita = linha * 3 + (coluna + 1);
+        swap(novo_estado[pos], novo_estado[indicelinearDireita]);
+        sucessores.push_back(novo_estado);
     }
+
 }
