@@ -14,13 +14,14 @@ int main()
         cin>> vi >> ri;
         runas.insert({vi, ri});
     }
+
     cin>> x ;
     int total = 0;
-    auto it = runas.find(runaRs);
 
     for(int j = 0 ; j < x; j++)
     {
         cin>> runaRs;
+        auto it = runas.find(runaRs);
 
         if (it != runas.end())
         {
@@ -28,6 +29,7 @@ int main()
         }
 
     }
+
     if(total >= g)
     {
         cout<< total <<endl;
