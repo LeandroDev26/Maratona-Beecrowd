@@ -16,20 +16,18 @@ int main()
     }
     cin>> x ;
     int total = 0;
+    auto it = runas.find(runaRs);
 
     for(int j = 0 ; j < x; j++)
     {
         cin>> runaRs;
-        for (auto& par : runas)
+
+        if (it != runas.end())
         {
-
-            if (par.first == runaRs)
-            {
-                total +=  runas[par.second];
-            }
+            total += it->second;
         }
-    }
 
+    }
     if(total >= g)
     {
         cout<< total <<endl;
