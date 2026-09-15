@@ -7,6 +7,8 @@ int main()
 
     int n, x, y ;
     cin>> n >> x >> y;
+    double result =  n/(x+y);
+
 
 
 
