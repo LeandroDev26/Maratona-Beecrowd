@@ -41,12 +41,5 @@ int main()
         cout<< "My precioooous" <<endl;
     }
 
-
-
-
-
-
-
-
     return 0;
 }
