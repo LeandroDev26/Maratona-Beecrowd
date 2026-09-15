@@ -8,6 +8,9 @@ int main()
     int n, g , x , ri ;
     char vi , runaRs;
     cin>> n >> g;
+    for(int i = 0 ; i < n; i++){
+        cin>> ri >> vi;
+    }
 
 
 
