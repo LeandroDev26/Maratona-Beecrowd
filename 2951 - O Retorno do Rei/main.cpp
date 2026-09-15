@@ -15,10 +15,19 @@ int main()
         runas.insert({vi, ri});
     }
     cin>> x ;
-
+    int total = 0;
     for(int j = 0 ; j < x; j++)
     {
-       cin>> runaRs;
+        cin>> runaRs;
+        for (auto& par : runas)
+        {
+
+            if (par.first == runaRs)
+            {
+
+
+            }
+        }
     }
 
 
