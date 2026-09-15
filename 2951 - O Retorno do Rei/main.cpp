@@ -16,6 +16,7 @@ int main()
     }
     cin>> x ;
     int total = 0;
+
     for(int j = 0 ; j < x; j++)
     {
         cin>> runaRs;
@@ -24,10 +25,20 @@ int main()
 
             if (par.first == runaRs)
             {
-
-
+                total +=  runas[par.second];
             }
         }
+    }
+
+    if(total >= g)
+    {
+        cout<< total <<endl;
+        cout<< "You shall pass!" <<endl;
+    }
+    else
+    {
+        cout<< total <<endl;
+        cout<< "My precioooous" <<endl;
     }
 
 
