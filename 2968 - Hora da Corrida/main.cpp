@@ -6,9 +6,9 @@ int main()
 {
 
 
-    int v, n ;
-
+    int v, n, totplacas;
     cin>> v >> n;
+    totplacas = v * n;
 
 
 
