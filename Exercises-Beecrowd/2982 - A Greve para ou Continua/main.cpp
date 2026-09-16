@@ -14,11 +14,11 @@ int main()
 
         if(t == 'V')
         {
-
+            verba += c;
         }
         else
         {
-
+           gastos += c;
         }
 
     }
