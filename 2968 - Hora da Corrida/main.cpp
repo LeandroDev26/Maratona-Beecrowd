@@ -8,17 +8,18 @@ int main()
     cin>> v >> n;
     totplacas = v * n;
 
-    for(int i = 10 ; i <= 90; i+=10)
+    for(int i  = 1 ; i <= 9; i++)
     {
-        int atualPorc = totplacas * (i /100);
-        if( i < 90)
+        int alvo = (totplacas * i )/10;
+
+        if( i < 9)
         {
-            cout<< atualPorc + 1 << " " ;
+            cout<< alvo + 1 << " " ;
 
         }
         else
         {
-            cout<< atualPorc + 1 <<endl;
+            cout<< alvo + 1 <<endl;
         }
     }
 
