@@ -14,6 +14,15 @@ int main()
 
     }
 
+    for(int j = 0 ; j < alfabeto.size(); j++)
+    {
+
+        if(alfabeto[j] == l)
+        {
+            cout<< j + 1 <<endl;
+        }
+    }
+
 
 
 
