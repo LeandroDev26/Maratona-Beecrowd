@@ -18,9 +18,18 @@ int main()
         }
         else
         {
-           gastos += c;
+            gastos += c;
         }
 
+    }
+
+    if(verba >= gastos)
+    {
+        cout<< "A greve vai parar."<<endl;
+    }
+    else
+    {
+         cout<< "NAO VAI TER CORTE, VAI TER LUTA!"<<endl;
     }
 
 
