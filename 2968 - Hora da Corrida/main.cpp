@@ -4,8 +4,6 @@ using namespace std;
 
 int main()
 {
-
-
     int v, n, totplacas;
     cin>> v >> n;
     totplacas = v * n;
@@ -23,12 +21,6 @@ int main()
             cout<< atualPorc + 1 <<endl;
         }
     }
-
-
-
-
-
-
 
     return 0;
 }
