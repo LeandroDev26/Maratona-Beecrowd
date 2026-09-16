@@ -16,7 +16,7 @@ int main()
         {
             verba += c;
         }
-        else
+        else if(t == 'G')
         {
             gastos += c;
         }
