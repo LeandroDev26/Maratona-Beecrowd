@@ -5,21 +5,20 @@ using namespace std;
 int main()
 {
     int v, n, totplacas;
-    cin>> v >> n;
+    cin >> v >> n;
     totplacas = v * n;
 
-    for(int i  = 1 ; i <= 9; i++)
+    for(int i = 1; i <= 9; i++)
     {
-        int alvo = (totplacas * i )/10;
+        int alvo = (totplacas * i + 9) / 10;
 
-        if( i < 9)
+        if(i < 9)
         {
-            cout<< alvo + 1 << " " ;
-
+            cout << alvo << " ";
         }
         else
         {
-            cout<< alvo + 1 <<endl;
+            cout << alvo << endl;
         }
     }
 
