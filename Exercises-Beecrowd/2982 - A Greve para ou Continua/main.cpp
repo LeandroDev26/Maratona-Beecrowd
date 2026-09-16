@@ -32,13 +32,5 @@ int main()
          cout<< "NAO VAI TER CORTE, VAI TER LUTA!"<<endl;
     }
 
-
-
-
-
-
-
-
-
     return 0;
 }
