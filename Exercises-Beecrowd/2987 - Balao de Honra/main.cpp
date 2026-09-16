@@ -7,9 +7,8 @@ int main()
     char l ;
     vector<char> alfabeto;
     cin>> l;
-    for(char i = 'a' ; i <= 'z'; i++)
+    for(char i = 'A' ; i <= 'Z'; i++)
     {
-        cout<< i << " " <<endl;
         alfabeto.push_back(i);
 
     }
@@ -22,11 +21,6 @@ int main()
             cout<< j + 1 <<endl;
         }
     }
-
-
-
-
-
 
     return 0;
 }
