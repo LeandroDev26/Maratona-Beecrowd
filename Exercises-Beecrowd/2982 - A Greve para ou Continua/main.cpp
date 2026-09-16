@@ -4,7 +4,8 @@ using namespace std;
 
 int main()
 {
-    int n, c, gastos = 0, verba = 0;
+    int n, c;
+    long long gastos = 0, verba = 0;
     char t;
 
     cin>> n;
