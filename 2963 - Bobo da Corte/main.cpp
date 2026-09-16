@@ -11,6 +11,12 @@ int main()
     for(int i = 0 ; i < n ; i++)
     {
         cin>> xi;
+        listaDeCandidatos.push_back(xi);
+
+    }
+    bool foiEleito = true;
+    int carlos = listaDeCandidatos[0];
+    for(int j = 1; j < n; j++){
 
     }
 
