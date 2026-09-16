@@ -10,8 +10,9 @@ int main()
     cin>> v >> n;
     totplacas = v * n;
 
-    for(int i = 10 ; i <= 90; i+=10){
-
+    for(int i = 10 ; i <= 90; i+=10)
+    {
+        int atualPorc = totplacas * (i /100);
     }
 
 
