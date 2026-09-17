@@ -52,9 +52,8 @@ int main()
         }
 
          int menor = min(custoEsq, min(custoCen , custoDir));
+         cout<< menor <<endl;
 
-        // TODO: No final do for, descubra qual é o menor valor entre custoEsq, custoCen e custoDir
-        // TODO: Imprima esse menor valor usando cout
     }
 
     return 0;
