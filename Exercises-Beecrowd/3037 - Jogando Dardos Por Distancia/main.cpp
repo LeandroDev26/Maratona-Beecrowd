@@ -10,7 +10,7 @@ int main()
 
     for(int i = 0 ; i < n ; i++)
     {
-       int joao = 0, maria = 0;
+        int joao = 0, maria = 0;
 
         for(int j = 0 ; j < 3 ; j++)
         {
@@ -30,7 +30,7 @@ int main()
         {
             cout<< "JOAO"<<endl;
         }
-        else
+        else if(maria > joao)
         {
             cout<< "MARIA" <<endl;
         }
