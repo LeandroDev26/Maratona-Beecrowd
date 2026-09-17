@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int n ;
+    int n , carrinhos = 0 , bonecas = 0 ;
     string nome ;
     char sexo;
     cin>> n;
