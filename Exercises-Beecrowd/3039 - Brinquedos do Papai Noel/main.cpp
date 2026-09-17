@@ -24,12 +24,7 @@ int main()
         }
     }
 
-
-
-
-
-
-
-
+    cout<< carrinhos << " carrinhos" <<endl;
+    cout<< bonecas << " bonecas"<<endl;
     return 0;
 }
