@@ -9,15 +9,5 @@ int main()
   cin>> n ;
   int result = ((n+1)*(n+2)) /2;
   cout<< result <<endl;
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
