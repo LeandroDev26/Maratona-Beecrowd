@@ -18,7 +18,7 @@ int main()
             {
                 posicaoAtual = 'B';
             }
-            else
+            else if(posicaoAtual == 'B')
             {
                 posicaoAtual = 'A';
             }
@@ -29,7 +29,7 @@ int main()
             {
                 posicaoAtual = 'C';
             }
-            else
+            else if(posicaoAtual == 'C')
             {
                 posicaoAtual = 'B';
             }
@@ -41,7 +41,7 @@ int main()
 
                 posicaoAtual = 'C';
             }
-            else
+            else if(posicaoAtual == 'C')
             {
                 posicaoAtual = 'A';
             }
