@@ -48,5 +48,7 @@ int main()
         }
 
     }
+    cout<< posicaoAtual << endl;
+
     return 0;
 }
