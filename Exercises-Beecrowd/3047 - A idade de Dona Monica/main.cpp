@@ -10,7 +10,7 @@ int main()
     cin>> m >> a >> b;
     tot = a + b;
     c = (m - tot );
-
+    cout<< c <<endl;
 
 
 
