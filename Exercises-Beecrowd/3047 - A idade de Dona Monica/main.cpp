@@ -11,16 +11,5 @@ int main()
     tot = a + b;
     c = (m - tot );
     cout<< c <<endl;
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
