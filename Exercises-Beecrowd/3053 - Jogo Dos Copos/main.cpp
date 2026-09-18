@@ -24,6 +24,17 @@ int main()
                 posicaoAtual = 'A';
             }
         }
+        else if(movimento == 2)
+        {
+            if(posicaoAtual == 'B')
+            {
+                posicaoAtual = 'C';
+            }
+            else
+            {
+                posicaoAtual = 'B';
+            }
+        }
 
     }
 
