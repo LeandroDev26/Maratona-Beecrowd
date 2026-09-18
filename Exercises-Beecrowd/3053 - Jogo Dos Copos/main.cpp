@@ -35,6 +35,18 @@ int main()
                 posicaoAtual = 'B';
             }
         }
+        else if(movimento == 3)
+        {
+            if(posicaoAtual == 'A')
+            {
+
+                posicaoAtual = 'C';
+            }
+            else
+            {
+                posicaoAtual = 'A';
+            }
+        }
 
     }
 
