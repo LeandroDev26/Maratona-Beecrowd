@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1789866156 source:c:\users\leand\onedrive\documentos\meusprojetos\maratona-beecrowd\exercises-beecrowd\3065 - calculando\main.cpp
+	<iostream>
+	<string>
+	<sstream>
+
