@@ -18,9 +18,10 @@ int main()
             listaDeValores.push_back(x);
         }
 
+
         for(int j = 0 ; j < n ; j++)
         {
-
+            int atual = listaDeValores[j] - listaDeValores[n-1];
         }
 
     }
