@@ -21,7 +21,17 @@ int main()
 
         for(int j = 0 ; j < n ; j++)
         {
-            int atual = listaDeValores[j] - listaDeValores[n-1];
+            int atual = listaDeValores[j] + listaDeValores[n-1];
+
+            if(atual > maior_valor)
+            {
+                maior_valor = atual;
+            }
+
+            if(atual < menor_valor)
+            {
+                menor_valor = atual;
+            }
         }
 
     }
