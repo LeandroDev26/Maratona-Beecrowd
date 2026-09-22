@@ -34,6 +34,8 @@ int main()
             }
         }
 
+        cout<< maior_valor << " " << menor_valor <<endl;
+
     }
 
 
