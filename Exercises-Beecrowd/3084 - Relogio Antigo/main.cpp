@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -9,6 +9,11 @@ int main()
 
     while ( cin>> h >> m)
     {
+        int horas, minutos ;
+
+        horas = h / 30;
+        minutos = m / 6;
+
 
     }
 
