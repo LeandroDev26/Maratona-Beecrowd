@@ -10,7 +10,7 @@ int main()
     while (cin>> n && n != 0)
     {
         vector <int> listaDeValores;
-        int maior_valor = 0, menor_valor = 9999;
+        int maior_valor = 0, menor_valor = 2000000000;
 
         for(int i = 0 ; i < n*2; i++)
         {
@@ -21,8 +21,7 @@ int main()
 
         for(int j = 0 ; j < n ; j++)
         {
-            int atual = listaDeValores[j] + listaDeValores[n-1];
-
+            int atual = listaDeValores[j] + listaDeValores[(2 * n - 1) - j];
             if(atual > maior_valor)
             {
                 maior_valor = atual;
