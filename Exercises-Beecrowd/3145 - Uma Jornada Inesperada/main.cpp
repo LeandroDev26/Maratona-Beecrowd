@@ -6,6 +6,9 @@ int main()
 {
 
 
+    int n, x , totP , totD;
+    cin>> n >> x ;
+    totP = n + 2;
 
 
 
