@@ -8,7 +8,7 @@ int main()
 
     while(cin>> s)
     {
-        int total = 0 ;
+        long long total = 0 ;
         for(int i = 0 ; i < s.length(); i++)
         {
             int valor = s[i] - 'A' + 1;
@@ -26,12 +26,6 @@ int main()
         }
 
     }
-
-
-
-
-
-
 
     return 0;
 }
