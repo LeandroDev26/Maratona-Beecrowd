@@ -5,11 +5,8 @@ using namespace std;
 int main()
 {
 
-    int n, x, totP, totD;
+    int n, x;
     cin>> n >> x ;
-    totP = n + 2;
-    totD = x /totP;
-    cout<< fixed << setprecision(2) << totD << "\n";
-
+    cout << fixed << setprecision(2) << (double)x / (n + 2) << "\n";
     return 0;
 }
