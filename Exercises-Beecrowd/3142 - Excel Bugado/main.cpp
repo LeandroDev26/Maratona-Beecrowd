@@ -4,27 +4,28 @@ using namespace std;
 
 int main()
 {
-    string s ;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    while(cin>> s)
+    string s;
+
+    while(cin >> s)
     {
-        long long total = 0 ;
-        for(int i = 0 ; i < s.length(); i++)
+        long long total = 0;
+        for(int i = 0; i < s.length(); i++)
         {
             int valor = s[i] - 'A' + 1;
-            total = ( total * 26 ) + valor;
-
+            total = (total * 26) + valor;
         }
+
         if(total > 16384)
         {
-            cout<< "Essa coluna nao existe Tobias!" <<endl;
+            cout << "Essa coluna nao existe Tobias!\n";
         }
         else
         {
-            cout << total << endl;
-
+            cout << total << '\n';
         }
-
     }
 
     return 0;
