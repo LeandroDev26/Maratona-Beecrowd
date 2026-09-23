@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include <vector>
+#include <string>
 using namespace std;
 
 int main()
@@ -8,7 +9,10 @@ int main()
     string texto ;
     vector<string> Texto;
 
-    while (cin>> texto){
+    while (getline(cin ,texto) )
+    {
+        Texto.push_back(texto);
+
 
     }
     return 0;
