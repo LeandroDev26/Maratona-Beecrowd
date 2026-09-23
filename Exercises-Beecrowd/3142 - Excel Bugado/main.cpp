@@ -15,8 +15,15 @@ int main()
             total = ( total * 26 ) + valor;
 
         }
+        if(total > 16384)
+        {
+            cout<< "Essa coluna nao existe Tobias!" <<endl;
+        }
+        else
+        {
+            cout << total << endl;
 
-        cout << total << endl;
+        }
 
     }
 
