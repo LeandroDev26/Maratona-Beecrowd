@@ -8,15 +8,15 @@ int main()
 
     while(cin>> s)
     {
-        int soma = 0 ;
+        int total = 0 ;
         for(int i = 0 ; i < s.length(); i++)
         {
             int valor = s[i] - 'A' + 1;
-            soma += valor;
+            total = ( total * 26 ) + valor;
 
         }
 
-        cout << soma << endl;
+        cout << total << endl;
 
     }
 
