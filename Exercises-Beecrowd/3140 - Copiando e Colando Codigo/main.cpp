@@ -7,10 +7,11 @@ int main()
 {
 
     string texto ;
-    vector<string> Texto;
 
-    while (getline(cin ,texto) )
+    while (getline(cin,texto) )
     {
+        vector<string> Texto;
+        bool imprimir = false;
         Texto.push_back(texto);
 
 
