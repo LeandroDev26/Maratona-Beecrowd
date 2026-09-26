@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// Estrutura para armazenar as coordenadas 3D de cada nave
+// Estrutura para armazenar as coordenadas 3D dee cada nave
 struct Nave {
     int x, y, z;
 };
