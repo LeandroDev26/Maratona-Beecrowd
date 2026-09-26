@@ -7,20 +7,20 @@ int main()
 {
 
     int n, m;
-    string fruta , virus;
-    vector<string> frutas;
-    vector<string> virus;
-
     cin>> n >> m;
+
+    string fruta, virus;
+   // vector<string> listaFrutas;
+    //vector<string> listaVirus
 
     for(int i = 0; i < n ; i++)
     {
-
+        cin>> fruta;
     }
 
     for(int j = 0; j < m ; j++)
     {
-
+        cin>> virus;
     }
 
 
