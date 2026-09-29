@@ -15,7 +15,11 @@ int main()
 
     if(totbolinhas > b)
     {
-        cout<< " Faltam "<< totbolinhas-b<<" bolinha(s)"<<endl;
+        cout<< " Faltam "<< totbolinhas-b<<" bolinha(s)" <<endl;
+    }
+    else
+    {
+        cout<< "Amelia tem todas bolinhas!" <<endl;
     }
 
 
