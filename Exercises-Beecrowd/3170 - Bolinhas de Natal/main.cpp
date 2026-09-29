@@ -5,8 +5,9 @@ using namespace std;
 int main()
 {
 
-    int b, g;
+    int b, g , totbolinhas;
     cin>> b >> g;
+
 
 
 
