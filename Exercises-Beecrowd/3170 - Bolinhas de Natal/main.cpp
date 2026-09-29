@@ -13,6 +13,11 @@ int main()
         totbolinhas--;
     }
 
+    if(totbolinhas > b)
+    {
+        cout<< " Faltam "<< totbolinhas-b<<" bolinha(s)"<<endl;
+    }
+
 
 
 
