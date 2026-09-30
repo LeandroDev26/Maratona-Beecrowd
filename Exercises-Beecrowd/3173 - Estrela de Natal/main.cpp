@@ -1,7 +1,6 @@
 #include <iostream>
-#include <iomanip> // Para formatar a saída (ex: 07 em vez de 7)
-#include <ctime>   // Para a estrutura tm e mktime
-
+#include <iomanip>
+#include <ctime>
 using namespace std;
 
 void imprimirDataFutura(int dias_para_somar) {
@@ -28,7 +27,9 @@ int main()
     cin>> n ;
     totDiasjupiter = n * 11.9 * 365.25;
     totDiassaturno = n * 29.6 * 365.25;
-
+    cout<< "Dias terrestres para Jupiter = " << totDiasjupiter <<endl;
+    cout<< "Data terrestre para Jupiter: ";
+    imprimirDataFutura(totDiasjupiter);
 
 
 
