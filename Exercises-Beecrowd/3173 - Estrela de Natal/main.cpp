@@ -3,7 +3,8 @@
 #include <ctime>
 using namespace std;
 
-void imprimirDataFutura(int dias_para_somar) {
+void imprimirDataFutura(int dias_para_somar)
+{
     struct tm data = {0};
 
     data.tm_year = 2020 - 1900;
@@ -23,7 +24,7 @@ void imprimirDataFutura(int dias_para_somar) {
 int main()
 {
 
-    int n , totDiasjupiter , totDiassaturno ;
+    int n, totDiasjupiter, totDiassaturno ;
     cin>> n ;
     totDiasjupiter = n * 11.9 * 365.25;
     totDiassaturno = n * 29.6 * 365.25;
@@ -31,6 +32,12 @@ int main()
     cout<< "Data terrestre para Jupiter: ";
     imprimirDataFutura(totDiasjupiter);
     cout<<endl;
+
+    cout<< "Dias terrestres para Saturno = " << totDiassaturno <<endl;
+    cout<< "Data terrestre para Saturno: ";
+    imprimirDataFutura(totDiassaturno);
+    cout<<endl;
+
 
 
 
