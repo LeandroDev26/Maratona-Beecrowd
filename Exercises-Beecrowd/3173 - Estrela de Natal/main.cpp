@@ -30,6 +30,7 @@ int main()
     cout<< "Dias terrestres para Jupiter = " << totDiasjupiter <<endl;
     cout<< "Data terrestre para Jupiter: ";
     imprimirDataFutura(totDiasjupiter);
+    cout<<endl;
 
 
 
