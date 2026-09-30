@@ -37,11 +37,5 @@ int main()
     imprimirDataFutura(totDiassaturno);
 
 
-
-
-
-
-
-
     return 0;
 }
