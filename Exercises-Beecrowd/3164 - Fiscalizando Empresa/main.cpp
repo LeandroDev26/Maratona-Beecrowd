@@ -8,7 +8,9 @@ int main()
     int n, v;
     while(cin>> n >> v)
     {
+     for(int i = 0; i < n ;i++){
 
+     }
     }
 
 
