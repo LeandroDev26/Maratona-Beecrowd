@@ -5,12 +5,13 @@ using namespace std;
 int main()
 {
 
-    int n, v;
+    int n, x, v;
     while(cin>> n >> v)
     {
-     for(int i = 0; i < n ;i++){
-
-     }
+        for(int i = 0; i < n ; i++)
+        {
+            cin>> x;
+        }
     }
 
 
