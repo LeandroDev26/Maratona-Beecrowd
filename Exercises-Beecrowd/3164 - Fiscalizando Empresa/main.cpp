@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
+
 using namespace std;
 
 int main()
@@ -15,6 +17,7 @@ int main()
             cin>> x;
             listaPesosArvores.push_back(x);
         }
+        sort(listaPesosArvores.begin(), listaPesosArvores.end());
     }
 
 
