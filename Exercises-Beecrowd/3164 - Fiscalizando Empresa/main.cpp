@@ -1,71 +1,63 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
+#include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-    int n;
-    long long v;
+static char buf[1 << 25];
+size_t bl = 0, bp = 0;
 
-    while(cin >> n >> v)
-    {
-        vector<int> listaPesosArvores;
-        int x;
-
-        for(int i = 0; i < n ; i++)
-        {
-            cin >> x;
-            listaPesosArvores.push_back(x);
-        }
-
-        sort(listaPesosArvores.begin(), listaPesosArvores.end());
-
-        //Posições e valores dos quartis
-        double pos1 = 1.0 * (n + 1) / 4.0;
-        double pos3 = 3.0 * (n + 1) / 4.0;
-
-        int k1 = (int)pos1;
-        double f1 = pos1 - k1;
-
-        int k3 = (int)pos3;
-        double f3 = pos3 - k3;
-
-        // Proteção de segurança: garante que o índice não será menor que 0 nem maior que n-1.
-        // Isso evita "Segmentation Fault" caso n seja muito pequeno (ex: n=1)
-        int idx_k1 = max(0, min(n - 1, k1 - 1));
-        int idx_k1_next = max(0, min(n - 1, k1));
-
-        int idx_k3 = max(0, min(n - 1, k3 - 1));
-        int idx_k3_next = max(0, min(n - 1, k3));
-
-        double q1 = listaPesosArvores[idx_k1] + f1 * (listaPesosArvores[idx_k1_next] - listaPesosArvores[idx_k1]);
-        double q3 = listaPesosArvores[idx_k3] + f3 * (listaPesosArvores[idx_k3_next] - listaPesosArvores[idx_k3]);
-
-        // Cálculo do Boxplot (IQR e Limites)
-        double iqr = q3 - q1; // Amplitude Interquartil
-
-        double limite_inferior = q1 - 1.5 * iqr;
-        double limite_superior = q3 + 1.5 * iqr; // Usando '+' no lugar do '-' errado da fórmula do problema
-
-        //Contagem de extremos (Outliers)
-        long long p = 0; // Quantidade de valores extremos
-
-        for(int i = 0; i < n; i++)
-        {
-            // Se o peso estiver fora dos limites estabelecidos, é um extremo
-            if(listaPesosArvores[i] < limite_inferior || listaPesosArvores[i] > limite_superior)
-            {
-                p++;
-            }
-        }
-
-        // CÁLCULO FINAL: Multa total = Extremos encontrados * valor unitário da multa
-        long long multaTotal = p * v;
-
-        cout << multaTotal << "\n";
+inline int gc() {
+    if (bp == bl) {
+        bl = fread(buf, 1, sizeof(buf), stdin);
+        bp = 0;
+        if (bl == 0) return -1;
     }
+    return buf[bp++];
+}
 
+inline bool readInt(long long &x) {
+    int c = gc();
+    while (c != -1 && (c < '0' || c > '9')) c = gc();
+    if (c == -1) return false;
+    x = 0;
+    while (c >= '0' && c <= '9') { x = x * 10 + (c - '0'); c = gc(); }
+    return true;
+}
+
+// quartil j (1..3): Xk + frac * (Xk+1 - Xk), k = floor(j(n+1)/4)
+double quartil(vector<int> &a, long long n, int j) {
+    long long num = (long long)j * (n + 1);
+    long long k = num / 4;      // 1-based
+    long long rem = num % 4;    // fração = rem/4
+    long long i = k - 1;        // 0-based
+    if (i < 0) i = 0;
+    if (i >= n) i = n - 1;
+    nth_element(a.begin(), a.begin() + i, a.end());
+    double lo = a[i], hi = lo;
+    if (i + 1 < n) hi = *min_element(a.begin() + i + 1, a.end());
+    return lo + (rem / 4.0) * (hi - lo);
+}
+
+int main() {
+    long long n, v;
+    while (readInt(n) && readInt(v)) {
+        vector<int> a(n);
+        for (long long i = 0; i < n; i++) {
+            long long t;
+            readInt(t);
+            a[i] = (int)t;
+        }
+
+        double q1 = quartil(a, n, 1);
+        double q3 = quartil(a, n, 3);
+        double iqr = q3 - q1;
+
+        // multiplicador 0.5 (bate com os exemplos do problema)
+        double lo = q1 - 0.5 * iqr;
+        double hi = q3 + 0.5 * iqr;
+
+        long long p = 0;
+        for (int x : a) if (x < lo || x > hi) p++;
+
+        printf("%lld\n", p * v);
+    }
     return 0;
 }
