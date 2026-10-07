@@ -5,8 +5,9 @@ using namespace std;
 int main()
 {
 
-    int n, h, bonecos, arquitetos, musicos, desenhistas;
+    int n, h, bonecos, arquitetos, musicos, desenhistas, p;
     string e, g ;
+
     cin>> n ;
     for(int i = 0; i < n ; i++)
     {
@@ -31,7 +32,11 @@ int main()
     }
 
 
-
+    p += bonecos/8;
+    p += arquitetos/4;
+    p += musicos/6;
+    p += desenhistas/12;
+    cout<< p << endl;
 
 
 
