@@ -5,10 +5,11 @@ using namespace std;
 int main()
 {
 
-   int n , e , g , h;
+   int n , h;
+   string e , g ;
    cin>> n ;
    for(int i = 0; i < n ; i++){
-
+       cin>> e >> g >> h;
    }
 
 
