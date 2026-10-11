@@ -5,16 +5,17 @@ using namespace std;
 int main()
 {
 
-    int n, k , ki;
+    int n, k, ki;
     cin>> n ;
 
     for(int i = 0 ; i < n ; i++)
     {
-        int result = 0;
+        int result = 0, soma = 0;
         cin>> k ;
         for(int i = 0; i < k ; i++)
         {
-          cin>> k;
+            cin>> ki;
+            soma += ki;
         }
 
     }
