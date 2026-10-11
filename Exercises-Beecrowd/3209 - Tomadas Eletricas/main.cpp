@@ -17,6 +17,8 @@ int main()
             cin>> ki;
             soma += ki;
         }
+        result = soma/k-1;
+        cout<< result <<endl;
 
     }
 
