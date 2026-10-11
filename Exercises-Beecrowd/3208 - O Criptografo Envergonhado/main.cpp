@@ -1,13 +1,15 @@
 #include <iostream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
 int main()
 {
 
-    int k, l;
-
-    while((cin>> k >> l) && (k > 0 && l > 0) )
+    int l;
+    string k;
+    while((cin>> k >> l) && (k > "0" && l > 0) )
     {
 
     }
