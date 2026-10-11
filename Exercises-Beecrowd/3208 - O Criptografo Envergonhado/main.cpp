@@ -12,11 +12,10 @@ int main()
 
     std::vector<bool> e_primo(LIMITE + 1, true);
 
-    // 0 e 1 não são números primos
     e_primo[0] = e_primo[1] = false;
 
 
-    int raiz = std::sqrt(LIMITE);
+    int raiz = sqrt(LIMITE);
 
     for (int p = 2; p <= raiz; ++p)
     {
@@ -42,7 +41,7 @@ int main()
 
     int l;
     string k;
-    while((cin>> k >> l) && (k > "0" && l > 0) )
+    while((cin>> k >> l) && (k == "0" && l == 0) )
     {
 
     }
