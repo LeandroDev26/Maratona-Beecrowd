@@ -7,6 +7,7 @@ int main()
 
 
     int e, f, c ;
+    cin>> e >> f >> c;
 
 
 
