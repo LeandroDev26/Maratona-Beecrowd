@@ -12,8 +12,12 @@ int main()
 
     while(garrafasVazias >= c)
     {
+        totBebi += (garrafasVazias/c);
+        int resto = garrafasVazias%c;
+        garrafasVazias = totBebi + resto;
 
     }
+    cout<< totBebi <<endl;
 
 
 
