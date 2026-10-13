@@ -12,7 +12,8 @@ int main()
 
     while(garrafasVazias >= c)
     {
-        totBebi += (garrafasVazias/c);
+        int bebeu = garrafasVazias/c;
+        totBebi += bebeu;
         int resto = garrafasVazias%c;
         garrafasVazias = totBebi + resto;
 
