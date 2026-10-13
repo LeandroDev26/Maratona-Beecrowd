@@ -15,15 +15,10 @@ int main()
         int bebeu = garrafasVazias/c;
         totBebi += bebeu;
         int resto = garrafasVazias%c;
-        garrafasVazias = totBebi + resto;
+        garrafasVazias = bebeu + resto;
 
     }
     cout<< totBebi <<endl;
-
-
-
-
-
 
 
     return 0;
