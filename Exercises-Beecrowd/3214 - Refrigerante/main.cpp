@@ -6,6 +6,7 @@ int main()
 {
 
 
+    int e, f, c ;
 
 
 
