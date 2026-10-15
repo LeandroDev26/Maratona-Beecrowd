@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
+    double l, k, t1, t2, h;
+
+    cin>> l >> k >> t1 >> t2 >> h ;
 
 
 
