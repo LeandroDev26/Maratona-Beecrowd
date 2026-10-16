@@ -10,6 +10,10 @@ int main()
 
     cin>> fraseDia >> fraseMedico;
 
+    for(int i = 0 ; i < fraseDia.length(); i++){
+
+    }
+
 
 
 
