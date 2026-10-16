@@ -12,9 +12,14 @@ int main()
     {
 
     }
+    else if(h == l)
+    {
 
+    }
+    else if(h > l)
+    {
 
-
+    }
 
     return 0;
 }
