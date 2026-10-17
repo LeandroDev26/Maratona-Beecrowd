@@ -27,14 +27,14 @@ int main()
         }
     }
 
-   if(posicaoIni >= posicaoMeta){
-    cout<< "go" <<endl;
-   }
-
-
-
-
-
+    if(posicaoIni >= posicaoMeta)
+    {
+        cout<< "go" <<endl;
+    }
+    else
+    {
+        cout<< "no" <<endl;
+    }
 
     return 0;
 }
