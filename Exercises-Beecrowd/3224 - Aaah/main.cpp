@@ -27,7 +27,9 @@ int main()
         }
     }
 
-
+   if(posicaoIni >= posicaoMeta){
+    cout<< "go" <<endl;
+   }
 
 
 
