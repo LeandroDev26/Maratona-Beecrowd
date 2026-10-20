@@ -9,18 +9,22 @@ vector<int> demanda;
 vector<int> capacidade_cabo;
 vector<vector<int>> filhos;
 
-vector<int> resolver_subarvore(int no_atual) {
+vector<int> resolver_subarvore(int no_atual)
+{
     vector<int> todas_demandas;
 
 
-    for (int filho : filhos[no_atual]) {
+    for (int filho : filhos[no_atual])
+    {
         vector<int> demandas_filho = resolver_subarvore(filho);
-        for (int d : demandas_filho) {
+        for (int d : demandas_filho)
+        {
             todas_demandas.push_back(d);
         }
     }
 
-    if (no_atual != 0) {
+    if (no_atual != 0)
+    {
         todas_demandas.push_back(demanda[no_atual]);
     }
 
@@ -30,11 +34,15 @@ vector<int> resolver_subarvore(int no_atual) {
 
     long long soma_atual = 0;
     vector<int> demandas_atendidas;
-    for (int d : todas_demandas) {
-        if (soma_atual + d <= limite_capacidade) {
+    for (int d : todas_demandas)
+    {
+        if (soma_atual + d <= limite_capacidade)
+        {
             soma_atual += d;
             demandas_atendidas.push_back(d);
-        } else {
+        }
+        else
+        {
             break;
         }
     }
@@ -42,7 +50,8 @@ vector<int> resolver_subarvore(int no_atual) {
     return demandas_atendidas;
 }
 
-int main() {
+int main()
+{
 
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -53,7 +62,8 @@ int main() {
     capacidade_cabo.resize(total_casas + 1);
     filhos.assign(total_casas + 1, vector<int>());
 
-    for (int i = 1; i <= total_casas; ++i) {
+    for (int i = 1; i <= total_casas; ++i)
+    {
         int casa_pai, r, c;
         cin >> casa_pai >> r >> c;
         demanda[i] = r;
