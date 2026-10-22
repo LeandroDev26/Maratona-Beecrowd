@@ -6,6 +6,9 @@ int main()
 {
 
 
+    int f, g, u, d,s;
+
+    cin>> f >>
 
 
 
@@ -21,6 +24,5 @@ int main()
 
 
 
-
-    return 0;
+       return 0;
 }
