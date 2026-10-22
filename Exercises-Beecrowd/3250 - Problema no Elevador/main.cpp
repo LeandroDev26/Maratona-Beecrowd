@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include <queue>
+#include <vector>
 using namespace std;
 
 int main()
@@ -8,7 +9,7 @@ int main()
 
     int f, g, u, d,s;
 
-    cin>> f >>
+    cin>> f >> s >> g >> u >> d;
 
 
 
@@ -24,5 +25,5 @@ int main()
 
 
 
-       return 0;
+    return 0;
 }
