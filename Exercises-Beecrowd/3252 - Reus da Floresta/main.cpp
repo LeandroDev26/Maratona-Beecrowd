@@ -17,7 +17,7 @@ int main()
     int n, k ;
     cin>> n >> k;
 
-    vector<
+    vector<vector<int>> alces_por_ano(n);
 
 
 
