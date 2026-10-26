@@ -12,6 +12,7 @@ int main()
 {
 
     priority_queue<int> pq;
+    vector<int>> alces_por_ano(n);
     int n, k ;
     cin>> n >> k;
 
