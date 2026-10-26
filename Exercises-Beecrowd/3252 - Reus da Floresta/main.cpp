@@ -1,8 +1,9 @@
 #include <iostream>
-
+#include <queue>
 using namespace std;
 
-struct Alce {
+struct Alce
+{
     int ano;
     int forca;
 };
@@ -10,6 +11,7 @@ struct Alce {
 int main()
 {
 
+    priority_queue<int> pq;
     int n, k ;
     cin>> n >> k;
 
