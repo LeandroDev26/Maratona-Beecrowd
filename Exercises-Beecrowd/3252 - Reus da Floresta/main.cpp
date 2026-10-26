@@ -2,6 +2,11 @@
 
 using namespace std;
 
+struct Alce {
+    int ano;
+    int forca;
+};
+
 int main()
 {
 
