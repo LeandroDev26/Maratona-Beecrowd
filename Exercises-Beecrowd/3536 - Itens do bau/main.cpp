@@ -29,11 +29,10 @@ int main()
         }
     }
 
-
-
-
-
-
+    cout<< "arco " << arco <<endl;
+    cout<< "escudo" << escudo <<endl;
+    cout<< "espada" << espada <<endl;
+    cout<< "pocoes" << pocao <<endl;
 
     return 0;
 }
