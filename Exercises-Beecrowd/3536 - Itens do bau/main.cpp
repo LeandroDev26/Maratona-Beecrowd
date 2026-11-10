@@ -5,12 +5,28 @@ using namespace std;
 int main()
 {
 
-    int n;
+    int n, arco = 0, escudo = 0, espada = 0, pocao = 0 ;
     string nomeItem;
     cin>> n;
     for(int i = 0; i < n; i++)
     {
-       cin>> nomeItem;
+        cin>> nomeItem;
+        if(nomeItem == "arco")
+        {
+            arco++;
+        }
+        else if(nomeItem == "escudo")
+        {
+            escudo++;
+        }
+        else if(nomeItem == "espada")
+        {
+            espada++;
+        }
+        else if(nomeItem == "pocoes")
+        {
+            arco++;
+        }
     }
 
 
