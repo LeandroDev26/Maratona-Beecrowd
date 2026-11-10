@@ -23,9 +23,9 @@ int main()
         {
             espada++;
         }
-        else if(nomeItem == "pocoes")
+        else if(nomeItem == "pocao")
         {
-            arco++;
+            pocao++;
         }
     }
 
