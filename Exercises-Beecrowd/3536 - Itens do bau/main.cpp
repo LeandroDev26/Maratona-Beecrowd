@@ -30,9 +30,9 @@ int main()
     }
 
     cout<< "arco " << arco <<endl;
-    cout<< "escudo" << escudo <<endl;
-    cout<< "espada" << espada <<endl;
-    cout<< "pocoes" << pocao <<endl;
+    cout<< "escudo " << escudo <<endl;
+    cout<< "espada " << espada <<endl;
+    cout<< "pocao " << pocao <<endl;
 
     return 0;
 }
