@@ -23,7 +23,7 @@ int main()
     {
         cin>> l >> r;
         soma = 0;
-        for(int j = l; j <= r; j++)
+        for(int j = l-1; j < r; j++)
         {
             soma += listaGoiabinhas[j];
         }
