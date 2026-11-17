@@ -8,19 +8,26 @@ int main()
     vector<int> listaGoiabinhas;
     int n, q;  // quantidade de pacotes montados e o numero de perguntas feitas
     int ai;  // N inteiros
-    int r, l , soma;  // intervalo da pergunta
+    int r, l, soma;   // intervalo da pergunta
 
     cin>> n >> q;
 
     for(int i = 0; i < n; i++)
     {
-       cin>> ai;
-       listaGoiabinhas.push_back(ai);
+        cin>> ai;
+        listaGoiabinhas.push_back(ai);
 
     }
 
-    for(int k = 0; k < q; k++){
-        cin>> l >> k;
+    for(int k = 0; k < q; k++)
+    {
+        cin>> l >> r;
+        soma = 0;
+        for(int j = l; j <= r; j++)
+        {
+            soma += listaGoiabinhas[j];
+        }
+        cout<< soma <<endl;
     }
 
 
