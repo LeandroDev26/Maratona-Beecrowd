@@ -6,16 +6,21 @@ using namespace std;
 int main()
 {
     vector<int> listaGoiabinhas;
-    int n, q;  // quantidade de pacotes montados e o número de perguntas feitas
+    int n, q;  // quantidade de pacotes montados e o numero de perguntas feitas
     int ai;  // N inteiros
-    int r, l;  // intervalo da pergunta
+    int r, l , soma;  // intervalo da pergunta
 
     cin>> n >> q;
 
     for(int i = 0; i < n; i++)
     {
        cin>> ai;
+       listaGoiabinhas.push_back(ai);
 
+    }
+
+    for(int k = 0; k < q; k++){
+        cin>> l >> k;
     }
 
 
