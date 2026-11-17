@@ -3,33 +3,28 @@
 
 using namespace std;
 
-int main()
-{
-    vector<int> listaGoiabinhas;
-    int n, q;  // quantidade de pacotes montados e o numero de perguntas feitas
-    int ai;  // N inteiros
-    int r, l, soma;   // intervalo da pergunta
+int main() {
+    // Otimiza leitura e escrita para grandes volumes de dados
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    cin>> n >> q;
+    int n, q;
+    cin >> n >> q;
 
-    for(int i = 0; i < n; i++)
-    {
-        cin>> ai;
-        listaGoiabinhas.push_back(ai);
+    // Vetor 1-indexado para facilitar o cálculo de L - 1
+    vector<long long> pref(n + 1, 0);
 
+    for (int i = 1; i <= n; i++) {
+        long long ai;
+        cin >> ai;
+        pref[i] = pref[i - 1] + ai;
     }
 
-    for(int k = 0; k < q; k++)
-    {
-        cin>> l >> r;
-        soma = 0;
-        for(int j = l-1; j < r; j++)
-        {
-            soma += listaGoiabinhas[j];
-        }
-        cout<< soma <<endl;
+    for (int k = 0; k < q; k++) {
+        int l, r;
+        cin >> l >> r;
+        cout << pref[r] - pref[l - 1] << '\n';
     }
-
 
     return 0;
 }
